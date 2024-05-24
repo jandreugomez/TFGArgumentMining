@@ -1,14 +1,16 @@
+import argparse
 from transformers import MarianMTModel, MarianTokenizer
 import pandas as pd
-import torch
 from tqdm import tqdm
 
-def traductor(df, output_dir):
+def traductor(input_file, output_dir):
     model_name_mt = 'Helsinki-NLP/opus-mt-en-es'
     tokenizer_mt = MarianTokenizer.from_pretrained(model_name_mt)
     model_mt = MarianMTModel.from_pretrained(model_name_mt)
 
-    with open(output_dir + '.csv', 'a', encoding='utf-8') as fout:
+    df = pd.read_csv(input_file, index_col=False)
+
+    with open(output_dir, 'a', encoding='utf-8') as fout:
         fout.write('%s,%s,%s,%s' % ('id_fichero', 'id_frase', 'tipo', 'text'))
         fout.write('\n')
     for _, line in tqdm(df.iterrows(), total=len(df)):
@@ -16,7 +18,7 @@ def traductor(df, output_dir):
         traducido = model_mt.generate(**tokenizer_mt(line['text'], return_tensors='pt'))
         texto_traducido = [tokenizer_mt.decode(t, skip_special_tokens=True) for t in traducido]
 
-        with open(output_dir + '.csv', 'a', encoding='utf-8') as fout:
+        with open(output_dir, 'a', encoding='utf-8') as fout:
             for k, v in line.items():
                 if k == 'text':
                     fout.write('"%s",' % texto_traducido[0])
@@ -29,19 +31,25 @@ def traductor(df, output_dir):
 
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
 
-    file_validate = './data/validate.csv'
-    file_dir = 'data_translated/validate'
-    df_validate = pd.read_csv(file_validate, index_col=False)
-    traductor(df_validate, file_dir)
+    parser.add_argument(
+        "--input_file",
+        type=str,
+        required=True,
+        help="Path del fichero csv que se va a traducir",
+    )
+    parser.add_argument(
+        "--output_dir",
+        type=str,
+        required=True,
+        help="Path donde se va a guardar el csv con los textos traducidos traducido",
+    )
 
-    file_train = './data/train.csv'
-    file_dir = 'data_translated/train'
-    df_train = pd.read_csv(file_train, index_col=False)
-    traductor(df_train, file_dir)
+    args = parser.parse_args()
 
-    file_test = 'data/test.csv'
-    file_dir = 'data_translated/test'
-    df_test = pd.read_csv(file_test, index_col=False)
-    traductor(df_test, file_dir)
+    traductor(
+        input_file=args.input_file,
+        output_dir=args.output_dir
+    )
 
