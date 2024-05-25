@@ -1,8 +1,13 @@
+import argparse
 import os
 import shutil
 
 import pandas as pd
 
+import nltk
+nltk.download('punkt')
+
+from nltk.tokenize import sent_tokenize
 
 def create_csv(input_dir, output_file):
     with open(output_file + '.csv', 'a', encoding='utf-8') as fout:
@@ -12,6 +17,7 @@ def create_csv(input_dir, output_file):
         if '.ann' in f:
             f_name = f[:-4]
             line_gold = {}
+            list_text = []
 
             with open(input_dir + f_name + '.ann', 'r', encoding='utf-8') as fann:
                 lines = fann.readlines()
@@ -22,6 +28,7 @@ def create_csv(input_dir, output_file):
                         line_gold['id_frase'] = line[0]
                         line_gold['tipo'] = line[1].split()[0]
                         line_gold['text'] = line[2].replace('\n', '')
+                        list_text.append(line_gold['text'])
 
                         with open(output_file + '.csv', 'a', encoding='utf-8') as fout:
                             for k, v in line_gold.items():
@@ -30,7 +37,21 @@ def create_csv(input_dir, output_file):
                                 else:
                                     fout.write('%s,' % (v))
                             fout.write('\n')
-
+                with open(input_dir + f_name + '.txt', 'r', encoding='utf-8') as ftxt:
+                    frases = sent_tokenize(ftxt.read())
+                    for i, frase in enumerate(frases):
+                        aux = True
+                        for text in list_text:
+                            if text in frase:
+                                aux = False
+                                break
+                        if frase.strip() not in list_text and aux:
+                            with open(output_file + '.csv', 'a', encoding='utf-8') as fout:
+                                fout.write('"%s",' % f_name)
+                                fout.write('"%s",' % 'Niguno')
+                                fout.write('"%s",' % 'O')
+                                fout.write('"%s",' % frase.strip())
+                                fout.write('\n')
 
 def create_relations_csv(input_dir, output_file):
     with open(output_file + '.csv', 'a', encoding='utf-8') as fout:
@@ -74,7 +95,50 @@ def relations_csv_with_text(input_csv, text_csv, output_data):
 
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
 
+    parser.add_argument(
+        "--input_file",
+        type=str,
+        required=True,
+        help="Path donde se encuentra el corpus anotado",
+    )
+    parser.add_argument(
+        "--output_dir",
+        type=str,
+        required=True,
+        help="Path donde se va a guardar el csv con las anotaciones o relaciones",
+    )
+    parser.add_argument(
+        "--text_translated",
+        type=str,
+        help="Path donde se en cuentran los textos traducidos para las relaciones",
+    )
+    parser.add_argument(
+        "--type_data",
+        type=str,
+        required=True,
+        help="Tipo de datos que se van a procesar. Anotaciones o Relaciones",
+    )
+
+    args = parser.parse_args()
+
+    if args.type_data == 'Anotaciones':
+        create_csv(
+            input_dir=args.input_file,
+            output_file=args.output_dir
+        )
+
+    if args.type_data == 'Relaciones':
+        create_relations_csv(
+            input_dir=args.input_file,
+            output_file=args.output_dir
+        )
+        relations_csv_with_text(
+            input_csv=args.input_file,
+            text_csv=args.text_translated,
+            output_data=args.output_dir
+        )
     # file_dir = './data/glaucoma/validate'
     # path = "old_data/dev/neoplasm_dev/"
     # create_csv(path, file_dir)
@@ -105,7 +169,7 @@ if __name__ == '__main__':
     # output_data = './data_translated/neoplasm/train_relation.csv'
     # relations_csv_with_text(input_csv, text_csv, output_data)
 
-    input_csv = './data/mixed/test_relation.csv'
-    text_csv = './data_translated/mixed/test.csv'
-    output_data = './data_translated/mixed/test_relation.csv'
-    relations_csv_with_text(input_csv, text_csv, output_data)
+    # input_csv = './data/mixed/test_relation.csv'
+    # text_csv = './data_translated/mixed/test.csv'
+    # output_data = './data_translated/mixed/test_relation.csv'
+    # relations_csv_with_text(input_csv, text_csv, output_data)
