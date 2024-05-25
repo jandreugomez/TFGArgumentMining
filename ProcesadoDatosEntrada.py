@@ -1,6 +1,5 @@
 import argparse
 import os
-import shutil
 
 import pandas as pd
 
@@ -53,6 +52,7 @@ def create_csv(input_dir, output_file):
                                 fout.write('"%s",' % frase.strip())
                                 fout.write('\n')
 
+
 def create_relations_csv(input_dir, output_file):
     with open(output_file + '.csv', 'a', encoding='utf-8') as fout:
         fout.write('%s,%s,%s,%s' % ('id_fichero', 'tipo', 'text1', 'text2'))
@@ -92,6 +92,35 @@ def relations_csv_with_text(input_csv, text_csv, output_data):
                     df_rel.loc[i, 'text2'] = str(linetext['text'])
 
     df_rel.to_csv(output_data, index=False)
+    add_pairs_without_relations_to_csv(text_csv, output_data)
+
+def add_pairs_without_relations_to_csv(text_csv, output_data):
+    df_out = pd.read_csv(output_data, index_col=False)
+    df_text = pd.read_csv(text_csv, index_col=False)
+    textos_rel = []
+    for i, linerel in df_out.iterrows():
+        textos_rel.append((linerel[2], linerel[3]))
+
+    textos = df_text['text']
+    id_fichero = df_text['id_fichero']
+    labels = df_text['tipo']
+    pares = []
+    for i in range(len(textos)):
+        for j in range(i + 1, len(textos)):
+            if labels[i] != 'O' and labels[j] != 'O':
+                if id_fichero[i] == id_fichero[j]:
+                    pares.append((textos[i], textos[j]))
+
+    df_nuevo = df_out
+    id_list = ['id'] * len(pares)
+    tipo_list = ['no_rel'] * len(pares)
+    df_pares = pd.DataFrame([(id_list[x], tipo_list[x], par[0], par[1]) for x, par in enumerate(pares)], columns=['id_fichero', 'tipo', 'text1', 'text2'])
+    df_pares['exists'] = df_pares.apply(lambda row: ((df_nuevo['text1'] == row['text1']) & (df_nuevo['text2'] == row['text2'])).any(), axis=1)
+    nuevos_pares = df_pares[df_pares['exists'] == False].drop(columns='exists')
+
+    df_nuevo = pd.concat([df_nuevo, nuevos_pares])
+    df_nuevo.to_csv(output_data, index=False)
+
 
 
 if __name__ == '__main__':
