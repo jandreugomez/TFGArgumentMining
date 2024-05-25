@@ -38,16 +38,16 @@ def anotador(
 
     if model_type == 'bert-base-uncased':
         tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-        model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=3)
+        model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=4)
     elif model_type == 'saved':
-        tokenizer = BertTokenizer.from_pretrained('./tokenizer_anotator')
-        model = BertForSequenceClassification.from_pretrained('./model_anotator', num_labels=3)
+        tokenizer = BertTokenizer.from_pretrained('./tokenizer_anotator2')
+        model = BertForSequenceClassification.from_pretrained('./model_anotator2', num_labels=4)
     else:
         raise Exception('Tipo de model no valido debe ser bert-base-uncased o saved')
 
     # Mapeo de etiquetas de texto a numéricas
-    label_to_id = {"Premise": 0, "Claim": 1, "MajorClaim": 2}
-    id_to_label = {0: "Premise", 1: "Claim", 2: "MajorClaim"}
+    label_to_id = {"Premise": 0, "Claim": 1, "MajorClaim": 2, "O": 3}
+    id_to_label = {0: "Premise", 1: "Claim", 2: "MajorClaim", 3: "O"}
 
     file_test = source_file + '/test.csv'
     csv3 = pd.read_csv(file_test, index_col=False)
@@ -103,8 +103,8 @@ def anotador(
         trainer.train()
 
         # Guardar el modelo y el tokenizador entrenado
-        model.save_pretrained('./model_anotator')
-        tokenizer.save_pretrained('./tokenizer_anotator')
+        model.save_pretrained('./model_anotator2')
+        tokenizer.save_pretrained('./tokenizer_anotator2')
 
     if do_test:
         claims = 0
@@ -126,30 +126,20 @@ def anotador(
             # Realizar la inferencia
             predictions = trainer.predict(new_dataset)
 
-            softmax = torch.nn.Softmax(dim=1)
-            probabilities = softmax(torch.tensor(predictions.predictions))
-            threshold = 0.9
-
             # Obtener las etiquetas predichas
-            predicted_labels = torch.argmax(probabilities, dim=1)
-            predicted_confidences = torch.max(probabilities, dim=1).values
+            predicted_labels = torch.argmax(torch.tensor(predictions.predictions), dim=1)
 
-            # Asignar labels segun el umbral de confianza
-            predicted_labels_text = []
-            for label, confidence in zip(predicted_labels, predicted_confidences):
-                if confidence < threshold:
-                    predicted_labels_text.append("Other")
-                else:
-                    predicted_labels_text.append(id_to_label[label.item()])
+            # Convertir etiquetas numéricas a texto
+            predicted_labels_text = [id_to_label[label.item()] for label in predicted_labels]
 
             premisas = premisas + predicted_labels_text.count('Premise')
             claims = claims + predicted_labels_text.count('Claim')
             mclaims = mclaims + predicted_labels_text.count('MajorClaim')
-            other = other + predicted_labels_text.count('Other')
+            other = other + predicted_labels_text.count('O')
 
             with open(output_path + f_name + '.ann', 'a', encoding='utf-8') as fout:
                 for i, label in enumerate(predicted_labels_text):
-                    if label != 'Other':
+                    if label != 'O':
                         fout.write('%s' % ('T' + str(i + 1)))
                         fout.write('\t')
                         fout.write('%s' % label)
@@ -159,7 +149,7 @@ def anotador(
         print('Premisas:' + str(premisas))
         print('Claims:' + str(claims))
         print('MajorClaims:' + str(mclaims))
-        print('Other:' + str(other))
+        print('O:' + str(other))
 
 
 def anotador_relaciones(
@@ -361,9 +351,9 @@ if __name__ == '__main__':
     #     model_type=args.model
     # )
     anotador(
-        source_file='./data_translated/mixed',
+        source_file='./data_translated2/mixed',
         corpus_dir='./CorpusSinAnotaciones/dev/abstracts/',
-        output_path='data_anotated/dev/abstracts/',
+        output_path='data_anotated3/dev/abstracts/',
         model_type='saved',
         do_test=True
     )
