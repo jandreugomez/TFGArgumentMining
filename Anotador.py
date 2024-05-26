@@ -31,19 +31,31 @@ def anotador(
         output_path,
         model_type,
         do_train: bool = False,
-        do_test: bool = False
+        do_test: bool = False,
+        save_model: bool = False,
+        num_train_epochs: float = 3.0
 ):
     if not os.path.exists(output_path):
         os.makedirs(output_path)
 
-    if model_type == 'bert-base-uncased':
-        tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-        model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=4)
-    elif model_type == 'saved':
-        tokenizer = BertTokenizer.from_pretrained('./tokenizer_anotator2')
-        model = BertForSequenceClassification.from_pretrained('./model_anotator2', num_labels=4)
+    if save_model:
+        if model_type == 'bert-base-uncased':
+            save_name = 'bert-base-uncased'
+        if model_type == 'allenai/scibert_scivocab_uncased':
+            save_name = 'scibert_scivocab_uncased'
+        tokenizer = BertTokenizer.from_pretrained('./tokenizer_anotator_' + save_name)
+        model = BertForSequenceClassification.from_pretrained('./model_anotator_' + save_name, num_labels=4)
+    elif model_type == 'allenai/scibert_scivocab_uncased' or model_type == 'bert-base-uncased':
+        if model_type == 'allenai/scibert_scivocab_uncased':
+            tokenizer = BertTokenizer.from_pretrained('allenai/scibert_scivocab_uncased')
+            model = BertForSequenceClassification.from_pretrained('allenai/scibert_scivocab_uncased', num_labels=4)
+            save_name = 'scibert_scivocab_uncased'
+        elif model_type == 'bert-base-uncased':
+            tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+            model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=4)
+            save_name = 'bert-base-uncased'
     else:
-        raise Exception('Tipo de model no valido debe ser bert-base-uncased o saved')
+        raise Exception('Tipo de modelo no valido debe ser bert-base-uncased o allenai/scibert_scivocab_uncased')
 
     # Mapeo de etiquetas de texto a numéricas
     label_to_id = {"Premise": 0, "Claim": 1, "MajorClaim": 2, "O": 3}
@@ -81,7 +93,7 @@ def anotador(
     # Definir los argumentos de entrenamiento
     training_args = TrainingArguments(
         output_dir='./results',
-        num_train_epochs=3,
+        num_train_epochs=num_train_epochs,
         per_device_train_batch_size=8,
         per_device_eval_batch_size=8,
         warmup_steps=500,
@@ -103,8 +115,8 @@ def anotador(
         trainer.train()
 
         # Guardar el modelo y el tokenizador entrenado
-        model.save_pretrained('./model_anotator2')
-        tokenizer.save_pretrained('./tokenizer_anotator2')
+        model.save_pretrained('./model_anotator_'+save_name)
+        tokenizer.save_pretrained('./tokenizer_anotator_'+save_name)
 
     if do_test:
         claims = 0
@@ -158,24 +170,36 @@ def anotador_relaciones(
         output_path,
         model_type,
         do_train: bool = False,
-        do_test: bool = False
+        do_test: bool = False,
+        save_model: bool = False,
+        num_train_epochs: float = 3.0
 ):
 
     if not os.path.exists(output_path):
         os.makedirs(output_path)
 
-    if model_type == 'bert-base-uncased':
-        tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-        model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=3)
-    elif model_type == 'saved':
-        tokenizer = BertTokenizer.from_pretrained('./tokenizer_relation')
-        model = BertForSequenceClassification.from_pretrained('./model_relation', num_labels=3)
+    if save_model:
+        if model_type == 'bert-base-uncased':
+            save_name = 'bert-base-uncased'
+        if model_type == 'allenai/scibert_scivocab_uncased':
+            save_name = 'scibert_scivocab_uncased'
+        tokenizer = BertTokenizer.from_pretrained('./tokenizer_relation_' + save_name)
+        model = BertForSequenceClassification.from_pretrained('./model_relation_' + save_name, num_labels=4)
+    elif model_type == 'allenai/scibert_scivocab_uncased' or model_type == 'bert-base-uncased':
+        if model_type == 'allenai/scibert_scivocab_uncased':
+            tokenizer = BertTokenizer.from_pretrained('allenai/scibert_scivocab_uncased')
+            model = BertForSequenceClassification.from_pretrained('allenai/scibert_scivocab_uncased', num_labels=4)
+            save_name = 'scibert_scivocab_uncased'
+        elif model_type == 'bert-base-uncased':
+            tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+            model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=4)
+            save_name = 'bert-base-uncased'
     else:
-        raise Exception('Tipo de model no valido debe ser bert-base-uncased o saved')
+        raise Exception('Tipo de modelo no valido debe ser bert-base-uncased o allenai/scibert_scivocab_uncased')
 
     # Mapeo de etiquetas de texto a numéricas
-    label_to_id = {"Support": 0, "Attack": 1, "Partial-Attack": 2}
-    id_to_label = {0: "Support", 1: "Attack", 2: "Partial-Attack"}
+    label_to_id = {"Support": 0, "Attack": 1, "Partial-Attack": 2, "no_rel": 3}
+    id_to_label = {0: "Support", 1: "Attack", 2: "Partial-Attack", 3: "no_rel"}
 
     file_test = source_file + '/test_relation.csv'
     csv3 = pd.read_csv(file_test, index_col=False)
@@ -209,7 +233,7 @@ def anotador_relaciones(
     # Definir los argumentos de entrenamiento
     relation_training_args = TrainingArguments(
         output_dir='./results_relation',
-        num_train_epochs=3,
+        num_train_epochs=num_train_epochs,
         per_device_train_batch_size=8,
         per_device_eval_batch_size=8,
         warmup_steps=500,
@@ -230,8 +254,8 @@ def anotador_relaciones(
         # Entrenar el modelo
         relation_trainer.train()
 
-        model.save_pretrained('./model_relation')
-        tokenizer.save_pretrained('./tokenizer_relation')
+        model.save_pretrained('./model_relation_'+save_name)
+        tokenizer.save_pretrained('./tokenizer_relation_'+save_name)
 
     if do_test:
         # for f in tqdm(os.listdir(corpus_dir), total=len(os.listdir(corpus_dir))):
@@ -255,21 +279,12 @@ def anotador_relaciones(
         # Realizar la inferencia
         predictions = relation_trainer.predict(relation_inference_dataset)
 
-        softmax = torch.nn.Softmax(dim=1)
-        relation_probabilities = softmax(torch.tensor(predictions.predictions))
-        threshold = 0.7
-
         # Obtener las etiquetas predichas
-        relation_predicted_labels = torch.argmax(relation_probabilities, dim=1)
-        relation_predicted_confidences = torch.max(relation_probabilities, dim=1).values
+        predicted_labels = torch.argmax(torch.tensor(predictions.predictions), dim=1)
 
-        # Asignar etiquetas con umbral de confianza
-        relation_predicted_labels_text = []
-        for label, confidence in zip(relation_predicted_labels, relation_predicted_confidences):
-            if confidence < threshold:
-                relation_predicted_labels_text.append("Other")
-            else:
-                relation_predicted_labels_text.append(id_to_label[label.item()])
+        # Convertir etiquetas numéricas a texto
+        relation_predicted_labels_text = [id_to_label[label.item()] for label in predicted_labels]
+
 
         # Imprimir las relaciones predichas para cada par de oraciones del nuevo corpus
         for i, (label, pair) in enumerate(zip(relation_predicted_labels_text, pares)):
@@ -336,12 +351,20 @@ if __name__ == '__main__':
     #     '--model',
     #     type=str,
     #     required=True,
-    #     help='model: bert-base-uncased or saved'
+    #     help='model: bert-base-uncased or allenai/scibert_scivocab_uncased'
     # )
     # parser.add_argument(
     #     '--do_train',
     #     action="store_true",
     #     help='Indica si realizar el entrenamiento. Se usa en caso de que el modelo sea el guardado'
+    # )
+    # parser.add_argument(
+    #     '--save_model',
+    #     action="store_true",
+    #     help='Si se usa el modelo guardado'
+    # )
+    # parser.add_argument(
+    #     "--num_train_epochs", default=3.0, type=float, help="Numero total de epoch de entrenamiento.",
     # )
     #
     # args = parser.parse_args()
@@ -350,17 +373,21 @@ if __name__ == '__main__':
     #     output_path=args.output_dir,
     #     model_type=args.model
     # )
+
     anotador(
-        source_file='./data_translated2/mixed',
+        source_file='./data_translated2/glaucoma',
         corpus_dir='./CorpusSinAnotaciones/dev/abstracts/',
-        output_path='data_anotated3/dev/abstracts/',
-        model_type='saved',
+        output_path='data_annotated_bert-base-uncased/dev/abstracts/',
+        model_type='bert-base-uncased',
+        save_model=True,
         do_test=True
     )
+
     # anotador_relaciones(
-    #     source_file='./data_translated/neoplasm',
+    #     source_file='./data_translated2/glaucoma',
     #     corpus_dir='./CorpusSinAnotaciones/dev/abstracts/',
-    #     output_path='./data_anotated/dev/abstracts/',
-    #     model_type='saved',
-    #     do_test=True
+    #     output_path='./data_anotated3/dev/abstracts/',
+    #     model_type='allenai/scibert_scivocab_uncased',
+    #     save_model=True,
+    #     do_train=True
     # )
