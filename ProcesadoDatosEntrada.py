@@ -168,37 +168,3 @@ if __name__ == '__main__':
             text_csv=args.text_translated,
             output_data=args.output_dir
         )
-    # file_dir = './data/glaucoma/validate'
-    # path = "old_data/dev/neoplasm_dev/"
-    # create_csv(path, file_dir)
-    # file_dir = './data/glaucoma/train'
-    # path = "old_data/train/glaucoma_train/"
-    # create_csv(path, file_dir)
-    # file_dir = 'data/glaucoma/test'
-    # path = "old_data/test/glaucoma_test/"
-    # create_csv(path, file_dir)
-
-    # file_dir = './data/neoplasm/validate_relation'
-    # path = "old_data/dev/neoplasm_dev/"
-    # create_relations_csv(path, file_dir)
-    # file_dir = './data/neoplasm/train_relation'
-    # path = "old_data/train/neoplasm_train/"
-    # create_relations_csv(path, file_dir)
-    # file_dir = 'data/neoplasm/test_relation'
-    # path = "old_data/test/neoplasm_test/"
-    # create_relations_csv(path, file_dir)
-
-    # input_csv = './data/neoplasm/validate_relation.csv'
-    # text_csv = './data_translated/neoplasm/validate.csv'
-    # output_data = './data_translated/neoplasm/validate_relation.csv'
-    # relations_csv_with_text(input_csv, text_csv, output_data)
-    #
-    # input_csv = './data/neoplasm/train_relation.csv'
-    # text_csv = './data_translated/neoplasm/train.csv'
-    # output_data = './data_translated/neoplasm/train_relation.csv'
-    # relations_csv_with_text(input_csv, text_csv, output_data)
-
-    # input_csv = './data/mixed/test_relation.csv'
-    # text_csv = './data_translated/mixed/test.csv'
-    # output_data = './data_translated/mixed/test_relation.csv'
-    # relations_csv_with_text(input_csv, text_csv, output_data)
