@@ -1,4 +1,4 @@
-export SOURCE_FILE='./data_translated2/glaucoma'
+export SOURCE_FILE='./data_translated/glaucoma'
 export CORPUS_DIR='./CorpusSinAnotaciones/dev/eudract/'
 export OUTPUT_PATH='data_annotated_mBERT/dev/eudract/'
 export MODEL_TYPE='bert-base-multilingual-uncased'
