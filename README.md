@@ -20,8 +20,14 @@ sh Traductor.sh
 
 # Inferencia de anotaciones
 
-Para ejecutar la la inferencia de anotaciones al nuevo corpus es necesario ejecutar lo siguiente:
+Para ejecutar la inferencia de componentes al nuevo corpus es necesario ejecutar lo siguiente:
 
 ```
-sh Anotador.sh
+sh AnotadorComponentes.sh
+```
+
+Para ejecutar la inferencia de relaciones al nuevo corpus es necesario ejecutar lo siguiente:
+
+```
+sh AnotadorRelaciones.sh
 ```
