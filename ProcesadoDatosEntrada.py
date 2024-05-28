@@ -1,8 +1,12 @@
+import argparse
 import os
-import shutil
 
 import pandas as pd
 
+import nltk
+nltk.download('punkt')
+
+from nltk.tokenize import sent_tokenize
 
 def create_csv(input_dir, output_file):
     with open(output_file + '.csv', 'a', encoding='utf-8') as fout:
@@ -12,6 +16,7 @@ def create_csv(input_dir, output_file):
         if '.ann' in f:
             f_name = f[:-4]
             line_gold = {}
+            list_text = []
 
             with open(input_dir + f_name + '.ann', 'r', encoding='utf-8') as fann:
                 lines = fann.readlines()
@@ -22,6 +27,7 @@ def create_csv(input_dir, output_file):
                         line_gold['id_frase'] = line[0]
                         line_gold['tipo'] = line[1].split()[0]
                         line_gold['text'] = line[2].replace('\n', '')
+                        list_text.append(line_gold['text'])
 
                         with open(output_file + '.csv', 'a', encoding='utf-8') as fout:
                             for k, v in line_gold.items():
@@ -30,6 +36,21 @@ def create_csv(input_dir, output_file):
                                 else:
                                     fout.write('%s,' % (v))
                             fout.write('\n')
+                with open(input_dir + f_name + '.txt', 'r', encoding='utf-8') as ftxt:
+                    frases = sent_tokenize(ftxt.read())
+                    for i, frase in enumerate(frases):
+                        aux = True
+                        for text in list_text:
+                            if text in frase:
+                                aux = False
+                                break
+                        if frase.strip() not in list_text and aux:
+                            with open(output_file + '.csv', 'a', encoding='utf-8') as fout:
+                                fout.write('"%s",' % f_name)
+                                fout.write('"%s",' % 'Niguno')
+                                fout.write('"%s",' % 'O')
+                                fout.write('"%s",' % frase.strip())
+                                fout.write('\n')
 
 
 def create_relations_csv(input_dir, output_file):
@@ -71,41 +92,79 @@ def relations_csv_with_text(input_csv, text_csv, output_data):
                     df_rel.loc[i, 'text2'] = str(linetext['text'])
 
     df_rel.to_csv(output_data, index=False)
+    add_pairs_without_relations_to_csv(text_csv, output_data)
+
+def add_pairs_without_relations_to_csv(text_csv, output_data):
+    df_out = pd.read_csv(output_data, index_col=False)
+    df_text = pd.read_csv(text_csv, index_col=False)
+    textos_rel = []
+    for i, linerel in df_out.iterrows():
+        textos_rel.append((linerel[2], linerel[3]))
+
+    textos = df_text['text']
+    id_fichero = df_text['id_fichero']
+    labels = df_text['tipo']
+    pares = []
+    for i in range(len(textos)):
+        for j in range(i + 1, len(textos)):
+            if labels[i] != 'O' and labels[j] != 'O':
+                if id_fichero[i] == id_fichero[j]:
+                    pares.append((textos[i], textos[j]))
+
+    df_nuevo = df_out
+    id_list = ['id'] * len(pares)
+    tipo_list = ['no_rel'] * len(pares)
+    df_pares = pd.DataFrame([(id_list[x], tipo_list[x], par[0], par[1]) for x, par in enumerate(pares)], columns=['id_fichero', 'tipo', 'text1', 'text2'])
+    df_pares['exists'] = df_pares.apply(lambda row: ((df_nuevo['text1'] == row['text1']) & (df_nuevo['text2'] == row['text2'])).any(), axis=1)
+    nuevos_pares = df_pares[df_pares['exists'] == False].drop(columns='exists')
+
+    df_nuevo = pd.concat([df_nuevo, nuevos_pares])
+    df_nuevo.to_csv(output_data, index=False)
+
 
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
 
-    # file_dir = './data/glaucoma/validate'
-    # path = "old_data/dev/neoplasm_dev/"
-    # create_csv(path, file_dir)
-    # file_dir = './data/glaucoma/train'
-    # path = "old_data/train/glaucoma_train/"
-    # create_csv(path, file_dir)
-    # file_dir = 'data/glaucoma/test'
-    # path = "old_data/test/glaucoma_test/"
-    # create_csv(path, file_dir)
+    parser.add_argument(
+        "--input_file",
+        type=str,
+        required=True,
+        help="Path donde se encuentra el corpus anotado",
+    )
+    parser.add_argument(
+        "--output_dir",
+        type=str,
+        required=True,
+        help="Path donde se va a guardar el csv con las anotaciones o relaciones",
+    )
+    parser.add_argument(
+        "--text_translated",
+        type=str,
+        help="Path donde se en cuentran los textos traducidos para las relaciones",
+    )
+    parser.add_argument(
+        "--type_data",
+        type=str,
+        required=True,
+        help="Tipo de datos que se van a procesar. Anotaciones o Relaciones",
+    )
 
-    # file_dir = './data/neoplasm/validate_relation'
-    # path = "old_data/dev/neoplasm_dev/"
-    # create_relations_csv(path, file_dir)
-    # file_dir = './data/neoplasm/train_relation'
-    # path = "old_data/train/neoplasm_train/"
-    # create_relations_csv(path, file_dir)
-    # file_dir = 'data/neoplasm/test_relation'
-    # path = "old_data/test/neoplasm_test/"
-    # create_relations_csv(path, file_dir)
+    args = parser.parse_args()
 
-    # input_csv = './data/neoplasm/validate_relation.csv'
-    # text_csv = './data_translated/neoplasm/validate.csv'
-    # output_data = './data_translated/neoplasm/validate_relation.csv'
-    # relations_csv_with_text(input_csv, text_csv, output_data)
-    #
-    # input_csv = './data/neoplasm/train_relation.csv'
-    # text_csv = './data_translated/neoplasm/train.csv'
-    # output_data = './data_translated/neoplasm/train_relation.csv'
-    # relations_csv_with_text(input_csv, text_csv, output_data)
+    if args.type_data == 'Anotaciones':
+        create_csv(
+            input_dir=args.input_file,
+            output_file=args.output_dir
+        )
 
-    input_csv = './data/mixed/test_relation.csv'
-    text_csv = './data_translated/mixed/test.csv'
-    output_data = './data_translated/mixed/test_relation.csv'
-    relations_csv_with_text(input_csv, text_csv, output_data)
+    if args.type_data == 'Relaciones':
+        create_relations_csv(
+            input_dir=args.input_file,
+            output_file=args.output_dir
+        )
+        relations_csv_with_text(
+            input_csv=args.input_file,
+            text_csv=args.text_translated,
+            output_data=args.output_dir
+        )
