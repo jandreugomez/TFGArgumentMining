@@ -1,0 +1,7 @@
+T1	Claim	 Dosis única de la vacuna oral de la cepa viva atenuada 638 de Vibrio cholerae es segura e inmunogénica en voluntarios adultos en Mozambique.
+T7	Premise	No se reportaron eventos adversos graves.
+T8	Premise	La incidencia de eventos adversos reportados en el grupo que recibió la vacuna fue similar al del grupo placebo.
+T9	Premise	Los eventos adversos encontrados fueron independientes de la detección de anticuerpos contra el VIH-1, VIH-2, hepatitis (H) A, HC y el antígeno de superficie del virus de la hepatitis B.
+T10	Claim	La presencia de helmintos no modificó la incidencia de eventos adversos.
+T12	Premise	A los 14 días el pico de la MGT de anticuerpos vibriocidas en el grupo de la vacuna fue de 9056 frente a 39 en el grupo placebo, con una seroconversión total de 97,4% a los 21 días.
+R1	Support	Arg1:T8	Arg2:T10

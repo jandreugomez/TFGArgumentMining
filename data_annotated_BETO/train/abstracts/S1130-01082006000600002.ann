@@ -1,0 +1,5 @@
+T2	Claim	Introducción: la generalización del diagnóstico serológico de la enfermedad celiaca ha producido un cambio epidemiológico.
+T10	Premise	La enfermedad se presentó en su forma clásica en sólo el 54,7% de casos.
+T12	Premise	El seguimiento de la dieta es correcto, con un incumplimiento no intencionado en el 15,5% de pacientes.
+T13	Claim	La dieta consigue la desaparición o mejora de los síntomas en prácticamente todos los pacientes, pero la mayoría de ellos consideran que es difícil seguirla.
+R1	Support	Arg1:T12	Arg2:T13

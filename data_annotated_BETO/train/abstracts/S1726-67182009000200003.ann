@@ -1,0 +1,8 @@
+T1	Claim	 Calidad en la anestesia espinal con bupivacaína más fentanyl para pacientes con fractura intertrocantérica de cadera.
+T9	Premise	El grupo F presentó mayor estabilidad de la tensión arterial media.
+T10	Premise	El nivel de bloqueo fue suficiente en todos los casos para realizar la intervención aunque la intensidad del bloqueo motor fue menor en los pacientes del grupo F (p< 0,01).
+T11	Premise	En el grupo F el efecto secundario mas frecuente fue el prurito (p< 0,01) y en el grupo B la hipotensión arterial (p< 0,01).
+T12	Claim	Conclusión: La asociación de fentanyl al anestésico local en la anestesia subaracnoidea en el paciente anciano es una técnica efectiva que permite mantener una mayor estabilidad hemodinámica, con una reducción de la dosis de bupivacaína.
+R1	Support	Arg1:T9	Arg2:T12
+R2	Support	Arg1:T10	Arg2:T12
+R3	Support	Arg1:T11	Arg2:T12

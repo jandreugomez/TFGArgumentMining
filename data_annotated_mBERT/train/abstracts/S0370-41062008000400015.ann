@@ -1,0 +1,3 @@
+T11	Premise	La variación del FEV1 fue 26 ± 14% contra 16 ± 5% (p = 0,017) y la variación del FMF fue 92 ± 48% contra 58±29%> (p = 0,018), para aerocámaras y espaciadores sin válvulas respectivamente (ANOVA).
+T12	Claim	Conclusión: El aerosol presurizado de salbutamol administrado a través de aerocámaras con válvulas produce una respuesta broncodilatadora mayor que con espaciadores sin válvulas en niños con asma.
+R1	Support	Arg1:T11	Arg2:T12

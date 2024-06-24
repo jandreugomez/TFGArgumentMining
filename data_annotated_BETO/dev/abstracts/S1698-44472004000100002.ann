@@ -1,0 +1,4 @@
+T5	Claim	Se obtuvo el mayor beneficio con la terapia combinada.
+T6	Premise	La combinación de los tratamientos con psicoanálisis y ácido alfa lipoico (ALA, acido tioctico, Tiobec 600 mgr al día), durante 2 meses fue significativamente más beneficiosa que el psicoanálisis solo durante dos sesiones semanales de una hora durante dos meses ( p< 0.0005) o el ALA 600 mgr al día solo, durante dos meses (p< 0,0005).
+T8	Claim	Los resultados sugieren que el ácido alfa lipoico podría complementar la psicoterapia y ser una alternativa aceptable a los fármacos psicoactivos, por lo que estudios de comparación de ambas alternativas están actualmente justificados.
+R1	Support	Arg1:T6	Arg2:T8

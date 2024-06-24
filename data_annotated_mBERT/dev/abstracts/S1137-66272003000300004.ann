@@ -1,0 +1,10 @@
+T1	MajorClaim	 ¿Tiene utilidad el tratamiento preoperatorio con ácido ursodeoxicólico en la reducción de las recidivas en la pancreatitis aguda biliar?
+T8	Premise	Los dos grupos no mostraron diferencias significativas en cuanto a ninguno de los parámetros estudiados.
+T9	Premise	Registramos 7/30 (23,3%) recidivas en el grupo AUC, frente a 9/42 (21,4%) recidivas en el control (p = 0,85).
+T10	Premise	Dentro del grupo AUC, la duración del tratamiento fue similar entre los casos que recidivaron: 4,9±4,5 meses y los no recidivados: 4,4±1,9 meses (p = 0,78).
+T11	Claim	En nuestra experiencia, el empleo de AUC hasta el momento de la colecistectomía no reduce la incidencia de recidiva en los pacientes tras un primer episodio de pancreatitis aguda biliar.
+T12	Claim	La duración del tratamiento con AUC tampoco parece relacionarse con la aparición o no de recidivas.
+R1	Support	Arg1:T8	Arg2:T11
+R2	Support	Arg1:T9	Arg2:T11
+R3	Support	Arg1:T10	Arg2:T11
+R4	Support	Arg1:T10	Arg2:T12

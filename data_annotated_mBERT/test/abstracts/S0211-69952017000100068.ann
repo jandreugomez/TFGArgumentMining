@@ -1,0 +1,8 @@
+T14	Premise	Hubo 13 pacientes en EM y 7 en el grupo CO. Al final del estudio, únicamente EM presentó mejoría en (*p < 0,05): FEMQ* (11,7 ± 7,1 vs. 13,4 ± 7,4 kg), STS10 (39,3 ± 15,5 vs. 35,8 ± 13,7s) y 6MWT* (9,9%; 293,2 vs. 325,2 m).
+T15	Premise	Igualmente, el grupo EM incrementó el área muscular (AMQ*: 128,6 ± 30,2 vs. 144,6 ± 22,4 cm2) y disminuyó el área grasa cuadricipital (AGQ*: 76,5 ± 26,9 vs. 62,1 ± 20,1 cm2).
+T16	Premise	No se observaron cambios relevantes en el resto de la composición corporal, parámetros nutricionales ni adecuación dialítica.
+T17	Claim	Conclusiones:  1) La EENM mejoró la fuerza muscular, la capacidad funcional y la composición muscular del cuádriceps de nuestros pacientes.
+T18	Claim	2) Con los resultados obtenidos, la EENM podría ser una nueva alternativa terapéutica para evitar la atrofia muscular y el deterioro progresivo de la condición física de estos pacientes.
+T19	Claim	3) No obstante, serían necesarios futuros estudios para establecer los potenciales efectos beneficiosos de la EENM en los pacientes en HD.
+R1	Support	Arg1:T14	Arg2:T17
+R2	Support	Arg1:T15	Arg2:T17

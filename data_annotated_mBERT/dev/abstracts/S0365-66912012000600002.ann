@@ -1,0 +1,6 @@
+T8	Premise	Resultados: Fueron observados cambios significativos en el cilindro y el EE entre los dos primeros trimestres en ambos grupos.
+T9	Premise	La agudeza visual y el componente esférico mostraron una clara tendencia al empeoramiento, mayor en el grupo de estudio.
+T10	Premise	Las pacientes de este grupo con un defecto prequirúrgico mayor presentaron menores modificaciones en el curso de los dos primeros trimestres.
+T11	Claim	Conclusiones: Las mujeres con una mayor demanda de cirugía refractiva mediante láser se encuentran entre los 20 y los 30 años, con lo que en muchos casos la práctica de la cirugía corneal se sigue de, al menos, una gestación, con los efectos que ello puede conllevar a nivel ocular.
+T12	Claim	Las conclusiones que se pueden derivar de este proyecto suponen la valoración de los cambios refractivos que sufrirían las córneas operadas y por tanto biomecánicamente debilitadas, al ser sometidas a estímulos hormonales fisiológicos como los propios de la gestación.
+R1	Support	Arg1:T11	Arg2:T12

@@ -1,0 +1,3 @@
+T8	Claim	Resultados: la ketamina por vía epidural en una dosis de 50 mg proporciona una analgesia adecuada por un período de al menos de 6 horas.
+T10	Claim	Conclusión: La ketamina por vía epidural es menos efectiva que la morfina desde el punto de vista analgésico, pero es una alternativa importante pues permite disminuir la dosis de morfina si se combinan ambos fármacos o se asocia a anestésicos locales.
+R1	Support	Arg1:T8	Arg2:T10

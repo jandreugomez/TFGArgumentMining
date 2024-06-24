@@ -1,0 +1,10 @@
+T4	Claim	A pesar de los excelentes resultados así obtenidos, pueden ocurrir diversas complicaciones, algunas de las cuales son potencialmente graves o mortales.
+T5	Claim	Además, la tasa de recidivas puede alcanzar el 25% de los casos.
+T18	Premise	Se obtuvo resultado favorable (EPM 0-12) en el 96% y 93.9% de los tratados con dexametasona y drenaje, respectivamente.
+T19	Premise	La mediana de estancia fue de 6 días para el grupo de dexametasona y para la serie al completo (rango 1-41), y de 8 días para el grupo intervenido (rango 5-48).
+T20	Premise	La mortalidad global fue del 0.8% y la proporción de reingresos debido al HSD del 14.7% (todos mejoraron o estabilizaron su EPM).
+T21	Premise	Ocurrieron complicaciones médicas en 34 pacientes (27.8%), fundamentalmente descompensaciones hiperglucémicas leves.
+T26	Claim	La experiencia que aporta esta serie nos permite realizar una serie de consideraciones clínicas: el tratamiento del HSC con dexametasona es factible y se compara positivamente con el tratamiento quirúrgico (evitó dos tercios de las intervenciones en nuestra serie); creemos que la historia natural del HSC permite un período de prueba con dexametasona (48-72h) sin someter a riesgo de deterioro irreversible al paciente; se elimina toda la morbilidad asociada a las intervenciones y las recidivas; no provoca complicaciones significativas; reduce la estancia media; no impide ni perjudica un ulterior tratamiento quirúrgico; es una terapia bien tolerada y entendida por el paciente y sus acompañantes y, posiblemente, abarata costes.
+T29	Claim	Los datos obtenidos de esta larga serie retrospectiva sugieren que la utilización de dexametasona en el HSC es una opción factible y segura.
+T30	Claim	En nuestra experiencia, curó o mejoró a dos tercios de todos los pacientes, hecho que debe ser corroborado por otros autores.
+R1	Support	Arg1:T26	Arg2:T29

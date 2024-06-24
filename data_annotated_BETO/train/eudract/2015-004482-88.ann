@@ -1,0 +1,3 @@
+T11	Claim	Pacientes con dolor crónico que a criterio del investigador pueda interferir en las valoraciones del estudio.
+T12	Claim	Pacientes en los que se considere que su participación en el estudio puede suponer un perjuicio clínico, en opinión del médico responsable del cuidado del paciente
+R1	Support	Arg1:T11	Arg2:T12

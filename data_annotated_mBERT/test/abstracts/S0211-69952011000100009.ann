@@ -1,0 +1,12 @@
+T1	Claim	 La nicotina oral reduce el fosfato sérico, aumenta el HDL e induce trombocitopenia en pacientes de hemodiálisis: un ensayo clínico aleatorizado a doble ciego.
+T2	MajorClaim	Antecedentes: Recientemente, se ha sugerido que la nicotinamida es como un fármaco eficaz para la hiperfosfatemia en pacientes en hemodiálisis.
+T8	Premise	Resultados: En el grupo de la nicotinamida, el nivel de fósforo se redujo de 5,9 ± 0,58 a 4,77 ± 1,43 mg/dl en la quinta semana (p = 0,002) y a 4,66 ± 1,06 mg/dl en la novena semana (p = 0.000).
+T9	Premise	El producto calcio-fósforo se redujo significativamente siguiendo el mismo patrón que el fósforo.
+T10	Premise	El nivel de HDL aumentó de 42,46 ± 8,01 a 55,71 ± 11,88 mg/dl en la quinta semana (p = 0,000) y a 65,25 ± 20,18 mg/dl en la novena semana (p = 0,000).
+T11	Premise	Los niveles de calcio sérico, ácido úrico, TGO, TGP e iPTH no cambian de manera significativa.
+T12	Premise	En comparación con la primera semana, el recuento de plaquetas en la quinta y novena semana disminuyó.
+T13	Premise	No se observaron cambios significativos en el grupo placebo.
+T14	Claim	Conclusiones: En nuestros pacientes, la nicotinamida disminuyó de forma efectiva el fósforo, aumentó el HDL, y causó trombocitopenia.
+T15	Claim	Como la nicotinamida redujo el recuento de plaquetas y causó trombocitopenia en dosis más bajas que en otros estudios con estos pacientes, es necesario planificar más estudios para evaluar la seguridad del fármaco, especialmente en diferentes poblaciones.
+R1	Support	Arg1:T8	Arg2:T14
+R2	Support	Arg1:T10	Arg2:T14

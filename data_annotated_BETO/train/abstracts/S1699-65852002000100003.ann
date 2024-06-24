@@ -1,0 +1,7 @@
+T17	Claim	Ninguno de los tratamientos redujo significativamente los niveles de A. actinomycetemcomitans.
+T19	Premise	Se detectó una reducción significativa de P. gingivalis en los sitios tratados con (R.A).
+T20	Premise	(p <0.02) o cuando este ultimo tratamiento se asoció a (T).
+T22	Claim	Todos los tratamientos redujeron significativamente los niveles de P. intermedia.
+T23	Claim	Aunque las tetraciclinas incluyen en su espectro de acción a las bacterias estudiadas, y alcanzan altas concentración después de su aplicación en los sitios respectivos, los reducidos efectos microbiológicos encontrados podrían explicarse por su rápida remoción por el fluido gingival desde su sitio de aplicación en las localizaciones estudiadas.
+R1	Support	Arg1:T17	Arg2:T22
+R2	Support	Arg1:T19	Arg2:T23

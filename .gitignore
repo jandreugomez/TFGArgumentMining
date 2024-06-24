@@ -1,7 +1,6 @@
-/data_anotated/
-/tokenizer_anotator/
-/tokenizer_relation/
-/model_anotator/
-/model_relation/
+/tokenizer_anotator*/
+/tokenizer_relation*/
+/model_anotator*/
+/model_relation*/
 /results/
 /results_relation/

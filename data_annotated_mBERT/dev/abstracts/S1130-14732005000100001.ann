@@ -1,0 +1,9 @@
+T11	Premise	Tampoco hubo diferencias respecto al GCS de ingreso (tiopental seis puntos; pentobarbital siete puntos; P=0,26) ni en la tomografía craneal computarizada de ingreso, según la clasificación del "Traumatic Coma Data Bank".
+T12	Premise	En el grupo de tiopental se controló la PIC en cinco casos y en el grupo de pentobarbital en dos pacientes (P=0,16).
+T13	Premise	Cinco pacientes tratados con tiopental fallecieron y ocho en el grupo de pentobarbital (P=0,16).
+T14	Premise	No hubo diferencias significativas entre ambos grupos respecto a la incidencia de hipotensión arterial (P=1) o complicaciones infecciosas.
+T16	Claim	Los resultados preliminares de este estudio indican que el tiopental podría ser más eficaz que el pentobarbital en el control de la HIC refractaria a las medidas de primer nivel.
+T17	Claim	Dichos resultados confirman la evidencia experimental que indica que los mecanismos neuroprotectores de ambos fármacos son distintos y justifican el continuar aumentando el tamaño muestral de nuestro estudio para poder definir mejor la eficacia de ambos fármacos.
+R1	Support	Arg1:T11	Arg2:T16
+R2	Support	Arg1:T12	Arg2:T16
+R3	Support	Arg1:T13	Arg2:T16

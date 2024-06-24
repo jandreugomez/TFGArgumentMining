@@ -1,0 +1,6 @@
+T7	Premise	Dos pacientes del grupo quirúrgico murieron debido a tromboembolismo pulmonar o infarto de miocardio en los 6 meses de seguimiento inicial, mientras tres pacientes del grupo control presentaron progresión de la IC y murieron o desarrollaron shock cardiogénico en el mismo período.
+T8	Premise	En los pacientes tratados, hubo mejora en la calidad de vida, nivel de actividad física y FEVI (de 25±9% a 32±8%, p=0,024) a los 6 meses de seguimiento, mientras que esos parámetros no se alteraron en los pacientes del grupo control.
+T9	Claim	CONCLUSIÓN: El bloqueo simpático izquierdo vía toracoscopia es factible y parece ser seguro en pacientes con IC grave.
+T10	Claim	Este estudio inicial sugiere que este procedimiento puede ser un abordaje alternativo eficaz para el bloqueo simpático en el tratamiento de cardiomiopatías dilatadas.
+R1	Support	Arg1:T7	Arg2:T10
+R2	Support	Arg1:T8	Arg2:T10

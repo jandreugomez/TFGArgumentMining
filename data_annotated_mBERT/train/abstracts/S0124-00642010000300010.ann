@@ -1,0 +1,4 @@
+T12	Premise	Al relacionar las categorías del BIRADS, dependiendo de la probabilidad de benignidad (BIRADS I-II-III) o malignidad (BIRADS IV-V) con los resultados histopatológicos (benigno o maligno), no se encontró relación (p=0,0666).
+T13	Premise	En un análisis individual por categoría, las relaciones significativas fueron: categoría IV (OR=0,024, IC=0,005-0,11, p=0,0007) y categoría V (OR=40,5, IC=9,03-181,3, p=0,0002).
+T15	Premise	La clasificación BIRADS I, III y V tuvo relación con el diagnóstico histopatológico, mientras que en el II y IV no hubo esta relación.
+T16	Premise	Sin embargo, los únicos resultados estadísticamente significativos se obtuvieron en las categorías IV y V.

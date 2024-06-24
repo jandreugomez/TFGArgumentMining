@@ -1,0 +1,4 @@
+T1	Claim	 Aplicación de sellante de fibrina en pacientes operados por cáncer diferenciado de tiroides.
+T13	Premise	No observamos diferencias significativas en la mayoría de las variables estudiadas; no obstante, el grupo caso presentó una menor estancia hospitalaria respecto al grupo control, con una diferencia estadísticamente significativa (p < 0.05).
+T15	Claim	La aplicación del Tissucol® ha permitido reducir la estancia hospitalaria de los pacientes operados de tiroidectomía total con vaciamiento cervical, lo que representa para el hospital una reducción de costos, sin que ello influya en la aparición de complicaciones relacionadas con la intervención.
+R1	Support	Arg1:T13	Arg2:T15

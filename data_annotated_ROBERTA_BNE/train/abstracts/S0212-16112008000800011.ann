@@ -1,0 +1,5 @@
+T9	Premise	El grupo placebo (edad 59,14 ± 12,95 años) tenía glicemia inicial de 94,36 ± 15,34 mg/dL, después de tres meses 98,12 ± 15,54 mg/dL (p = 0,03) y en el sexto mes presentó aumento de 98,52 ± 9,03 mg/dL (p = 0,01).
+T10	Premise	El grupo suplementado (edad de 56,34 ± 15,53 años) tenía glicemia inicial de 95,92 ± 11,64 mg/dL, después de tres meses 94,88 ± 12,24 mg/dL (p = 0,65) y en el sexto mes, reducción significativa de 92,86 ± 6,82 mg/dL (p = 0,01).
+T11	Claim	Conclusión: Resultados sugieren que la suplementación dietética con hongos Agaricus sylvaticus puede reducir la glicemia de ayuno de los enfermos con cáncer colorrectal en la fase post-operatoria, presentando efectos benéficos en el prognóstico de los enfermos.
+R1	Support	Arg1:T9	Arg2:T11
+R2	Support	Arg1:T10	Arg2:T11

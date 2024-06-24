@@ -1,0 +1,8 @@
+T10	Claim	No se presentaron diferencias estadísticamente significativas en la eficacia de los dos tratamientos.
+T11	Premise	El tiempo transcurrido entre la primera dosis y el alivio fue 41 minutos para acetaminofén y 34 minutos para codeína más acetaminofén (p > 0,05).
+T12	Premise	El grupo de codeína presentó más estreñimiento (p = 0,001).
+T13	Premise	Conclusión: No se presentaron diferencias significativas en eficacia y tiempo hasta el alivio del dolor.
+T14	Premise	El grupo de codeína presentó más estreñimiento que el de acetaminofén.
+R1	Support	Arg1:T10	Arg2:T13
+R2	Support	Arg1:T11	Arg2:T13
+R3	Support	Arg1:T12	Arg2:T14

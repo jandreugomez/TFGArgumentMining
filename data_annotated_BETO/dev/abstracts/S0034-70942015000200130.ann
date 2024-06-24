@@ -1,0 +1,4 @@
+T5	Premise	RESULTADOS:  No hubo diferencia estadística entre los grupos, sin embargo cuando se aplicó el coeficiente de Cohen, el uso de la PEEP de 10 cm H2O en el intraoperatorio mostró un efecto importante sobre el tiempo entre el término de la anestesia y la extubación.
+T6	Claim	Sobre ese mismo tiempo, el tratamiento realizado en el preoperatorio presentó un efecto moderado.
+T7	Claim	CONCLUSIÓN:  El uso de la PEEP de 10 cm H2O en el intraoperatorio y de la presión positiva en el preoperatorio puede influir en el tiempo de extubación de pacientes sometidos a cirugía bariátrica.
+R1	Support	Arg1:T5	Arg2:T7

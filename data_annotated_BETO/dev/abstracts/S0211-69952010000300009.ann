@@ -1,0 +1,6 @@
+T1	Claim	 Comparación de cuatro métodos de medición de la tasa de filtración glomerular con depuración de inulina en individuos sanos y en pacientes con insuficiencia renal.
+T3	MajorClaim	La medición de la función renal es importante para el diagnostico y estratificación de las enfermedad renales.
+T11	Claim	Los cuatro métodos evaluados mostraron una correlación significativa con la depuración de inulina.
+T12	Premise	No obstante, todos mostraron considerable falta de concordancia, con límites inferiores que variaban desde 15 hasta 42 ml/min, para las comparaciones de inulina con tecnecio e inulina con la fórmula de Levey, respectivamente, y límites de concordancia superiores que podían ir desde 20 y hasta 56 ml/min, para las comparaciones de inulina con tecnecio e Inulina con la fórmula de Levey, respectivamente.
+T14	Claim	La medición de la tasa de filtración glomerular efectuada a través de diferentes métodos muestra un amplio rango de variación al compararlos con la depuración de inulina, lo cual debe de considerarse en la práctica clínica diaria al evaluar la función renal.
+R1	Support	Arg1:T1	Arg2:T14

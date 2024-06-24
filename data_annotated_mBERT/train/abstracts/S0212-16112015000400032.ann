@@ -1,0 +1,5 @@
+T6	Premise	Todos los pacientes con glutamina presentaron mucífagos, frente al 28,6% con placebo (p = 0,038).
+T7	Premise	El daño sobre tejido sano fue similar en los pacientes con glutamina y placebo, y entre aquellos con y sin enteritis.
+T8	Claim	Conclusión: La glutamina no ejerce un efecto protector frente a la quimiorradioterapia sobre el tumor o el tejido rectal sano.
+R1	Support	Arg1:T6	Arg2:T8
+R2	Support	Arg1:T7	Arg2:T8

@@ -1,0 +1,11 @@
+T11	Premise	Resultados: se observó una disminución del consumo intraoperatorio de opioides en los grupos ketamina (402,3 ± 106,3) y lidocaína (397,7 ± 107,5) frente al grupo placebo (561,4 ± 97,1); p = 0,001.
+T12	Premise	Se encontró una correlación positiva entre el consumo intraoperatorio de opioides y el tiempo de despertar (r = 0,864, p <0,001).
+T13	Premise	No hubo diferencias significativas respecto a la intensidad del dolor en reposo en las 24 horas posteriores a la cirugía.
+T14	Premise	El consumo total de morfina en las primeras 24 horas tras la cirugía no difirió significativamente entre los grupos (placebo: 27,54 ± 11,75; ketamina: 30,95 ± 7,88; lidocaína 34,77 ± 10,25; p = 0,26).
+T15	Premise	Las náuseas y vómitos postoperatorios fueron más frecuentes en el grupo placebo (se observó en 3 pacientes del grupo ketamina, en 5 del grupo lidocaína y en 9 del grupo placebo; p = 0,027).
+T16	Claim	Conclusión: Nuestros resultados no apoyan el uso de una única dosis intraoperatoria de lidocaína o ketamina para disminuir el dolor postoperatorio y el consumo de opioides tras cirugía ginecológica abierta.
+T17	Claim	Sin embargo, si parece disminuir los requerimientos intraoperatorios de opioides y acortar el tiempo de educción de la anestesia.
+T18	Claim	No obstante, estos resultados deben ser validados en futuros estudios con mayor tamaño muestral.
+R1	Support	Arg1:T11	Arg2:T16
+R2	Support	Arg1:T12	Arg2:T16
+R3	Support	Arg1:T14	Arg2:T16

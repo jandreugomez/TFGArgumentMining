@@ -1,0 +1,3 @@
+T2	Claim	Indicación pública: Antagonización de sugammadex del bloqueo neuromuscular por rocuronio de la anestesia general.
+T4	Claim	Creemos que sugammadex con dosis inferiores a las recomendadas por el fabricante en la ficha técnica es igualmente útil para antagonizar el bloqueo neuromuscular por rocuronio durante una anestesia general, aunque este efecto será más lento.
+R1	Support	Arg1:T2	Arg2:T4

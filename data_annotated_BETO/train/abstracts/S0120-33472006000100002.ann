@@ -1,0 +1,9 @@
+T2	Claim	Antecedentes: La morfina intratecal constituye una excelente alternativa para el manejo del dolor post-operatorio, en cirugías con anestesia espinal.
+T8	Claim	Resultados: La dosis de morfina fue efectiva para el control del dolor en el postquirúrgico.
+T10	Premise	La incidencia de efectos secundarios fue: prurito 60% (NNH=2), náusea y vómito 25% (NNH=11), retención urinaria 24.3% (NNH=5) y depresión respiratoria 0%.
+T11	Premise	No hubo diferencias en las características de la anestesia, ni en el comportamiento hemodinámico entre los dos grupos.
+T12	Claim	Conclusiones: 100 microgramos de morfina son efectivos para aliviar el dolor postoperatorio en las primeras 12 horas.
+T13	Claim	Los efectos secundarios que se presentaron fueron tolerables y no requirieron tratamiento.
+T14	Claim	La muestra del estudio no fue suficiente para evaluar depresión respiratoria.
+R1	Support	Arg1:T10	Arg2:T12
+R2	Support	Arg1:T11	Arg2:T12

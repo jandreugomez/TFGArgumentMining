@@ -1,0 +1,6 @@
+T1	Claim	 Efectos de telmisartan vs olmesartan sobre parámetros antropométricos, resistencia a la insulina y adipocitoquinas en pacientes hipertensos obesos.
+T7	Premise	Resultados: Los pacientes que recibieron telmisartan tuvieron una disminución significativa de los niveles de glucosa 10,53 mg/dl (CI 95%: 2,6-18,5), insulina 2,51 mUI/L (CI 95%: 2,07-7,17) y HOMA 1,08 (CI 95%: 0,39-2,55).
+T8	Premise	Los pacientes tratados con olmesartan presentaron una disminución significativa de colesterol 20,2 mg/dl (CI 95%: 5,8-34,9) y LDL colesterol 22,6 mg/dl (CI 95%: 9,7-35,6).
+T9	Premise	Solo, los niveles de leptina disminuyeron de manera significativa con telmisartan 7,39 ng/ml (CI 95%: 1,47-13,31).
+T11	Claim	Olmesartan mejoró los niveles de presión arterial y el perfil lipídico.
+R1	Support	Arg1:T7	Arg2:T11

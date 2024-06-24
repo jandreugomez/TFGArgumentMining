@@ -1,0 +1,5 @@
+T3	Claim	Este estudio propone una técnica de abordaje de los nervios tibial y fibular común en la fosa poplítea por punción única y utilizando el estimulador percutáneo de nervios, considerando la correlación con el estudio anatómico y ultrasonográfico.
+T9	Premise	El tiempo promedio para la localización de los nervios tibial y fibular común, utilizando el estimulador percutáneo de nervios, fue de 57,1 y 32,8 segundos respectivamente y con el estimulador de nervios fue de 2,22 y 1,79 minutos.
+T10	Premise	La profundidad promedio de la aguja para el nervio tibial fue de 10,7 mm.
+T11	Claim	CONCLUSIONES: El abordaje de los nervios tibial y fibular común con punción única en la fosa poplítea utilizando el estimulador percutáneo de nervios, es una buena opción para la anestesia y la analgesia en cirugías del pie.
+R1	Support	Arg1:T9	Arg2:T11

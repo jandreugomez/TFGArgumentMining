@@ -1,0 +1,14 @@
+T1	Claim	 Efectos de la rapamicina en los angiomiolipomas de pacientes con esclerosis tuberosa.
+T3	Claim	La proliferación inadecuada y constante que existe en la ET puede ser bloqueada por inhibidores de la kinasa mTOR (mammalian target of rapamycin), como la rapamicina.
+T6	Premise	Los niveles plasmáticos se han mantenido entre 4 y 8 ng/dl.
+T8	Premise	Resultados: A los 12 meses de la inclusión, con la RM se ha objetivado una disminución del tamaño del AML en todos los pacientes incluidos, mostrando una reducción de, al menos, un 50% en el 82,4% (14/17; intervalo de confianza [IC] 95% [56,57%, 96,20%]).
+T9	Premise	El porcentaje medio de reducción fue del 66,3% (IC95 [56,9%, 75,6%]; p <0,0001).
+T10	Premise	Los principales efectos secundarios observados han sido: aftas orales (5/17); hipertrigliceridemia (3/17); microcitosis e hipocromía (3/17); diarrea (2/17); acné (1/17); pielonefritis aguda (1/17), y proteinuria (1/17).
+T11	Claim	Conclusiones: Los datos clínicos preliminares sugieren que la rapamicina puede desempeñar un papel beneficioso en el tratamiento de la ET.
+T12	Claim	Nuestra experiencia en 17 pacientes tratados durante 12 meses demuestra seguridad y eficacia en la reducción de AML.
+R1	Support	Arg1:T6	Arg2:T12
+R2	Support	Arg1:T8	Arg2:T11
+R3	Support	Arg1:T8	Arg2:T12
+R4	Support	Arg1:T9	Arg2:T12
+R5	Support	Arg1:T10	Arg2:T11
+R6	Support	Arg1:T10	Arg2:T12

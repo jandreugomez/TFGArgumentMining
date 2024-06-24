@@ -1,0 +1,10 @@
+T8	Premise	No existieron complicaciones intraoperatorias.
+T9	Premise	Ningún paciente presentó dolor severo o moderado en alguno de los controles, refiriendo habitualmente molestias anales discretas.
+T10	Premise	La rectorragia autolimitada y el tenesmo fueron las complicaciones post-operatorias más frecuentes.
+T11	Premise	Tras el seguimiento a 1 año, 19 enfermos estaban asintomáticos y en 6 ocasiones los síntomas habían disminuido significativamente, en el resto la intervención fue ineficaz.
+T12	Premise	Agrupados los pacientes por grados, la técnica presentó malos resultados en sólo 3 pacientes con hemorroides grado III, pero en hemorroides grado IV, los resultados fueron malos en 4 de los 5 pacientes.
+T13	Claim	Conclusiones: la ligadura de la arteria hemorroidal guiada por Doppler es una técnica sencilla, bien tolerada, con buenos resultados en hemorroides grado III.
+R1	Support	Arg1:T9	Arg2:T13
+R2	Support	Arg1:T10	Arg2:T13
+R3	Support	Arg1:T11	Arg2:T13
+R4	Support	Arg1:T12	Arg2:T13

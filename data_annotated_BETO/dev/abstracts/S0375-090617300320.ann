@@ -1,0 +1,6 @@
+T3	MajorClaim	La infección por Clostridium difficile (CD) es la causa principal de diarrea en hospitalizados.
+T11	Premise	De los 39 pacientes incluidos, con edad promedio de 48 años, los signos/síntomas más comunes fueron dolor abdominal (49%), moco en heces (41%) y sangre en heces (10%); las alteraciones de laboratorio más comunes fueron leucocitosis en el 49%, leucocitos en heces (61%) e hipoalbuminemia (67%).
+T14	Premise	Se encontraron anormalidades endoscópicas en el 87%, con colitis seudomembranosa en un 38%, presentándose en colon izquierdo (53%) y en derecho (13%).
+T15	Premise	No se encontró asociación entre uso de IBP y diarrea por CD.
+T16	Premise	Se identificó una asociación significativa entre la hipoalbuminemia (< 3.3 g/dL) y un mayor riesgo de colitis severa, con un RR de 8.2 (p = 0.008).
+T19	Claim	La hipoalbuminemia es un predictor significativo de severidad.

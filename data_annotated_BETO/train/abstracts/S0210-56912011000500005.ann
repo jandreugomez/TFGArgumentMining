@@ -1,0 +1,3 @@
+T1	Claim	 El ácido tranexámico disminuye la mortalidad del shock hemorrágico traumático.
+T3	Claim	Consideramos que este es un avance terapéutico significativo, ya que por primera vez un fármaco se ha mostrado capaz de disminuir la letalidad del shock hemorrágico traumático.
+R1	Support	Arg1:T1	Arg2:T3

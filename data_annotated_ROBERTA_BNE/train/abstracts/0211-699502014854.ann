@@ -1,0 +1,6 @@
+T1	Claim	 Cambio en la calidad de vida relacionada con la salud durante el primer año del trasplante renal.
+T6	Premise	Resultados: No hubo diferencias entre los pacientes con azatioprina o MMF, salvo que el RA fue menos frecuente con MMF (7% vs 42%, p = 0,065).
+T8	Premise	Hubo una mejoría de la CVRS medida por el aumento progresivo en las puntuaciones del IBP, EQ-5d y EVA en los 3 primeros meses del TR.
+T9	Premise	Al sexto mes se observó una disminución de la puntuación en comparación con el tercero (IBP, p = 0,011) y posteriormente mejoró la CVRS pero sin llegar a las máximas puntuaciones conseguidas.
+T10	Claim	Conclusiones: Los pacientes con MMF presentaron menos episodios de RA.
+T11	Claim	La CVRS disminuye entre el tercer y sexto mes, con menos intensidad en los pacientes con MMF, en probable relación con la menor tasa de RA.

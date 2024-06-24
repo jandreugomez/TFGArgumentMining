@@ -1,0 +1,12 @@
+T9	Premise	Resultados: tras la inducción, el 25% de los pacientes con enfermedad luminal tuvieron remisión completa y el 56,3% respuesta parcial.
+T10	Premise	La respuesta clínica se mantuvo al año en el 71,6% de los pacientes, a los 18 meses en el 53,7% y a los 48 meses en el 35,8%.
+T11	Premise	No se objetivaron diferencias en la respuesta entre pacientes que presentaron reacciones de hipersensibilidad o pérdida de respuesta a IFX.
+T13	Premise	Tras la inducción un 16,7% entran en remisión y un 66,7% presentan respuesta parcial.
+T14	Premise	Todos los pacientes mantienen remisión o respuesta en el tiempo con una mediana de seguimiento de 15 meses.
+T15	Claim	Conclusiones: el adalimumab es un tratamiento eficaz y seguro en la inducción y mantenimiento de la respuesta en la EC luminal y fistulosa perianal.
+T16	Claim	Estos resultados confirman que los hallazgos obtenidos en los ensayos clínicos controlados son reproducibles en la práctica clínica diaria.
+R1	Support	Arg1:T9	Arg2:T15
+R2	Support	Arg1:T10	Arg2:T15
+R3	Support	Arg1:T11	Arg2:T15
+R4	Support	Arg1:T13	Arg2:T15
+R5	Support	Arg1:T14	Arg2:T15

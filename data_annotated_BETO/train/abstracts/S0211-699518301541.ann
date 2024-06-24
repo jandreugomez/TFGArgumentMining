@@ -1,0 +1,11 @@
+T1	Claim	 ¿Mejora la función renal tras la paratiroidectomía en el hiperparatirodismo primario?
+T5	Claim	La influencia que tiene la PTX sobre la evolución de la función renal es controvertida.
+T15	Premise	La nefrolitiasis fue el hallazgo clínico más frecuente (33%) seguido de la afectación ósea (29,5%).
+T17	Premise	El 94,3% de los casos de HPTP eran debidos a un adenoma paratiroideo.
+T19	Premise	Objetivamos un incremento significativo de la creatinina sérica (0,81 vs. 0,85mg/dl, p<0,001) desde la primera semana del postoperatorio y que se mantiene al año.
+T20	Premise	Cuando comparamos los pacientes según el filtrado glomerular basal, encontramos que el deterioro de la función renal solamente fue significativo en pacientes con filtrado glomerular >60ml/min (creatinina sérica basal 0,77mg/dl vs creatinina sérica al año 0,81mg/dl, p<0,001).
+T22	Premise	El HPTP cursó asintomático en la mayoría de los pacientes intervenidos.
+T23	Claim	La hipercalcemia y la nefrolitiasis fueron las indicaciones más frecuentes de paratiroidectomía en los pacientes asintomáticos.
+T25	Claim	La curación quirúrgica del HPTP se sigue de un deterioro de la función renal, que se mantiene desde la primera semana de la cirugía.
+R1	Support	Arg1:T1	Arg2:T5
+R2	Support	Arg1:T15	Arg2:T23

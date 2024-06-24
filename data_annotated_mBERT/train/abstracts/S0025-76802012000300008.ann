@@ -1,0 +1,6 @@
+T6	Premise	LM25 demostró mayor reducción de la HbA1c (- 2.4% ± 0.16 vs. -2.0% ± 0.16, P = 0.002), mayor proporción de pacientes alcanzaron HbA1c= 7.0% (P = 0.012) y niveles de glucemia menores después del desayuno (P = 0.028) y de la cena (P = 0.011), y a las 3 a.m. (P = 0.005) comparada con GL.
+T7	Premise	La glucemia en ayunas (GA) y la proporción de pacientes que alcanzaron una HbA1c= 6.5% fueron similares.
+T8	Premise	En ambos grupos hubo aumento del peso corporal, mayor en la valoración final con LM25 (6.35 kg vs. 4.23 kg, P < 0.001).
+T9	Premise	No hubieron diferencias en índices de hipoglucemia entre grupos, ni eventos adversos serios en ninguno.
+T10	Claim	Con LM25 fue mejor el control de glucosa, riesgo de hipoglucemia similar y mayor aumento de peso que GL.
+R1	Support	Arg1:T8	Arg2:T10

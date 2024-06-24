@@ -1,0 +1,10 @@
+T3	Claim	El síndrome de bajo gasto cardíaco ocurre frecuentemente en el posoperatorio de pacientes con cirugía cardíaca.
+T4	MajorClaim	Las catecolaminas, utilizadas como inotrópicos, pueden provocar efectos adversos potencialmente deletéreos.
+T5	Claim	El levosimendán es un nuevo fármaco inotrópico no adrenérgico con posibles beneficios en esta población de pacientes.
+T15	Premise	En 9/18 intervenciones (50%; p= 0,004) se observó una mejoría en el gasto cardiaco.
+T16	Premise	El puntaje de inotrópicos disminuyó (12,1 contra 6,1; p= 0,01), la SvO2 mejoró (69,5 ± 11,4% contra 76 ± 9,29%, p= 0,03) y la A-VDO2 disminuyó (26,78 ± 11,5% contra 20,81 ± 7,72%, p= 0,029).
+T17	Premise	No se identificaron efectos adversos.
+T18	Premise	Cuatro pacientes fallecieron, ninguno en relación con la administración del fármaco.
+T20	Premise	En el 50% de las intervenciones se observó mejoría en el gasto cardíaco.
+T21	Premise	No se detectaron efectos adversos atribuibles al fármaco.
+R1	Support	Arg1:T17	Arg2:T21

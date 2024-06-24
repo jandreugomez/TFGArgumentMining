@@ -1,0 +1,10 @@
+T6	Premise	Resultados: En los pacientes tratados con tiazidas (Grupo B y C) se obtiene una reducción significativa de recidiva litiásica en relación con el grupo control (Grupo A).
+T7	Premise	La alteración más frecuente encontrada en el estudio metabólico fue hipercalciuria, 52% de los casos; el 16% presentan patrón litógeno mixto.
+T8	Premise	El número de recidivas y necesidad de nuevas sesiones de litotricia extracorpórea en los pacientes con hipercalciuria tratados con tiazidas disminuye significativamente con respecto al Grupo A (p=0.003)  Conclusiones: Se observa una relación significativa entre patrón litógeno y recidiva litiásica.
+T9	Claim	Las tiazidas nos ayudan a controlar los factores litogénicos y las recidivas en pacientes con litiasis cálcica.
+T10	Claim	Este efecto es prolongado y significativo en pacientes con hipercalciuria.
+R1	Support	Arg1:T6	Arg2:T9
+R2	Support	Arg1:T7	Arg2:T9
+R3	Support	Arg1:T7	Arg2:T10
+R4	Support	Arg1:T8	Arg2:T9
+R5	Support	Arg1:T8	Arg2:T10

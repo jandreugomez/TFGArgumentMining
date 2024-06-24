@@ -1,0 +1,6 @@
+T2	Claim	La warfarina es frecuentemente usada en la terapia anticoagulante actual, su acción debe ser monitorizada usando el tiempo de protrombina expresado como International Normalized Ratio (INR); cuando se excede el rango de seguridad se puede administrar vitamina K (Vit-K), preferentemente por vía oral.
+T6	Premise	La reducción absoluta del riesgo y su intervalo de confianza de 95%: RAR (IC95%) = 50% (14.4 a 85.6) ρ = 0.028; NNT (IC95%) = 2(1.3 a 6.9); no se registraron eventos adversos, ni INR < 2 luego de 24 horas de tratamiento.
+T7	Claim	Los resultados obtenidos son consistentes con estudios donde se administró Vit-K en preparación específica para vía oral.
+T8	Claim	Así la Vit-K en presentación parenteral, administrada por vía oral, es más efectiva y segura que simplemente detener la administración de warfarina para revertir la excesiva anticoagulación, en donde no exista presentación específica oral de Vit-K o ésta sea muy costosa.
+R1	Support	Arg1:T6	Arg2:T7
+R2	Support	Arg1:T6	Arg2:T8

@@ -1,0 +1,14 @@
+T7	Premise	La tasa de erradicación en el análisis por intención a tratar fue del 67,8% en el grupo 1 y del 74,3% en el grupo 2 (p=0,24), y en el análisis por protocolo fue del 72,1% y 81,1% (p=0,08), respectivamente.
+T8	Premise	La tasa de erradicación fue similar para ambos grupos independiente del grado de infección por H. pylori (p=0,22) y no se encontraron diferencias en el grado de infección y la presencia de DNU o DU (p=0,19).
+T9	Premise	Los efectos adversos fueron más frecuentes en el grupo 2 (27,5% frente a 36,1%), aunque sin relevancia estadística (p=0,4).
+T10	Premise	La tasa de erradicación para ambos grupos fue similar para los pacientes con DNU (73,8% frente a 81,1%) y DU (64,3% frente a 73%).
+T11	Premise	El seguimiento al año mostró que las manifestaciones clínicas no se relacionaron con el hecho de haber erradicado o no la bacteria (p=0,7), pese a que la respuesta clínica de los pacientes con DU fue mejor que la observada para los pacientes con DNU.
+T12	Claim	Conclusiones: la terapia estándar durante 7 o 10 días es insuficiente para la erradicación del H. pylori, independiente del grado de infección por este microorganismo o del tipo de hallazgo endoscópico (DNU o DU).
+T13	Claim	Ambas terapias mostraron unas tasas de erradicación subóptimas y una pobre respuesta clínica al año de seguimiento en el grupo con DNU.
+R1	Support	Arg1:T7	Arg2:T12
+R2	Support	Arg1:T7	Arg2:T13
+R3	Support	Arg1:T8	Arg2:T12
+R4	Support	Arg1:T8	Arg2:T13
+R5	Support	Arg1:T10	Arg2:T12
+R6	Support	Arg1:T10	Arg2:T13
+R7	Support	Arg1:T11	Arg2:T13

@@ -1,0 +1,12 @@
+T1	Claim	 Anestesia tópica más subconjuntival versus retrobulbar en la esclerectomía profunda no penetrante.
+T5	Premise	Resultados: No hubo diferencias en las condiciones quirúrgicas entre ambos grupos.
+T6	Premise	El grupo con anestesia retrobulbar refirió más dolor durante la aplicación del anestésico (P= 0,00).
+T7	Premise	El grupo con anestesia tópica-subconjuntival refirió más disconfort intraoperatoriamente (P=0,00).
+T8	Premise	Sin embargo, esto no representó un problema para el cirujano.
+T9	Premise	No hubo diferencias en el dolor postoperatorio entre ambos grupos.
+T10	Premise	No hubo diferencias estadísticamente significativas en cuanto al dolor total.
+T11	Claim	No hubo diferencia en cuanto al éxito quirúrgico entre ambos grupos.
+T12	Claim	Conclusiones: La anestesia tópica-subconjuntival es una alternativa segura y efectiva para la escleroctomía no penetrante suplementada con 5-FU.
+R1	Support	Arg1:T1	Arg2:T12
+R2	Support	Arg1:T6	Arg2:T12
+R3	Support	Arg1:T7	Arg2:T12

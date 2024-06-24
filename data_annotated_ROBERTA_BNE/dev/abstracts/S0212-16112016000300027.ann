@@ -1,0 +1,5 @@
+T3	Claim	Los esteroles vegetales se han postulado como agentes reguladores y beneficiosos para el control de esta.
+T11	Premise	La diferencia porcentual entre los marcadores basales y finales para el colesterol total, colesterol-LDL, colesterol-HDL, triglicéridos y colesterol no-HDL fueron del 9,73%, 12,5%, 1,9%, 3,15% y 13,2%, respectivamente.
+T12	Premise	Se obtuvieron diferencias estadísticamente significativas entre el grupo experimental y el grupo control, para todos los marcadores analizados excepto para los triglicéridos.
+T13	Claim	Conclusión: los esteroles vegetales suministrados en un alimento de consumo habitual, como la leche, pueden ser una estrategia terapéutica no farmacológica para el control de la hipercolesterolemia de alto interés sanitario.
+R1	Support	Arg1:T3	Arg2:T13

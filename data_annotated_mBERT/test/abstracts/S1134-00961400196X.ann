@@ -1,0 +1,6 @@
+T8	Premise	A nivel perioperatorio, no se observaron diferencias en relación con los tiempos quirúrgicos, el riesgo de movimiento anterior sistólico o la insuficiencia mitral residual intraoperatoria.
+T9	Premise	En cuanto al seguimiento posterior, no se observaron diferencias en la evolución clínica y ecocardiográfica, salvo en la reducción del diámetro telediastólico del ventrículo izquierdo, que fue superior en el grupo de resección (–12,3 ± 8,7 vs. –8,1 ± 8,5 mm, p < 0,05).
+T10	Premise	El análisis de la coaptación de los velos fue similar en ambos grupos (índice de longitud de coaptación: 0,25 ± 0,15 en resección vs. 0,2 ± 0,07 en neocuerdas, p = 0,08).
+T12	Claim	Nuestro resultados demuestran que el uso de neocuerdas para la corrección del prolapso de velo posterior ofrece resultados similares tanto clínicos como ecocardiográficos a corto y medio plazo frente a la resección, incluyendo el grado de coaptación de los velos.
+R1	Support	Arg1:T9	Arg2:T12
+R2	Support	Arg1:T10	Arg2:T12

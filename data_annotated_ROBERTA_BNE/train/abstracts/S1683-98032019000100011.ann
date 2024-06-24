@@ -1,0 +1,10 @@
+T8	Premise	No hubo diferencias en la edad, el sexo, el tipo de procedimiento, la duración de la infusión y la duración del procedimiento o el tiempo de recuperación.
+T9	Premise	El tiempo para lograr la sedación (minutos) fue mayor con P / F que con P / K: 2 (1-4 rango intercuartilo) vs. 1 (rango intercuartil a 1-1).
+T12	Premise	El P / F requirió más dosis adicionales, 80% frente a 43%, p <0,004, y tuvo más efectos secundarios, 46, 6% (intervalo de confianza [IC] del 95%: 70% a 100%) versus 20% (95%).
+T14	Premise	La proporción de efectos adversos graves con P/F vs P/K fue: 6% (95% CI-1,8% a 2%) versus 0% (95% CI-0 a 0%) p 0.246.
+T15	Claim	Conclusiones: Concluimos que las combinaciones de Propofol / Fentanilo y Propofol/Ketamina, son eficaces en alcanzar la sedoanalgesia en procedimientos muy dolorosos y cortos.
+T16	Claim	Presentando la primera combinación más efectos secundarios y requiriendo más tiempo y dosis adicionales para lograr los niveles deseados de sedoanalgesia.
+R1	Support	Arg1:T8	Arg2:T15
+R2	Support	Arg1:T9	Arg2:T15
+R3	Support	Arg1:T12	Arg2:T16
+R4	Support	Arg1:T14	Arg2:T15

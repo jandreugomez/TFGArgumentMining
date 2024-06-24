@@ -1,0 +1,6 @@
+T2	MajorClaim	Introducción: El traumatismo craneoencefálico severo (TCES) es una entidad grave.
+T3	Claim	La monitorización de la presión intracraneal (PIC) permite dirigir el tratamiento, el cual es de limitado acceso en países en vías de desarrollo.
+T13	Premise	Aquellos con monitorización tenían menor puntuación de la escala de coma de Glasgow y clasificación de Marshall con peor pronóstico.
+T14	Claim	En ellos la supervivencia fue menor y el resultado moderado a bueno.
+T15	Premise	No se registraron complicaciones con el uso del catéter de PIC.
+T16	Premise	Conclusión: Pacientes con monitorización tuvieron mayor gravedad al ingreso y una mayor mortalidad; sin embargo, el resultado funcional de los sobrevivientes fue de moderado a bueno.

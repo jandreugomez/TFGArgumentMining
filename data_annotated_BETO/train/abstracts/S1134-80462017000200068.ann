@@ -1,0 +1,6 @@
+T2	Claim	Antecedentes y objetivos:  El manejo del dolor post-toracotomía debe basarse en un enfoque multimodal que incluye la analgesia regional continua.
+T9	Premise	Resultados:  No se encontraron diferencias estadísticamente significativas en la función pulmonar postoperatoria (p = 0,49), la percepción subjetiva de dolor (VAS; p = 0,28) o el consumo de morfina acumulada (p = 0,101) en los dos grupos.
+T10	Premise	Hemos observado efectos adversos en 8 pacientes del grupo 1 (29,6 %) y en 12 pacientes (37,5 %) del grupo 2; la diferencia no fue estadísticamente significativa (p = 0,52).
+T11	Claim	Conclusiones:  El bloqueo paravertebral torácico continuo durante 48 horas es una buena técnica para el manejo del dolor postoperatorio después de la resección pulmonar por toracotomía.
+T12	Premise	Con dosis moderadas de anestésicos locales (bupivacaína 0,20 %) se logró un buen control del dolor y observamos un número menor de complicaciones sistémicas que el grupo de dosis mayores (bupivacaína 0,30 %).
+R1	Support	Arg1:T9	Arg2:T11

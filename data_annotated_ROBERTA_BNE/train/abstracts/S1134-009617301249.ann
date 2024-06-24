@@ -1,0 +1,4 @@
+T13	Premise	No hubo más fallecimientos durante el seguimiento.
+T14	Premise	La recurrencia de insuficiencia mitral > 2 fue del 12,5% (2 pacientes).
+T17	Claim	El abordaje del aparato subvalvular en la reparación de la insuficiencia mitral funcional se presenta como una alternativa válida en el tratamiento de este tipo de insuficiencia, ofreciendo buenos resultados en lo que a evolución postoperatoria y tasa de recidiva a medio plazo se refiere.
+R1	Support	Arg1:T14	Arg2:T17

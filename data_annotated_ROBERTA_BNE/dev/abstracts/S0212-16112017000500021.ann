@@ -1,0 +1,6 @@
+T1	Claim	 Efecto del consumo de quinua (Chenopodium quinoa) como coadyuvante en la intervención nutricional en sujetos prediabéticos.
+T10	Premise	Se detectó en el grupo quinua procesada una disminución significativa en los valores de IMC (p < 0,05) y HbA1c (p < 0,001) y un aumento en la sensación de saciedad y plenitud (p < 0,001).
+T11	Premise	No se encontraron diferencias significativas en los niveles de GB desde el momento basal hasta el periodo postingesta.
+T12	Claim	Conclusiones: los resultados muestran que la quinua procesada disminuye el IMC y los niveles de HbA1c, mantiene los niveles de GB y aumenta la sensación de saciedad y plenitud en pacientes prediabéticos.
+R1	Support	Arg1:T10	Arg2:T12
+R2	Support	Arg1:T11	Arg2:T12

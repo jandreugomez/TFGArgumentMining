@@ -1,0 +1,4 @@
+T9	Premise	En el grupo de intervención, se objetivó una disminución de la frecuentación de visita pediátrica/enfermería (p<0,05); se reforzó la lactancia materna exclusiva hasta el sexto mes, control 18,6% e intervención 36%.
+T14	Claim	Conclusiones: la telemedicina ha demostrado ser eficaz y eficiente en AP en el control, seguimiento y prevención de los problemas habituales de los lactantes sanos en los primeros seis meses de vida.
+T16	Claim	La telemedicina fortalece la atención médica continuada, disminuyendo la frecuentación Pediatría/enfermería.
+R1	Support	Arg1:T9	Arg2:T16

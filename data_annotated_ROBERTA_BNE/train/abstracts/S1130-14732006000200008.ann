@@ -1,0 +1,7 @@
+T9	Premise	Todos los parámetros clínicos mejoraron de forma estadísticamente significativa.
+T11	Premise	Sólo se confirmó clínica y radiológicamente un caso de pseudoartrosis.
+T12	Premise	No se observaron diferencias significativas en las revisiones al año y a los 3 meses.
+T13	Claim	Conclusión: Las cajas de tantalio constituyen un implante prometedor y pensamos que útil entre las diversas opciones quirúrgicas para la DCAA, por sus buenos resultados clínicos, por la no necesidad de autoinjerto, y por su excelente compatibilidad con la resonancia nuclear magnética.
+R1	Support	Arg1:T9	Arg2:T13
+R2	Support	Arg1:T11	Arg2:T13
+R3	Support	Arg1:T12	Arg2:T13

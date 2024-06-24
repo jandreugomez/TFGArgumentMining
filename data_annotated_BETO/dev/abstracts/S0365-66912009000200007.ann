@@ -1,0 +1,8 @@
+T11	Premise	Sin embargo, en los casos con síndrome de tracción vitreomacular (STVM), la membrana se despegó del área foveal, desapareciendo los pliegues retinianos traccionales secundarios, y normalizando la mácula la estructura anatómica.
+T12	Premise	La agudeza visual no se modificó en ninguno de los casos de membrana epirretiniana y mejoró en los casos de síndrome de tracción vitreomacular.
+T13	Premise	No se observaron efectos secundarios.
+T14	Claim	Conclusión: La inyección intravítrea de plasmina autóloga como tratamiento inicial previo a la vitrectomía quirúrgica, en la serie de casos estudiada, parece ineficaz en las membranas epirretinianas maculares, y más eficaz en el síndrome de tracción vitreomacular, mejorando en este último la agudeza visual y consiguiendo el despegamiento al menos parcial de la membrana.
+T15	Claim	Estudios más amplios son necesarios para confirmar su eficacia y la posibilidad de incrementar la misma con reinyecciones periódicas de plasmina.
+R1	Support	Arg1:T11	Arg2:T14
+R2	Support	Arg1:T12	Arg2:T14
+R3	Support	Arg1:T13	Arg2:T14

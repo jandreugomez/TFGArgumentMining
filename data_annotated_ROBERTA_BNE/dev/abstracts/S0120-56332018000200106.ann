@@ -1,0 +1,4 @@
+T8	Premise	Respecto al VO2 pico, no se observaron cambios estadísticamente significativos al final del programa de intervención a las 8 semanas (-13,3 ± 3,9 ml/kg/min en el grupo de intervención frente a 14,8 ± 4,6 ml/kg/min en el grupo de control, p = 0,31).
+T10	Premise	Sin embargo, hubo una mejoría en ambos grupos en los resultados de funcionalidad y calidad de vida.
+T11	Claim	Conclusión:  el uso de un programa de ejercicio protocolizado y supervisado en pacientes con falla cardiaca con una fracción de eyección < 40%, no produce cambios significativos en el VO2 pico en comparación con un programa comunitario.
+R1	Support	Arg1:T8	Arg2:T11

@@ -1,0 +1,6 @@
+T3	MajorClaim	El control del fósforo es esencial en la prevención del mismo.
+T11	Premise	El calcio sérico se incrementó, aunque no de forma significativa, en el grupo de carbonato cálcico (grupo 1) [de 9,2 a 9,8 mg/dl (p = 0,05)], no modificándose en el grupo de acetato cálcico (grupo 2); el fósforo disminuyó de forma significativa (p < 0,05) en ambos grupos, independientemente de los niveles de calcio.
+T12	Premise	Fosfatasa alcalina y PTH no se modificaron durante el período de estudio.
+T13	Claim	Conclusiones: 1) Tanto carbonato como acetato cálcico se muestran igualmente eficaces como quelantes del fósforo a las dosis administradas.
+T15	Claim	3) El acetato cálcico se muestra discretamente menos hipercalcemiante, sin perder eficacia quelante del fósforo.
+R1	Support	Arg1:T11	Arg2:T13

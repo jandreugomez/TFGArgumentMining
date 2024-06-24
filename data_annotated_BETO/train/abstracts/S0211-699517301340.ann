@@ -1,0 +1,9 @@
+T2	Claim	La angiografía coronaria rotacional (ACR) permite reducir la cantidad de contraste administrado y puede prevenir el desarrollo de nefropatía inducida por contraste (NIC) durante los procedimientos coronarios invasivos.
+T9	Premise	El grupo de ACR presentaba mayor edad (64,0±11,8 vs. 59,7±12,1 años; p=0,006), más mujeres (44,8 vs. 17,6%; p<0,001) y peor filtrado glomerular estimado (76±25 vs. 86±27 mL/min/1,73 m2; p=0,001), con menos angioplastias (p<0,001).
+T10	Premise	Asimismo, el grupo de ACR recibió menos contraste (113±92 vs. 169±103 mL; p<0,001), diferencias que se mantuvieron en los procedimientos diagnósticos (54±24 vs. 85±56 mL; p<0,001) y diagnóstico-terapéuticos (174±64 vs. 205±98 mL; p=0,049).
+T11	Premise	El grupo de ACR presentó menos NIC (4,3 vs. 22,7%; p<0,001): en el análisis de regresión se objetivó que continuaba relacionándose con menor desarrollo de NIC (riesgo relativo ajustado: 0,868; IC 95%: 0,794-0,949; p=0,002).
+T12	Premise	No hubo diferencias en las variables clínicas.
+T14	Claim	La ACR se asoció con menor administración de contraste durante procedimientos coronarios invasivos tras un síndrome coronario agudo, lo que resultó en una menor aparición de NIC.
+R1	Support	Arg1:T9	Arg2:T14
+R2	Support	Arg1:T10	Arg2:T14
+R3	Support	Arg1:T11	Arg2:T14

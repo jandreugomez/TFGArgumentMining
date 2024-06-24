@@ -1,0 +1,8 @@
+T1	Claim	 ¿Mejora la administración de helio mediante cánula nasal de bajo flujo la dificultad respiratoria en lactantes con bronquiolitis aguda por virus respiratorio sincitial?
+T9	Premise	No se observaron diferencias significativas en la puntuación de la M-WCAS entre los dos grupos a las 2 h (4,3 vs. 4,1; p = 0,78) o al completarse las 24 h (4,2 vs. 4,3; p = 0,89).
+T10	Premise	No hubo diferencias en las proporciones de participantes que progresaron a ventilación mecánica, CPAP-n u oxigenoterapia administrada mediante cánula nasal (RR: 1,0, 0,86 y 0,89; p = 1,0, 0,77 y 0,73).
+T11	Premise	No hubo una reducción significativa en la duración de tratamiento, de 2,42 días en el grupo tratado con heliox y de 2,79 días en el grupo tratado con aire (p = 0,65).
+T12	Premise	Tampoco hubo diferencias significativas entre los dos grupos bajo estudio en la saturación de oxígeno, PaO2 o PaCO2 a las 2 y a las 24 h de tratamiento.
+T14	Claim	Nuestros datos no mostraron ningún efecto beneficioso del heliox a una concentración de 79:21 administrado vía cánula nasal de bajo flujo en cuanto a la mejoría de la dificultad respiratoria en lactantes con bronquiolitis aguda por VRS.
+R1	Support	Arg1:T10	Arg2:T14
+R2	Support	Arg1:T11	Arg2:T14

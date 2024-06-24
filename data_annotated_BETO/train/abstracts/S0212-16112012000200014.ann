@@ -1,0 +1,6 @@
+T2	Claim	Introducción: Medidas no farmacológicas se recomiendan en la insuficiencia cardíaca.
+T10	Premise	Después de 6 meses, el conocimiento nutricional del grupo intervención aumentó en comparación al grupo control (p < 0,05).
+T11	Premise	La ingestión calórica, de grasa y del sodio reducirán en grupo intervención, comparado con el grupo control (p < 0,05).
+T12	Claim	No hubo diferencias significativas en la calidad de vida y antropometría.
+T13	Claim	Conclusiones: La orientación nutricional fue efectiva en la modificación de 1) conocimiento nutricional, y 2) calidad de la dieta en pacientes con insuficiencia cardiaca.
+R1	Support	Arg1:T10	Arg2:T13

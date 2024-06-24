@@ -1,0 +1,5 @@
+T4	Claim	La esclerostina es un inhibidor soluble de la vía de señalización Wnt y se ha demostrado que está relacionada con una reducción del recambio óseo y de la calcificación vascular en pacientes con ERC.
+T9	Premise	Los pacientes que murieron presentaban elevados niveles de esclerostina sérica.
+T10	Claim	La curva de Kaplan-Meier reveló que los pacientes con terciles en aumento de esclerostina sérica al inicio del estudio tenían peores tasas de supervivencia.
+T11	Claim	En el análisis de regresión de Cox multivariado, la edad, los valores de albúmina y la existencia de calcificación de la fístula arteriovenosa, pero no los niveles de esclerostina, demostraron ser los indicadores independientes de supervivencia en pacientes en hemodiálisis de mantenimiento.
+T12	Claim	Conclusión: Se necesitan más estudios clínicos con un seguimiento más extenso para aclarar el impacto de los niveles de esclerostina sérica en la morbimortalidad de los pacientes en hemodiálisis de mantenimiento.

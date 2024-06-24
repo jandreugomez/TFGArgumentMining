@@ -1,0 +1,7 @@
+T8	Premise	Resultados: el nivel de betatrofina en suero fue más elevado en pacientes con síndrome metabólico (997,36 ± 475,92 pg/ml, p = 0,001) que en los controles (735,35 ± 526,51 pg/ml).
+T9	Premise	Frente al tercil más bajo, el tercil más alto del nivel de betatrofina mostró una asociación con mayor riesgo de síndrome metabólico (odds ratio ajustado = 3,521, intervalo de confianza [IC] 95% [1,191-10,413], p = 0,023).
+T11	Premise	Además, la betatrofina mostró correlación con distintos parámetros, como edad (r = 0,286, p < 0,001), índice de masa corporal (r = 0,160, p = 0,046), índice cintura-cadera (r = 0,241, p = 0,002), lipoproteína de alta densidad (r = -0,167, p = 0,037), lipoproteína de baja densidad (r = -0,195, p = 0,015), glucosa plasmática en ayunas (r = 0,266, p = 0,001), hemoglobina A1C (r = 0,314, p < 0,001), índice de resistencia a la insulina mediante HOMA (r = 0,272, p = 0,001) y diversas adipoquinas, entre ellas resistina (r = 0,571, p < 0,001), interleucina-8 (r = 0,435, p < 0,001), factor de necrosis tumoral alfa (r = 0,295, p = 0,011) y lipocalina-2 (r = 0,346, p = 0,003).
+T12	Claim	Conclusiones: este estudio demuestra que la betatrofina en suero desempeña una importante labor en el síndrome metabólico, implicando la regulación del metabolismo de la glucosa y los lípidos y la inflamación.
+R1	Support	Arg1:T8	Arg2:T12
+R2	Support	Arg1:T9	Arg2:T12
+R3	Support	Arg1:T11	Arg2:T12

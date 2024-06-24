@@ -1,0 +1,5 @@
+T3	MajorClaim	La colocación de implantes dentales osteointegrados y la retención de las prótesis estomatológicas convencionales de acrílico es un grave problema en pacientes con reborde alveolar atrófico.
+T4	Claim	La distracción osteogénica ofrece en la actualidad una solución potencial ante la severa pérdida de tejido óseo alveolar.
+T11	Premise	La media de la distracción total obtenida fue 7,25 mm.
+T12	Claim	La Distracción osteogénica resultó ser un método eficaz para lograr incremento de la cresta alveolar en pacientes que presentaron atrofias previas.
+R1	Support	Arg1:T11	Arg2:T12

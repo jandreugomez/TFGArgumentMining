@@ -1,0 +1,5 @@
+T1	Claim	 Gabapentina preoperatoria como adyuvante en el manejo del dolor agudo postoperatorio en histerectomía abdominal.
+T8	Premise	En cuanto al dolor postoperatorio, hubo diferencia estadísticamente significativa entre los dos grupos (p < 0,05): se encontró una diferencia en la EVN de 11 puntos, 4,27 ± 2,32, 1,94 ± 1,95 y 0,77 ± 1,28 en el grupo gabapentina y 7,13 ± 2,41, 4,5 ± 2,37 y 3,25 ± 2,18 en el grupo control a las 2, 6 y 24 horas respectivamente; se cuantificó la cantidad de rescates administrados por bomba de PCA durante las primeras 24 horas postoperatorias fue de 6,72 ± 5,7 para el grupo gabapentina y 24,13 ± 47,01 para el grupo control, una diferencia estadísticamente significativa (p < 0,05); la prevalencia de efectos adversos no fue estadísticamente significativa entre ambos grupos.
+T9	Claim	Conclusión: estos resultados indican que la gabapentina en dosis de 600 mg preoperatoria es una opción terapéutica válida en analgesia preoperatoria para histerectomía abdominal.
+T10	Claim	Cabe destacar que aún nos queda por dilucidar la dosis óptima efectiva y que presente menor incidencia de efectos adversos.
+R1	Support	Arg1:T8	Arg2:T9

@@ -1,0 +1,4 @@
+T9	Premise	RESULTADOS: El tiempo necesario para alcanzar el nivel del dermatoma T10 en el lado operado fue más corto en el grupo Hiper (612,00 ± 163,29 segundos) que en el grupo Hipo (763,63 ± 208,35 segundos) (p < 0,05).
+T10	Premise	El tiempo para la regresión de los dos segmentos del nivel de bloqueo sensorial tanto en el lado operado como en el no operado, fue más corto en el grupo Hipo que en el grupo Hiper.
+T12	Claim	Las soluciones anestésicas hipobáricas locales suministran un alto nivel de anestesia unilateral con una rápida recuperación de los bloqueos sensorial y motor, y por tanto, puede ser preferible en un régimen ambulatorial.
+R1	Support	Arg1:T10	Arg2:T12

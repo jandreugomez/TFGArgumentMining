@@ -1,0 +1,16 @@
+T3	Claim	Es necesario determinar la utilidad de diferentes métodos de determinación de estos anticuerpos para el diagnóstico de pacientes cubanos con artritis reumatoide.
+T8	Premise	Cuando se fijó la especificidad a 98%, se observó la menor sensibilidad para el FR (40,3%).
+T9	Claim	Utilizar los ensayos anti-CCP2 y FR aumentó la especificidad a 100%.
+T10	Premise	Todos los autoanticuerpos mostraron asociación con la proteína C reactiva y correlación con la velocidad de sedimentación globular.
+T11	Premise	Solamente los anticuerpos anti-CCP2 no mostraron correlación con el indicador clínico de actividad DAS 28.
+T12	Claim	Conclusiones:  Los anticuerpos anti-CCP2 son los de mayor eficacia para el diagnóstico de pacientes cubanos con artritis reumatoide.
+T13	Claim	La determinación de FR permite identificar pacientes con artritis reumatoide seronegativos de anticuerpos anti-CCP2, por lo que la combinación de ambos inmunoensayos produce una mejoría en la eficacia diagnóstica.
+R1	Partial-Attack	Arg1:T3	Arg2:T12
+R2	Partial-Attack	Arg1:T3	Arg2:T13
+R3	Support	Arg1:T8	Arg2:T9
+R4	Support	Arg1:T8	Arg2:T12
+R5	Support	Arg1:T8	Arg2:T13
+R6	Support	Arg1:T9	Arg2:T12
+R7	Support	Arg1:T9	Arg2:T13
+R8	Support	Arg1:T11	Arg2:T12
+R9	Support	Arg1:T11	Arg2:T13

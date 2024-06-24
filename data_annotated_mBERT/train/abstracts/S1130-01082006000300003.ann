@@ -1,0 +1,7 @@
+T3	Claim	En la mayoría de los pacientes con ERGE no se detecta esofagitis al practicarse endoscopia presentando una ERGE con endoscopia negativa o no erosiva (ERNE).
+T4	Claim	La influencia de la infección H. pylori en la evolución de la ERGE es controvertida, ya que mientras que unos estudios le asignan una acción protectora, otros se la niegan.
+T15	Premise	Cuarenta y dos pacientes (82,3%) presentaban infección por H. pylori.
+T16	Claim	No se observaron diferencias significativas en la respuesta al tratamiento en los pacientes con o sin infección por H. pylori.
+T17	Claim	Conclusiones: con las limitaciones propias de un estudio piloto, estos resultados, orientan a que lansoprazol 15 mg/día es un tratamiento eficaz en el control de la sintomatología de la ERNE, pudiendo ser una buena estrategia terapéutica inicial y que, con los datos disponibles, la infección por H. pylori no influye de forma significativa en la respuesta al tratamiento.
+R1	Support	Arg1:T15	Arg2:T17
+R2	Support	Arg1:T16	Arg2:T17

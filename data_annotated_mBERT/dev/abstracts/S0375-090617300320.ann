@@ -1,0 +1,6 @@
+T12	Premise	El factor de riesgo principal fue el uso de antibiótico en un 62%, más comúnmente la ceftriaxona.
+T14	Premise	Se encontraron anormalidades endoscópicas en el 87%, con colitis seudomembranosa en un 38%, presentándose en colon izquierdo (53%) y en derecho (13%).
+T15	Claim	No se encontró asociación entre uso de IBP y diarrea por CD.
+T16	Premise	Se identificó una asociación significativa entre la hipoalbuminemia (< 3.3 g/dL) y un mayor riesgo de colitis severa, con un RR de 8.2 (p = 0.008).
+T18	Premise	Las lesiones de colitis seudomembranosa asociada a CD de cepa hipervirulenta predominan en colon izquierdo.
+T19	Claim	La hipoalbuminemia es un predictor significativo de severidad.

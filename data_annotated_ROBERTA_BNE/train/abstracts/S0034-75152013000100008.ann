@@ -1,0 +1,8 @@
+T3	Claim	El efecto positivo del factor de crecimiento epidérmico fue reportado en estudio previo con uso de enema para tratamiento de la manifestación izquierda leve o moderada de la enfermedad.
+T10	Premise	Resultados: se alcanzó remisión de la enfermedad en todos los pacientes que recibieron factor de crecimiento epidérmico y en seis de los grupos mesalacina enema y placebo.
+T11	Claim	Todas las comparaciones entre grupos mostraron superioridad estadísticamente significativa para el factor de crecimiento epidérmico, único producto que logró la reducción significativa del índice de actividad de la enfermedad y de la presencia e intensidad de los síntomas digestivos en los pacientes luego del tratamiento.
+T12	Premise	Ningún evento adverso fue reportado.
+T13	Claim	Conclusiones: estos resultados son consistentes con las anteriores evidencias moleculares y clínicas que señalan al factor de crecimiento epidérmico capaz de reducir la actividad e inducir la remisión de la colitis ulcerosa.
+T14	Claim	Debe ser realizado un nuevo estudio en un número mayor de pacientes para confirmar la eficacia de los enemas de factor de crecimiento epidérmico.
+R1	Support	Arg1:T10	Arg2:T13
+R2	Support	Arg1:T11	Arg2:T13

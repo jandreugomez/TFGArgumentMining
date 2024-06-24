@@ -1,0 +1,5 @@
+T6	Premise	Resultados: Se detectó cáncer en el 27,3% de los casos.
+T7	Premise	Existió una relación significativa entre el diagnóstico de cáncer y la edad (p=0,03), el volumen prostático (p=0,0001) y la existencia de nódulo ecográfico (p=0,0001).
+T8	Premise	No se observó relación con el número de cilindros en el total de la serie (p=0,37), ni en la próstatas < 50 cc (p=0,87) ni en las > 50 cc (p=0,09).
+T10	Claim	Conclusión: No hemos encontrado diferencias estadísticamente significativas entre ambos esquemas de biopsia de próstata.
+T12	Claim	el esquema de 6 cilindros puede ser insuficiente.

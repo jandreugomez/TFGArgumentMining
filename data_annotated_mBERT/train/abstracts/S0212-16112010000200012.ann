@@ -1,0 +1,8 @@
+T2	MajorClaim	Introducción: La angiotensina II puede regular la producción de adipocitoquinas.
+T7	Premise	Resultados: Los pacientes que recibieron telmisartan tuvieron una disminución significativa de los niveles de glucosa 10,53 mg/dl (CI 95%: 2,6-18,5), insulina 2,51 mUI/L (CI 95%: 2,07-7,17) y HOMA 1,08 (CI 95%: 0,39-2,55).
+T8	Premise	Los pacientes tratados con olmesartan presentaron una disminución significativa de colesterol 20,2 mg/dl (CI 95%: 5,8-34,9) y LDL colesterol 22,6 mg/dl (CI 95%: 9,7-35,6).
+T9	Premise	Solo, los niveles de leptina disminuyeron de manera significativa con telmisartan 7,39 ng/ml (CI 95%: 1,47-13,31).
+T10	Claim	Conclusion: Telmisartan mejora los niveles de presión arterial, glucosa, insulina, HOMA y leptina en pacientes hipertensos obesos.
+T11	Claim	Olmesartan mejoró los niveles de presión arterial y el perfil lipídico.
+R1	Support	Arg1:T7	Arg2:T10
+R2	Support	Arg1:T9	Arg2:T10

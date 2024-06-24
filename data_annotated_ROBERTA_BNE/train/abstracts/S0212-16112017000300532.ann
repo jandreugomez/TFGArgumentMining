@@ -1,0 +1,7 @@
+T4	Premise	Resultados:  el área de incremento bajo la curva de glucosa (IAUC) fue menor para las fórmulas que para SG.
+T5	Premise	En sanos fue de 12.857 ± 422 para FE y 11.601 ± 272 para FG (p < 0,014).
+T6	Premise	En diabéticos resultó más disminuida para FG (28.656 ± 123) comparada con FE (29.855 ± 496) (p < 0,01).
+T7	Premise	El IG resultó 58,07 ± 8,4 y 60,7 ± 2 para FG y FE respectivamente en controles, y 65,16 ± 0,2 y 68,06 ± 1 en diabéticos, sin diferencias; igualmente en la insulina posprandial.
+T8	Claim	Conclusiones:  el IG y la CG de ambas fórmulas resultaron en un valor intermedio en los dos grupos, con perfil glicémico inferior al de SG.
+T9	Claim	No se observaron diferencias en el comportamiento insulínico, evidenciando que la velocidad de absorción de los carbohidratos de estas fórmulas es prolongada, con impacto glicémico menor que el producto patrón, lo que sugiere que es aceptable su indicación en el diabético.
+R1	Support	Arg1:T7	Arg2:T8

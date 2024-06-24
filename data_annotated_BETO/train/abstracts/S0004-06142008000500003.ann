@@ -1,0 +1,11 @@
+T5	Premise	No encontramos diferencias significativas entre la analgesia conseguida en el grupo 1 (4.37±2.41) y 2 (4.22±2.46), pero sí con el 3 (1.88±2.03).
+T6	Premise	La media de dolor la tarde tras la prueba fue menor en el grupo 3 (2.08 ± 2.28) que en 1 y 2 (4.06±2.80 y 2.42±2.03), pero sin significación estadística.
+T7	Premise	Los pacientes no mostraron un dolor distinto al paso del transductor transrectal, oscilando entre 2.34 para el grupo 3 y 3.38 para el grupo 2.
+T8	Premise	Agrupados según tono esfinteriano, sí encontramos diferencias (bajo 2.71±2.76, medio 3.23±2.38, alto 4.99±2.22).
+T9	Premise	El dolor presentado por los pacientes que decían estar muy nerviosos pre-prueba fue de 4.98±2.57, significativamente mayor que el presentado por los que decían estar nada nerviosos (2.59±2.21).
+T10	Premise	No encontramos diferencias en las complicaciones entre los tres grupos.
+T11	Claim	Conclusiones: El empleo de gel intrarrectal de lidocaína no ha demostrado en nuestra serie ser más eficaz que el uso de lubricante para el control del dolor, pero sí la lidocaína inyectada en ápex y vesículas seminales.
+R1	Support	Arg1:T5	Arg2:T11
+R2	Support	Arg1:T6	Arg2:T11
+R3	Support	Arg1:T7	Arg2:T11
+R4	Support	Arg1:T9	Arg2:T11

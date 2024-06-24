@@ -1,0 +1,8 @@
+T3	Claim	La enfermedad peritoneal diseminada debe considerarse como un estadio locorregional de la enfermedad, y por tanto, candidata a una opción terapéutica con intención curativa mediante cirugía citorreductora y quimioterapia intraperitoneal hipertérmica perioperatoria.
+T11	Premise	El número total de anastomosis fueron 49 (x: 1.9), 27 en el grupo A (x: 1.88) y 22 en B (x: 2.16).
+T12	Premise	Las citorreducciones alcanzadas fueron: citorreducción completa 0: 38 (77.5%), citorreducción completa 1: 7 (14.8%), y en 4 (8.1%) no se realizó quimioterapia intraperitoneal hipertérmica perioperatoria por citorreducción completa > 2.
+T13	Premise	Fístula intestinal: 3 casos (6.1%) en el grupo A (sin esponja medicamentosa) frente a 0 en el grupo B.  Conclusión.
+T14	Claim	El empleo en nuestra serie de la esponja de fibrinógeno y trombina ha contribuido a una reducción significativa del riesgo de fístulas digestivas, en pacientes oncológicos de alto riesgo.
+R1	Support	Arg1:T11	Arg2:T14
+R2	Support	Arg1:T12	Arg2:T14
+R3	Support	Arg1:T13	Arg2:T14

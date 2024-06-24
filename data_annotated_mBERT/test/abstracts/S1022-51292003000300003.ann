@@ -1,0 +1,6 @@
+T12	Premise	En ambos la erradicación fue igual: 86.1% (31/36).
+T13	Premise	En varios pacientes en que persistió la bacteria se identificó la misma cepa que la inicial.
+T14	Claim	El 91.18% de nuestras muestras fueron sensibles a claritromicina.
+T15	Claim	CONCLUSIONES: En el Perú la combinación de omeprazol+claritromicina+amoxicilina para erradicar la infección por el Helicobacter pylori da resultados superiores al 80%.
+T16	Premise	El esquema de 7 y 10 días erradicó a la bacteria en el 86% de nuestros pacientes.
+R1	Support	Arg1:T12	Arg2:T15

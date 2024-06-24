@@ -1,0 +1,4 @@
+Premisas:284
+Claims:185
+MajorClaims:17
+O:764

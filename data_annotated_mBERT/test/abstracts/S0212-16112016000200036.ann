@@ -1,0 +1,9 @@
+T1	Claim	 La suplementación con antioxidantes durante el tratamiento oncológico no tiene efecto sobre la recurrencia de cáncer cervicouterino.
+T3	Claim	Mientras existe evidencia que sugiere que el uso de antioxidantes disminuye los efectos secundarios propios del tratamiento contra el cáncer, hay datos que sugieren que los antioxidantes incrementan el riesgo de recurrencia de cáncer por la afectación de la terapia de los tratamientos.
+T8	Premise	El 23,9% de los pacientes tratados presentaron recurrencia por cáncer mientras que el 76,1% no la presentó.
+T9	Premise	El 21,6% de los pacientes presentaron metástasis, el 8% de los pacientes perteneció al grupo de antioxidantes y el 15,9% al grupo placebo (p > 0,05).
+T11	Claim	Posiblemente una dosis distinta sea la clave para un mejor efecto, pero serán necesarios futuros estudios que prueben efectos sobre otro tipo de dosis.
+T12	Claim	Conclusiones: la suplementación con antioxidantes durante el tratamiento de pacientes con cáncer cervicouterino no tiene efectos en la recurrencia por cáncer a 4 años de seguimiento.
+R1	Support	Arg1:T8	Arg2:T12
+R2	Support	Arg1:T9	Arg2:T12
+R3	Partial-Attack	Arg1:T11	Arg2:T12

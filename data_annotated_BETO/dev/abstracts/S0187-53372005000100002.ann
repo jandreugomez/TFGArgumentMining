@@ -1,0 +1,4 @@
+T6	Premise	Resultados: No hubo diferencias en cuanto a variables como peso, edad gestacional, uso de surfactante, esteroides y diagnóstico de ingreso en los tres grupos.
+T7	Premise	El grupo I tuvo éxito (permanecer en la VNF o CC al menos 24 h o no necesitar ser intubado nuevamente) en 93.4%, el grupo II: 60% y el III: 80% (p = 0.009).
+T9	Claim	Conclusión: La VNF/PPI mostró ser un método efectivo y seguro, en comparación con los otros métodos de extubación, por lo que es posible proponerlo como una estrategia útil de extubación, en recién nacidos prematuros estables, menores de 1,500 g.
+R1	Support	Arg1:T6	Arg2:T9

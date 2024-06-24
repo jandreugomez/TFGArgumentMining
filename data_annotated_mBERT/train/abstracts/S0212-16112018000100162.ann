@@ -1,0 +1,5 @@
+T1	Claim	 Efecto del aceite de pescado en la actividad hidrolítica de la ATPasa y en la fluidez de la membrana mitocondrial en pacientes con esclerosis múltiple remitente-recurrente tratados con interferón beta 1-b.
+T3	Claim	El aceite de pescado tiene efectos neuroprotectores, antioxidantes y antiinflamatorios en pacientes con EM remitente-recurrente (EM-RR).
+T9	Premise	Después de 6 y 9 meses de tratamiento con aceite de oliva y de aceite de pescado, respectivamente, los valores se normalizaron y se mantuvieron así hasta el fin del estudio.
+T10	Claim	Conclusión:  el consumo de aceite de pescado y aceite de oliva incrementan la fluidez de membrana y disminuye la actividad catabólica de la ATP sintasa en pacientes con EM-RR.
+R1	Support	Arg1:T9	Arg2:T10

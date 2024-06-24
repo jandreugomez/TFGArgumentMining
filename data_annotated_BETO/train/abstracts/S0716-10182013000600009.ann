@@ -1,0 +1,6 @@
+T1	Claim	 La vacuna polio oral en lactantes no interfiere con la detección de enterovirus en sangre.
+T7	Premise	Resultados: No se identificó presencia de material genético de virus polio en lactante alguno, mientras que en 9 (18%) se identificó presencia de EV no polio.
+T9	Claim	Discusión: Los resultados sugieren que no existe viremia post-VPO detectable por métodos moleculares.
+T10	Claim	Considerando que la RPC tiempo real de EV no polio de uso clínico no permite identificar la presencia de virus polio, estos hallazgos indican que no existirán falsos positivos de este examen como resultado de una vacunación VPO reciente.
+T11	Claim	Adicionalmente se documentó presencia de EV no polio en sangre de lactantes asintomáticos.
+R1	Support	Arg1:T7	Arg2:T9

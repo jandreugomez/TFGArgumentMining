@@ -1,0 +1,9 @@
+T1	Claim	 Metadona y morfina en la inducción de la anestesia en cirugía cardíaca: repercusión en la analgesia postoperatoria y prevalencia de náuseas y vómitos.
+T8	Premise	RESULTADOS: No hubo ninguna diferencia en la duración de la anestesia y en el plazo hasta la desentubación.
+T9	Premise	La primera dosis de analgésico en aquellas que recibieron metadona fue administrada más tarde que en los otros dos grupos.
+T10	Claim	La necesidad de analgésicos en el grupo metadona fue menor, la calidad de la analgesia fue mejor y la prevalencia de náuseas y vómitos, también fue menor.
+T11	Claim	CONCLUSIONES: La metadona en la inducción de la anestesia fue eficiente para la analgesia en las cirugías de gran porte.
+T12	Claim	Hubo un menor aparecimiento de náuseas y vómitos, tratándose, por tanto, de una opción de bajo coste, disponible en nuestro medio y que debe ser estimulada.
+R1	Support	Arg1:T8	Arg2:T11
+R2	Support	Arg1:T9	Arg2:T11
+R3	Support	Arg1:T10	Arg2:T11

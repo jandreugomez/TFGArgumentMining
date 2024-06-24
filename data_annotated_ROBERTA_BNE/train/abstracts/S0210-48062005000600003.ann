@@ -1,0 +1,6 @@
+T4	Premise	Evaluando el dolor mediante escala visual análoga (0-10), el primer grupo refirió dolor promedio de 3,83 y el segundo de 6,87, siendo esta diferencia significativa (p<0,005).
+T5	Premise	No hubo complicaciones derivadas del anestésico.
+T6	Claim	La infiltración periprostática es fácil de realizar, no presenta complicaciones y es efectiva en reducir el dolor del procedimiento.
+T7	Claim	Debiera ser usada en forma rutinaria durante biopsia por punción.
+R1	Support	Arg1:T4	Arg2:T6
+R2	Support	Arg1:T5	Arg2:T6

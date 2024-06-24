@@ -1,0 +1,7 @@
+T2	MajorClaim	Introducción:  La anorexia es un síntoma frecuente en el paciente dializado, que le genera ansiedad y afecta a la calidad de vida percibida.
+T7	Premise	Diecinueve de ellos se quejaron de anorexia sin que hubiera un factor desencadenante conocido.
+T12	Premise	A los tres meses de tratamiento, refirieron mejoría del apetito más pacientes en el grupo tratado con acetato de megestrol (9 de 10) que en el grupo tratado con placebo (4 de 9), (p=0,046, test de Fisher).
+T14	Claim	Conclusiones:  En pacientes dializados que se quejan de anorexia sin factor desencadenante conocido, la mejoría subjetiva del apetito es mayor con acetato de megestrol que con placebo.
+T15	Claim	Aunque el placebo induce una mejoría del apetito en algunos pacientes, solamente en el grupo tratado con acetato de megestrol se consigue una mejoría de los parámetros nutricionales objetivos.
+R1	Support	Arg1:T12	Arg2:T14
+R2	Support	Arg1:T12	Arg2:T15

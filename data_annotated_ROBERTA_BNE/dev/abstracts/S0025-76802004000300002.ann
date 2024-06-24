@@ -1,0 +1,7 @@
+T4	Premise	El grupo de tratamiento presentó un promedio en el score clínico de dificultad respiratoria al ingreso de 5.56 (± 1.96) y al alta 3.25 (± 1.27).
+T5	Premise	El grupo control presentó un score de 5.75 (± 1.61) y 3.12 (± 1.30), p=0.77 y p=0.76 respectivamente.
+T6	Premise	Respecto al promedio en los días de hospitalización fue de 4.00 (± 2.00) en el grupo de tratamiento y de 3.87 (± 1,30) para el grupo control, p=0.84.
+T7	Claim	Concluimos que la fisioterapia respiratoria no aporta beneficio en su uso rutinario en el manejo de la broquiolitis aguda ni acorta los días de hospitalización.
+R1	Support	Arg1:T4	Arg2:T7
+R2	Support	Arg1:T5	Arg2:T7
+R3	Support	Arg1:T6	Arg2:T7

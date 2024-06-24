@@ -1,0 +1,4 @@
+T5	Claim	En ella, la frecuencia de sesiones con las que el paciente inicia HD (una o 2 sesiones por semana) es menor que en la HD convencional (3 por semana).
+T6	Premise	Dicha frecuencia aumenta (de una a 2, y de 2 a 3) con el declinar de la FRR.
+T13	Claim	Este estudio permitirá conocer, con la máxima evidencia científica, cuántas sesiones debe recibir un paciente al inicio del tratamiento con HD, dependiendo de su FRR.
+R1	Support	Arg1:T5	Arg2:T13

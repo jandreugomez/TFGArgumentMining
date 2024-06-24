@@ -1,0 +1,5 @@
+T2	MajorClaim	Introducción: La lactulosa es un oligosacárido ampliamente utilizado como laxante, entre otros usos, que ha demostrado aumentar la absorción intestinal de calcio, por lo que potencialmente podría tener un efecto beneficioso sobre la masa ósea y podría permitir reducir las dosis habituales de calcio, evitando sus efectos secundarios.
+T4	Premise	Los valores iniciales de la ingesta diaria de calcio fueron similares en ambos grupos.
+T6	Premise	Resultados: Las diferencias de la DMO entre el grupo de la lactulosa y el del placebo no fueron estadísticamente significativas en el conjunto de datos por protocolo (PP) (-0,012; 95% IC, -0,031 a 0,007; p=0,224) ni en el análisis por intención de tratar (ITT) (-0,005; 95% de IC, -0,025 a 0,016; p=0,651).
+T7	Claim	Conclusiones: Los resultados de este estudio piloto permiten concluir que existe un efecto de mantenimiento de la DMO en mujeres postmenopáusicas con baja masa ósea tras 1 año de tratamiento con lactulosa asociada a dosis bajas de calcio y vitamina D.
+R1	Support	Arg1:T6	Arg2:T7

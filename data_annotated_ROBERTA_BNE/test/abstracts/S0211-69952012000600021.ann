@@ -1,0 +1,10 @@
+T1	Claim	 Papel del ecocardiograma transtorácico en el despistaje de trombos en pacientes portadores de catéteres tunelizados de hemodiálisis.
+T2	MajorClaim	La disfunción de los catéteres de hemodiálisis es un tema complejo y con alta morbilidad.
+T5	Claim	El mal funcionamiento de catéteres de hemodiálisis tunelizados suele deberse a una trombosis del sistema, probablemente relacionado con el daño endotelial producido por el roce continuo de la punta del catéter en la pared del vaso o de la aurícula derecha.
+T13	Premise	Entre los hallazgos ecocardiográficos, destacaban la presencia de hipertrofia ventricular izquierda con función sistólica conservada y calcificación valvular, como se muestra en la tabla 1.
+T14	Premise	La punta del catéter se logró visualizar correctamente en 14 casos (77,8%), y de todos los pacientes sólo 5 habían recibido un reemplazo por mal funcionamiento del catéter (27,8%).
+T15	Premise	La presencia de trombos en la aurícula derecha se produjo en una paciente de 36 años (5,6% de la muestra) asintomática y en programa de hemodiálisis por síndrome nefrótico con hialinosis focal y segmentaria, siendo el hallazgo confirmado mediante estudio transesofágico.
+T16	Claim	A pesar de tratarse de un número reducido de pacientes (la inmensa mayoría en programa de diálisis crónica son portadores de fístulas arteriovenosas), la novedad de este estudio estriba en que es la primera vez que se emplea una técnica no invasiva y de bajo coste, como la ecocardiografía transtorácica, para visualizar los catéteres y evaluar la existencia de trombos, con lo que se evitan así complicaciones potencialmente graves en pacientes portadores de catéteres tunelizados de hemodiálisis.
+T17	Claim	En nuestro estudio conseguimos la correcta visualización del catéter en un alto porcentaje de pacientes.
+T18	Claim	Por lo tanto, parece recomendable la realización rutinaria de ecocardiografía en aquellos pacientes con catéteres de hemodiálisis crónicamente implantados, si bien estudios con un mayor tamaño muestral deberían reforzar la hipótesis de la utilidad de dicha técnica diagnóstica.
+R1	Support	Arg1:T14	Arg2:T17

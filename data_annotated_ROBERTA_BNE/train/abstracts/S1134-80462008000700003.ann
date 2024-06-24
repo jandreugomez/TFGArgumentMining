@@ -1,0 +1,7 @@
+T8	Premise	La valoración del dolor postoperatorio puso de manifiesto valores más elevados en las primeras 24 horas al movimiento y a las 48 horas, tanto en reposo como al movimiento, en el grupo 2 (p<0,05).
+T9	Premise	No hubo diferencias en analgesia de rescate demandada.
+T10	Premise	Se registraron 2 episodios de disfonía, 2 de ptosis palpebral y 3 de náuseas y vómitos en el grupo 1, mientras que en el grupo 2, 12 pacientes presentaron náuseas y vómitos (p<0,05) y otros 3 sedación.
+T11	Claim	Conclusiones: El uso de PCA por catéter interesternocleidomastoideo en nuestro estudio, ha constituido una técnica segura y ha proporcionado mejor analgesia que una PCA intravenosa, con menos efectos indeseables, en las primeras 48 horas del postoperatorio.
+R1	Support	Arg1:T8	Arg2:T11
+R2	Support	Arg1:T9	Arg2:T11
+R3	Support	Arg1:T10	Arg2:T11

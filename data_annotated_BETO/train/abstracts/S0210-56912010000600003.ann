@@ -1,0 +1,6 @@
+T8	Premise	Indicación del tratamiento: 4 casos por fracaso de la trombólisis intravenosa, 5 por oclusión de gran vaso, 2 por estar fuera de la ventana terapéutica, 3 por oclusión de la circulación posterior, uno por estar fuera de la ventana terapéutica y tener, además, una oclusión de gran vaso y uno por contraindicación para la trombólisis intravenosa.
+T9	Premise	Localización de la oclusión: 3 en la circulación posterior y 13 en el territorio carotídeo y sus ramas.
+T12	Premise	Se obtuvo recanalización completa en 11 pacientes (69%) y parcial en 4 (25%).
+T14	Premise	Seis pacientes (46%) tuvieron una buena recuperación (escala de Rankin modificada <2).
+T16	Claim	Conclusiones: El tratamiento intraarterial obtiene altas tasas de recanalización y buenos resultados funcionales con escasas complicaciones.
+R1	Support	Arg1:T12	Arg2:T16

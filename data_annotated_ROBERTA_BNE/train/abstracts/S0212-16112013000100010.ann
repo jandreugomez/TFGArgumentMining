@@ -1,0 +1,7 @@
+T6	Premise	Resultados: Tras el test de prueba, el área bajo la curva del test de saciedad fue mayor con la galleta saciante que con la galleta control, detectándose el mismo resultado con el test trás 1 mes de ingerir las galletas.
+T7	Premise	Analizando los diferentes tiempos, el score de saciedad mostró una puntuación superior en los tiempos 20 y 40 minutos frente al valor basal (tiempo 0) tras la ingesta de la galleta saciante, comparado con la galleta control.
+T8	Premise	Los valores de saciedad en los tiempos (20 minutos y 40 minutos) fueron superiores que los que presentó la galleta control.
+T9	Claim	Este resultado fue similar, al realizar el test tras 1 mes tomando la galleta saciante.
+T11	Premise	No se detectaron efectos sobre los factores de riesgo cardiovascular tras la intervención nutricional, ni sobre la ingesta dietética global.
+T13	Premise	Sin embargo no existieron efectos sobre los factores de riesgo cardiovascular ni la ingesta dietética global.
+R1	Support	Arg1:T11	Arg2:T13

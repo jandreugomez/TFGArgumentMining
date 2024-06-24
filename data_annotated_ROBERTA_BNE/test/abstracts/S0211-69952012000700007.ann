@@ -1,0 +1,11 @@
+T8	Premise	Resultados: No se coaguló el dializador de forma completa o grado 4 en ninguna de las 36 sesiones realizadas con cada dializador.
+T9	Premise	Se produjo una coagulación parcial del dializador inferior del 25% (grado 1-2) en 32 (88,9%) sesiones con AN69ST® y 35 (97,2%) con el dializador habitual, y superior del 25% (grado 3-4) en 4 (11,1%) sesiones con AN69ST® y en 1 (2,8%) sesión con el dializador con heparina.
+T10	Premise	La coagulación del atrapaburbujas arterial no fue superior al 25% (grados 3 y 4) en ninguna de las sesiones estudiadas, y la cámara venosa en sólo 1 (2,8%) sesión con el dializador habitual y 3 (8,4%) con AN69ST® sin diferencias entre los dos dializadores.
+T11	Premise	El valor del tiempo de tromboplastina parcial activada presentó diferencias a las dos horas entre ambas técnicas, relacionadas con la administración de la heparina de bajo peso molecular (33,3 ± 2,7 s con polisulfona y 27,5 ± 2,3 s en AN69ST®, p < 0,05), que continuaron siendo significativas al finalizar la sesión (29,8 ± 2,1 s con polisulfona y 27,2 ± 1,8 s con AN69ST® , p < 0,05).
+T12	Premise	La actividad del factor anti-Xa fue máxima dos horas después de la administración de nadroparina, con diferencias entre ambos dializadores (0,46 ± 0,13 UI/ml en diálisis con polisulfona y 0,04 ± 0,04 UI/ml con AN69ST®, p < 0,005), para ir descendiendo en la determinación de las 4 horas (0,17 ± 0,12 UI/ml en diálisis con polisulfona y 0,02 ± 0,03 UI/ml en AN69ST®, p < 0,05).
+T14	Claim	Conclusión: Demostramos la baja trombogenicidad del dializador AN69ST® de forma que permite realizar sesiones de hemodiafiltración posdilución sin necesidad de anticoagulación sistémica, y sin aumentar la frecuencia de eventos de coagulación grave en comparación con el dializador HF80® junto a nadroparina y con menor riesgo de sangrado al no modificar la actividad del factor anti-Xa.
+R1	Support	Arg1:T8	Arg2:T14
+R2	Support	Arg1:T9	Arg2:T14
+R3	Support	Arg1:T10	Arg2:T14
+R4	Support	Arg1:T11	Arg2:T14
+R5	Support	Arg1:T12	Arg2:T14

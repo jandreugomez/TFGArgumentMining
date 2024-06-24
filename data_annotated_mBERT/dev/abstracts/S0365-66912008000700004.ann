@@ -1,0 +1,9 @@
+T6	Premise	Resultados: Se observaron diferencias significativas (p<0,05) entre normales y glaucomatosos en todos los parámetros excepto área papilar (2,23/2,1), variación de altura de contorno (0,41/0,39) y variabilidad media (0,05/0,04).
+T7	Premise	Los hipertensos mostraron solapamiento de resultados respecto a controles y glaucomatosos, no hubo diferencias entre hipertensos y controles en grosor de capa de fibras (0,24/0,24) o entre hipertensos y glaucomas en profundidad media de excavación (0,28/0,3).
+T8	Premise	Sin embargo, la división de hipertensos según el aspecto papilar o sus resultados en la PALOC mejoró la capacidad de discriminación entre grupos.
+T9	Claim	Conclusiones: El HRT proporciona moderada capacidad de discriminación entre sujetos normales, hipertensos oculares y glaucomatosos.
+T10	Claim	Otras herramientas (como la PALOC) mejoran la capacidad discriminatoria del HRT.
+R1	Support	Arg1:T6	Arg2:T9
+R2	Support	Arg1:T7	Arg2:T9
+R3	Partial-Attack	Arg1:T8	Arg2:T9
+R4	Support	Arg1:T8	Arg2:T10

@@ -1,0 +1,8 @@
+T1	Claim	 Disminución de hemorragias totales con dosis reducidas de enoxaparina en angina inestable de alto riesgo.
+T9	Premise	No existieron diferencias entre grupos al comparar características clínicas y angiográficas.
+T10	Premise	Se lograron niveles útiles de anti-Xa en todos los pacientes de enoxaparina, con rangos de 0.5 a 0.67 U/mL.
+T11	Premise	Existió un mayor riesgo de hemorragias totales en el grupo 2 (18.7%), comparado con el grupo 1 (5.6%), con un RR de 1.72 (95% CI: 1.29, 2.29) y p = .003.
+T12	Premise	Se corroboró un mayor número de (MACE) eventos cardiovasculares mayores en el grupo 2 (33.3%) comparado con el grupo 1 (17.8%) con RR 1.88 (95% CI: 1.14, 3.08) y p = .011.
+T13	Claim	Conclusiones: 1) La dosis menor de enoxaparina logra niveles terapéuticos desde las primeras 4 horas de tratamiento.
+T14	Claim	2) Existe una disminución significativa de las hemorragias totales con la dosis reducida de enoxaparina, conservando su eficacia en el seguimiento de MACE.
+R1	Support	Arg1:T11	Arg2:T14

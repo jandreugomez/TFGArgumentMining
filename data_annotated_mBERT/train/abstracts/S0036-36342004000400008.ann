@@ -1,0 +1,6 @@
+T6	Premise	RESULTADOS: No existieron diferencias estadísticamente significativas en la efectividad de los tres esquemas de tratamiento: (80.5%) con albendazol, comparado con las dos alternativas adicionales de nitazoxanida (67.6% y 71%, respectivamente).
+T7	Premise	Se observó una mayor prevalencia de efectos secundarios con nitazoxanida por kg /día (26.5%) y en dosis única (32.2%), en comparación con la dosis única de albendazol (7.4%).
+T8	Claim	CONCLUSIONES: Las evidencias en cuanto a la efectividad y elevada prevalencia de efectos secundarios de la nitazoxanida no justifican aún su utilización como quimiopreventivo masivo para el control de parasitosis intestinal en áreas endémicas.
+T9	MajorClaim	En países con elevada prevalencia de parasitosis intestinal las medidas de prevención primaria que continúan vigentes, y que deben priorizarse, están relacionadas con sanidad pública, introducción de agua potable y drenaje, cloración de agua y manejo adecuado de excretas de animales domésticos, así como educación para la salud.
+R1	Support	Arg1:T6	Arg2:T8
+R2	Support	Arg1:T7	Arg2:T8

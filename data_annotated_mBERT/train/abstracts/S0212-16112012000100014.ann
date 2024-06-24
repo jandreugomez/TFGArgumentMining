@@ -1,0 +1,7 @@
+T3	Claim	Estas propiedades pueden ser útiles para el tratamiento del estreñimiento.
+T10	Premise	Resultados: Hubo un aumento en la frecuencia de las evacuaciones intestinales por semana y la satisfacción del paciente, tanto en la fibra y el grupo placebo, sin diferencias significativas.
+T11	Premise	El total de Clostridium sp disminuyó significativamente en el grupo de fibras (p = 0,046) y aumentó en el grupo placebo (p = 0,047).
+T12	Premise	No hubo cambios en el perfil fecal de ácidos grasos de cadena corta.
+T13	Claim	Conclusiones: El consumo de I-PHGG ha producido resultados clínicos comparables a placebo en mujeres con estreñimiento, pero ofreció otros efectos protectores sobre la microbiota intestinal al disminuir la cantidad de bacterias patológicas de lo género Clostridium.
+R1	Support	Arg1:T10	Arg2:T13
+R2	Support	Arg1:T11	Arg2:T13

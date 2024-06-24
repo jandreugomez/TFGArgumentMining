@@ -1,0 +1,5 @@
+T1	Claim	 Eficacia de la dorzolamida para reducir el grosor retiniano después de fotocoagulación en el edema macular diabético.
+T3	Claim	La fotocoagulación focal interrumpe la fuga vascular en el edema macular diabético, con lo cual el epitelio pigmentario retiniano puede retirar el líquido que engrosa la retina; este mecanismo podría facilitarse con dorzolamida, un inhibidor tópico de la anhidrasa carbónica.
+T11	Premise	El grosor del punto central cambió de 178.4 ± 34 μm a 170 ± 29.1 μm en el grupo 1 (p = 0.04), y de 179.2 ± 22.4 μm a 178.6 ± 20.8 μm en el 2 (p = 0.7); el volumen macular cambió de 7.63 ± 0.52 mm3 a 7.50 ± 0.50 mm3 en el grupo 1 (p = 0.002) y de 7.82 ± 0.43 mm3 a 7.76 ± 0.42 mm3 en el grupo 2 (p = 0.013).
+T13	Claim	La dorzolamida aplicada durante 3 semanas fue más eficaz que el placebo para reducir el grosor retiniano después de la fotocoagulación focal en diabéticos con edema macular.
+R1	Support	Arg1:T11	Arg2:T13

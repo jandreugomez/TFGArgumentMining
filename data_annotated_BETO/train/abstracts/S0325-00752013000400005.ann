@@ -1,0 +1,5 @@
+T13	Premise	No hubo diferencias con respecto a la cantidad de solución administrada (grupo hipotónico 865 ± 853 ml; grupo isotónico 778 ± 649 ml, p= 0,654) o el tiempo de infusión (grupo hipotónico: 24 ± 10,8 horas; grupo isotónico: 27,6 ± 12,8 horas, p= 0,231).
+T14	Premise	Se encontró una diferencia en el NaS luego de la administración de las soluciones de mantenimiento (grupo hipotónico: 137,8 ± 4,3 mmol/L; grupo isotónico: 140,0 ± 4,1 mmol/L, p= 0,04).
+T15	Premise	Ninguna de las dos soluciones de mantenimiento aumentó el riesgo de hiponatremia (Na 145 mmol/L).
+T17	Claim	Ambas soluciones de mantenimiento, en 24 horas de infusión, no aumentaron el riesgo de producir hiponatremia iatrogénica.
+R1	Support	Arg1:T15	Arg2:T17

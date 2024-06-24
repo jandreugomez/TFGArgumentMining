@@ -1,0 +1,9 @@
+T3	MajorClaim	El tratamiento de elección de la leishmaniasis cutánea es el antimonio pentavalente con una eficacia cercana al 85%; sin embargo, debido a los serios efectos adversos y a la aparición cada vez más frecuente de resistencia al tratamiento, se hace necesaria la búsqueda de alternativas terapéuticas.
+T10	Premise	Cinco pacientes (11,6%) fallaron al tratamiento por no cicatrización de las lesiones y uno presentó recaída.
+T11	Premise	En general el tratamiento fue bien tolerado; los efectos adversos principales fueron dolor y edema en el sitio de aplicación, mareo y fiebre, de intensidad leve a moderada.
+T12	Premise	No se presentaron hipoglucemia, hipotensión ni diabetes.
+T14	Claim	Los resultados del presente estudio validan los hallazgos de eficacia de la pentamidina para el tratamiento de la leishmaniasis cutánea en Colombia y en Brasil.
+T15	Premise	Se destaca una baja frecuencia e intensidad de los efectos colaterales en la población civil donde no se encontró ningún paciente con efectos secundarios serios.
+R1	Support	Arg1:T10	Arg2:T14
+R2	Support	Arg1:T11	Arg2:T14
+R3	Support	Arg1:T12	Arg2:T14

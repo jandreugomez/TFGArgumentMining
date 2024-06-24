@@ -1,0 +1,6 @@
+T3	MajorClaim	En estudios previos se ha demostrado que la fibrosis avanzada es un factor pronóstico fundamental.
+T8	Premise	El grado de fibrosis se correlacionó con el valor del NIHCED mediante curva de ROC y el coeficiente de correlación de Spearman.
+T10	Premise	La biopsia hepática mostró que 131 (30,5%) no tenían fibrosis o era expansión portal, mientras que 190 (69,5%) tenían fibrosis avanzada o cirrosis.
+T11	Premise	Para un punto de corte de 6 puntos, la sensibilidad fue del 72%, especificidad del 76,3%, VPP del 81%, VPN del 63,7% y una precisión diagnóstica del 72,5%, con un área bajo la curva fue de 0,787 y un coeficiente de correlación de Spearman de r = 0,65.
+T12	Claim	Conclusiones: el NIHCED predice la presencia de fibrosis avanzada en un elevado porcentaje de pacientes sin necesidad de realizar biopsia hepática.
+R1	Support	Arg1:T10	Arg2:T12

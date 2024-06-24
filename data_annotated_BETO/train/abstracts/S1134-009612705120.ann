@@ -1,0 +1,5 @@
+T13	Premise	No hubo complicaciones relacionadas con el implante celular.
+T16	Premise	No se obser-varon diferencias estadísticamente significativas en la mejoría del índice de motilidad global ni de la fracción de eyección, pero sí en la contractilidad regional (grupo Ce: 0,65 ± 0,26 vs grupo Co: 0,25 ± 0,29; p < 0,001).
+T18	Claim	el trasplante de CMMA puede llevarse a cabo de forma segura.
+T19	Claim	La mejoría en la contractilidad de los segmentos infartados es significativamente mayor con el implante de células madre.
+R1	Support	Arg1:T16	Arg2:T19

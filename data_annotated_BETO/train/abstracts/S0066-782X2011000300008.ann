@@ -1,0 +1,9 @@
+T1	Claim	 Sedación con sufentanil y clonidina en pacientes sometidos a cateterismo cardíaco.
+T7	Premise	RESULTADOS: El comportamiento de la presión arterial, de la frecuencia cardíaca y de la frecuencia respiratoria fue semejante en los dos grupos, entre tanto, en el momento 2, los pacientes del grupo sufentanil (Grupo S) presentaron menor escore de sedación según la escala de Ramsay, y la saturación periférica de la oxihemoglobina fue menor que el grupo clonidina (Grupo C) en el momento 6.
+T8	Premise	Los pacientes del Grupo S presentaron mayor incidencia de náusea y vómito post operatorio que los pacientes del Grupo C. La satisfacción de los pacientes fue mayor en el grupo clonidina.
+T9	Premise	Los hemodinamistas se mostraron satisfechos en los dos grupos.
+T10	Claim	CONCLUSIÓN: El sufentanil y la clonidina fueron efectivos como sedativos en pacientes sometidos a cateterismo cardíaco.
+R1	Support	Arg1:T1	Arg2:T10
+R2	Support	Arg1:T7	Arg2:T10
+R3	Support	Arg1:T8	Arg2:T10
+R4	Support	Arg1:T9	Arg2:T10

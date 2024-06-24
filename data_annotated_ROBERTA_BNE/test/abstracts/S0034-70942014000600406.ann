@@ -1,0 +1,6 @@
+T3	Claim	Varias técnicas que incluyen hipotensión inducida pueden minimizar el sangrado durante la cirugía endoscópica.
+T9	Premise	Resultados:  El grupo D tuvo una reducción significativa de la frecuencia cardíaca y de la puntuación en la escala de evaluación del campo quirúrgico intraoperatorio.
+T10	Premise	La media del tiempo quirúrgico fue de 50 min, y el grupo M tuvo un número mayor de cirugías prolongadas.
+T11	Premise	No hubo diferencia significativa en otros parámetros.
+T12	Claim	Conclusión:  Debido a la reducción de la tasa de sangrado y de la frecuencia cardíaca en la cirugía endoscópica y a los impactos positivos sobre la duración de la cirugía, consideramos la dexmedetomidina como una buena alternativa para el magnesio.
+R1	Support	Arg1:T9	Arg2:T12

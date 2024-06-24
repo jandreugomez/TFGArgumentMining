@@ -1,0 +1,7 @@
+T9	Premise	La media de supervivencia observada en los 10 pacientes no resecados fue de 4,5 meses.
+T10	Premise	La media de supervivencia observada en los 10 pacientes resecados paliativamente fue de 7,1 meses.
+T12	Premise	La supervivencia actuarial global a 5 años de los pacientes resecados fue del 29%.
+T14	Claim	La gastrectomía laparoscópica asociada a cualquier tipo de linfadenectomía es una intervención importante pero segura, con tasas de morbi-mortalidad aceptables en pacientes con cáncer gástrico avanzado, que frecuentemente presentan un mal estado general.
+T15	Claim	Los resultados oncológicos a largo plazo son similares a los obtenidos por vía laparotómica.
+T16	Claim	Son necesarios más estudios prospectivos que evalúen los resultados de este abordaje, tanto en sus beneficios a corto plazo como en el resultado oncológico a distancia.
+R1	Support	Arg1:T12	Arg2:T15

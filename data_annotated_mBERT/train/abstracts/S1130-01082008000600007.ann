@@ -1,0 +1,9 @@
+T9	Premise	A los 12 meses postretirada del balón el 48,4% de pacientes mantiene o sigue perdiendo peso.
+T10	Premise	Los síntomas precoces más frecuentes fueron náuseas (71,1%) y vómitos (57,9%), con buena respuesta a tratamiento sintomático.
+T11	Premise	Presentaron complicaciones 7 pacientes (18,4%): intolerancia digestiva en 4 pacientes, requiriendo retirada precoz del balón en 3 de ellos; esofagitis moderada en 2 pacientes; y perforación gástrica complicada con shock séptico y exitus en 1 paciente.
+T13	Claim	El balón intragástrico asociado a una dieta hipocalórica puede considerarse un tratamiento efectivo, seguro y bien tolerado para el tratamiento de pacientes con obesidad mórbida.
+T15	Premise	La pérdida de peso se mantiene en casi la mitad de los pacientes al año tras la retirada del balón.
+R1	Support	Arg1:T9	Arg2:T13
+R2	Support	Arg1:T9	Arg2:T15
+R3	Support	Arg1:T10	Arg2:T13
+R4	Support	Arg1:T11	Arg2:T13

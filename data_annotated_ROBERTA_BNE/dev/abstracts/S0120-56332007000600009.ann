@@ -1,0 +1,8 @@
+T1	Claim	 Influencia del uso de una técnica menos invasiva que disminuye la aparición de complicaciones de la safenectomía en la cirugía de revascularización miocárdica.
+T3	MajorClaim	Sin embargo, las complicaciones del procedimiento de extracción de la vena constituyen un problema de gran magnitud en cuanto a morbilidad, estancia hospitalaria y costos de atención.
+T5	Premise	Resultados: la tasa de infección intrahospitalaria de la safenectomía en el grupo de intervención, fue del 0,5% en comparación con el 4% en el grupo control, lo que produce un valor de RR=0,125 con un intervalo de confianza del 95% de 0,016-0,916 sustancialmente menor en el grupo de estudio; el valor de RRA fue de 3,5% y el de NNT fue de 28, lo que indica que con esta técnica se evita una infección en cada 28 pacientes que van a cirugía.
+T6	Premise	Además, se halló que los pacientes del grupo de intervención tienen una estancia hospitalaria significativamente menor que los controles; las medias fueron 7,39 ± 5,882 días para el grupo de intervención y 8,64 ± 8,55 días para el grupo control.
+T7	Claim	Conclusiones: se puede concluir que la técnica de safenectomía menos invasiva es segura, y fácil de aprender, y ofrece una gran ventaja desde el punto de vista de la morbilidad asociada a la herida quirúrgica en las piernas.
+R1	Support	Arg1:T1	Arg2:T7
+R2	Support	Arg1:T5	Arg2:T7
+R3	Support	Arg1:T6	Arg2:T7

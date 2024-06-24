@@ -1,0 +1,6 @@
+T9	Premise	La microalbuminuria se presentó en el 11,5% de las niñas y 7,4% de los varones, todos los cuales eran obesos.
+T10	Premise	Entre las niñas e l2,7% era hipertensa mientras el 3,7% varones.
+T12	Claim	Conclusiones: se encontró altamente significativa la relación entre la obesidad y la microalbuminuria.
+T13	Claim	La circunferencia de la cintura alterada se relacionaba significativamente con el incremento de los valores de la microalbuminuria.
+T14	Premise	Hubo una asociación significativa entre la hipertensión arterial y microalbuminuria en ambos sexos, sin embargo; esta última variable fue considerada una variable confusora.
+R1	Support	Arg1:T9	Arg2:T12

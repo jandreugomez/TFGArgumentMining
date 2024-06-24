@@ -1,0 +1,5 @@
+T15	Claim	La morbilidad fue comparable con la que muestran series publicadas en técnica abierta.
+T16	Premise	Tras una mediana de seguimiento de 22 (9-53) meses, hemos detectado que el éxito de la intervención ha sido de 27/28 (96%).
+T18	Claim	El abordaje endoscópico del hiperparatiroidismo primario sPHPT resulta factible, reproducible y ofrece unos resultados comparables al abordaje clásico abierto, diversos factores hacen poco recomendable su realización fuera de hospitales con alto volumen de pacientes y unidades diferenciadas de Cirugía Endocrina.
+R1	Support	Arg1:T15	Arg2:T18
+R2	Support	Arg1:T16	Arg2:T18

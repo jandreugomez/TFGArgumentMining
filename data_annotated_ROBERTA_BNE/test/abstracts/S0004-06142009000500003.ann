@@ -1,0 +1,9 @@
+T3	Claim	A pesar de ser una exploración relativamente bien tolerada, en muchas ocasiones resulta un procedimiento incómodo y doloroso, sobre todo en aquellos casos en los que se amplía el número de cilindros tomados.
+T10	Premise	El PSA medio fue 7'1 ng/mL (rango 4'8 - 9'8) en el primer grupo y 7'3 ng/mL (rango 4'5 - 9'7) en el segundo.
+T11	Premise	La media de dolor en la escala analógica visual en los pacientes sin anestesia intracapsular fue de 8,3 (2-9) en la primera encuesta y 2 (0-4) en la segunda, frente a 4 (0-8) y 1,33 (0-2) del grupo que sí la recibió.
+T12	Premise	Al comparar ambos grupos encontramos diferencias estadísticamente significativas sólo en la valoración inmediata a la biopsia (p<0,01), no así en el segundo cuestionario (p=0,2).
+T13	Premise	No encontramos diferencias estadísticamente significativas en cuanto a uretrorragia, rectorragia o infección entre ambos grupos.
+T14	Claim	Conclusión: Consideramos la inyección de lidocaína intracapsular una técnica reproducible y efectiva en cuanto a mejorar la tolerancia y disminuir el dolor asociado a la realización de biopsia prostática transrectal ecodirigida, sin incrementar la morbilidad del procedimiento.
+R1	Support	Arg1:T10	Arg2:T14
+R2	Support	Arg1:T11	Arg2:T14
+R3	Support	Arg1:T12	Arg2:T14

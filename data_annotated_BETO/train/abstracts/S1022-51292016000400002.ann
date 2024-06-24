@@ -1,0 +1,8 @@
+T8	Premise	En el grupo que utilizó manitol, 98 (64,05%) eran mujeres y 55 (35,95%) eran varones.
+T9	Premise	Entre los pacientes que utilizaron picosulfato sódico, 48 (57,14%)eran mujeres y 36 (42,86%) eran hombres, sin diferencias estadísticas de ambos grupos (p>0,32).
+T10	Premise	Teniendo en cuenta que con la adecuada preparación del colon y con puntuación de 6 puntos en la Escala de Boston, la preparación intestinal fue satisfactoria en ambos grupos.
+T11	Premise	El 93% de los pacientes que utilizaron manitol y el 81% de los pacientes que utilizaron picosulfato sódico tenían preparación adecuada (puntuación de 6).
+T12	Premise	La puntuación media en la preparación con manitol fue de 9 y en la preparación con picosulfato sódico fue de 7.
+T13	Premise	No hubo diferencias significativas entre ambos grupos.
+T14	Claim	Conclusión: Ambas preparaciones, demostraron ser seguras y eficaces para la limpieza del intestino, de acuerdo con la Escala de Boston, así como, la aceptabilidad de los pacientes y libre de complicaciones.
+R1	Support	Arg1:T10	Arg2:T14

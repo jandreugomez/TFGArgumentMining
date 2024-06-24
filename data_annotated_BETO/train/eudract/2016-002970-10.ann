@@ -1,0 +1,5 @@
+T2	Claim	Título científico: Análisis de efectividad de la quimioterapia neoadyuvante en el tratamiento del cáncer de colon localmente avanzado.
+T24	Claim	Sin afectación metastásica en otros órganos (M0).
+T35	MajorClaim	Antecedente personal de otra neoplasia en los últimos 5 años, a excepción de melanoma.
+T49	Premise	Peritonitis.
+T52	Premise	Hipersensibilidad a los fármacos empleados.

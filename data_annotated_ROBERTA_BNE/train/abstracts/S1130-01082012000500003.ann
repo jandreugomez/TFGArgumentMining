@@ -1,0 +1,7 @@
+T2	Claim	Introducción: la insuflación con dióxido de carbono (CO2) durante las endoscopias digestivas comparado con el aire, se asocia a una disminución de las molestias abdominales después de la exploración, ya que el CO2 es fácilmente absorbido por el intestino delgado y eliminado por los pulmones.
+T7	Premise	Resultados: tanto en el grupo I como en el grupo I+G, se objetivó una media de dolor abdominal en los pacientes en los que se utilizó CO2 significativamente menor que en los que se utilizó aire (p < 0,05).
+T8	Premise	Y de igual modo se objetivó un menor incremento en el perímetro abdominal para el grupo I y para el I+G en los pacientes en que se utilizó CO2 frente a los que se utilizó aire (p < 0,05).
+T9	Claim	Conclusión: la insuflación de CO2 en vez de aire durante la realización de la exploración endoscópica, reduce significativamente el disconfort y el dolor abdominal después de una ileo-colonoscopia y después de una íleo-colonoscopia + gastroscopia.
+R1	Support	Arg1:T2	Arg2:T9
+R2	Support	Arg1:T7	Arg2:T9
+R3	Support	Arg1:T8	Arg2:T9

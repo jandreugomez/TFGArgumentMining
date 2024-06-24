@@ -1,0 +1,5 @@
+T1	Claim	 Efectos de la intervención desde terapia ocupacional sobre la percepción del dolor crónico y la calidad de vida en pacientes con artritis reumatoide.
+T5	Premise	Resultados: se detectó una mejora en las puntuaciones de autoeficacia (p < 0,001) y de calidad de vida (p = 0,001; p = 0,08), así como de las puntuaciones de intensidad de dolor medidas con MPQ (McGill Pain Questionnaire), aunque los valores recogidos con EVA (escala visual analógica) se mantienen en el tiempo.
+T6	Claim	Conclusiones: el programa resultó eficaz en la modificación de las variables estudiadas, apreciándose cambios significativos tanto en intensidad de dolor, como en los valores referidos a autoeficacia y calidad de vida.
+T7	Claim	Es recomendable repetir el trabajo con una muestra mayor que permita obtener datos más consistentes.
+R1	Support	Arg1:T5	Arg2:T6

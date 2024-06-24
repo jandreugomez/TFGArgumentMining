@@ -1,0 +1,7 @@
+T10	Premise	Teniendo en cuenta que con la adecuada preparación del colon y con puntuación de 6 puntos en la Escala de Boston, la preparación intestinal fue satisfactoria en ambos grupos.
+T12	Premise	La puntuación media en la preparación con manitol fue de 9 y en la preparación con picosulfato sódico fue de 7.
+T13	Premise	No hubo diferencias significativas entre ambos grupos.
+T14	Claim	Conclusión: Ambas preparaciones, demostraron ser seguras y eficaces para la limpieza del intestino, de acuerdo con la Escala de Boston, así como, la aceptabilidad de los pacientes y libre de complicaciones.
+R1	Support	Arg1:T10	Arg2:T14
+R2	Support	Arg1:T12	Arg2:T14
+R3	Support	Arg1:T13	Arg2:T14

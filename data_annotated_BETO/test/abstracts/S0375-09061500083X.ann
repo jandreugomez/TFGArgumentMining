@@ -1,0 +1,8 @@
+T3	MajorClaim	La estenosis esofágica secundaria a ingestión de cáusticos es uno de los problemas de más difícil manejo.
+T10	Premise	La mediana de dilataciones de los pacientes en los que se utilizó triamcinolona intralesional fue de 11 (mínimo 4 máximo 24), mientras que los manejados con mitomicina C tópica fue de 4,5 (mínimo de 3 y máximo de 8).
+T11	Premise	Al comparar estos grupos con U de Mann-Whitney, se encontró que la diferencia es estadísticamente significativa a 2 colas p < 0.001.
+T12	Premise	Al realizarse el modelo de regresión lineal múltiple con variable dependiente el número de dilataciones y variables independientes tipo de lesión y tratamiento se encontró una R2 0.676 con un nivel de significación p < 0.001, en donde el coeficiente de regresión para tratamiento fue ≡ –0.682 (IC del 95%, –8.286 a –5.025) y el de grado lesión fue ≡ 0.435 (IC del 95%, 2.043- 4.573).
+T13	Premise	Anova con una F 49.08 con una p < 0.001, lo que demuestra que las variables independientes tipo de lesión y tratamiento observan una relación lineal con el número de dilataciones, lo que refuerza que nuestros resultados no son debidos al azar.
+T15	Claim	La mitomicina C tópica redujo considerablemente el número de dilataciones esofágicas en comparación al uso de triamcinolona intralesional para aliviar la disfagia, por lo que la sugerimos como una opción en el tratamiento de las estenosis por cáusticos.
+R1	Support	Arg1:T10	Arg2:T15
+R2	Support	Arg1:T12	Arg2:T15

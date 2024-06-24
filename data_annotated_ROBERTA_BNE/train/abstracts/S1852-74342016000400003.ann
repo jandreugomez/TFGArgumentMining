@@ -1,0 +1,5 @@
+T1	Claim	 Anestesia raquídea versus anestesia intrarticular en cirugía artroscópica de rodilla.
+T8	Premise	El tiempo de internación fue mayor en el grupo de anestesia raquídea (7.34 h; rango 4-11) que en el grupo de anestesia intrarticular (3.43 h; rango 2-5), p <0,0001.
+T9	Premise	En la variable costo, hubo una diferencia significativa a favor de la anestesia intrarticular con respecto a la anestesia raquídea (p <0,0001).
+T10	Claim	Conclusión: Las ventajas encontradas a favor de la anestesia intrarticular fueron: estadías hospitalarias acortadas, se evitaron efectos indeseables de la anestesia raquídea (bloqueo motor, náuseas, vómitos, hipotensión, pérdida transitoria de esfínter urinario y retención urinaria [globo vesical]); disminución de los costos y mayor aceptación de los pacientes.
+R1	Support	Arg1:T9	Arg2:T10

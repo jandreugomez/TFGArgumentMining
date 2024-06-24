@@ -1,0 +1,6 @@
+T5	Premise	Eses atributos y la escala de sedación (1-ansioso, 2-calmo, 3-soñoliento, 4-durmiendo con reflejo, 5-durmiendo sin reflejo) fueron obtenidos a los 0 (M0), 15 (M15), 30 (M30), 40 (M40), 50 (M50) y 60 (M60) minutos después de la medicación.
+T6	Premise	RESULTADOS: En los grupos no hubo alteración significante de los parámetros respiratorios, hemodinámicos y de temperatura.
+T7	Premise	Hubo diferencia significante entre los grupos en la escala de sedación (M60: M=C>P) y en el BIS (M50 y M60: M=C>P).
+T8	Claim	CONCLUSIONES: En las condiciones utilizadas, la clonidina y el midazolam determinan niveles de sedación adecuados y semejantes en la medicación pre-anestésica de pacientes de estado físico ASA I, cuando evaluados por la escala de sedación y por el índice bispectral, sin determinar alteraciones hemodinámicas y respiratorias.
+R1	Support	Arg1:T5	Arg2:T8
+R2	Support	Arg1:T7	Arg2:T8

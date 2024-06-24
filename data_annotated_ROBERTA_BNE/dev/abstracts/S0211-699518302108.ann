@@ -1,0 +1,9 @@
+T1	Claim	 Eculizumab modifica el pronóstico en pacientes adultos con SHUa y daño renal agudo.
+T8	Premise	Entre los pacientes tratados con eculizumab, el 80% habían recuperado la función renal al año y el 20% presentaban IRC.
+T9	Premise	Todos los pacientes pudieron abandonar el tratamiento sustitutivo, y el 20% presentaron proteinuria.
+T10	Premise	En el grupo de PE/PI, el 38% recuperaron la función renal, el 50% abandonaron la diálisis, el 15,4% presentaban proteinuria, y hubo un 11,5% de recaídas.
+T11	Claim	Conclusiones: Eculizumab muestra mayor eficacia que PE/PI para el tratamiento de pacientes con SHUa y daño renal agudo que requiere diálisis.
+T12	Claim	Se necesitan estudios prospectivos y metaanálisis que confirmen estos hallazgos.
+R1	Support	Arg1:T8	Arg2:T11
+R2	Support	Arg1:T9	Arg2:T11
+R3	Support	Arg1:T10	Arg2:T11

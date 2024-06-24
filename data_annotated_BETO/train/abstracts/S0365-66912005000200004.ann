@@ -1,0 +1,6 @@
+T5	Premise	Resultados: La agudeza visual monocular fue mejor en el grupo Tecnis (0,85) que en el Acrysof (0,78) (p<0,01).
+T6	Premise	En condiciones de binocularidad también resultó superior la AV en el grupo Tecnis (0,95) que en el Acrysof (0,86) (p<0,02).
+T7	Claim	La sensibilidad media al contraste también es superior para el grupo Tecnis tanto monocular como binocularmente pero no alcanza significación estadística.
+T8	Premise	Conclusión: En ambos grupos se produjo una mejoría de la agudeza visual y sensibilidad al contraste después de la cirugía de catarata pero el implante Tecnis se asoció con una agudeza visual significativamente mejor tanto monocular como binocularmente.
+T9	Premise	Los valores medios de sensibilidad al contraste son superiores en el grupo Tecnis pero la diferencia no es estadísticamente significativa.
+R1	Support	Arg1:T5	Arg2:T8

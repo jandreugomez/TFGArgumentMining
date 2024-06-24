@@ -1,0 +1,7 @@
+T2	Claim	Actualmente, el endurecimiento arterial se considera un buen indicador de mortalidad cardiovascular tanto en la población general como en receptores de trasplantes de renales.
+T7	Premise	Tras el seguimiento llevado a cabo durante los 5 años posteriores al trasplante, la prevalencia de pacientes con una VOPcf superior a 8,1 m/s se había reducido en el grupo al que se le administró belatacept (50% en el grupo BLC frente al 25% en el grupo ICN, p = 0,08).
+T8	Premise	El análisis de regresión logística multivariante reveló que el riesgo de presentar una VOPcf alta se encontraba correlacionado con la edad (OR: 1,24; p < 0,03) y el índice de resistencia renal (OR: 1,25; p < 0,05).
+T9	Premise	El tratamiento con belatacept se asoció a una reducción significativa del riesgo de aumentar la VOPcf (OR: 0,008; p = 0,045).
+T10	Claim	La inmunosupresión de mantenimiento con belatacept podría favorecer la tasa de supervivencia de receptores de trasplantes renales gracias a la disminución de los eventos cardiovasculares relacionados con el endurecimiento arterial.
+R1	Support	Arg1:T7	Arg2:T10
+R2	Support	Arg1:T8	Arg2:T10

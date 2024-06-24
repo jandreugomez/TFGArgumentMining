@@ -1,0 +1,6 @@
+T4	MajorClaim	La necesidad de encontrar una vía de administración idónea en niños que no añada más sufrimientos a los ya existentes, es un reto para los anestesiólogos.
+T10	Premise	No hubo diferencias en la separación de los padres y en la inducción anestésica.
+T11	Premise	No se presentaron secundarismos significativos en ningún grupo, ni se apreció tampoco desaturación importante de hemoglobina tras la administración de la premedicación.
+T12	Claim	Conclusiones: Creemos que el CFOT se nos plantea como una administración de premedicación segura, eficaz y cómoda para población pediátrica, que vaya a someterse a intervención quirúrgica, con un adecuado grado de sedación que facilita la separación de los padres, la canalización venosa y la inducción anestésica.
+R1	Support	Arg1:T10	Arg2:T12
+R2	Support	Arg1:T11	Arg2:T12

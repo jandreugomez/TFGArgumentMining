@@ -1,0 +1,16 @@
+T1	Claim	 Hemodiálisis 4 días a la semana: una alternativa eficaz en el control de la tensión arterial y en alcanzar el peso objetivo posterior a la diálisis.
+T4	Claim	Ello se complica aún más en áreas de salud como la nuestra (Segovia) donde el 50% de la población habita en núcleos rurales, debiendo sufrir en ocasiones viajes de más de 1 hora.
+T5	Claim	En este sentido, el aumento de frecuencia de diálisis a 4 días podría producir algunos beneficios cardiovasculares con una mejor aceptación por parte de los pacientes que la hemodiálisis diaria.
+T9	Premise	El aumento de frecuencia permitió un incremento significativo del tiempo de diálisis pasando de 798,75 minutos semanales a 966,81.
+T10	Premise	Al analizar la dosis de diálisis, tanto el EKR según Casino y López (18,8 frente a 21,64), el PRU semanal (236,82 frente a 305,48), y el KT semanal (198,88 frente a 238,31l) mostraron un aumento en la dosis de diálisis recibida.
+T11	Premise	Las ganancias interdiálisis disminuyeron significativamente (2,61 frente a 1,52 Kg), así como la ultrafiltración horaria media durante la sesión (600 frente a 375 ml).
+T12	Premise	De igual manera, se consiguió alcanzar el peso seco al final de las sesiones (con un margen de ± 300mg) en un mayor número de ocasiones (52,79 % frente a 76,09%).
+T13	Premise	Los valores de tensión arterial prediálisis se redujeron significativamente (145,83 / 76,66 frente a 125,01 / 67,27) y en menor medida los valores postdiálisis (135,41/ 73,75 frente a 119,98 vs 65,90), y el número de fármacos antihipertensivos disminuyó (1,41 frente a 0,45) (tabla 1).
+T14	Premise	No se observaron diferencias en la número de hipotensiones o calambres intradiálisis, ni en los valores de albúmina, colesterol, calcio, fósforo, PCR, npcr, peso seco o empleo de quelantes de fósforo.
+T15	Claim	En conclusión, el aumento de frecuencia a 4 sesiones semanales nos permitió incrementar el tiempo semanal y, consecuentemente la dosis de diálisis recibida.
+T16	Claim	La tensión arterial se controló mejor, con necesidad de menos fármacos, las ganancias interdiálisis disminuyeron significativamente, así como la ultrafiltración horaria y se alcanzó más fácilmente el peso seco prescrito, con lo cual los enfermos que más se pueden beneficiar del aumento a 4 sesiones semanales son aquellos con hipertensión no controlada, excesivas ganancias interdiálisis o que precisen una mayor dosis de diálisis.
+R1	Support	Arg1:T9	Arg2:T15
+R2	Support	Arg1:T10	Arg2:T15
+R3	Support	Arg1:T11	Arg2:T16
+R4	Support	Arg1:T12	Arg2:T16
+R5	Support	Arg1:T13	Arg2:T16

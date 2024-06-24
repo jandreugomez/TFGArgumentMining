@@ -1,0 +1,5 @@
+T2	MajorClaim	Antecedentes: El manejo adecuado del dolor postoperatorio en pacientes intervenidos de artrodesis vertebral instrumentada es esencial para disminuir la morbimortalidad postoperatoria.
+T3	Claim	El uso de morfina por vía intratecal podría proporcionar una analgesia efectiva minimizando la dosis necesaria y los efectos adversos secundarios.
+T10	Premise	En 24.1% de los pacientes presentaron complicaciones asociadas al uso de cloruro mórfico, tales como náuseas o vómitos, sin diferencias significativas respecto al grupo control.
+T11	Claim	Conclusiones: El uso de morfina intratecal es una opción terapéutica segura y efectiva en el control del dolor postquirúrgico precoz en pacientes intervenidos de fusión vertebral instrumentada, permitiendo una recuperación más cómoda y rápida.
+R1	Support	Arg1:T10	Arg2:T11

@@ -1,0 +1,10 @@
+T1	Claim	 Efectos renoprotectores a largo plazo de dosis altas de irbesartán en la nefropatía diabética establecida.
+T7	Premise	Resultados: La presión arterial sistólica (157,6 ± 27 vs. 130,1 ± 14) y diastólica (88,8 ± 10 vs. 76,2 ± 8 mmHg) se redujeron significativamente (p < 0,001) al final del estudio.
+T8	Claim	El perfil lipídico mejoró significativamente.
+T9	Premise	La kaliemia no se modificó.
+T10	Premise	La creatinina sólo aumentó 0,17 mg/dl, aunque fue significativo (p < 0,05), y el filtrado glomerular estimado se redujo (69,8 ± 29,7 vs. 60,25 ± 23,0 ml/min/m2) (p < 0,05).
+T12	Premise	La reducción promedio fue 59,2%, y el 25% de los pacientes se hizo normoalbuminúrico.
+T15	Claim	Conclusión: El tratamiento de la nefropatía diabética establecida con dosis ultraaltas de irbesartán se mostró muy eficaz y seguro en reducir la proteinuria y retardar la progresión hacia la insuficiencia renal crónica terminal.
+R1	Support	Arg1:T7	Arg2:T15
+R2	Support	Arg1:T10	Arg2:T15
+R3	Support	Arg1:T12	Arg2:T15

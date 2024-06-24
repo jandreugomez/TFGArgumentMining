@@ -1,0 +1,6 @@
+T7	Premise	Resultados: Se observaron correlaciones significativas entre varios parámetros de la cabeza del nervio óptico y los índices globales de la perimetría automatizada convencional.
+T8	Premise	En el total de sujetos y en el grupo glaucoma, las correlaciones más fuertes con los índices del campo visual se obtuvieron con el área (total: r=0,32; p=4,14x10-11 /glaucoma: r=0,28; p=0,004) y volumen del anillo neurorretiniano (total: r=0,26; p=1,55x10-7 /glaucoma: r=0,26; p=0,006), el cociente de área excavación/disco y anillo/disco, el índice de morfología papilar, el área de corte de la capa de fibras nerviosas de la retina y las funciones discriminantes FSM y RB.
+T9	Premise	El grupo de hipertensión ocular obtuvo pocas correlaciones significativas.
+T10	Claim	Conclusiones: Las correlaciones observadas entre la perimetría automatizada convencional y HRT II, permiten mejorar el conocimiento del daño glaucomatoso y facilitan la toma de decisiones con los resultados de todas las pruebas de las que disponemos en la actualidad.
+R1	Support	Arg1:T7	Arg2:T10
+R2	Support	Arg1:T8	Arg2:T10

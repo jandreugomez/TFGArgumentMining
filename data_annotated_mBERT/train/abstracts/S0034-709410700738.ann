@@ -1,0 +1,9 @@
+T3	Claim	La raquianestesia unilateral puede presentar ventajas en pacientes ambulatoriales.
+T12	Premise	El tiempo para la realización de la raquianestesia fue significativamente menor que el bloqueo combinado femoral-isquiático.
+T13	Premise	El bloqueo unilateral se obtuvo en un 90% de los pacientes en el grupo RQ y en un 100% en el grupo CFI.
+T14	Premise	El tiempo para la recuperación del bloqueo sensitivo y motor fue significativamente mayor en el grupo CFI.
+T15	Premise	No hubo bradicardia o hipotensión.
+T17	Claim	Por medio de este estudio, se llega a la conclusión de que es técnicamente fácil realizar el bloqueo anterior combinado femoral-isquiático y de que ese puede ser una alternativa para el bloqueo unilateral del miembro inferior.
+T18	Premise	La raquianestesia unilateral con bajas dosis de bupivacaína, mostró un menor tiempo para la realización, un menor número de intentos y una recuperación más rápida del bloqueo combinado femoral-isquiático.
+T19	Claim	Sin embargo, la efectividad fue la misma.
+R1	Support	Arg1:T12	Arg2:T18

@@ -1,0 +1,4 @@
+T2	MajorClaim	Introducción: El consumo dietético de vitamina K ha sido considerado un factor importante que influye en la estabilidad de la anticoagulación oral (AO) con cumarina.
+T11	Premise	La puntuación de la vitamina K de la dieta durante todo el seguimiento de los pacientes se mantuvo significativamente menor entre aquellos con RNI estable cuándo comparado con los inestables (p = 0,012).
+T12	Claim	Discusión: Nuestros hallazgos sugieren que con cantidades relativamente bajas de vitamina K podremos obtener la estabilidad de RNI.
+R1	Support	Arg1:T11	Arg2:T12

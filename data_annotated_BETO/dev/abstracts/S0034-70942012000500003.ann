@@ -1,0 +1,6 @@
+T2	Claim	JUSTIFICATIVA Y OBJETIVOS: El Misoprostol reduce el sangramiento uterino después del parto por cesárea sin efectos perjudiciales para la madre o el bebé.
+T8	Premise	RESULTADOS: Después de la inducción, las pacientes que recibieron misoprostol sublingual tuvieron una pérdida sanguínea perioperatoria (202 ± 383,1 vs 708 ± 204,3 mL, p < 0,001), necesidad de ocitocina (p < 0,001), niveles más elevados de hematocrito (p < 0,001) y tonouterino (p < 0,02) menos significativos.
+T9	Premise	La incidencia de temblores fue mayor en el grupo misoprostol (p = 0,04).
+T10	Premise	No se registraron diferencias entre los dos grupos en cuanto a los índices de Apgar, náusea y vómito, trastornos gastrointestinales y fiebre.
+T11	Claim	CONCLUSIONES: La administración preoperatoria de misoprostol sublingual (400 µg) es segura y eficaz para atenuar el sangramiento materno y el efecto en el tono uterino de la anestesia con isoflurano en el parto por cesárea.
+R1	Support	Arg1:T9	Arg2:T11

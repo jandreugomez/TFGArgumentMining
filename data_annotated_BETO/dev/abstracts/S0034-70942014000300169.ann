@@ -1,0 +1,4 @@
+T2	Claim	Introducción:  el etomidato causa dolor cuando es administrado por vía intravenosa.
+T12	Premise	El promedio de la puntuación EVA para el dolor causado por la inyección de etomidato después de la preadministración de ondansetrón iv fue de 1,5 ± 1,2, siendo menor en comparación con la preadministración de placebo (3,2 ± 2,8; p < 0,05).
+T13	Claim	Conclusión:  este estudio demuestra que el pretratamiento con ondansetrón iv reduce significativamente el dolor causado por la inyección de etomidato.
+R1	Support	Arg1:T12	Arg2:T13

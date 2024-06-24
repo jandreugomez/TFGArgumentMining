@@ -1,0 +1,7 @@
+T1	Claim	 Efecto del irbesartán en patología renal proteinúrica no diabética.
+T5	Premise	En los dos grupos encontramos una reducción significativa (p < 0,001) de la proteinuria (49,2% en el grupo 1 y 44,8% en el grupo 2) desde el tercer mes, que se confirma a los 12 y 24 meses de seguimiento (58,1% y 62,7% en el grupo 1, y 56,8% y 55,4% en el grupo 2, respectivamente), aunque no se observaron diferencias significativas entre los dos grupos.
+T6	Premise	No encontramos diferencias respecto al control tensional.
+T7	Premise	En ninguno de los dos grupos encontramos un descenso significativo del filtrado glomerular, sin embargo, éste fue mayor en el grupo tratado con EICA (2,98 ± 7,77 vs 1,64 ± 6,84 ml/min/año) aunque sin diferencia significativa respecto a irbesartán, mientras que tres pacientes inicialmente tratados con IECA mostraron intolerancia (tos).
+T8	Claim	Como conclusión, en nuestro estudio irbesartán mostró un efecto antiproteinúrico y nefroprotector similar a los IECA en pacientes con glomerulonefritis crónica, siendo además segura su administración.
+R1	Support	Arg1:T5	Arg2:T8
+R2	Support	Arg1:T7	Arg2:T8

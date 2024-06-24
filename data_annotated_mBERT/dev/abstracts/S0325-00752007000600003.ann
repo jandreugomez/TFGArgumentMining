@@ -1,0 +1,7 @@
+T10	Premise	Hemoglobina y hematócrito mostraron valores significativamente más elevados en el grupo sulfato ferroso que en el hidróxido férrico polimaltosado desde el día 30 hasta el final (p <0,05).
+T11	Premise	Ferremia, saturación y ferritina al día 90 fueron significativamente mayores en el grupo sulfato ferroso (p <0,05).
+T12	Premise	La diferencia inicial-final fue significativamente mayor en el grupo sulfato ferroso para todas las variables.
+T13	Premise	Un mayor porcentaje de pacientes del grupo sulfato ferroso alcanzó valores normales para hemoglobina, hematócrito, volumen corpuscular medio, ferremia y saturación (p <0,05).
+T16	Claim	El sulfato ferroso es de elección pues produce incrementos más precoces y de mayor intensidad para todos los parámetros, permite la normalización de valores en mayor cantidad de pacientes y presenta similar tolerabilidad y grado de adhesión al tratamiento que el hidróxido férrico polimaltosado.
+R1	Support	Arg1:T12	Arg2:T16
+R2	Support	Arg1:T13	Arg2:T16

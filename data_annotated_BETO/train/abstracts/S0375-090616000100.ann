@@ -1,0 +1,8 @@
+T1	Claim	 Diltiazem tópico en el dolor postoperatorio de hemorroidectomía con técnica cerrada.
+T3	Claim	El espasmo del esfínter anal contribuye a la aparición del dolor postoperatorio después de una hemorroidectomía.
+T11	Premise	En el grupo A el promedio de calificación de la escala análoga visual fue de 2.97 ± 1.18 cm a las 24 h, 1.51 ± 1.18 cm a las 48 h y 0.84 ± 0.92 cm a las 72 h. En el grupo B fue de 6.82 ± 1.9 cm a las 24 h, 5.3 ± 1.66 cm a las 48 h y 4.32 ± 2.13 cm a las 72 h (p < 0.001, IC del 95%).
+T12	Premise	El promedio de número de dosis de analgésico en el grupo A fue de 2.41 ± 0.87 a las 24 h, 1.11 ± 0.85 a las 48 h y 0.94 ± 0.96 a las 72 h. En el grupo B fue de 3.82 ± 0.52 dosis a las 24 h, 3.64 ± 0.70 dosis a las 48 h y 2.88 ± 1.26 a las 72 h (p < 0.001, IC del 95%).
+T14	Claim	En este estudio, el diltiazem administrado por vía tópica disminuyó el dolor, en los pacientes postoperados de hemorroidectomía con técnica cerrada, de manera estadísticamente significativa.
+R1	Support	Arg1:T1	Arg2:T14
+R2	Support	Arg1:T11	Arg2:T14
+R3	Support	Arg1:T12	Arg2:T14

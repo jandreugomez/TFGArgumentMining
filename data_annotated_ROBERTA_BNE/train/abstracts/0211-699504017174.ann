@@ -1,0 +1,9 @@
+T6	Premise	Resultados: La PA se redujo significativamente desde 163 ± 18/90 ± 8 hasta 134 ± 12/77 ± 9 mmHg (p < 0,001).
+T7	Premise	Se produjeron reducciones significativas de la PA en el 50,0% de los enfermos y el 26,7% alcanzaron la PA objetivo ( < 130/85 mmHg).
+T9	Premise	No se detectaron reacciones adversas ni aumento de la incidencia de edema.
+T10	Premise	La creatinina plasmática (1,9 + 0,5 mg/dl) no se había modificado al final del estudio (1,8 ± 0,5 mg/dl) ni el aclaramiento de creatinina (40,1 ± 14,5 vs 45,5 ± 18,2).
+T11	Claim	Conclusiones: El lercanidipino ha presentado un excelente perfil de seguridad en los pacientes renales, destacando la ausencia de edemas a pesar de la insuficiencia renal y la diabetes de los pacientes.
+T12	Claim	Se obtuvo una buena respuesta hipotensora a pesar de que el porcentaje de pacientes que alcanzaron la PA objetivo fuera pequeña.
+R1	Support	Arg1:T6	Arg2:T11
+R2	Support	Arg1:T7	Arg2:T11
+R3	Support	Arg1:T9	Arg2:T11

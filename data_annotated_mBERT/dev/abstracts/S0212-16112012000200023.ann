@@ -1,0 +1,4 @@
+T1	Claim	 Lactobacillus plantarum CECT7315 y CECT7316 estimula la producción de inmunoglobulinas tras la vacunación contra la influenza en ancianos.
+T9	Premise	Además, se observó una tendencia hacia un incremento en los niveles de anticuerpos IgM específicos contra la influenza.
+T10	Claim	Conclusiones: Las cepas de L. plantarum CECT 7315/7316 tienen un efecto inmunoestimulador y podrían utilizarse para mejorar la respuesta a la vacuna contra la influenza en ancianos.
+R1	Support	Arg1:T9	Arg2:T10

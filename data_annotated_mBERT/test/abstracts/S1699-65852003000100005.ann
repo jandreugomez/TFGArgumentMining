@@ -1,0 +1,3 @@
+T11	Claim	A los 30 días de control, la azitromicina redujo significativamente los niveles de inflamación periodontal y la profundidad de los sacos, en comparación con los valores basales, y asociada al raspado y pulido radicular mejoró significativamente los niveles de inserción, aunque la comparación entre los tratamientos demostró una superioridad del antibiótico sólo en el parámetro Índice Gingival.
+T12	Claim	Nuestros resultados obtenidos en una muestra de 19 pacientes, que fueron controlados a los 30 días sugieren que la azitromicina asociada a raspado y pulido radicular puede constituir una alternativa interesante a otros antibióticos que se emplean en el tratamiento de algunas formas de periodontitis.
+R1	Support	Arg1:T11	Arg2:T12

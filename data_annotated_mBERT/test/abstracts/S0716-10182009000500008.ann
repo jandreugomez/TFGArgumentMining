@@ -1,0 +1,8 @@
+T7	Premise	El promedio de días de tratamiento iv fue 2,8 días (SD 1,2) sin diferencias significativas entre ambos grupos 2,7 +0,91 días en los internados vs 2,9 + 1,9 días en los ambulatorios (p = 0,22).
+T8	Premise	En 100% de ambos grupos de pacientes (en globo 101/101) el urocultivo obtenido al día 5 fue estéril.
+T9	Premise	No hubo complicaciones del tratamiento o sobre la vía venosa.
+T10	Premise	El análisis de costos concluyó que en globo, el manejo ambulatorio representó un 73% de ahorro económico (1.430.000 pesos chilenos vs 5.300.000 pesos en el sólo rubro de día-cama.
+T11	Claim	Conclusiones: El tratamiento iv ambulatorio en pacientes con ITU febril entre 2 y 24 meses fue efectivo, seguro y a un menor costo.
+R1	Support	Arg1:T7	Arg2:T11
+R2	Support	Arg1:T8	Arg2:T11
+R3	Support	Arg1:T10	Arg2:T11

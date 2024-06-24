@@ -1,0 +1,7 @@
+T5	Claim	Existe evidencia que sugiere que los corticoides inhalados pueden mostrar efectos terapéuticos tempranos (< 3 h).
+T6	Claim	Esta rápida respuesta se encontraría vinculada a un efecto tópico (vasoconstricción de la mucosa de la vía aérea), debido a la potenciación del efecto adrenérgico por modificación de los receptores post-sinápticos.
+T9	Premise	Ambos grupos presentaron un 63% de respuesta significativa (FEV1 > 60%) a los 30 minutos de iniciado el tratamiento (p: 0.72).
+T10	Premise	Al fnal del protocolo (180 minutos), el grupo control (salbutamol + bromuro de ipratropio) presentó 3 pacientes que no lograron el objetivo del FEV1 > 60% a comparación de 2 pacientes en el grupo tratado con corticoides inhalados a altas dosis (P: 0.97).
+T11	Claim	Conclusión: Actualmente el uso de corticoides inhalados a altas dosis en crisis de asma es una opción terapéutica para pacientes con crisis moderadas a severas.
+T12	Claim	Nuestro estudio no obtuvo valores significativos que apoyen el uso de esta medicación para reducir la incidencia de internaciones o mejorar significativamente la función pulmonar.
+R1	Support	Arg1:T10	Arg2:T11

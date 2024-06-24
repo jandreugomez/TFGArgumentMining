@@ -1,0 +1,9 @@
+T6	Claim	Se ha observado que el tratamiento con fármacos sensibilizadores a la insulina (metformina y pioglitazona) mejora la ciclicidad menstrual y la fertilidad en el perfil metabólico de los pacientes con ovario poliquístico.
+T7	Claim	Las incretinas y los inhibidores de la DPP-4 han demostrado mejorar la actividad de la célula β pancreática, aumentando la pérdida de peso por su efecto anoréxico y resultando en un control de peso adecuado y mejora de la fertilidad.
+T14	Premise	En el índice normalizado de menstruaciones se encontró que hubo un incremento estadísticamente significativo intragrupo en cada uno de los tratamientos.
+T15	Premise	Teniendo un mayor porcentaje de cambio el de la metformina con un 80%, seguido por el de sitagliptina con un 65% y posteriormente el COMBO con un 30%.
+T16	Premise	No se encontraron diferencias estadísticamente significativas entre grupos de tratamiento.
+T18	Claim	Se observó efecto terapéutico de sitagliptina en pacientes con SOP comparable con metformina y la combinación de metformina-sitagliptina es más eficaz en términos de la ovulación que los otros dos tratamientos solos.
+R1	Support	Arg1:T14	Arg2:T18
+R2	Support	Arg1:T15	Arg2:T18
+R3	Support	Arg1:T16	Arg2:T18

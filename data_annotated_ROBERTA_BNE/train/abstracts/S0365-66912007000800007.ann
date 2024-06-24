@@ -1,0 +1,8 @@
+T6	Claim	Resultados: El DisCoVisc® se ha comportado como dispersivo y cohesivo durante la capsulorrexis, la facoemulsificación y la aspiración del viscoelástico, mientras el Healon® ha demostrado ser una sustancia cohesiva en dichas fases.
+T7	Claim	El DisCoVisc® permite una mejor visualización y transparencia durante todos los pasos quirúrgicos, y mantiene mejor el el espacio capsular durante la implantación de la lente intraocular.
+T8	Claim	La aspiración del viscoelástico ha resultado ser más fácil utilizando Healon®.
+T9	Claim	Conclusiones: El DisCoVisc® es un nuevo viscoelástico que presenta propiedades dispersivas y cohesivas, evitando la utilización de dos viscoelásticos (uno cohesivo y otro dispersivo) para adaptarse a las necesidades de todos los pasos de la facoemulsificación.
+T10	Claim	Ha demostrado ofrecer mayor transparencia en la cirugía con respecto al Healon® y un mejor mantenimiento de la cámara anterior en todas las fases de la cirugía.
+T11	Claim	La aspiración del Healon® se realizó con mayor sencillez por su carácter cohesivo.
+R1	Support	Arg1:T6	Arg2:T9
+R2	Support	Arg1:T7	Arg2:T10

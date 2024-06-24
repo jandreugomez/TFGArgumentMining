@@ -1,0 +1,9 @@
+T2	MajorClaim	Introducción: La calcificación vascular (CV) asociada a la enfermedad renal crónica (ERC) es un fenómeno estrechamente ligado a las alteraciones en el metabolismo mineral óseo.
+T4	Claim	Algunos estudios in vitro señalan que las alteraciones electrolíticas y ácido-básicas que tienen lugar durante la sesión de hemodiálisis (HD) pueden jugar un papel clave en el proceso de CV.
+T7	Premise	En el grupo de pacientes dializados con baño de calcio 1,5 mM, el 100% finaliza la sesión con valores de calcio sérico > 1,3 mM, mientras que en el de 1,25 mM, esto solo ocurre en el 15%.
+T8	Claim	Al inicio de la sesión, esta ganancia de calcio coincide con niveles de fósforo aún no controlado.
+T9	Premise	Además, en todos los pacientes se observa una alcalinización progresiva: el 50% finaliza la sesión con cifras de bicarbonato > 30 mM y el 23% con pH > 7,5.
+T10	Claim	Conclusiones: Durante la sesión de HD se producen cambios electrolíticos y ácido-básicos inductores de CV: ganancia de calcio y alcalinización en presencia de fósforo sérico inicialmente elevado.
+T11	Claim	Son necesarios estudios con modelos cinéticos de ganancia de calcio y alcalinización diferentes a los actuales.
+R1	Support	Arg1:T8	Arg2:T10
+R2	Support	Arg1:T9	Arg2:T10

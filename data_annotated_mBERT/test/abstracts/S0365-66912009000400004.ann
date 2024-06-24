@@ -1,0 +1,6 @@
+T6	Claim	Resultados: Encontramos un incremento en el volumen macular estadísticamente significativo en los ojos con UAA comparados con los ojos controles.
+T7	Premise	El volumen macular total en los ojos con brote fue 7,3 DE 0,6 mm3 mientras que en los ojos controles fue 7,01 DE 0,3 mm3 (p<0,001) (DE significa desviación estándar).
+T8	Premise	Además, encontramos un aumento estadísticamente significativo en el grosor de las fibras del hemicampo superior de la CFNR comparadas con las de los controles.
+T9	Premise	El cociente Smax/Imax fue 1,05 DE 0,1 en los ojos patológicos y en los controles fue 0,97 DE 0,1 (p<0,02).
+T10	Claim	Conclusiones: Encontramos que los pacientes que presentaban un brote agudo de UAA tenían un incremento del volumen macular y del grosor de la capa de fibras del hemicampo superior retiniano comparados con los ojos controles.
+R1	Support	Arg1:T7	Arg2:T10

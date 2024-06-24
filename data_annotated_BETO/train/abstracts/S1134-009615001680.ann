@@ -1,0 +1,8 @@
+T10	Premise	Resultados: La insuficiencia renal aguda se redujo significativamente con el precondicionamiento isquémico remoto (45 de 120 pacientes [37,5%]) en comparación con el control (63 de 120 pacientes [52,5%]; reducción absoluta de riesgo, 15%; IC 95%: 2,56-27,44%; p = 0,02).
+T11	Premise	Los pacientes que recibieron precondicionamiento isquémico remoto presentaron menor necesidad de terapia de reemplazo renal (7 [5,8%] frente a 19 [15,8%]; reducción absoluta de riesgo, 10%; IC 95%: 2,25-17,75%; p = 0,01), y redujo la estancia en la unidad de cuidados intensivos (3 días [rango intercuartilico, 2-5] vs 4 días [rango intercuartílico, 2-7]) (p = 0,04).
+T12	Claim	No se observó un efecto significativo del precondicionamiento isquémico remoto sobre la incidencia de infarto de miocardio, accidente cerebrovascular o mortalidad.
+T13	Premise	El precondicionamiento isquémico remoto redujo significativamente la liberación de IGFBP7 y TIMP-2 después de la cirugía (precondicionamiento isquémico remoto, 0,36 vs control, 0,97 ng/ml 2/1.000; diferencia, 0,61; IC 95%: 0,27-0,86; p < 0,001).
+T14	Premise	No se informaron efectos adversos con el precondicionamiento isquémico remoto.
+T15	Claim	Conclusiones: Entre los pacientes de alto riesgo sometidos a cirugía cardíaca, el precondicionamiento isquémico remoto redujo significativamente la incidencia de insuficiencia renal aguda y la necesidad de terapia de reemplazo renal.
+R1	Support	Arg1:T10	Arg2:T15
+R2	Support	Arg1:T11	Arg2:T15

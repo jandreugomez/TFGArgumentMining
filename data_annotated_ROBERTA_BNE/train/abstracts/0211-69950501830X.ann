@@ -1,0 +1,17 @@
+T8	Premise	Los valores de Hcys se compararon con un grupo control similar en edad y sexo.
+T9	Premise	Resultados: Todos los pacientes y el 22% de los controles presentaron HHcys siendo los niveles de Hcys 2,5 veces superiores en los pacientes que en el grupo control (32,4 ± 8,9 vs 12,9 ± 6,8 µmol/L; P < 0,0001).
+T10	Premise	Las dos pautas fueron igualmente eficaces en reducir la Hcys, aunque solamente el 12% de los pacientes normalizaron sus niveles al finalizar el estudio.
+T11	Premise	Globalmente, los niveles de Hcys experimentaron un descenso significativo al mes de tratamiento (23,6%, P < 0,001).
+T12	Premise	El mayor descenso se registró tras 6 meses (28,3%, P < 0,001), estabilizándose hasta los 12 meses.
+T13	Premise	El mayor descenso de Hcys se asoció con niveles basales más altos de Hcys (r = 0,500, P < 0,001) y más bajos de AcF (r = -0,332, P = 0,009).
+T14	Claim	El polimorfismo de la MTHFR no modificó significativamente la respuesta terapéutica.
+T15	Claim	Conclusiones: La HHcys es constante con pautas convencionales de hemodiálisis aunque no existan déficits vitamínicos.
+T16	Claim	Los suplementos reducen de forma substancial y sostenida los niveles de Hcys.
+T17	Claim	Dosis suprafisiológicas no suponen ventajas adicionales.
+T18	Claim	Se requieren nuevos estudios para demostrar que este descenso conlleve un impacto final favorable sobre la morbi-mortalidad cardiovascular.
+R1	Support	Arg1:T9	Arg2:T10
+R2	Support	Arg1:T9	Arg2:T16
+R3	Support	Arg1:T10	Arg2:T15
+R4	Support	Arg1:T10	Arg2:T16
+R5	Support	Arg1:T11	Arg2:T16
+R6	Support	Arg1:T13	Arg2:T16

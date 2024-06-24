@@ -1,0 +1,11 @@
+T8	Premise	La mortalidad postoperatoria a 60 días ha sido de 5 pacientes; 87 pacientes fueron sometidos a un seguimiento oncológico medio de 41 meses (7-129).
+T9	Premise	La media de supervivencia observada en los 10 pacientes no resecados fue de 4,5 meses.
+T10	Premise	La media de supervivencia observada en los 10 pacientes resecados paliativamente fue de 7,1 meses.
+T12	Premise	La supervivencia actuarial global a 5 años de los pacientes resecados fue del 29%.
+T14	Claim	La gastrectomía laparoscópica asociada a cualquier tipo de linfadenectomía es una intervención importante pero segura, con tasas de morbi-mortalidad aceptables en pacientes con cáncer gástrico avanzado, que frecuentemente presentan un mal estado general.
+T15	Claim	Los resultados oncológicos a largo plazo son similares a los obtenidos por vía laparotómica.
+T16	Claim	Son necesarios más estudios prospectivos que evalúen los resultados de este abordaje, tanto en sus beneficios a corto plazo como en el resultado oncológico a distancia.
+R1	Support	Arg1:T8	Arg2:T14
+R2	Support	Arg1:T8	Arg2:T15
+R3	Support	Arg1:T9	Arg2:T14
+R4	Support	Arg1:T10	Arg2:T14

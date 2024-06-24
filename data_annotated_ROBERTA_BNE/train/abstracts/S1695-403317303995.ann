@@ -1,0 +1,5 @@
+T9	Premise	La glucemia media fue mayor en el grupo al 5%, sin diferencia estadística.
+T10	Premise	No hubo diferencia en la incidencia de hiperglucemia; 8h: 26% del grupo 3,3% vs. 21,3% del grupo 5% (p=0,63); 24h: 20% vs. 22,7% (p=0,8); 48h: 19% vs. 23,1% (p=0,78).
+T12	Claim	En el postoperatorio de cirugía general, el uso de soluciones glucosadas al 3,3% consigue niveles de glucemia similares a los detectados en pacientes que reciben suero con glucosa 5%, con una incidencia de hiperglucemia similar.
+R1	Support	Arg1:T9	Arg2:T12
+R2	Support	Arg1:T10	Arg2:T12

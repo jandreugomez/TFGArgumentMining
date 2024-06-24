@@ -1,0 +1,8 @@
+T3	Claim	Nuestra hipótesis fue que los pacientes sometidos a colecistectomía laparoscópica tenían menos dolor 4 h después de la cirugía cuando recibían propofol para la anestesia en comparación con isoflurano, desflurano o sevoflurano.
+T7	Premise	Resultados:  no hubo diferencias estadísticamente significativas en las puntuaciones del dolor 4 h después de la cirugía (p = 0,72).
+T8	Premise	Tampoco hubo diferencias estadísticamente significativas en las puntuaciones del dolor entre los grupos de tratamiento durante las 24 h del postoperatorio (p = 0,45).
+T9	Premise	El uso intraoperatorio de fentanilo y morfina no varió significativamente entre los grupos (p = 0,21 y 0,24 respectivamente).
+T10	Premise	No hubo una diferencia en el consumo total de morfina e hidrocodona/APAP durante las primeras 24 h (p = 0,61 y 0,53 respectivamente).
+T11	Claim	Conclusiones:  los pacientes que recibieron propofol para el mantenimiento de la anestesia general no tenían menos dolor poscolecistectomía videolaparoscópica en comparación con los que recibieron isoflurano, desflurano o sevoflurano.
+R1	Support	Arg1:T7	Arg2:T11
+R2	Support	Arg1:T8	Arg2:T11

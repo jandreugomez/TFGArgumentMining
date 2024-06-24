@@ -1,0 +1,4 @@
+T4	Claim	Investigaciones recientes han propuesto laxantes como objetivos terapéuticos potentes para el dolor abdominal en pacientes con OC.
+T11	Claim	Este estudio indicó que esta eficacia no se ve afectada significativamente por el sexo y el olor fecal, sin embargo, esta eficacia está influenciada por la edad, el peso corporal, la duración del dolor abdominal y la tasa de dolor abdominal tanto para PEG como para lactulosa.
+T12	Claim	Conclusión: Se podría concluir que el PEG es un fármaco más eficaz para tratar el dolor abdominal en el estreñimiento oculto que la lactulosa y que su efecto óptimo se puede lograr en pacientes mayores con dolor abdominal más severo.
+R1	Partial-Attack	Arg1:T11	Arg2:T12

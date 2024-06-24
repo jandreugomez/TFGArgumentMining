@@ -1,0 +1,5 @@
+T14	Premise	Resultados: cuarenta y un pacientes (80,3%) referían que el tratamiento les controlaba de forma satisfactoria la sintomatología y 34 pacientes (66,6%) habían presentado como máximo un episodio de pirosis de intensidad leve en la última semana.
+T16	Premise	No se observaron diferencias significativas en la respuesta al tratamiento en los pacientes con o sin infección por H. pylori.
+T17	Claim	Conclusiones: con las limitaciones propias de un estudio piloto, estos resultados, orientan a que lansoprazol 15 mg/día es un tratamiento eficaz en el control de la sintomatología de la ERNE, pudiendo ser una buena estrategia terapéutica inicial y que, con los datos disponibles, la infección por H. pylori no influye de forma significativa en la respuesta al tratamiento.
+R1	Support	Arg1:T14	Arg2:T17
+R2	Support	Arg1:T16	Arg2:T17

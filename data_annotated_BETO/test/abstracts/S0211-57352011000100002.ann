@@ -1,0 +1,5 @@
+T10	Claim	Resultados: El programa de Psicoterapia breve ha sido más efectivo que el tratamiento habitual: Obtiene una mayor tasa de altas y los sujetos muestranmayores mejorías en estado clínico y discapacidad y mayor satisfacción.
+T11	Premise	Estas diferencias se dan tanto a los seis meses como al año y a los dos años de iniciarse los tratamientos.
+T12	Premise	Además, aunque el número medio de sesiones es igual en ambos grupos (en torno a seis), el tratamiento experimental duró mucho menos tiempo.
+T13	Claim	Conclusiones: La Psicoterapia ha resultado ser un tratamiento viable y efectivo para la mayoría de los casos que consultan en los CSM.
+R1	Support	Arg1:T10	Arg2:T13

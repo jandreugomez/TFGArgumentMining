@@ -1,0 +1,6 @@
+T2	MajorClaim	Las infecciones nosocomiales persisten elevadas en las unidades de cuidados intensivos neonatales, lo cual motiva el muy frecuente uso de antibióticos.
+T12	Premise	El porcentaje de recién nacidos con evolución clínica adecuada fue de 92% en el GC y de 86% en el GV: diferencia de 6% (95% CI: de -7% a 19%, valor p de no inferioridad, p= 0,007).
+T13	Premise	En el GC, fallecieron 7 recién nacidos (13,5%) y 11, en el GV (19,2%), diferencia no significativa (p= 0,45).
+T15	Claim	En recién nacidos con sepsis nosocomial confirmada o altamente probable, la cefazolina no fue inferior a la vancomicina en el logro de un resultado clínico adecuado.
+R1	Support	Arg1:T12	Arg2:T15
+R2	Support	Arg1:T13	Arg2:T15

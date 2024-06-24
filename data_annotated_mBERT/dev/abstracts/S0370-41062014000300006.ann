@@ -1,0 +1,3 @@
+T6	Premise	Tampoco se observan diferencias en las variables secundarias: número de episodios de sepsis tardías con o sin hemocultivo positivo, hiperbilirrubinemia, enterocolitis necrotizante o hemorragia intracraneana.
+T7	Claim	Conclusiones: El uso sistemático de enemas de solución fisiológica y glicerina, en la forma utilizada en este estudio, no modifica la tolerancia alimentaria enteral de prematuros de muy bajo peso al nacer.
+R1	Support	Arg1:T6	Arg2:T7

@@ -1,0 +1,5 @@
+T10	Premise	Un incremento significativo fue observado en el análisis global y a los cinco días (p < 0,03) del VEM en el grupo de MCG.
+T11	Premise	Los valores del VDA global y durante las dos fases de estudio, el número de CGI y el número de suspensiones parciales y definitivas de la dieta o el número de NAVM fueron similares en ambos grupos, no significativos.
+T12	Premise	Tampoco se observaron diferencias en los diferentes objetivos secundarios.
+T13	Claim	Conclusión: El uso de metoclopramida en el enfermo neurocrítico, no es eficaz en la disminución de las CGI, en las dosis y tiempo de tratamiento reflejados en el estudio.
+R1	Support	Arg1:T11	Arg2:T13

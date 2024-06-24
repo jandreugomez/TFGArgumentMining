@@ -1,0 +1,5 @@
+T13	Premise	El tiempo promedio de progresión del dolor torácico fue 24 (2-240) meses, con ≤ 3 eventos/semana en el 52%.
+T14	Premise	Los síntomas acompañantes más frecuentes fueron: regurgitaciones (81%), disfagia (72%) y pirosis (66%).
+T15	Premise	Los pacientes con DTNC muestran deterioro en su calidad de vida comparado con el grupo control, independientemente de la etiología del dolor torácico.
+T18	Claim	En nuestra población, los pacientes con DTNC muestran deterioro en su calidad de vida independientemente de la etiología, frecuencia y síntomas que acompañan al dolor torácico.
+R1	Support	Arg1:T15	Arg2:T18

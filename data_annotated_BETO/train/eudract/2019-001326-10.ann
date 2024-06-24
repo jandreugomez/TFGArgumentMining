@@ -1,0 +1,4 @@
+T5	Premise	- El paciente tiene una puntuación total ≥26 en la Escala de clasificación de la depresión de Montgomery y Asberg (MADRS) en la visita basal.
+T7	Claim	El diagnóstico de demencia debe figurar en la historia clínica del paciente.
+T8	Claim	El paciente debe acudir a las visitas del estudio acompañado de un cuidador cuando el investigador lo considere necesario teniendo en cuenta su estado clínico y lo avanzado de la demencia precoz.
+T11	Claim	En el caso de los pacientes en tratamiento para la demencia, no debe realizarse ningún cambio en el tratamiento durante el estudio, y la dosis debe haber permanecido estable durante, como mínimo, los 3 meses anteriores a la visita de selección.

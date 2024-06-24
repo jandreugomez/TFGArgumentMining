@@ -1,0 +1,10 @@
+T4	Claim	La respuesta analgésica a la administración de dexmedetomidina parece producirse a nivel de la neurona de la raíz dorsal, donde los agonistas alfa-2 bloquean la liberación de la sustancia P en la vía nociceptiva.
+T6	Claim	La utilización de lidocaína intravenosa puede suprimir descargas neurales ectópicas procedentes de fibras aferentes primarias lesionadas debido a sus propiedades de bloqueo dependiente de canales de voltaje de sodio.
+T7	Claim	Además se ha evidenciado la activación endógena del sistema de opioides por infusión de lidocaína por vía sistémica.
+T14	Premise	Resultados: en cuanto a la analgesia con ambas infusiones no hubo diferencias significativas.
+T15	Premise	De los 16 pacientes, 18 % (n: 3) requirieron terapia de rescate durante la infusión y 18 % (n: 3) requirieron rescate durante las 48 horas postinfusión.
+T17	Premise	En cuanto a sedación durante la infusión se reportaron diferencias significativas (p: -0,01) reportándose mayor sedación en el grupo de dexmedetomidina.
+T18	Premise	No se presentaron complicaciones cardiovasculares y/o respiratorias en ninguno de los dos grupos.
+T19	Claim	Conclusiones: el grupo de dexmedetomidina requirió menos rescates con opioides durante la infusión y posterior a ella.
+T20	Premise	Se presentó mayor sedación en el grupo de dexmedetomidina sin presencia de complicaciones cardiovasculares y/o respiratorias durante o posterior a la infusión.
+R1	Support	Arg1:T15	Arg2:T19

@@ -1,0 +1,11 @@
+T1	Claim	 El seguimiento telemétrico disminuye la visita a la sala de urgencias y coste de atención en enfermos con insuficiencia cardíaca crónica.
+T13	Premise	El grupo de seguimiento telemétrico redujo su peso y mejoró el control de su enfermedad (p = 0.01).
+T14	Premise	La presión arterial sistólica disminuyó significativamente (p > 0.05).
+T15	Premise	El coste de atención se redujo en el grupo de seguimiento telemétrico (51%), en comparación con el grupo de consulta médica tradicional.
+T16	Premise	Se evitó el ingreso a urgencias en el 100% de los enfermos del grupo de seguimiento telemétrico.
+T18	Claim	En enfermos con insuficiencia cardíaca, el seguimiento telemétrico fue efectivo en disminuir las visitas a urgencias y ahorró significativamente recursos en la atención durante el seguimiento.
+R1	Support	Arg1:T1	Arg2:T18
+R2	Support	Arg1:T13	Arg2:T18
+R3	Support	Arg1:T14	Arg2:T18
+R4	Support	Arg1:T15	Arg2:T18
+R5	Support	Arg1:T16	Arg2:T18

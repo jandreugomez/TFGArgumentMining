@@ -1,0 +1,7 @@
+T8	Premise	En los 30 participantes que finalizaron el estudio, la formulación test no causó eritema, descamación, ardor, prurito o dolor; hubo mejora en la hidratación cutánea en el lugar de aplicación de la formulación con las micropartículas.
+T9	Premise	En la evaluación de la función barrera hubo aumento de la pérdida transepidérmica de agua en todos los lugares.
+T10	Claim	Conclusión:  la formulación con micropartículas de manzanilla es segura para el uso tópico, no provocando irritación y mejorando la hidratación cutánea a lo largo de cuatro semanas de uso.
+T11	Claim	Sus efectos en la función barrera deben ser mejor estudiados.
+R1	Support	Arg1:T8	Arg2:T10
+R2	Support	Arg1:T9	Arg2:T10
+R3	Support	Arg1:T9	Arg2:T11

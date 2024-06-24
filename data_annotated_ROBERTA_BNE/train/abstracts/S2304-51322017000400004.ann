@@ -1,0 +1,11 @@
+T1	Claim	 Evaluación de la mejoría de la sexualidad en mujeres intervenidas por incontinencia urinaria.
+T16	Premise	En el total de la población estudiada, la prevalencia de IU de esfuerzo fue 55,5%, 35,5% con IU mixta y 8,8% con IU de urgencia; el 86,6% tenía laxitud vaginal, en 28,8% la IU se presentaba durante el coito, y en 31,1% se observó prolapso anterior mayor o igual al grado II.
+T17	Premise	El índice función sexual femenina en la población general fue de 26,4±5,1 puntos; al inicio del tratamiento en el grupo A fue 27,3±5,7 y en el grupo B 26,7±5,4.
+T18	Premise	A las 18 semanas de la última sesión, fue de 30,9±5,1 y 32,7±3,3, respectivamente.
+T19	Premise	Se observó una prevalencia inicial de trastornos sexuales para la población general de 86,6% y al final del 15,5%.
+T21	Premise	Las mujeres sometidas a rehabilitación tuvieron mejoría en la respuesta sexual.
+T22	Claim	La efectividad del láser, en la resolución de la IU, fue superior a la rehabilitación.
+R1	Support	Arg1:T16	Arg2:T22
+R2	Support	Arg1:T17	Arg2:T22
+R3	Support	Arg1:T18	Arg2:T22
+R4	Support	Arg1:T21	Arg2:T22

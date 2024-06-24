@@ -1,0 +1,3 @@
+T9	Premise	El éxito en la liberación de la VM fue de 76% en CPAP y 60% en Tubo en T (riesgo relativo 1,27; intervalo de confianza del 95%, 0,86-1,87).
+T10	Claim	Conclusión: En una cohorte de pacientes con EPOC, el ensayo de respiración espontánea con CPAP tuvo una tendencia a mejor resultado que con Tubo en T, pero esto necesita mayor investigación.
+R1	Support	Arg1:T9	Arg2:T10

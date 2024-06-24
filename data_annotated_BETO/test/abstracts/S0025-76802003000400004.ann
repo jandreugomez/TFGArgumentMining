@@ -1,0 +1,5 @@
+T1	Claim	 La eficacia de los probióticos sobre la diarrea persistente en niños aún no ha sido comprobada.
+T7	Premise	Lactobacillus sp y S. boulardii redujeron significativamente el número de deposiciones (p < 0.001), la duración de la diarrea y el número de vómitos (p< 0.005) y (p< 0.002) respectivamente, comparado con placebo.
+T8	Premise	No hubo diferencias entre los tratamientos en pacientes con rotavirus-positivo o rotavirus-negativo.
+T9	Claim	En conclusión, este trabajo demuestra que cepas de L. casei y L. acidophillus desarrolladas por CERELA y de S. boulardii son similarmente efectivas en el tratamiento de la diarrea persistente en niños.
+R1	Support	Arg1:T7	Arg2:T9

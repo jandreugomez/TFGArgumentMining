@@ -1,0 +1,12 @@
+T4	Claim	Rotigotina constituye una novedosa alternativa terapéutica, si bien existen escasos estudios publicados sobre rotigotina en pacientes en hemodiálisis (HD) con SPI.
+T19	Premise	El 22,9%, con SPI.
+T20	Premise	Únicamente en la fase 2 observamos una mejoría significativa para QS (10±2,4 vs. 5,7±1,0), GRLS (21±4 vs. 5,7±4,6), JH-QoL (22,1±4,4 vs. 4,3±4,0) y SCOPA (16±5,3 vs. 6,7±1,9).
+T21	Premise	Un 77,7 y un 11,1% presentaron remisión parcial (>20%) y completa (>80%), respectivamente.
+T24	Premise	No observamos cambios en datos bioquímicos, adecuación dialítica ni tratamiento médico.
+T25	Claim	El análisis intergrupos mostró una mejoría significativa en la fase 2 con relación a QS, GRLSS, JH-QoL y SCOPA.
+T27	Claim	En nuestro estudio, el SPI urémico presentó una prevalencia considerable.
+T28	Claim	Rotigotina mejoró la sintomatología clínica, la calidad de vida y la higiene de sueño en los pacientes con SPI en HD, por lo que resulta ser un fármaco seguro, con mínimos efectos adversos y con cumplimento terapéutico completo.
+T29	Claim	No obstante, serían necesarios futuros estudios para confirmar el beneficio de rotigotina en la población en HD con SPI.
+R1	Support	Arg1:T19	Arg2:T28
+R2	Support	Arg1:T20	Arg2:T28
+R3	Support	Arg1:T21	Arg2:T28

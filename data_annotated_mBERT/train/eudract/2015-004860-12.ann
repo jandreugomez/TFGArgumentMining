@@ -1,0 +1,4 @@
+T10	Claim	Los pacientes no deben haber recibido radioterapia, cirugía, quimioterapia o cualquier tratamiento en investigación para el tratamiento de la enfermedad metastásica o estará dentro de los 3 primeros ciclos de quimioterapia de primera línea.
+T11	Claim	Se permite la radioterapia paliativa para las metástasis óseas.
+T23	Claim	Los pacientes en edad fértil deben estar de acuerdo en utilizar métodos anticonceptivos adecuados durante el estudio.
+T38	Premise	Factores de riesgo graves que implican cualquiera de los principales órganos, o trastornos psiquiátricos graves, que podrían comprometer la seguridad o la integridad de los datos del estudio.

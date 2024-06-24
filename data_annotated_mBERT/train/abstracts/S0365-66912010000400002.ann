@@ -1,0 +1,9 @@
+T7	Premise	Resultados: La combinación fija bimatoprost/timolol redujo significativamente la PIO (p < 0,0001), además de conseguir un incremento significativo de la velocidad diastólica final (VDF) en la ACR (p = 0,03).
+T8	Premise	En el grupo de pacientes tratados con bimatoprost/timolol se observó una correlación estadísticamente significativa entre la PIO y la VDF a las 12 semanas de tratamiento (r = -0,511, p = 0,045).
+T9	Premise	No hubo cambios significativos en las presiones arteriales sistólica (p = 0,54) y diastólica (p = 0,67) ni en la frecuencia cardíaca (p = 0,10) durante el período de tratamiento.
+T10	Claim	Conclusiones: La combinación fija bimatoprost/timolol redujo significativamente la PIO en pacientes con HTO.
+T11	Claim	El único cambio observado en la hemodinámica retrobulbar fue un incremento de la VDF en la ACR, probablemente relacionado con la reducción de la PIO.
+R1	Support	Arg1:T7	Arg2:T10
+R2	Support	Arg1:T7	Arg2:T11
+R3	Support	Arg1:T8	Arg2:T10
+R4	Support	Arg1:T8	Arg2:T11

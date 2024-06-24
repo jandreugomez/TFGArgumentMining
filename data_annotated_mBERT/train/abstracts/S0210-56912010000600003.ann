@@ -1,0 +1,5 @@
+T12	Premise	Se obtuvo recanalización completa en 11 pacientes (69%) y parcial en 4 (25%).
+T13	Premise	Tres pacientes evolucionaron a muerte encefálica.
+T14	Premise	Seis pacientes (46%) tuvieron una buena recuperación (escala de Rankin modificada <2).
+T16	Claim	Conclusiones: El tratamiento intraarterial obtiene altas tasas de recanalización y buenos resultados funcionales con escasas complicaciones.
+R1	Support	Arg1:T12	Arg2:T16

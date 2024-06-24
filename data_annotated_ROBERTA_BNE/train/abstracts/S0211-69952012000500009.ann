@@ -1,0 +1,8 @@
+T1	Claim	 Tratamiento eficaz de la arteriolopatía urémica calcificante con bifosfonatos.
+T8	Premise	Ningún paciente presentaba obesidad ni diabetes mellitus.
+T9	Premise	Resultados: En todos los casos se constató disminución de sintomatología (dolor) a los pocos días y regresión de las lesiones entre 2 a 4 semanas tras iniciar los bifosfonatos, sin cambios en los valores séricos de calcio y fósforo.
+T10	Premise	La mejoría fue más rápida en los que recibieron ibandronato intravenoso.
+T12	Premise	No se han observado recurrencias tras un seguimiento de entre 1 y 9 años.
+T13	Premise	La función renal se mantuvo estable en los pacientes trasplantados.
+T14	Claim	El tratamiento fue bien tolerado y no se observaron efectos adversos.
+T15	Claim	Conclusiones: Los bifosfonatos podrían constituir una alternativa nueva y atractiva para el tratamiento de la CUA.
