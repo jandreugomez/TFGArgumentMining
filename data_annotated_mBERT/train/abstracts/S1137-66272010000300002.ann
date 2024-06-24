@@ -1,0 +1,7 @@
+T5	Claim	Para ello se compararon los resultados de la cirugía mínimamente invasiva con los de la cirugía convencional en artroplastia total de cadera.
+T11	Premise	No se han encontrado diferencias significativas entre los grupos en cuanto a sangrado perioperatorio.
+T12	Premise	El dolor postoperatorio fue menor con la cirugía mínimamente invasiva, la velocidad de recuperación fue significativamente mayor con el abordaje posterior mínimamente invasivo al detectarse una menor estancia hospitalaria y un inicio más precoz de la deambulación.
+T13	Premise	No se encontraron diferencias en cuanto a tiempo quirúrgico, orientación y ajuste de los componentes, tasa de complicaciones ni resultado funcional.
+T14	Claim	Impacto económico favorable a la cirugía mínimamente invasiva con un ahorro del 5% del total de coste del proceso.
+T16	Claim	El abordaje posterior mínimamente invasivo disminuye el dolor y acelera la recuperación con un impacto económico favorable, sin mostrar diferencias en ninguna de los demás aspectos estudiados.
+R1	Support	Arg1:T12	Arg2:T16

@@ -1,0 +1,11 @@
+T3	Claim	El revestimiento con cobre, de superficies de alto contacto en la unidad clínica en torno a los pacientes, reduce la colonización bacteriana de las mismas.
+T8	Premise	No se encontraron diferencias en la frecuencia de infecciones intrahospitalarias en ambos grupos.
+T9	Premise	Tampoco se encontraron diferencias significativas en las tasas de neumonía asociada a ventilación mecánica (p = 0,9), infección urinaria asociada a catéter urinario (p = 0,9) y bacteremias asociada a catéter venoso central (p = 0,3).
+T10	Premise	Tampoco se encontraron diferencias en la sobrevida libre de infección (p = 0,9).
+T11	Claim	Se encontró un gasto menor de antimicrobianos en pacientes atendidos en unidades revestidas con cobre.
+T12	Premise	Durante el período del estudio no se completó el tamaño de muestra y las diferencias no significativas podrían deberse a este hecho.
+T13	Claim	Conclusión: El uso del cobre como revestimiento de las superficies hospitalarias en UCI, mostró diferencia en la tasa de bacteriemia asociada a dispositivos venosos, aunque no significativa, y no mostró diferencia en neumonías e infecciones urinarias.
+T14	Claim	Las diferencias no significativas pueden deberse a que no se completó el tamaño de la muestra.
+T15	Claim	Se observó un mayor gasto de antimicrobianos en pacientes de unidades no cobrizadas, lo que plantea una nueva área de investigación.
+R1	Support	Arg1:T9	Arg2:T13
+R2	Support	Arg1:T11	Arg2:T15

@@ -1,0 +1,12 @@
+T1	Claim	 ¿Mejora la función renal tras la paratiroidectomía en el hiperparatirodismo primario?
+T4	Claim	La disminución del filtrado glomerular (<60ml/min) se mantiene en la guías como un criterio para la realización de la paratiroidectomía (PTX) en el HPTP asintomático.
+T5	MajorClaim	La influencia que tiene la PTX sobre la evolución de la función renal es controvertida.
+T15	Premise	La nefrolitiasis fue el hallazgo clínico más frecuente (33%) seguido de la afectación ósea (29,5%).
+T16	Premise	Las indicaciones de PTX fueron: síntomas clínicos (34,7%), hipercalcemia>11,2mg/dl (27%), litiasis renal (13%), baja masa ósea (12%), edad<50 años (11%) y disminución del filtrado <60ml/min (2,3%)  En el diagnóstico de localización el spect-MIBI presentó una sensibilidad del 92% y la ecografía cervical del 70%.
+T19	Premise	Objetivamos un incremento significativo de la creatinina sérica (0,81 vs. 0,85mg/dl, p<0,001) desde la primera semana del postoperatorio y que se mantiene al año.
+T20	Premise	Cuando comparamos los pacientes según el filtrado glomerular basal, encontramos que el deterioro de la función renal solamente fue significativo en pacientes con filtrado glomerular >60ml/min (creatinina sérica basal 0,77mg/dl vs creatinina sérica al año 0,81mg/dl, p<0,001).
+T22	Premise	El HPTP cursó asintomático en la mayoría de los pacientes intervenidos.
+T23	Premise	La hipercalcemia y la nefrolitiasis fueron las indicaciones más frecuentes de paratiroidectomía en los pacientes asintomáticos.
+T24	Claim	El scan-MIBI fue el método de localización más útil.
+T25	Claim	La curación quirúrgica del HPTP se sigue de un deterioro de la función renal, que se mantiene desde la primera semana de la cirugía.
+R1	Support	Arg1:T16	Arg2:T23

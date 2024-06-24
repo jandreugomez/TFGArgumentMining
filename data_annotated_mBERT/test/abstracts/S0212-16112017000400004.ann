@@ -1,0 +1,9 @@
+T6	Premise	Resultados: a los tres meses, hubo un incremento del índice de masa corporal (IMC) y del índice de masa libre de grasa (IMLG) significativamente superior en el GS: IMC: 5,3% vs. 2,9%, p < 0,001; IMLG: 3,2% vs. 1,9%, p = 0,019.
+T7	Premise	El GS mostró una reducción de casos con IMC < 21 kg/m2 equivalente al 69% vs. 33% en el GC (p = 0,004).
+T8	Premise	Las variables funcionales mostraron una tendencia a la mejoría favorable al GS, siendo significativa para la fuerza de la mano (hand-grip test) en el subgrupo de pacientes con IMLG bajo (p = 0,001).
+T9	Premise	Todas las variables estudiadas de CV mejoraron significativamente en ambos grupos (p < 0,001).
+T10	Claim	Conclusiones: la suplementación oral durante tres meses con una nueva fórmula completa, polimérica y normocalórica fue bien tolerada y eficaz para el soporte nutricional de pacientes diagnosticados de EPOC con pérdida de peso o desnutrición.
+R1	Support	Arg1:T6	Arg2:T10
+R2	Support	Arg1:T7	Arg2:T10
+R3	Support	Arg1:T8	Arg2:T10
+R4	Support	Arg1:T9	Arg2:T10

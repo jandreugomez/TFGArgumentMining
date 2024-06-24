@@ -1,0 +1,10 @@
+T1	Claim	 Efecto del tratamiento erradicador para Helicobacter pylori en pacientes con dispepsia funcional.
+T8	Premise	Resultados: existió una mejoría significativa (p < 0,002) en los síntomas de los pacientes, tanto a los 6 como a los 12 meses tras el inicio del tratamiento, que además fue común a las dos pautas de tratamiento.
+T9	Premise	En el análisis de regresión lineal múltiple, los efectos del tratamiento erradicador y de tener una sintomatología menos intensa antes de recibir el tratamiento, fueron los dos únicos factores independientes de forma significativa.
+T10	Premise	La respuesta al tratamiento erradicador a los 6 meses fue significativamente mayor que con el tratamiento control (p = 0,01) en los pacientes con gastritis de predominio antral y en el apartado concreto de los síntomas habituales.
+T11	Claim	Conclusiones: ambos tratamientos producen una mejoría sintomática significativa en los pacientes con dispepsia funcional.
+T12	Claim	Se observa una tendencia hacia un beneficio sintomático mayor con el tratamiento erradicador respecto al control en pacientes con dispepsia funcional y en un medio con elevada prevalencia de infección por Helicobacter pylori.
+T13	Claim	Existe una tendencia hacia la mejoría sintomática con el tratamiento erradicador en los pacientes que tienen una gastritis de predominio antral.
+R1	Support	Arg1:T8	Arg2:T11
+R2	Support	Arg1:T8	Arg2:T12
+R3	Support	Arg1:T9	Arg2:T12

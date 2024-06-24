@@ -1,0 +1,11 @@
+T1	Claim	 La hemodiafiltración en línea mejora la respuesta al tratamiento con calcifediol.
+T4	Claim	Su reposición en hemodiálisis (HD), con dosis todavía no claramente establecidas, comienza a ser una constante en la práctica habitual.
+T14	Premise	Tratados (n = 36): Los niveles de 25-OH-vitD pasaron de 6,2 (3,4) a 51 (22,9) ng/ml, p < 0,0001, sin cambios significativos en el Ca.
+T15	Premise	La fosfatemia se incrementó como media en 0,6 (1,4) mg/dl, de 4,4 a 5 mg/dl, (p = 0,015).
+T16	Premise	La PTH disminuyó como media en 85 (208) pg/ml, p = 0,023.
+T17	Premise	En estos pacientes la indicación de captores del P se incrementó en una dosis media equivalente de 0,47 (0,82), p < 0,001.
+T18	Premise	Los 13 pacientes en tratamiento con HDF-OL alcanzaron unos niveles de 25-OH-vitD significativamente mayores que los 23 tratados con HD: 63 (21) vs. 43 (21) ng/ml, p = 0,011.
+T19	Premise	El tratamiento doble con vitamina D nativa y activa se asoció de forma significativa al aumento de los niveles de P, p = 0,043.
+T21	Premise	La disminución se produjo en los pacientes en HD, n = 15, y no en los que estaban en HDF-OL, n = 8.
+T23	Claim	La respuesta al tratamiento con calcifediol es buena, más marcada en los pacientes en HDF-OL; mientras, en los pacientes no tratados los niveles bajan probablemente en relación con el período invernal.
+T24	Claim	Algunos pacientes incrementan la fosfatemia a pesar de aumentar la cantidad de captores de P, fundamentalmente aquellos que estaban en tratamiento con vitamina D activa.

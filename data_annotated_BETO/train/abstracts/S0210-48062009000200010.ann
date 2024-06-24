@@ -1,0 +1,6 @@
+T2	MajorClaim	Introducción: Disfunción en el vaciamiento y retención urinaria son complicaciones frecuentes del cabestrillo.
+T13	Premise	Se encontró 87,1% y 92,9% de las pacientes continentes en los grupos autólogos y sintéticos, respectivamente.
+T14	Premise	Fallo en el procedimiento se presentó en un 7% en el grupo autólogo y 4,8% en el sintético (p=0,1961).
+T15	Premise	La tasa global de obstrucción del tracto urinario inferior fue de 4,5% (20/436), cuando se analizó por grupos, encontramos en el grupo autólogo una tasa de 8,5% (18/210), en comparación con el 0,9% en el grupo sintético (2/226) (p=0,000126).
+T16	Claim	Conclusiones: Cabestrillos autólogos y sintéticos presentan las tasas de éxito comparables, sin embargo la obstrucción del tracto urinario inferior fue más común entre las pacientes tratadas con fascias autólogas.
+R1	Support	Arg1:T15	Arg2:T16

@@ -1,0 +1,5 @@
+T8	Premise	Resultados: El trabajo mostró cambios significativos en los síntomas de frecuencia y nocturia, en el grupo sometido a electroestimulación del nervio tibial posterior (P=0003 = ep 0001, respectivamente).
+T9	Premise	La urgencia miccional y la calidad de vida mejoró en ambos grupos significativamente.
+T10	Claim	Conclusión: la electroestimulación del nervio tibial posterior demostró ser un tratamiento fisioterapéutico eficaz en el tratamiento de los síntomas clínicos y mejoría la calidad de vida de las mujeres con VH.
+R1	Support	Arg1:T8	Arg2:T10
+R2	Support	Arg1:T9	Arg2:T10

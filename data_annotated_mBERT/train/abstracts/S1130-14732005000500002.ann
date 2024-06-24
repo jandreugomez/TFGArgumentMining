@@ -1,0 +1,9 @@
+T1	Claim	Efectos de la dexmedetomidina sobre la hemodinámica intracraneal en pacientes con lesión encefálica traumatica grave.
+T2	Claim	La dexmedetomidina, un agonista adrenérgico selectivo α2, constituye un intento de mejorar la sedoanalgesia de los pacientes críticos, por sus efectos distintivos en comparación a los planes tradicionales como son: sedación consciente, simpaticolisis y ausencia de depresión respiratoria.
+T10	Premise	No se encontraron diferencias significativas entre los valores de PIC y presión arterial media (PAM) tras la infusión de la droga en relación con los valores basales.
+T11	Premise	La presión de perfusión cerebral (PPC) mostró una tendencia a disminuir durante el estudio (efecto marginal, p=0.058).
+T12	Premise	Se encontró un descenso significativo de la frecuencia cardíaca (FC) (p<0.0001) en relación a los valores basales.
+T13	Premise	No se hallaron diferencias significativas en los parámetros hemometabólicos cerebrales (SjO2 y CEO2).
+T15	Claim	A las dosis utilizadas, la dexmedetomidina fue segura, no asociándose a alteraciones significativas de la hemodinámica intracraneal ni del metabolismo sanguíneo cerebral en pacientes en la etapa aguda del trauma craneoencefálico grave (TECG)
+R1	Support	Arg1:T10	Arg2:T15
+R2	Support	Arg1:T13	Arg2:T15

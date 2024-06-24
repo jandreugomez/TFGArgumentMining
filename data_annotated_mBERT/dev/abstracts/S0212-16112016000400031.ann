@@ -1,0 +1,10 @@
+T2	Claim	Introducción: la nutrición parenteral (NP) a largo plazo puede asociarse a complicaciones graves, con un deterioro importante de la calidad de vida de los pacientes con síndrome de intestino corto (SIC).
+T7	Premise	En la semana 24 hubo significativamente más respondedores en el grupo de la teduglutida que en el de placebo (63 vs. 30%; p = 0,002).
+T8	Premise	La reducción absoluta media del volumen de NP frente al valor basal en la semana 24 fue significativamente mayor con la teduglutida (4,4 vs. 2,3 l/semana; p < 0,001).
+T9	Premise	La necesidad de NP se redujo ≥ 1 día en la semana 24 en el 54% de pacientes tratados con teduglutida vs. 23% con placebo.
+T10	Premise	Del total de pacientes que recibieron teduglutida en los ensayos en fase III (n = 134), el 12% consiguió una autonomía completa de la NP.
+T11	Claim	Por lo general, la administración subcutánea de teduglutida se toleró bien.
+T12	Claim	Conclusiones: se ha demostrado que teduglutida recupera la absorción intestinal y reduce significativamente la dependencia de la NP, consiguiendo incluso la independencia en algunos pacientes.
+R1	Support	Arg1:T8	Arg2:T12
+R2	Support	Arg1:T9	Arg2:T12
+R3	Support	Arg1:T10	Arg2:T12

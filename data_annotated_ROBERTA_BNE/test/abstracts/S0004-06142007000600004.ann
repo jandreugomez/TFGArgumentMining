@@ -1,0 +1,13 @@
+T5	Premise	166 pacientes (28%) desarrollaron una recidiva bioquímica (definida como PSA ≥0,5 ng/ml e incluyendo aquellos casos con persistencia tumoral).
+T9	Premise	Variables patológicas: Tras la prostatectomía, los pacientes tenían datos de mayor agresividad histológica que la definida previamente en las biopsias, apareciendo Gleason ≥7 en el 81% de los pacientes.
+T12	Premise	La SG fue de 86±6 % a los 5 años y la Supervivencia Libre de Fracaso Bioquímico (SLFB) fue de 76±4% a los 5 años.
+T13	Premise	Los factores predisponentes para la recidiva fueron: PSA 2 ng/ml al inicio de la RT (p=0,03), persistencia tumoral (p=0,05) y Gleason ≥7 tras la prostatectomía (p=0,01).
+T14	Premise	No se observó un aumento de la toxicidad grado 3 y 4 en los pacientes tratados con RT.
+T15	Claim	Conclusiones: La RT tras prostatectomía es un tratamiento eficaz de rescate tras recidiva bioquímica o persistencia cuando el PSA no supera los 2 ng/ml.
+T16	MajorClaim	En nuestra serie, el Gleason ≥7 es un factor adverso de respuesta a la RT de rescate.
+T17	Claim	No existe un aumento de la toxicidad severa.
+R1	Support	Arg1:T5	Arg2:T15
+R2	Support	Arg1:T9	Arg2:T15
+R3	Support	Arg1:T12	Arg2:T15
+R4	Support	Arg1:T13	Arg2:T15
+R5	Support	Arg1:T14	Arg2:T17

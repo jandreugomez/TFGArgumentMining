@@ -1,0 +1,5 @@
+T1	MajorClaim	 Miltefosina versus antimoniato de meglumina en el tratamiento de la leishmaniasis mucosa.
+T2	Claim	El tratamiento convencional para la leishmaniasis tegumentaria es el antimoniato de meglumina, el cual presenta falla terapéutica creciente, producción de efectos adversos graves, y necesidad de administración parenteral, justificando la búsqueda de alternativas terapéuticas.
+T5	Claim	No se encontraron hasta ahora diferencias significativas entre el número de pacientes curados con miltefosina o con la quimioterapia convencional.
+T6	Claim	Los resultados favorables de este trabajo sugieren que miltefosina podría constituir una alternativa terapéutica efectiva y segura en la región.
+R1	Support	Arg1:T1	Arg2:T6

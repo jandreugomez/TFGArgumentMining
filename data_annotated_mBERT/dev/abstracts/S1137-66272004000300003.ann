@@ -1,0 +1,13 @@
+T5	Claim	La pulsioximetría, técnica que mide de forma continua la saturación de oxígeno en sangre (%SpO2), se ha convertido en un método de monitorización estándar en anestesia, cuidados intensivos, neonatología, etc., pudiendo llegar a ser útil a los obstetras en la monitorización del bienestar fetal durante el parto.
+T6	Claim	Tiene la ventaja de ser mínimamente invasiva y fácil de usar.
+T7	Claim	La saturación de hemoglobina fetal oxigenada es un buen parámetro para medir el contenido-déficit fetal de oxígeno.
+T8	Claim	Una saturación menor del 30% durante un periodo de tiempo superior a 10 minutos se correlaciona con una pHmetría de micromuestra de cuero cabelludo fetal <7,20 y es predictivo de mal pronóstico neonatal.
+T10	Claim	Observar si el uso combinado de las dos técnicas proporciona resultados perinatales equivalentes, disminuye la tasa de cesáreas intraparto debidas a sospecha de pérdida de bienestar fetal intraparto.
+T17	Premise	Se obtuvieron resultados estadísticamente significativos en la vía del parto en el estudio comparativo de ambos grupos.
+T18	Claim	Atendiendo a los resultados perinatales obtenidos, los datos indican que no existen diferencias significativas en los valores de pH de arteria umbilical ni en los valores del Apgar al minuto y a los 5 minutos del parto entre los dos grupos, por lo cual ambos protocolos son igualmente satisfactorios.
+T19	Premise	La correlación de los datos obtenidos por pHmetría con los de la pulsioximetría, fue estadísticamente significativa.
+T21	Claim	El uso combinado de ambas técnicas aumenta la sensibilidad y especificidad del diagnóstico de riesgo de pérdida del bienestar fetal intraparto, sin afectar los resultados perinatales, reduciendo la tasa de cesáreas intraparto debidas a registro cardiotocográfico fetal patológico.
+T22	Claim	Existe una correlación estadísticamente significativa entre los resultados obtenidos por el pulsioxímetro y la determinación del equilibrio ácido-base tanto de micromuestra sanguínea fetal del cuero cabelludo como de sangre de cordón umbilical.
+R1	Support	Arg1:T10	Arg2:T21
+R2	Support	Arg1:T17	Arg2:T21
+R3	Support	Arg1:T18	Arg2:T21

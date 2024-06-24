@@ -1,0 +1,5 @@
+T1	Claim	 Ausencia de beneficio con triple antiagregación en el síndrome coronario agudo sin elevación persistente del segmento ST, en pacientes no sometidos a intervencionismo precoz.
+T18	Premise	No hubo diferencias estadísticas significativas en la frecuencia de la variable de eficacia (19,6% en el grupo A y 19,4% en el grupo B; p = 0,97), ni en la de seguridad (3,5 y 2,9% en los grupos A y B respectivamente; p = 1).
+T19	Premise	Tampoco existió diferencia estadística significativa en la realización de cateterismo urgente (19,6% en el grupo A y 13,4% en el grupo B; p = 0,35).
+T21	Claim	En el curso inicial del SCASEST de alto riesgo con una estrategia de tratamiento conservadora, la adición de clopidogrel al tirofibán no modifica la aparición de eventos isquémicos, muerte o necesidad de cateterismo urgente, ni se asocia a un incremento de complicaciones hemorrágicas.
+R1	Support	Arg1:T19	Arg2:T21

@@ -1,0 +1,4 @@
+T3	Premise	El paciente no ha respondido tras el periodo de inducción (Semana 8) en el estudio M14-234 (sub estudios 1 y 2), o ha tenido una respuesta inadecuada durante el periodo de mantenimiento del estudio M14-234 (sub estudio 3), o ha respondido y completado con éxito el estudio M14-234.
+T7	Claim	El paciente de sexo masculino tiene que estar de acuerdo en seguir las medidas del protocolo sobre evitar el embarazo, incluyendo evitar la donación de esperma durante y hasta 90 días después de la última dosis del fármaco de estudio.
+T10	Claim	Debe ser capaz y estar dispuesto a dar su consentimiento informado por escrito y cumplir con los requerimientos del protocolo del este ensayo.
+R1	Support	Arg1:T7	Arg2:T10

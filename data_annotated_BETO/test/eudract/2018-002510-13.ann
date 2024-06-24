@@ -1,0 +1,3 @@
+T2	Claim	TROMBOFIB trial   Indicación pública:  El trasplante hepático es susceptible al sangrado agudo y grave ya que se trata de una cirugía compleja y los pacientes con enfermedad hepática terminal tienen alteración de la coagulación.
+T3	MajorClaim	Indicación científica:  El transplante hepático es una situación especial de riesgo de sangrado agudo y grave determinado por la complejidad del procedimiento quirúrgico y por la alteración de la hemostasia y de factores de la coagulación, en especial del fibrinógeno, presentes en el paciente afecto de una hepatopatía terminal.
+R1	Support	Arg1:T2	Arg2:T3

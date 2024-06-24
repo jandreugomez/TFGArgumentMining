@@ -1,0 +1,6 @@
+T7	Premise	La proporción de personas afectadas por al menos un efecto adverso, fue semejante entre los 4 grupos: entre 54.8 y 58%, aunque en ninguno de ellos resultó de carácter grave.
+T8	Premise	Las manifestaciones clínicas adversas fueron: exantema morbiliforme (28%); prurito (13.6%); cefalea (8%); epigastralgia (6.2%); fiebre (6.2%); astenia (4.3%); náuseas (4.0%); mialgias (4.3%); vómitos (3.2%); otros (21.5%).
+T9	Premise	La incidencia de experiencias adversas no difirió significativamente entre los 4 esquemas terapéuticos, ni entre los diferentes intervalos de edad de los pacientes.
+T10	Claim	La asociación con ácido tióctico no demostró prevenir las manifestaciones de intolerancia a este agente.
+T11	Claim	No obstante, la administración de BZ en un ciclo mensual único a pacientes infectados logró una elevada tasa de adherencia al tratamiento ambulatorio.
+R1	Support	Arg1:T9	Arg2:T10

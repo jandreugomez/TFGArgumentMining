@@ -1,0 +1,11 @@
+T4	Claim	Se trata de una exploración bien tolerada pero en la que existe hasta un 10% de reacciones adversas: náuseas y vómitos (las más frecuentes), edema pulmonar, infarto de miocardio o shock anafiláctico (3); además hay que considerar las dificultades ocasionales para encontrar una vía periférica accesible y el tiempo que requiere para su realización.
+T5	Claim	Los nuevos sistemas de tomografía de coherencia óptica de alta definición basados en la tecnología espectral (HD-OCT), a diferencia de los tomógrafos convencionales (OCT Stratus®, Carl Zeiss Meditec®), permiten obtener un mapa de grosor macular con una resolución de 2 micras codificado con una escala de colores superpuesto a una retinografía.
+T6	Claim	De esta manera es posible no sólo cuantificar las micras de edema, sino localizar con gran precisión topográfica las áreas de engrosamiento macular y con ello se podría constituir en una alternativa a la AFG.
+T10	Premise	Los casos que recibieron la fotocoagulación focal guiada mediante AFG mostraron una reducción en el CST medio desde 500,5 ± 106,8 micras iniciales hasta 334,3 ± 65,2 micras, con un incremento en la MAVC media desde 0,18 ± 0,16 a 0,30 ± 0,24.
+T11	Premise	El grupo que recibió el tratamiento guiado por HD-OCT mostró una reducción en el CST medio desde 559,1 ± 217,6 micras iniciales hasta 323,5 ± 100,1, con una mejoría de la MAVC desde 0,19 ± 0,16 a 0,33 ± 0,28.
+T12	Premise	No se objetivaron diferencias estadísticamente significativas en ninguno de los parámetros del estudio entre los dos grupos de tratamiento (p=0,72 para CST y p=0,91 para MAVC).
+T13	Claim	En conclusión, a pesar del reducido tamaño muestral y del corto período de seguimiento, los resultados de este estudio permiten sugerir que el tratamiento de los edemas maculares secundarios a retinopatías vasculares mediante la fotocoagulación macular guiada exclusivamente por la imagen del HD-OCT Cirrus® es una alternativa eficaz y comparable a la AFG, que evita exponer al paciente a una prueba invasiva y no exenta de riesgos.
+R1	Partial-Attack	Arg1:T6	Arg2:T13
+R2	Support	Arg1:T10	Arg2:T13
+R3	Support	Arg1:T11	Arg2:T13
+R4	Support	Arg1:T12	Arg2:T13

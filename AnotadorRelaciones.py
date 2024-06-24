@@ -4,6 +4,7 @@ import os
 from tqdm import tqdm
 import pandas as pd
 from transformers import BertTokenizer, BertForSequenceClassification, Trainer, TrainingArguments, AdamW, get_linear_schedule_with_warmup
+from transformers import RobertaTokenizer, RobertaForSequenceClassification
 import torch
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import precision_recall_fscore_support, accuracy_score
@@ -50,22 +51,6 @@ class AnotatorDataset(torch.utils.data.Dataset):
 
     def __len__(self):
         return len(self.labels)
-
-def train_relation_anotator(relation_trainer, save_name):
-
-
-
-
-    # Entrenar el modelo
-    relation_trainer.train()
-
-    if args.save_model:
-        model.save_pretrained('./model_relation_'+save_name)
-        tokenizer.save_pretrained('./tokenizer_relation_'+save_name)
-
-    if args.do_eval:
-        eval_results = relation_trainer.evaluate()
-        print(eval_results)
 
 def inferenceRelationAnotator(relation_trainer):
         Support = 0
@@ -121,11 +106,17 @@ def inferenceRelationAnotator(relation_trainer):
                         fout.write('%s' % f'Arg2:{id_sentence[corpus.index(pair[1])]}')
                         fout.write('\n')
 
-        print('Support:' + str(Support))
-        print('Attack:' + str(Attack))
-        print('Partial-Attack:' + str(Partial_Attack))
-        print('rel_label:' + str(no_rel_label))
+        if not os.path.exists('./label_results/' + args.output_path):
+            os.makedirs('./label_results/' + args.output_path)
 
+        with open('./label_results/' + args.output_path + 'rel_labels.txt', 'w', encoding='utf-8') as fout:
+            fout.write('Support:' + str(Support))
+            fout.write('\n')
+            fout.write('Attack:' + str(Attack))
+            fout.write('\n')
+            fout.write('Partial-Attack:' + str(Partial_Attack))
+            fout.write('\n')
+            fout.write('rel_label:' + str(no_rel_label))
 
 
 def get_corpus_with_anotations(corpus_dir, file_name):
@@ -139,6 +130,59 @@ def get_corpus_with_anotations(corpus_dir, file_name):
             textos.append(line[2].replace('\n', ''))
         return textos, id_sentence
 
+def proccess_dataset(args, source_file):
+    file_test = source_file + 'neoplasm/test_relation.csv'
+    csv3 = pd.read_csv(file_test, index_col=False)
+    df_test_neo = pd.DataFrame(csv3, columns=['tipo', 'text1', 'text2'])
+
+    file_validate = source_file + 'neoplasm/validate_relation.csv'
+    csv = pd.read_csv(file_validate, index_col=False)
+    df_val_neo = pd.DataFrame(csv, columns=['tipo', 'text1', 'text2'])
+
+    file_train = source_file + 'neoplasm/train_relation.csv'
+    csv2 = pd.read_csv(file_train, index_col=False)
+    df_train_neo = pd.DataFrame(csv2, columns=['tipo', 'text1', 'text2'])
+
+    file_test = source_file + 'glaucoma/test_relation.csv'
+    csv3 = pd.read_csv(file_test, index_col=False)
+    df_test_glau = pd.DataFrame(csv3, columns=['tipo', 'text1', 'text2'])
+
+    file_test = source_file + 'mixed/test_relation.csv'
+    csv3 = pd.read_csv(file_test, index_col=False)
+    df_test_mixed = pd.DataFrame(csv3, columns=['tipo', 'text1', 'text2'])
+
+    df_total_neo = pd.concat([df_val_neo, df_train_neo, df_test_neo])
+
+    df_total_neo['tipo'] = df_total_neo['tipo'].map(rel_to_id)
+    df_test_glau['tipo'] = df_test_glau['tipo'].map(rel_to_id)
+    df_test_mixed['tipo'] = df_test_mixed['tipo'].map(rel_to_id)
+
+    train_texts1_glau, val_texts1_glau, train_texts2_glau, val_texts2_glau, train_labels_glau, val_labels_glau = train_test_split(df_test_glau['text1'],
+                                                                                            df_test_glau['text2']
+                                                                                            , df_test_glau['tipo'],
+                                                                                            test_size=0.2,
+                                                                                            random_state=args.seed)
+
+    train_texts1_mixed, val_texts1_mixed, train_texts2_mixed, val_texts2_mixed, train_labels_mixed, val_labels_mixed = train_test_split(df_test_mixed['text1'],
+                                                                                                df_test_mixed['text2'],
+                                                                                                df_test_mixed['tipo'],
+                                                                                                test_size=0.2,
+                                                                                                random_state=args.seed)
+
+    train_texts1_neo, val_texts1_neo, train_texts2_neo, val_texts2_neo, train_labels_neo, val_labels_neo = train_test_split(df_total_neo['text1'],
+                                                                                        df_total_neo['text2'],
+                                                                                        df_total_neo['tipo'],
+                                                                                        test_size=0.2,
+                                                                                        random_state=args.seed)
+
+    train_texts1 = pd.concat([train_texts1_glau, train_texts1_mixed, train_texts1_neo])
+    val_texts1 = pd.concat([val_texts1_glau, val_texts1_mixed, val_texts1_neo])
+    train_texts2 = pd.concat([train_texts2_glau, train_texts2_mixed, train_texts2_neo])
+    val_texts2 = pd.concat([val_texts2_glau, val_texts2_mixed, val_texts2_neo])
+    train_labels = pd.concat([train_labels_glau, train_labels_mixed, train_labels_neo])
+    val_labels = pd.concat([val_labels_glau, val_labels_mixed, val_labels_neo])
+
+    return train_texts1, val_texts1, train_texts2, val_texts2, train_labels, val_labels
 
 
 if __name__ == '__main__':
@@ -214,9 +258,14 @@ if __name__ == '__main__':
             save_name = 'BETO'
         if args.model_type == 'bert-base-multilingual-uncased':
             save_name = 'bert-base-multilingual-uncased'
-        tokenizer = BertTokenizer.from_pretrained('./tokenizer_relation_' + save_name)
-        model = BertForSequenceClassification.from_pretrained('./model_relation_' + save_name, num_labels=4)
-    elif args.model_type == 'bert-base-multilingual-uncased' or args.model_type == 'dccuchile/bert-base-spanish-wwm-uncased':
+        if args.model_type == 'PlanTL-GOB-ES/roberta-base-bne':
+            save_name = 'ROBERTA-BNE'
+            tokenizer = RobertaTokenizer.from_pretrained('./tokenizer_relation_' + save_name)
+            model = RobertaForSequenceClassification.from_pretrained('./model_relation_' + save_name, num_labels=4)
+        else:
+            tokenizer = BertTokenizer.from_pretrained('./tokenizer_relation_' + save_name)
+            model = BertForSequenceClassification.from_pretrained('./model_relation_' + save_name, num_labels=4)
+    else:
         if args.model_type == 'bert-base-multilingual-uncased':
             tokenizer = BertTokenizer.from_pretrained('bert-base-multilingual-uncased')
             model = BertForSequenceClassification.from_pretrained('bert-base-multilingual-uncased', num_labels=4)
@@ -225,33 +274,15 @@ if __name__ == '__main__':
             tokenizer = BertTokenizer.from_pretrained('dccuchile/bert-base-spanish-wwm-uncased')
             model = BertForSequenceClassification.from_pretrained('dccuchile/bert-base-spanish-wwm-uncased', num_labels=4)
             save_name = 'BETO'
-    else:
-        raise Exception('Tipo de modelo no valido debe ser dccuchile/bert-base-spanish-wwm-uncased o bert-base-multilingual-uncased')
+        elif args.model_type == 'PlanTL-GOB-ES/roberta-base-bne':
+            save_name = 'ROBERTA-BNE'
+            tokenizer = RobertaTokenizer.from_pretrained('PlanTL-GOB-ES/roberta-base-bne')
+            model = RobertaForSequenceClassification.from_pretrained('PlanTL-GOB-ES/roberta-base-bne', num_labels=4)
+        else:
+            raise Exception(
+                'Tipo de modelo no valido debe ser dccuchile/bert-base-spanish-wwm-uncased o bert-base-multilingual-uncased o PlanTL-GOB-ES/roberta-base-bne')
 
-
-
-    file_test = args.source_file + '/test_relation.csv'
-    csv3 = pd.read_csv(file_test, index_col=False)
-    df_test = pd.DataFrame(csv3, columns=['tipo', 'text1', 'text2'])
-
-    df_total = df_test
-
-    if 'neoplasm' in args.source_file:
-        file_validate = args.source_file + '/validate_relation.csv'
-        csv = pd.read_csv(file_validate, index_col=False)
-        df_val = pd.DataFrame(csv, columns=['tipo', 'text1', 'text2'])
-
-        file_train = args.source_file + '/train_relation.csv'
-        csv2 = pd.read_csv(file_train, index_col=False)
-        df_train = pd.DataFrame(csv2, columns=['tipo', 'text1', 'text2'])
-
-        df_total = pd.concat([df_val, df_train, df_test])
-
-    df_total['tipo'] = df_total['tipo'].map(rel_to_id)
-
-    train_texts1, val_texts1, train_texts2, val_texts2, train_labels, val_labels = train_test_split(df_total['text1'], df_total['text2'], df_total['tipo'],
-                                                                        test_size=0.2,
-                                                                        random_state=args.seed)
+    train_texts1, val_texts1, train_texts2, val_texts2, train_labels, val_labels = proccess_dataset(args, args.source_file)
 
     val_encodings = tokenizer(list(val_texts1), list(val_texts2), truncation=True, padding=True, max_length=512)
     train_encodings = tokenizer(list(train_texts1), list(train_texts2), truncation=True, padding=True, max_length=512)
@@ -276,17 +307,36 @@ if __name__ == '__main__':
         logging_steps=10,
     )
 
+    if args.do_test:
+        metricas = None
+    else:
+        metricas = compute_metrics
+
     # Inicializar el Trainer
     relation_trainer = Trainer(
         model=model,
         args=relation_training_args,
         train_dataset=train_dataset,
         eval_dataset=val_dataset,
-        optimizers=(optimizer, scheduler)
+        optimizers=(optimizer, scheduler),
+        compute_metrics=metricas
     )
 
     if args.do_train:
-        train_relation_anotator(relation_trainer, save_name)
+        # Entrenar el modelo
+        relation_trainer.train()
+
+        if args.save_model:
+            model.save_pretrained('./model_relation_' + save_name)
+            tokenizer.save_pretrained('./tokenizer_relation_' + save_name)
+
+    if args.do_eval:
+        eval_results = relation_trainer.evaluate()
+        if not os.path.exists('./eval_results_rel/'):
+            os.makedirs('./eval_results_rel/')
+        with open('eval_results/eval_results_relations_' + save_name + '.txt', "w") as writer:
+            for key in sorted(eval_results.keys()):
+                writer.write("%s = %s\n" % (key, str(eval_results[key])))
 
     if args.do_test:
         inferenceRelationAnotator(relation_trainer)

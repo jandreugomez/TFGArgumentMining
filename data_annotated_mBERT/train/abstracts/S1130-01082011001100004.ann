@@ -1,0 +1,10 @@
+T2	Claim	Introducción: la proctopatía por radiación (PPR) se asocia con rectorragia recurrente y requerimientos de trasfusiones.
+T3	Claim	La coagulación con argón plasma (APC) y la terapia con oxígeno hiperbárico (HOT) han sido efectivas en el control de la PPR.
+T10	Premise	No hubo respuesta en el 13 y 18% de los pacientes en el grupo de APC y OHT respectivamente (p = NS).
+T11	Premise	Al primer y segundo mes de seguimiento, el grupo APC mostró una mejoría significativa en los parámetros de requerimientos trasfusionales (0,6 vs. 3,4 y 0,7 vs. 2,5) y en la toxicidad tisular (5,3 vs. 8,6 y 3,8 vs. 7,2).
+T12	Premise	Después de 3 meses de seguimiento, ambos grupos mostraron mejoría en todos los parámetros sin haber diferencias estadísticamente significativas.
+T13	Claim	Conclusiones: APC y HOT fueron efectivos, seguros y disminuyeron la toxicidad tisular en los pacientes con PPR.
+T14	Premise	Sin embargo la respuesta fue más efectiva y rápida en el grupo del APC.
+R1	Support	Arg1:T10	Arg2:T13
+R2	Support	Arg1:T11	Arg2:T13
+R3	Support	Arg1:T12	Arg2:T13

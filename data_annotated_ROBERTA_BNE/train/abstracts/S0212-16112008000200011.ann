@@ -1,0 +1,7 @@
+T8	Premise	Resultados: La función renal mejoró en los pacientes con macroalbuminuria que realizaron la DBP: la EAU disminuyó (de 1.280,7 ± 1.139,7 a 444,4 ± 329,8 mg/24 h; p < 0,05) la TFG aumentó ( 56,3 ± 29,0 - 74,2 ± 40,4 ml/min; p < 0,05).
+T9	Premise	En los pacientes con normo y microalbuminuria, no hubo cambios significativos en la EAU o TFG tras cualquiera de las dietas.
+T10	Premise	La HbA1c disminuyó significativamente en los pacientes con microalbuminuria, con ambas dietas (DBP, 8,2 ± 1,6-7,2 ± 1,8%; p < 0,05; DNP, 8,8 ± 1,9-7,1 ± 0,8%; p < 0,05) y en los pacientes con macroalbuminuria que siguieron la DNP (8,1 ±1,8-6,9 ±1,6%; p < 0,05).
+T11	Claim	Conclusiones: Una dieta con restricción proteica moderada mejora la función renal en pacientes con diabetes tipo 2 y macroalbuminuria.
+R1	Support	Arg1:T8	Arg2:T11
+R2	Support	Arg1:T9	Arg2:T11
+R3	Support	Arg1:T10	Arg2:T11

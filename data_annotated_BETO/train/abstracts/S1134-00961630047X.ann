@@ -1,0 +1,7 @@
+T1	Claim	 Metilprednisolona en pacientes sometidos a bypass cardiopulmonar.
+T4	Claim	El bypass cardiopulmonar con circulación extracorpórea desencadena el síndrome de respuesta inflamatoria sistémica que está asociado a un aumento de morbimortalidad postoperatoria.
+T5	Claim	Los corticoides suprimen esta respuesta inflamatoria y podrían mejorar los resultados en pacientes de alto riesgo sometidos a cirugía cardíaca.
+T12	Premise	Hallazgos.
+T14	Claim	La metilprednisolona comparada con placebo no reduce el riesgo de muerte a los 30 días ni la mortalidad o patología grave.
+T16	Claim	El estudio SIRS no recomienda el uso rutinario de metilprednisolona en pacientes sometidos a bypass cardiopulmonar.
+R1	Support	Arg1:T1	Arg2:T16

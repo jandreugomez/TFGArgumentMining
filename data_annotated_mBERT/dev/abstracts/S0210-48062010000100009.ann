@@ -1,0 +1,7 @@
+T9	Premise	En el segundo fueron 1,71, 0,25, 0,75 y 0,35, respectivamente.
+T10	Claim	La comparación de medias realizada mediante el test de ANOVA pone de manifiesto diferencias significativas.
+T12	Premise	A frente a B: diferencia significativa en ambos cuestionarios (p 0,006 y 0,011).
+T14	Premise	A frente a C: no significación en el primer cuestionario (0,051) y sí en el segundo (0,012).
+T16	Premise	A frente a D: diferencia en ambos cuestionarios (0,001 y 0,010).
+T17	Premise	El uso de benzodiacepinas añadidas a la anestesia local (B frente a D) no mostró diferencias estadísticas en ambos cuestionarios (0,825 y 0,685).
+T18	Claim	Conclusión: consideramos que el uso de benzodiacepinas no está justificado como método único de control del dolor para la realización de la biopsia prostática.

@@ -1,0 +1,5 @@
+T3	MajorClaim	El sulfato de magnesio es un antagonista del calcio que inhibe la contracción del músculo liso bronquial y favorece la broncodilatación.
+T4	Claim	Se utiliza en el manejo del asma aguda grave en pediatría no obstante haber sido la mayoría de los estudios desarrollados en adultos.
+T16	Premise	El 33% (n= 22) de los pacientes del grupo control requirió asistencia ventilatoria mecánica, en comparación con solo 4 (5%) de los pacientes del grupo intervención (p= 0,001).
+T18	Claim	El uso de sulfato de magnesio en infusión endovenosa en la primera hora de ingreso del paciente con asma aguda grave redujo significativamente el porcentaje de niños que requirieron asistencia ventilatoria mecánica.
+R1	Support	Arg1:T16	Arg2:T18

@@ -1,0 +1,5 @@
+T9	Premise	Resultados: la presión portal y la función cardiaca no se modificaron y no hubo diferencias en la supervivencia a corto y largo plazo entre los grupos tratados y placebo.
+T10	Premise	Los índices de resistencia vascular sistémica y cardiaco cambiaron en el grupo de pentoxifilina (de 1.721 ± 567 a 2.082 ± 622 Din.seg 1 cm-5 m-2 y de 4,17 ± 1,4 a 3,4 ± 0,9 lm-2, p = 0,05).
+T11	Claim	Conclusiones: aunque la pentoxifilina parece producir algún beneficio hemodinámico a corto plazo en pacientes con cirrosis alcohólica avanzada, no tiene efecto sobre la tasa de supervivencia, la función cardiaca ni sobre la presión portal en estos pacientes.
+R1	Support	Arg1:T9	Arg2:T11
+R2	Support	Arg1:T10	Arg2:T11

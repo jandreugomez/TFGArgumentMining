@@ -1,0 +1,3 @@
+T10	Premise	Los valores comparativos de p en los 4 tratamientos ninguno fue menor de p0,01.
+T11	Claim	Conclusiones: Este protocolo no ha mostrado la eficacia de ninguno de los 4 tratamientos empleados en la disminución de VSC a corto plazo de la halitosis oral.
+R1	Support	Arg1:T10	Arg2:T11

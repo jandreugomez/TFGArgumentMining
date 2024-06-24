@@ -1,0 +1,5 @@
+T2	MajorClaim	JUSTIFICATIVA Y OBJETIVOS: La literatura sobre la analgesia de prevención es controversial.
+T3	Claim	La confiabilidad de los resultados y la dificultad de reproductibilidad de las investigaciones contribuyen para que el tema no quede clarificado en su totalidad.
+T9	Premise	RESULTADOS: No se observaron diferencias estadísticamente significativas en el dolor postoperatorio entre el tratamiento de prevención y el control.
+T10	Claim	CONCLUSIONES: En este modelo experimental, la analgesia de prevención no fue eficaz en la redución del dolor postoperatorio en la cirugía de extracción de terceros molares incluidos en comparación con la administración postoperatoria del mismo medicamento.
+R1	Support	Arg1:T9	Arg2:T10

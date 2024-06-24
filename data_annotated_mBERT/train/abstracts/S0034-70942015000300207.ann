@@ -1,0 +1,7 @@
+T2	Claim	JUSTIFICACIÓN Y OBJETIVO:  El tratamiento del dolor postoperatorio en la mastectomía continúa siendo un gran reto a pesar del abordaje multimodal.
+T8	Premise	Fue identificado el dolor al despertar en 4/22 en el grupo lidocaína y 5/22 (p = 0,50) en el grupo placebo; en la sala de recuperación postanestésica en 14/22 y 12/22 (p = 0,37) en los grupos lidocaína y placebo, respectivamente.
+T9	Premise	Al calcular el dolor 24 h después del procedimiento quirúrgico 3/22 y 2/22 (p = 0,50) de las pacientes relataron dolor en ambos grupos respectivamente.
+T10	Premise	CONCLUSIÓN:  La lidocaína intravenosa en una dosis de 3 mg/kg administrada en un período de una hora en el transoperatorio de mastectomía no generó analgesia adicional con relación al grupo placebo en las primeras 24 h y no disminuyó el consumo de opiáceos.
+T11	Claim	Sin embargo, no puede ser descartado un efecto beneficioso de la lidocaína intravenosa en pacientes seleccionadas y/o en otros regímenes terapéuticos.
+R1	Support	Arg1:T8	Arg2:T10
+R2	Support	Arg1:T9	Arg2:T10

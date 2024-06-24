@@ -1,0 +1,7 @@
+T1	Claim	 Efecto del tratamiento periodontal sobre la microbiota subgingival en pacientes con preeclampsia.
+T13	Premise	El tratamiento periodontal redujo el promedio de la profundidad de bolsa en el grupo de intervención de 2,44±0,31 a 2,31±0,24 mm (p=0,000) y en el grupo control de 2,58±0,37 a 2,44±0,39 mm (p=0,000),y el índice de sangrado, de 16,4±1,5 a 7,9±0,7 % en el primero (p=0,000), y de 17,1±1,8 a 10±0,9 %, en el segundo (p=0,002).
+T14	Premise	La frecuencia de detección de microorganismos no varió de manera significativa entre los grupos.
+T16	Claim	El raspaje y alisado radicular, así como la profilaxis supragingival, redujeron de manera significativa la profundidad a la sonda y el índice de sangrado gingival.
+T17	Claim	El tratamiento periodontal no fue más efectivo que la profilaxis para reducir los organismos periodontopáticos o los virus herpes.
+R1	Support	Arg1:T13	Arg2:T16
+R2	Support	Arg1:T13	Arg2:T17

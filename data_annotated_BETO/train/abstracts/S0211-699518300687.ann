@@ -1,0 +1,8 @@
+T1	Claim	 El modelo de control de anemia: ¿ayuda al nefrólogo en la decisión terapéutica para el manejo de la anemia?
+T3	Claim	La anemia es frecuente en los pacientes en hemodiálisis, y su tratamiento con estimulantes de la eritropoyesis (AEE) resulta complejo debido a múltiples factores.
+T12	Premise	El MCA aumentó el porcentaje de Hb en rango: 80,9% FI2 frente a 72,7% en FC, y redujo el consumo de darbepoetina (FI1: 20 [70]; FC 30 [80] μg, p=0,032) con menor fluctuación de la Hb (0,91±0,49 en FC a 0,82±0,37g/dl en FI2; p<0,05) mejorando en el grupo MCA cumplidores.
+T13	Premise	En cuanto a los resultados secundarios, descendieron con el uso del MCA.
+T15	Claim	El MCA ayuda a obtener mejores resultados de anemia en los pacientes en hemodiálisis, minimizando los riesgos del tratamiento con AEE y reduciendo costes.
+R1	Support	Arg1:T1	Arg2:T15
+R2	Support	Arg1:T12	Arg2:T15
+R3	Support	Arg1:T13	Arg2:T15

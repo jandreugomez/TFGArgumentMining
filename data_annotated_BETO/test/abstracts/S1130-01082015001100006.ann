@@ -1,0 +1,5 @@
+T4	Claim	El metronidazol ha demostrado disminuirlo, pero su uso no se ha generalizado.
+T10	Premise	La evaluación del dolor postquirúrgico fue de 3,86 ± 0,56 y 6,64 ± 1,49 para GE y GC a las 6 h, de 5,59 ± 1,33 y 8,82 ± 0,79 a las 12 h, 6,86 ± 1,49 y 9,73 ± 0,45 a las 24 h, 5,32 ± 2,10 y 9,50 ± 0,59 al cuarto, 3,14 ± 1,03 y 7,36 ± 1,39 al séptimo, 2,14 ± 0,46 y 5,45 ± 1,29 al 14 día, significativo a favor del GE.
+T11	Premise	La primera dosis analgésica se requirió a las 7,09 ± 2,36 h en el GE y 21,27 ± 5,47 horas en el GC (p < 0,05); tiempo del consumo de analgésicos 6,86 ± 1,61 y 13,09 ± 2,48 días (p < 0,05) y reincorporación al trabajo a los 7,59 ± 1,56 y 14,73 ± 3,76 días (p < 0,05).
+T12	Claim	Conclusiones: la administración oral de metronidazol es eficaz para el control del dolor post-hemorroidectomía.
+R1	Support	Arg1:T10	Arg2:T12

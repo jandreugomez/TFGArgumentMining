@@ -1,0 +1,8 @@
+T5	Claim	Una alternativa segura sería la adición a la dipirona de meperidina, obteniéndose así una adecuada alternativa para su manejo por parte de médicos no especialistas, sin los efectos adversos.
+T13	Premise	La incidencia del dolor agudo postoperatorio fue de 28 % en el grupo intervenido y de 26,32 % en el control.
+T14	Premise	El riesgo relativo (RR) fue mayor en el grupo intervenido (RR = 1,06; IC95 % 0,57-1,98), sin diferencias entre ellos.
+T15	Premise	La incidencia de efectos secundarios presentó mayores riesgos absolutos en el grupo control, con una diferencia significativa (p = 0,0055).
+T17	Claim	La mezcla de dipirona más meperidina nos permite disminuir en 50 % la necesidad de opioide, con menos efectos adversos, sin que el control del dolor agudo postoperatorio sea eficaz.
+R1	Support	Arg1:T13	Arg2:T17
+R2	Support	Arg1:T14	Arg2:T17
+R3	Support	Arg1:T15	Arg2:T17

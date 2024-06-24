@@ -1,0 +1,8 @@
+T2	Claim	Objetivos: el infliximab ha demostrado su eficacia en el tratamiento a corto plazo de la enfermedad de Crohn (EC) fistulosa.
+T11	Premise	En la modalidad del retratamiento, el 28% de los pacientes del grupo 1 (no respondedores) presentaron respuesta completa frente al 77% del grupo 2 (recidivantes) (p< 0,0001).
+T12	Premise	En el grupo de tratamiento de mantenimiento, la respuesta global fue del 88%.
+T14	Premise	Los efectos adversos no aumentaron significativamente en los grupos de retratamiento y mantenimiento, comparados con el tratamiento inicial.
+T15	Claim	Conclusiones: ambas modalidades de administración del infliximab, a saber el retratamiento y el tratamiento de mantenimiento a largo plazo, son muy efectivas y bien toleradas en pacientes con enfermedad de Crohn fistulosa.
+R1	Support	Arg1:T11	Arg2:T15
+R2	Support	Arg1:T12	Arg2:T15
+R3	Support	Arg1:T14	Arg2:T15

@@ -1,0 +1,17 @@
+T1	Claim	 Eficacia diagnóstica de anticuerpos antipéptidos citrulinados de segunda y tercera generaciones para la artritis reumatoide.
+T3	Claim	Es necesario determinar la utilidad de diferentes métodos de determinación de estos anticuerpos para el diagnóstico de pacientes cubanos con artritis reumatoide.
+T8	Premise	Cuando se fijó la especificidad a 98%, se observó la menor sensibilidad para el FR (40,3%).
+T10	Premise	Todos los autoanticuerpos mostraron asociación con la proteína C reactiva y correlación con la velocidad de sedimentación globular.
+T11	Premise	Solamente los anticuerpos anti-CCP2 no mostraron correlación con el indicador clínico de actividad DAS 28.
+T12	Claim	Conclusiones:  Los anticuerpos anti-CCP2 son los de mayor eficacia para el diagnóstico de pacientes cubanos con artritis reumatoide.
+T13	Claim	La determinación de FR permite identificar pacientes con artritis reumatoide seronegativos de anticuerpos anti-CCP2, por lo que la combinación de ambos inmunoensayos produce una mejoría en la eficacia diagnóstica.
+R1	Support	Arg1:T1	Arg2:T12
+R2	Support	Arg1:T1	Arg2:T13
+R3	Support	Arg1:T3	Arg2:T12
+R4	Partial-Attack	Arg1:T3	Arg2:T13
+R5	Support	Arg1:T8	Arg2:T12
+R6	Support	Arg1:T8	Arg2:T13
+R7	Support	Arg1:T10	Arg2:T12
+R8	Support	Arg1:T10	Arg2:T13
+R9	Support	Arg1:T11	Arg2:T12
+R10	Support	Arg1:T11	Arg2:T13

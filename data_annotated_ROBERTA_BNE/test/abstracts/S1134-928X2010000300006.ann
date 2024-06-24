@@ -1,0 +1,10 @@
+T1	Claim	 Efectividad del tratamiento de las úlceras venosas con vendaje compresivo multicapa asociado a protección de la piel perilesional con Cavilon® (película barrera no irritante)  Introducción: el adecuado tratamiento de las úlceras de extremidad inferior de etiología venosa es fundamental para mejorar la calidad de vida de los pacientes.
+T2	Claim	El uso de terapia compresiva con vendaje multicapa es el tratamiento que mejores resultados presenta.
+T3	Claim	En la práctica, se utiliza en combinación con unos adecuados cuidados locales de la herida y de la piel perilesional.
+T10	Premise	Tras cuatro semanas, el grupo intervención presentó una reducción media (DE) del tamaño de úlcera superior al grupo control (56,7% (30,3) vs. 45,5% (47,4); p = 0,087).
+T11	Premise	A las 12 semanas de tratamiento, las diferencias observadas fueron estadísticamente significativas (83,4% (31,1) vs. 71,6% (44,1); p = 0,046).
+T12	Premise	El 69,4% de los pacientes del grupo intervención redujo el área de úlcera en > 50% en las cuatro primeras semanas de tratamiento, respecto al 46,9% de los pacientes del grupo control (p <0,01).
+T13	Claim	Conclusión: la efectividad clínica de un vendaje multicapa de compresión (Coban® 2) en pacientes con úlceras venosas, valorada en términos de porcentaje de reducción del área, se incrementa al asociar un tratamiento protector de la piel perilesional con la PBNI (Cavilon®).
+R1	Support	Arg1:T10	Arg2:T13
+R2	Support	Arg1:T11	Arg2:T13
+R3	Support	Arg1:T12	Arg2:T13

@@ -1,0 +1,20 @@
+T1	Premise	 Bupivacaína 0,15% hipobárica versus lidocaína 0,6% hipobárica para raquianestesia posterior en cirugía anorrectal ambulatorial.
+T7	Premise	RESULTADOS: El bloqueo fue adecuado para la cirugía en todos los pacientes.
+T8	Premise	El nivel promedio de la dispersión cefálica fue L1 con variación de T10-L3 con la bupivacaína y L1 con variación T11-L2 con la lidocaína.
+T9	Premise	No se observó bloqueo motor en 135 pacientes (65 de la bupivacaína x 70 de la lidocaína).
+T10	Premise	La hipotensión y la bradicardia no se detectaron en ningún paciente.
+T11	Premise	El promedio de duración del bloqueo sensitivo fue de 99,1 (11,0) minutos con la bupivacaína y de 64,1 (7,6) minutos con la lidocaína, con una diferencia significativa (p < 0,0005).
+T12	Premise	La cefalea post-punción lumbar no acaeció en ningún paciente.
+T13	Claim	CONCLUSIONES: La Bupivacaína o la lidocaína en solución hipobárica generan predominantemente un bloqueo sensitivo después de la inyección subaracnoidea en la posición prona.
+T14	Claim	La solución de lidocaína hipobárica proporciona una analgesia con la misma dispersión de la bupivacaína, pero con menor duración.
+T15	Claim	Las mayores ventajas incluyen una estabilidad hemodinámica y la ausencia de bloqueo motor.
+R1	Support	Arg1:T1	Arg2:T14
+R2	Support	Arg1:T7	Arg2:T14
+R3	Support	Arg1:T8	Arg2:T14
+R4	Support	Arg1:T9	Arg2:T13
+R5	Support	Arg1:T9	Arg2:T14
+R6	Support	Arg1:T9	Arg2:T15
+R7	Support	Arg1:T10	Arg2:T14
+R8	Support	Arg1:T11	Arg2:T13
+R9	Support	Arg1:T11	Arg2:T14
+R10	Support	Arg1:T12	Arg2:T14

@@ -1,0 +1,7 @@
+T6	Premise	El tamaño de la invasión corneal osciló entre 2 y 4 mm.
+T7	Premise	33,3% de los pacientes del grupo de sutura presentaron molestias después de la cirugía frente a ninguno en el grupo de adhesivo.
+T8	Premise	44,4% de los pacientes presentaron inflamación tras la cirugía frente a ninguno en el grupo de sutura.
+T9	Premise	En uno de los pacientes del grupo del adhesivo se produjo una pérdida del injerto causando una posterior recidiva del pterigión.
+T10	Claim	Conclusiones: El uso de adhesivo tisular reduce los síntomas postquirúrgicos así como la inflamación y el disconfort.
+T11	Claim	La tasa de recurrencias parece ser similar con los dos procedimientos.
+R1	Support	Arg1:T7	Arg2:T10

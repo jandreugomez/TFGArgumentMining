@@ -1,0 +1,4 @@
+T9	Premise	Se encontró una dispersión lineal de datos entre HDL-C y ApoA1, tanto al principio y al final de la intervención (correlación de Person = 0,846 y 0,903, respectivamente).
+T10	Premise	Se observó alta dependencia en la regresión lineal (R2 = 0,715 y 0,816, respectivamente).
+T12	Claim	Teniendo en cuenta la importancia que los niveles de HDL-c parecen tener en la salud cardiovascular, la ApoA1 se presenta como un importante marcador clínico para mejorar la función del corazón, así como para reducir el riesgo cardiovascular.
+R1	Support	Arg1:T9	Arg2:T12

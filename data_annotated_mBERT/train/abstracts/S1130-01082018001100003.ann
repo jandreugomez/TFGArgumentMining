@@ -1,0 +1,5 @@
+T6	Premise	Los pacientes en el grupo B (midazolam más propofol) alcanzaron de forma más rápida la sedación deseada sin variar el tiempo global de la exploración.
+T7	Premise	La calidad en la evaluación endoscópica fue similar en ambos grupos y los pacientes se sintieron igualmente satisfechos con ambos regímenes de sedación.
+T8	Claim	Conclusiones:  la sedación con midazolam más propofol no afecta al tiempo global de la exploración, utiliza menos dosis de propofol, es tan segura como la administración del propofol en monoterapia, proporciona igual calidad de exploración y similar aceptación por los pacientes.
+R1	Support	Arg1:T6	Arg2:T8
+R2	Support	Arg1:T7	Arg2:T8

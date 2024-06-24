@@ -1,0 +1,6 @@
+T2	Claim	La morfina intratecal se ha utilizado con muy buenos resultados en el tratamiento del dolor agudo.
+T11	Premise	Resultados:  La analgesia fue efectiva en ambos grupos.
+T12	Premise	El prurito fue el síntoma más frecuente y está directamente relacionado a la dosis usada.
+T13	MajorClaim	Conclusión:  La analgesia postoperatoria con morfina espinal, es el estándar de oro para el dolor agudo.
+T14	Claim	Dosis bajas son mejores con la finalidad de evitar efectos secundarios graves.
+R1	Support	Arg1:T12	Arg2:T14

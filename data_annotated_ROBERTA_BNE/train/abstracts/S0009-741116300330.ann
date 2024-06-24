@@ -1,0 +1,5 @@
+T1	MajorClaim	 Utilidad transquirúrgica de la tomografía de coherencia óptica en cirugía vítreo-retiniana.
+T3	MajorClaim	La tomografía de coherencia óptica es una herramienta diagnóstica de gran utilidad en diversos padecimientos.
+T14	Premise	En 8 casos, el cirujano consideró que la imagen transoperatoria influyó en la toma de decisiones durante el procedimiento.
+T16	Claim	La tomografía de coherencia óptica transquirúrgica es un auxiliar diagnóstico, seguro para el paciente, que no influye en el tiempo quirúrgico y que en algunos casos es de utilidad para la optimización del procedimiento en cirugía vítreo-macular.
+R1	Support	Arg1:T14	Arg2:T16

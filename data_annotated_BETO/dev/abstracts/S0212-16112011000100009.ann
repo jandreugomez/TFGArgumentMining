@@ -1,0 +1,4 @@
+T9	Premise	Ninguno de los pacientes han presentado regurgitación durante la inducción de la anestesia ni complicaciones postoperatorias.
+T11	Premise	El RGV fue similar (p = 0,29) entre el grupo glutamina (4,5 [0-15] mL), el grupo carbohidrato (7,0 [0,80] mL), grupo placebo (8,5 [0-50] mL), y grupo ayuno (5,0 [0-50] mL).
+T12	Claim	Conclusión: La abreviación del ayuno preoperatorio para 2 h con carbohidratos y L-glutamina es seguro y no aumenta el RGV durante la inducción de la anestesia.
+R1	Support	Arg1:T11	Arg2:T12

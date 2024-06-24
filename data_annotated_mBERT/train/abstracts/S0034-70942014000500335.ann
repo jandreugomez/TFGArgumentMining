@@ -1,0 +1,12 @@
+T1	Claim	 La adición de 75 mg de pregabalina al régimen analgésico reduce puntuaciones de dolor y consumo de opiáceos en adultos después de la nefrolitotomía percutánea.
+T2	Claim	Justificación y objetivos:  La adición de nuevos medicamentos adyuvantes, como los gabapentinoides, al régimen analgésico multimodal puede ser interesante para poder disminuir las puntuaciones de dolor en el postoperatorio, el consumo total de opiáceos y los efectos colaterales después de la nefrolitotomía percutánea.
+T7	Premise	Resultados:  Las puntuaciones de la escala visual analógica en el postoperatorio fueron significativamente menores en el grupo pregabalina a los 30 min, 1 y 2 h (p = 0,002; p = 0,001; y p = 0,027 respectivamente).
+T8	Premise	El promedio del consumo de morfina en el postoperatorio fue estadísticamente significativo y menor en todos los intervalos de tiempo en el grupo pregabalina (p = 0,002; p = 0,001; p = 0,001; p = 0,001; p < 0,001 respectivamente).
+T9	Premise	No hubo diferencia estadísticamente significativa entre los 2 grupos con relación al aclaramiento de creatinina o cistatina-C en el preoperatorio y en la 2.a y 24.a horas del postoperatorio.
+T10	Premise	Los niveles de lipocalina asociada a la gelatinasa de neutrófilos en la 24.ahora del postoperatorio fueron significativamente menores en el grupo pregabalina (p = 0,027).
+T11	Claim	Conclusiones:  La dosis única de 75 mg de pregabalina oral administrada precozmente fue eficaz en la reducción de las puntuaciones de dolor en el postoperatorio inmediato y el consumo total de analgésicos en pacientes sometidos a nefrolitotomía percutánea, sin causar inestabilidad hemodinámica y efectos colaterales.
+R1	Support	Arg1:T1	Arg2:T2
+R2	Support	Arg1:T7	Arg2:T11
+R3	Support	Arg1:T8	Arg2:T11
+R4	Support	Arg1:T9	Arg2:T11
+R5	Support	Arg1:T10	Arg2:T11

@@ -1,0 +1,4 @@
+T6	Premise	Resultados: Las variaciones entre el pre- y el postoperatorio de las diferentes variables estudiadas no han mostrado diferencias estadísticamente significativas entre ambas modalidades quirúrgicas (p>0,05).
+T7	Claim	Conclusiones: La CCMIC es una técnica efectiva y segura que ofrece una excelente alternativa para la extracción de la catarata, con una disminución en el tamaño de la incisión y resultados postoperatorios comparables con la técnica estándar.
+T8	Claim	Se requieren estudios prospectivos con mayor número de pacientes y seguimiento más largo para establecer si realmente existen diferencias estadísticamente significativas y clínicamente relevantes entre ambas técnicas.
+R1	Support	Arg1:T6	Arg2:T7

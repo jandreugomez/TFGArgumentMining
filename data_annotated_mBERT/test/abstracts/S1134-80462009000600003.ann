@@ -1,0 +1,6 @@
+T7	Premise	Resultados: Se observaron cambios significativos (p < 0,05) en los pacientes manejados con oxicodona más lidocaína en perfusión continua con relación a dolor espontáneo en los momentos 7 y 8 del estudio, así como cambios en las cifras de presión arterial diastólica únicamente en el momento 8 (p < 0,001).
+T8	Premise	No se reportaron cambios notables en el nivel de sedación de los pacientes, incidencia de efectos secundarios y satisfacción con el tratamiento.
+T9	Premise	No se observaron cambios considerables en las variables de frecuencia cardíaca y presión arterial sistólica en ambos grupos durante las fases del estudio realizado (p > 0,05).
+T10	Claim	Conclusiones: Oxicodona más lidocaína en perfusión continua, mostró seguridad por su estabilidad cardiovascular con efectos analgésicos en el alivio del dolor neuropático crónico agudizado en comparación con el grupo control.
+T11	Claim	Se requiere un mayor número de pacientes para validar los resultados obtenidos.
+R1	Support	Arg1:T7	Arg2:T10

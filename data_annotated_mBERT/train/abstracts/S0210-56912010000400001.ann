@@ -1,0 +1,3 @@
+T9	Premise	Solamente un paciente de los 5 en los que falló la posición A-A se revirtió a RS con la posición A-P, mientras que 10 de los 13 pacientes no revertidos con electrodos A-P lo fueron al cambiar a posición A-A (p=0,038).
+T10	Claim	Conclusiones: La posición A-A se muestra más eficaz en la CVE electiva de la FA, y se recomienda como de primera elección.
+R1	Support	Arg1:T9	Arg2:T10

@@ -1,0 +1,4 @@
+Support:464
+Attack:0
+Partial-Attack:10
+rel_label:2681

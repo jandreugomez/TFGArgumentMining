@@ -1,0 +1,8 @@
+T1	Claim	 Efecto de la aspirina en la mortalidad del síndrome de distrés respiratorio agudo en pacientes internados en la Unidad de Cuidados Intensivos del Hospital Juárez de México.
+T8	Premise	Resultados:  La mortalidad en el grupo A fue de 60% versus 80% en el grupo B.
+T9	Premise	No se evidenció diferencia entre ambos grupos en la PaO2/FiO2 (p = 0.097).
+T10	Premise	En el grupo A se observó una media de días de ventilación mecánica de 15.8 días versus 16.8 en el grupo B (p = 0.860, IC 95%), respecto a los días de estancia en la UCI y estancia intrahospitalaria no hubo diferencia estadísticamente significativa.
+T11	Claim	Conclusiones:  El uso de aspirina en pacientes con SDRA establecido, independientemente de su gravedad, no disminuye la mortalidad, ni acorta los días de estancia en la UCI o de estancia hospitalaria, como tampoco reduce los días de ventilación mecánica, ni mejora la PaO2/FiO2, la DAaO2 o la Cstat.
+R1	Support	Arg1:T8	Arg2:T11
+R2	Support	Arg1:T9	Arg2:T11
+R3	Support	Arg1:T10	Arg2:T11

@@ -1,0 +1,5 @@
+T10	Premise	La tasa de seroconversión fue de 26,9%, en niños con cáncer, sin diferencia por edad, género ni tipo de tumor (p = 0,13; 0,29; y 0,44, respectivamente), y de 100% en el grupo control (p < 0,0001, comparado con los niños con cáncer).
+T11	Premise	En el seguimiento a los 12 meses solo el 31,9% de los niños con cáncer presentaba títulos anti-HBs > 10 mUI/ml.
+T12	Claim	Conclusiones: La vacunación contra hepatitis B con vacuna ADN recombinante, con esquema reforzado de 3 dosis, en el momento del inicio de la quimioterapia y/o remisión provee una respuesta inmune insuficiente en la mayoría de los niños con cáncer.
+R1	Support	Arg1:T10	Arg2:T12
+R2	Support	Arg1:T11	Arg2:T12

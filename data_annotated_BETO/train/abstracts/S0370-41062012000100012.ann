@@ -1,0 +1,9 @@
+T3	Claim	Introducción: El clampeo demorado del cordón umbilical aumentaría el depósito de hierro en lactantes.
+T8	Premise	La ferritina fue significativamente más alta en los niños con clampeo al tercer minuto (33,2 μg/L) que en los de clampeo temprano (20,9 μg/L) (diferencia de medias geométrica: 1,6; IC 95%: 1,2-2,1).
+T9	Premise	No hubo diferencia significativa entre clampeo al minuto (25,5 μg/L) y clampeo temprano.
+T10	Premise	Tampoco hubo diferencia en los valores medios de hemoglobina, entre los grupos temprano [10,6 g/dl (DE1,11)], al minuto [10,8 g/dl (DE 0,86)] y tres minutos [10,7 g/dl (DE 0,97)], respectivamente.
+T11	Premise	La prevalencia de anemia ferropénica fue tres veces mayor en niños con clampeo temprano (7%) en comparación con los del tercer minuto (2,4%) (diferencias no significativas; RR: 0,30; IC 95%: 0,10-1,60).
+T12	Premise	Conclusión: En niños nacidos a término, el clampeo del cordón umbilical a los tres minutos del nacimiento aumentó significativamente las concentraciones de ferritina a los seis meses de edad.
+T13	Premise	No hubo diferencias significativas en los niveles de hemoglobina.
+R1	Support	Arg1:T8	Arg2:T12
+R2	Support	Arg1:T10	Arg2:T13

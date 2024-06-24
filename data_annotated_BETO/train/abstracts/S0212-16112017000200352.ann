@@ -1,0 +1,9 @@
+T1	Claim	 Influencia del aceite de coco en enfermos de alzhéimer a nivel cognitivo.
+T2	MajorClaim	Introducción:  la enfermedad de Alzheimer es a día de hoy la demencia neurodegenerativa con mayor prevalencia en el primer mundo.
+T3	Claim	Este hecho, unido a la falta de tratamiento farmacológico que cure la enfermedad, hace que se estudien nuevas estrategias terapéuticas no farmacológicas como es la administración de nutrientes.
+T4	Claim	En este sentido, destaca la posible influencia del aceite de coco como fuente energética alternativa, capaz de frenar la muerte neuronal que se produce de modo progresivo en esta enfermedad.
+T8	Premise	Resultados:  en los enfermos que tomaron el aceite de coco se observó una mejora cognitiva tras finalizar la intervención, siendo estadísticamente significativa en las áreas de orientación y lenguaje-construcción.
+T9	Claim	Conclusiones: el aceite de coco parece mejorar la capacidad cognitiva de los enfermos de alzhéimer, variando la intensidad de la misma en función del área cognitiva.
+R1	Support	Arg1:T1	Arg2:T4
+R2	Support	Arg1:T1	Arg2:T9
+R3	Support	Arg1:T8	Arg2:T9

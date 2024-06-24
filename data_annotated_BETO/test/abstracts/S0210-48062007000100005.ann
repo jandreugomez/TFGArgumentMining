@@ -1,0 +1,9 @@
+T1	Claim	 Neoplasia vesical tras nefroureterectomía por tumores de urotelio superior: ¿La cirugía del uréter distal influye en la evolución?
+T14	Premise	Observamos diferencias estadísticamente significativas en términos de recurrencias vesicales a favor del grupo B (p<0.036), lo que significa que existen menos recidivas vesicales en nuestra serie en el grupo de cirugía endoscópica.
+T15	Claim	Sin embargo debido a la inhomogeneidad de los grupos en estadio, grado y localización tumoral, esta diferencia parece más bien atribuible a estas características, más que a la vía de abordaje como factor independiente.
+T16	Premise	En lo referente a la relación entre la recidiva vesical y antecedentes de RTU-V no hemos encontrado diferencias entre los grupos pero si existe diferencia en la serie global.
+T17	Claim	El escaso número de recurrencias (13) no nos permite establecer una conclusión clara en este problema, aunque parece que el antecedente de neoplasia previa de vejiga influye en la posibilidad de recurrencia vesical.
+T19	Claim	En nuestro resultado el abordaje endoscópico en la nefroureterectomía por TUS parece influir en la posterior aparición de menos recidivas en vejiga, sin embargo la muestra es corta y los grupos no son homogéneos porque el abordaje del uréter no se ha aleatorizado por razones éticas obvias.
+T20	Claim	Si parece existir relación entre la existencia de antecedentes de RTU-V y la aparición de recidivas posteriores, como mostramos en la serie global.
+T21	Claim	En cualquier caso son necesarios estudios prospectivos randomizados multicéntricos para conocer si el abordaje del uréter distal influye en la posterior aparición de recidivas vesicales.
+R1	Support	Arg1:T17	Arg2:T21

@@ -1,0 +1,4 @@
+T8	Premise	Siete pacientes del grupo I presentaron complicaciones graves frente a 4 del grupo II.
+T10	Premise	La estancia hospitalaria fue similar en los dos grupos.
+T11	Premise	Dos pacientes del grupo I fallecieron.
+T12	Claim	Conclusiones: se ha observado una tendencia a una mejor evolución de los pacientes con PAG que utilizaron NET frente a los que utilizaron NPT.

@@ -1,0 +1,10 @@
+T4	Claim	Los prebióticos estimulan la proliferación de Lactobacillus y Bifidobacterium y esto podría tener efectos positivos sobre la mucosa intestinal durante la radioterapia abdominal.
+T9	Claim	Los recuentos bacterianos con FISH fueron significativamente superiores que por el método de cultivo.
+T11	Premise	Al final de la radioterapia, observamos un descenso estadísticamente significativo en los recuentos de Lactobacillus y Bifidobacterium en ambos grupos.
+T12	Premise	Mediante el análisis de los cultivos, observamos un mayor recuento de Lactobacillus y Bifidobacterium a las tres semanas de finalizar la radioterapia en el grupo con prebiótico (5,6 frente a 6,3, p = 0,04 and 5,5 frente a 6 log ufc/g, p = 0,03).
+T13	Claim	Conclusiones: La radioterapia abdominal afecta de forma negativa los recuentos de Lactobacillus y Bifidobacterium.
+T14	Claim	La mezcla de prebióticos de inulina y fructo-oligo-sacárido puede mejorar la recuperación de ambas especies tras la radioterapia.
+R1	Support	Arg1:T9	Arg2:T14
+R2	Support	Arg1:T11	Arg2:T13
+R3	Support	Arg1:T12	Arg2:T13
+R4	Support	Arg1:T12	Arg2:T14

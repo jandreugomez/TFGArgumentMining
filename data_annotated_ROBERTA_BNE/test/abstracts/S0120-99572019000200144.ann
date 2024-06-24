@@ -1,0 +1,6 @@
+T5	Claim	De la limpieza del colon en la preparación intestinal para colonoscopia depende el hallazgo de pólipos, que pueden ser adenomatosos con potencial maligno y con la posibilidad de degenerarse en cáncer de colon.
+T10	Premise	Resultados:  la preparación completa de todo el colon fue significativamente de mayor la calidad en la alternativa de 4 L divididos (2 L + 2 L), seguida de la otra alternativa dividida (1 L + 1 L) y menor en la dosis única (79,7 %, 75,7 % y 63,5 %, respectivamente, p = 0,019); también se encontraron diferencias en la detección de pólipos (13,5 %, 24,3 % y 9,5 %, p = 0,037) y sin diferencias en la presentación de al menos un evento adverso (p = 0,254) ni en la tolerabilidad (p = 0,640).
+T11	Claim	Conclusiones:  las dos preparaciones de dosis dividida tienen una mayor eficacia en la limpieza del colon en comparación con la dosis única de 4 L y en la detección de pólipos, mientras que no se evidencian diferencias en las preparaciones para la ocurrencia de eventos adversos y la tolerabilidad.
+T12	Claim	La dosis de PEG 2 L dividido puede ser una muy buena opción para las preparaciones de colonoscopia electiva.
+R1	Support	Arg1:T10	Arg2:T11
+R2	Support	Arg1:T10	Arg2:T12

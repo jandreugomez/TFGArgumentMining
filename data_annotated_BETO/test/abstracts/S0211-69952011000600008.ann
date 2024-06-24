@@ -1,0 +1,10 @@
+T1	Claim	 El ángulo de fase de la impedancia eléctrica es un predictor de supervivencia a largo plazo en pacientes en diálisis.
+T2	Claim	Introducción: La malnutrición calórico-proteica es un factor de riesgo de mortalidad en pacientes en diálisis, sin embargo, su valoración clínica no ha sido bien definida.
+T6	Premise	Resultados: En el análisis de correlación lineal, encontramos que el AF50 tiene una asociación directa con la masa magra, con el agua intracelular, con el agua extracelular y con la ganancia de peso interdiálisis, mientras que se asocia de forma inversa con la edad, con la masa grasa y con el log PCR.
+T7	Claim	Los pacientes con AF50 >8o presentan un mejor estado nutricional, son más jóvenes y tienen una supervivencia significativamente mejor a los seis años de seguimiento.
+T8	Claim	Entre los pacientes estudiados, tanto el AF50 como el resto de los parámetros de composición corporal son mejores en diálisis peritoneal que en hemodiálisis, pero estas diferencias pueden ser atribuidas a que los primeros son más jóvenes.
+T9	Claim	En el análisis multivariable, sólo el AF50 <8o y la comorbilidad ajustada para la edad persisten como factores de riesgo independientes de mortalidad.
+T10	Claim	Conclusiones: Concluimos que el AF50 tiene una buena correlación con los parámetros de nutrición y que es un buen marcador de supervivencia en pacientes en diálisis.
+T11	Claim	No obstante, son necesarios estudios de intervención en los que se demuestre si la mejoría de los parámetros de BIE se acompaña de una mayor supervivencia.
+R1	Support	Arg1:T1	Arg2:T10
+R2	Support	Arg1:T7	Arg2:T10

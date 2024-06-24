@@ -1,0 +1,3 @@
+T9	Premise	Resultados:  Se encontraron solo 4 (2,3%) casos de alveolitis, 3 casos pertenecieron al grupo que recibió placebo y uno al grupo de estudio (OR = 0,326), sin embargo no hubo diferencias significativa (p = 0,335).
+T10	Claim	Conclusión:  La antibioticoterapia no reduce la frecuencia de la alveolitis postexodoncia simple.
+R1	Support	Arg1:T9	Arg2:T10

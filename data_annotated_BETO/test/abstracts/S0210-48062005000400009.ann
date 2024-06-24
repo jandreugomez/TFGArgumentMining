@@ -1,0 +1,10 @@
+T1	MajorClaim	 Uso de paroxetina a demanda en eyaculación precoz.
+T11	Premise	En el grupo A el TLE promedio fue de 4.3 minutos en el tratamiento con paroxetina diaria; 5.8 minutos cuando recibieron paroxetina a demanada; 0.9 con placebo diario y 0.6 con placebo a demanda (p<0,001).
+T12	Premise	Para el grupo B el TLE durante la administración de placebo diario fue de 0.8 minutos y con placebo a demanda fue de 1.1 minutos.
+T13	Premise	Al recibir paroxetina diariamente el TLE fue de 3.3 y durante la fase de paroxetina a demanda se incrementó a 6.1 minutos (p< 0,001).
+T14	Premise	Reacciones adversas: trastornos gastrointestinales en 3 pacientes, disminución de la líbido (que no afectó frecuencia coital) en 2 y anorexia en 1.
+T15	Claim	Conclusiones: El tratamiento de la eyaculación precoz con paroxetina en dosis diaria y en esquema a demanda aparecen como opciones similarmente eficaces.
+R1	Support	Arg1:T1	Arg2:T15
+R2	Support	Arg1:T11	Arg2:T15
+R3	Support	Arg1:T12	Arg2:T15
+R4	Support	Arg1:T13	Arg2:T15

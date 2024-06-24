@@ -1,0 +1,10 @@
+T3	Claim	Estos hechos se asocian con un incremento de la morbimortalidad de origen cardiovascular (CV).
+T4	Claim	Niveles séricos adecuados de 25OHD, así como el uso de activadores selectivos del receptor de vitamina D (AsRVD), han demostrado tener efectos beneficiosos sobre el metabolismo óseo-mineral y el riesgo CV de manera independiente.
+T13	Premise	Resultados: Se detecta un déficit de 25OHD en todos los pacientes a estudio, con una media de 13,67 ± 4,81 ng/ml.
+T14	Premise	La suplementación con calcifediol oral aislado corrige este déficit sin evidencia de toxicidad (35,36 ± 33,68 ng/ml en el G1 a los 6 meses y 59,21 ± 26,50 ng/ml en el G2 a los 3 meses).
+T15	Premise	El tratamiento con paricalcitol reduce de forma significativa los niveles de PTH en el G1 a los 3 meses (p < 0,039) no observándose esta significación, aunque sí descenso de la PTH, en el G2 tras su introducción a partir del tercer mes.
+T16	Premise	Asimismo, observamos una disminución del marcador óseo Pinp1, con paricalcitol sin otros cambios, apuntando a un posible efecto directo sobre las células óseas (p < 0,001).
+T17	Claim	Tanto el tratamiento con calcifediol como con paricalcitol producen una significativa disminución en los niveles de IL-8 (p < 0,001), conocido marcador inflamatorio, llamando la atención una tendencia a mejor respuesta a los AEE, en posible relación con este descenso de la inflamación.
+T18	Premise	El índice HOMA no cambió de forma significativa.
+T19	Claim	Conclusión: Con nuestros resultados, no podemos concluir que la asociación calcifediol-paricalcitol produzca ventajas sobre el efecto de cada uno de ellos por separado en los marcadores medidos.
+T20	Claim	Paricalcitol además, por sí solo, parece tener efecto directo sobre la remodelación ósea.

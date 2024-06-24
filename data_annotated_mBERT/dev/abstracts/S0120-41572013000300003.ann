@@ -1,0 +1,8 @@
+T8	Premise	Después de dos meses se midieron los niveles de hemoglobina, hematocrito y ferritina sérica.
+T10	Premise	En el grupo con sulfato ferroso la concentración de ferritina sérica aumentó de 18,8 a 24,1 ng/ml, mientras que dicha variación fue de 18,4 a 29,7 ng/ml con el hierro aminoquelado, en ambos casos con diferencias significativas.
+T11	Premise	El nivel de ferritina final difirió según el grupo de estudio, siendo mayor en el grupo con hierro aminoquelado (p=0,022).
+T12	Premise	La hemoglobina y el hematocrito no variaron después de la intervención.
+T13	Premise	Las reacciones adversas en el grupo con sulfato ferroso fueron de 35,7 %, en contraste con el 42,9 % en el grupo con hierro aminoquelado; cinco niños presentaron infección de las vías respiratorias, sin diferencias estadísticas.
+T15	Claim	Los dos compuestos aumentan los niveles de ferritina, siendo mayor el aumento entre quienes toman leche con hierro aminoquelado.
+T16	Premise	No fue diferente la incidencia de reacciones adversas o de infecciones entre los grupos.
+R1	Support	Arg1:T11	Arg2:T15

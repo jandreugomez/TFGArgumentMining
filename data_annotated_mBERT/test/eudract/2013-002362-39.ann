@@ -1,0 +1,5 @@
+T3	Claim	Indicación científica: Durante una anestesia general se induce un bloqueo neuromuscular, que en muchas ocasiones no se recupera espontáneamente, por lo que es necesario su reversión farmacológica.
+T4	Claim	Creemos que sugammadex con dosis inferiores a las recomendadas por el fabricante en la ficha técnica es igualmente útil para antagonizar el bloqueo neuromuscular por rocuronio durante una anestesia general, aunque este efecto será más lento.
+T12	Premise	Prueba de embarazo negativa en las dos semanas previas del inicio del tratamiento (suero) en todas las mujeres en edad fértil.
+T13	Claim	Las mujeres posmenopáusicas deben presentar amenorrea desde hace al menos 12 meses para considerar que no están en edad fértil.
+T27	Claim	Antecedentes de intubación traqueal difícil, índices de intubación orotraqueal difícil (Mallampatti >3, Distancia tiromentoniana menor a 7 y obertura bucal < 7 cm), que podría aconsejar usar otra técnica anestésica.

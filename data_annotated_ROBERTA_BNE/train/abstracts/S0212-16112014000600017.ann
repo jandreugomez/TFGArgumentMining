@@ -1,0 +1,9 @@
+T1	Claim	 Efecto de la metoclopramida sobre la tolerancia enteral y la neumonía asociada a ventilación mecánica en pacientes neurocríticos.
+T9	Premise	Resultados: No se observaron diferencias en los parámetros de gravedad entre grupos al ingreso.
+T10	Premise	Un incremento significativo fue observado en el análisis global y a los cinco días (p < 0,03) del VEM en el grupo de MCG.
+T11	Premise	Los valores del VDA global y durante las dos fases de estudio, el número de CGI y el número de suspensiones parciales y definitivas de la dieta o el número de NAVM fueron similares en ambos grupos, no significativos.
+T12	Premise	Tampoco se observaron diferencias en los diferentes objetivos secundarios.
+T13	Claim	Conclusión: El uso de metoclopramida en el enfermo neurocrítico, no es eficaz en la disminución de las CGI, en las dosis y tiempo de tratamiento reflejados en el estudio.
+R1	Support	Arg1:T9	Arg2:T13
+R2	Support	Arg1:T10	Arg2:T13
+R3	Support	Arg1:T11	Arg2:T13

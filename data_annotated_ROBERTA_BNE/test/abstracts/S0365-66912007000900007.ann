@@ -1,0 +1,3 @@
+T7	Premise	Resultados: El seguimiento promedio de los 62 pacientes fue de 3 meses, con un cambio astigmático medio a los 3 meses de -0.55D (-0,75 a -0,35) en el grupo tratamiento y de 0.04D (-0,3 a 0,3) en el grupo control (p<,000).
+T8	Claim	Conclusiones: Las ILRs son un método sencillo y efectivo para conseguir reducir el astigmatismo previo durante la cirugía de catarata y con ello la dependencia de gafa.
+R1	Support	Arg1:T7	Arg2:T8

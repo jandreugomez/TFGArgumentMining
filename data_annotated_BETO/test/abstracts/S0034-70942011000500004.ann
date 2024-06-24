@@ -1,0 +1,3 @@
+T9	Premise	RESULTADOS: El resultado fue una reducción más significativa de la intensidad del dolor para el grupo metilprednisolona + levobupivacaína, pero sin significancia estadística.
+T10	Claim	CONCLUSIONES: La solución del G-M + L demostró una eficacia analgésica superior a la solución del G-M para el tratamiento de la lumbociatalgia discogénica, en lo que se refiere al menor tiempo para el inicio de la analgesia, pero no de forma significativa en el momento del alta, siendo las dos soluciones eficaces en el tratamiento de la lumbociatalgia radicular discogénica.
+R1	Support	Arg1:T9	Arg2:T10

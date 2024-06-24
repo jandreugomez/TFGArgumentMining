@@ -1,0 +1,7 @@
+T3	Claim	El uso de estatinas se asocia a una reducción de accidentes coronarios en prevención primaria y secundaria y después de angioplastia primaria.
+T12	Premise	No se encontraron diferencias significativas entre ambas poblaciones respecto a las características basales.
+T13	Premise	A los 30 días se produjo una muerte cardíaca (1,6%) en el grupo que recibió estatinas, frente a cinco (12,2%) en el grupo que no las recibían (p = 0,02), el IAM ocurrió en cuatro (6,6%) frente a 8 (19,5%) (p = 0,04) y el resultado compuesto de muerte cardíaca o IAM ocurrió en cinco (8,2%) frente a 10 (24,4%) (p = 0,02).
+T14	Premise	En un modelo multivariado, el tratamiento preoperatorio con estatinas se mantuvo como un factor independiente de predicción (p = 0,01; odds ratio [OR]: 3,6) de la aparición de muerte de causa cardíaca o IAM durante los primeros 30 días después de la intervención.
+T16	Claim	El tratamiento previo con estatinas se asocia de forma significativa e independiente a un menor riesgo de IAM o muerte de origen cardíaco en pacientes sometidos a CRC.
+R1	Support	Arg1:T13	Arg2:T16
+R2	Support	Arg1:T14	Arg2:T16

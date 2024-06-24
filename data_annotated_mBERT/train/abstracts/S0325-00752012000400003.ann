@@ -1,0 +1,6 @@
+T3	Claim	Existe evidencia clínica que sugiere que el salbutamol original sería más eficaz que el salbutamol similar para revertir los síntomas en el episodio agudo de asma.
+T13	Premise	La respuesta broncodilatadora entre el volumen espiratorio forzado prebroncodilatador y posbroncodilatador fue de 225 ml (IC 95%: 164-286) y 224 ml (IC 95%: 163-284) para salbutamol original y similar, respectivamente (p <0,001).
+T14	Premise	El delta de la diferencia fue de 1,3 ml (IC 95%: -86+83) (p= 0,97).
+T15	Premise	La media, desvío estándar y porcentaje del coeficiente de variación del peso de las gotas fue de 364,75 mg (± 6,01, 1,65) y 543,88 mg (± 56,09, 10,31) (p <0,001) para salbutamol original y similar, respectivamente.
+T17	Premise	No hubo diferencias en la respuesta broncodilatadora medida por el VEF1 entre salbutamol original y similar.
+R1	Support	Arg1:T13	Arg2:T17

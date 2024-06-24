@@ -1,0 +1,23 @@
+T2	Claim	Nuestra experiencia en enfermedad renal crónica avanzada.
+T3	Claim	La presencia de albuminuria aumenta el riesgo de progresión de la insuficiencia renal (IR) incluso en estadios avanzados.
+T5	Claim	Recientemente el paricalcitol ha demostrado ser capaz de reducir la albuminuria en ciertos grupos de pacientes.
+T10	Premise	El tratamiento con inhibidores del SRAA e hidroferol se mantuvo sin cambios.
+T17	Premise	Durante el seguimiento se observó un descenso significativo del MDRD (19,5 ± 3 vs. 17,3 ± 3,4ml/min, p = 0,003).
+T18	Premise	Hubo un descenso de la PTHi y un aumento del calcio, ambos significativos (473 ± 143 vs. 197 ± 88 pg/ml y 8,84 ± 0,5 vs. 9 ± 0,4 mg/dl, p = 0,00 y p = 0,01 respectivamente).
+T19	Premise	Se demostró un aumento del fósforo que no alcanzó significación estadística (4,5 ± 0,5 vs. 4,8 ± 0,6 mg/dl, p = 0,1).
+T21	Premise	En el grupo de pacientes con mayor UACR al inicio (> 3000 mg/g), el descenso fue significativo (4258 ± 944 vs. 2786 ± 1630, p = 0,03).
+T22	Premise	Se observó un aumento de los pacientes con normalización de la albuminuria y disminución de aquéllos con albuminurias mayores de 3000 mg/g.
+T23	Claim	La UACR no se correlacionó con el tratamiento con inhibidores del SRAA, hidroferol ni calcitriol.
+T24	Premise	En ningún paciente fue necesario suspender el tratamiento por alteraciones del metabolismo calcio-fósforo o efectos secundarios, aunque en un 17% fue necesario un ajuste de dosis.
+T25	Claim	En este estudio se demuestra que el tratamiento con paricalcitol, en este grupo de pacientes, además de permitir un mejor control del metabolismo óseo, se asocia a un descenso significativo de la UACR, lográndose un mayor número de pacientes con normalización de la excreción de albúmina.
+T26	Claim	El efecto fue mayor y significativo en los pacientes con mayor excreción inicial de albúmina, que constituyen el grupo con mayor riesgo de progresión de la IR.
+T27	Claim	El número de pacientes puede haber resultado insuficiente para demostrar una mayor significación en el efecto antiproteinúrico del tratamiento.
+T28	Claim	Por el mismo motivo, posiblemente no se observó un control significativo del deterioro de función renal.
+T29	Claim	Aunque no ha sido objeto de este estudio, debe tenerse en cuenta también el descenso en el riesgo cardiovascular que se asocia a la disminución de la UACR.
+T30	Claim	Conclusión: El paricalcitol puede ser eficaz para frenar la proteinuria en pacientes con IR crónica de grado 4-5, además de su eficacia en el control del hiperparatiroidismo secundario.
+T31	Claim	Su eficacia en la prevención de la progresión de la IR necesita confirmarse en otros estudios.
+R1	Support	Arg1:T19	Arg2:T30
+R2	Support	Arg1:T21	Arg2:T25
+R3	Support	Arg1:T21	Arg2:T30
+R4	Support	Arg1:T25	Arg2:T30
+R5	Partial-Attack	Arg1:T29	Arg2:T30

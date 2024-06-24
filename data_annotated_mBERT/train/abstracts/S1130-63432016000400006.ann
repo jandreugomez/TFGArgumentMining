@@ -1,0 +1,8 @@
+T7	Premise	Los resultados para la variable principal de efectividad (HBV-DNA < 20 Ul/ml) denotan una superioridad del tenofovir tras el ajuste por PS con una ORadj= 6,7 (IC95%: 1,2-35,3; p=0,028).
+T8	Premise	Tres pacientes con tenofovir sufrieron seroconversión (p=0,148).
+T9	Premise	Los resultados para la variable principal de seguridad (eGFR < 60ml/min/1.73m2) no mostraron diferencias entre ambas ramas tras el ajuste, obteniendo una ORad = 0,6 (IC95%: 0,1-2,8; p=0,521).
+T10	Premise	El grupo-tenofovir registró dos casos de suspensión por toxicidad renal, con posterior recuperación, entre ellos un síndrome de Fanconi.
+T11	Claim	Conclusiones: En nuestro estudio existen diferencias significativas entre ambos tratamientos respecto a su efectividad, mostrándose el tenofovir superior.
+T12	Claim	En cuanto a la seguridad renal, no hemos encontrado diferencias significativas, pero dos casos de suspensión de tratamiento por toxicidad renal con tenofovir nos llevan a concluir que la decisión de tratamiento en los pacientes con alteraciones en la función renal debería incluir un análisis individualizado de cada caso.
+R1	Support	Arg1:T7	Arg2:T11
+R2	Support	Arg1:T8	Arg2:T11

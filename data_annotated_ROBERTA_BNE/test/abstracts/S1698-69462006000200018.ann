@@ -1,0 +1,7 @@
+T1	Claim	 Gel de Clorhexidina intra-alveolar en la prevención de la alveolitis tras la extracción de terceros molares inferiores.
+T4	Claim	La aparición del gel bioadhesivo conteniendo clorhexidina al 0,2% podría mejorar esta acción.
+T5	Claim	Su colocación intraalveolar permitiría una actuación más directa sobre el alveolo y una actuación más prolongada del fármaco.
+T7	Claim	Resultados: Encontramos una reducción del 42,65% en la tasa de alveolitis y un postoperatorio más favorable en el grupo experimental.
+T8	Premise	En el grupo control, la alveolitis apareció en un 30,76% frente a un 17,64 % en el grupo experimental.
+T10	Claim	Esta actuación mejora la apertura bucal y el edema en el postoperatorio, aunque son necesarios nuevos estudios realizados a doble ciego y con muestras más amplias para confirmar nuestros datos.
+R1	Support	Arg1:T1	Arg2:T5

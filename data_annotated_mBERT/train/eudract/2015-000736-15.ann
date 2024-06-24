@@ -1,0 +1,3 @@
+T10	Claim	Pueden aplicarse otros criterios de inclusión definidos en el protocolo   Criterios de exclusión: 1.
+T19	Claim	Pueden aplicarse otros criterios de exclusión definidos en el protocolo.
+R1	Support	Arg1:T10	Arg2:T19

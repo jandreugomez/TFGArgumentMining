@@ -1,0 +1,10 @@
+T1	Claim	 Eficacia de la ropivacaína 0,1% intraperitoneal en el control del dolor postoperatorio en cirugía ginecológica laparoscópica.
+T10	Premise	Resultados: No se observaron diferencias significativas en el ENV durante las primeras 24 horas.
+T11	Premise	Tampoco se observaron diferencias en el consumo de morfina, en la incidencia de náuseas y/o vómitos o en el dolor de hombro.
+T12	Premise	Se evidenciaron diferencias estadísticamente significativas en la incidencia de dolor abdominal persistente al 7o día (18,52 % en grupo tratamiento vs. 57,58 % en grupo control con p = 0,04).
+T13	Claim	Conclusiones: La administración intraperitoneal preincisional de 100 ml de ropivacaína 0,1 % en comparación con la administración de suero fisiológico, en el contexto de una técnica anestésica y analgésica multimodal, no ha demostrado reducir el dolor postoperatorio, el consumo de opioides ni la incidencia de náuseas y vómitos postoperatorios en las primeras 24 horas.
+T14	Claim	Tampoco ha demostrado reducción del dolor de hombro a partir del primer día tras cirugía laparoscópica ginecológica.
+T15	Claim	El uso de ropivacaína al 0,1 % intraperitoneal preincisional presenta una disminución estadísticamente significativa en la incidencia de dolor abdominal persistente al séptimo día de postoperatorio.
+R1	Support	Arg1:T10	Arg2:T13
+R2	Support	Arg1:T12	Arg2:T13
+R3	Support	Arg1:T12	Arg2:T15

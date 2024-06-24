@@ -1,0 +1,8 @@
+T7	Premise	En el grupo control se irrigó la cavidad mamaria con solución salina.
+T10	Premise	Se registró la intensidad del dolor postoperatorio al recuperar la conciencia, a los treinta minutos, a la primera hora, a las dos, a las cinco y a las veinticuatro horas del postoperatorio.
+T12	Premise	Se encontró diferencia en el número de pacientes que requirieron analgesia de rescate con morfina en la UCPA (p<0,01), 10% en él grupo de intervención versus 50% en el grupo control.
+T13	Premise	También se encontró diferencia en la intensidad del dolor (p<0,01).
+T15	Claim	La irrigación de anestésicos locales en la cavidad mamaria en pacientes sometidas a mamoplastia de aumento disminuye la necesidad de analgesia de rescate con opiáceos y la intensidad del dolor postoperatorio.
+R1	Support	Arg1:T10	Arg2:T15
+R2	Support	Arg1:T12	Arg2:T15
+R3	Support	Arg1:T13	Arg2:T15

@@ -1,0 +1,5 @@
+T1	Claim	 Calidad de vida en pacientes con carcinoma colorrectal no metastásico tratados con esquema FOLFOX o XELOX.
+T7	Premise	Resultados:  Se incluyeron 30 pacientes, encontrándose diferencias estadísticamente significativas en el ítem rol emocional a las 12 semanas de tratamiento (FOLFOX 92 puntos versus XELOX 82 puntos; p = 0,036).
+T8	Premise	Además, los pacientes tratados con FOLFOX presentaron un empeoramiento clínicamente relevante en actividades cotidianas, estreñimiento e insomnio; mientras que los tratados con XELOX mostraron un empeoramiento clínicamente relevante en actividades cotidianas, estreñimiento, fatiga, náuseas, vómitos, anorexia y diarrea.
+T9	Premise	Conclusiones:  Los pacientes tratados con el esquema XELOX se encontraron peor emocionalmente a las 12 semanas del tratamiento adyuvante que los tratados con FOLFOX y presentaron empeoramiento en fatiga, náuseas, vómitos, anorexia y diarrea.
+R1	Support	Arg1:T7	Arg2:T9

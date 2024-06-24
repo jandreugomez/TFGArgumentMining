@@ -1,0 +1,8 @@
+T3	Claim	Dada la complejidad, gravedad y dificultades de estos pacientes, todo lo que hagamos para disminuir los riesgos peri-operatorios debe ser considerado como muy beneficioso para ellos.
+T4	Claim	De este modo consideramos que una disminución como mínimo del 10% en el exceso de peso en los Obesos Mórbidos (OM) y un 20% en los Super-Obesos (SO), antes de la cirugía, puede mejorar los resultados y disminuir la morbimortalidad del procedimiento.
+T9	Premise	Los últimos 8 días previos a la cirugía se dieron solamente líquidos claros en ambos grupos.
+T11	Premise	Resultados: El estudio demostró que los pacientes pertenecientes al grupo A, mejoraron de forma estadísticamente significativa tanto en la pérdida de peso y del IMC, como de las co-morbilidades estudiadas, frente a los pacientes que integraron el grupo B. Aunque en todo el conjunto, ambos grupos obtuvieron pérdida de peso preoperatoria y mejoría en sus co-morbilidades.
+T12	Claim	Conclusiones: Una preparación adecuada para los pacientes que vayan a ser sometidos a cirugía bariátrica, puede mejorar los resultados y minimizar los posibles efectos indeseables de la misma.
+T13	Claim	Una dieta-fórmula del tipo de la ensayada en nuestro estudio, alcanza los objetivos de pérdida de peso y reducción o control de las co-morbilidades en mejor proporción que las dietas hipocalóricas habituales, mejorando el riesgo cardiovascular y facilitando todo el proceso quirúrgico.
+R1	Support	Arg1:T4	Arg2:T13
+R2	Support	Arg1:T11	Arg2:T13

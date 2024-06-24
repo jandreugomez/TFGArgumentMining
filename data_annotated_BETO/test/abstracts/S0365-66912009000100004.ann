@@ -1,0 +1,6 @@
+T1	Premise	 Efecto de la instilación del colicursi® anestésico doble (tetracaína 0,1% y oxibuprocaína 0,4%) sobre el espesor corneal central y paracentral.
+T5	Premise	Resultados: El análisis estadístico muestra que no existe variación en el espesor corneal central y paracentral antes y después de la instilacion del anestésico Colircusi® anestésico doble con clorhidrato tetracaina 0,1% y clorhidrato de oxibuprocaina 0,4% (ANOVA para medidas repetidas, p>0,05).
+T6	Premise	Aunque no fueron estadísticamente significativas la mayor variación de espesor se observa para el ECC a los 6 minutos y para el paracentral a los 8 minutos en el hemimeridiano nasal.
+T7	Claim	Conclusiones: Una gota de Colircusi® anestésico doble con clorhidrato tetracaina 0,1% y clorhidrato de oxibuprocaina 0,4% no produce una variación significativa del ECC ni paracentral a 2 mm del centro en los hemimeridianos nasal, temporal, superior e inferior.
+R1	Support	Arg1:T1	Arg2:T7
+R2	Support	Arg1:T5	Arg2:T7

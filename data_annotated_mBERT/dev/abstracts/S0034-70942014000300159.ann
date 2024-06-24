@@ -1,0 +1,10 @@
+T1	Claim	 La adición de lidocaína a la levobupivacaína reduce la duración del bloqueo intratecal: estudio clínico aleatorizado.
+T3	Claim	La lidocaína intratecal en dosis baja tiene un efecto vasodilatador y aumenta la eliminación del anestésico local del espacio intratecal.
+T10	Premise	Resultados:  la resolución del bloqueo raquídeo fue más rápida en el grupo L que en el grupo C (162,43 ± 39,4 min vs. 219,73 ± 37,3 min [p = 0,000]).
+T11	Premise	El tiempo en la sala de reanimación postanestesia fue menor en el grupo L que en el grupo C (109 ± 49,9 min vs. 148 ± 56,8 min [p = 0,036]).
+T12	Premise	No hubo diferencia entre los grupos con relación a la incidencia de eventos adversos y tratamientos.
+T13	Premise	Los grupos también fueron similares en lo que respecta a las complicaciones.
+T14	Premise	No se observó en ningún grupo ni cefalea pospunción dural ni síntomas neurológicos transitorios.
+T15	Claim	Conclusión:  la adición de una dosis baja de lidocaína a la levobupivacaína hiperbárica reduce la duración del bloqueo intratecal proporcionado por la levobupivacaína hiperbárica.
+T16	Claim	Esa técnica puede ser usada para reducir la duración del bloqueo raquídeo en procedimientos relativamente cortos como la resección transuretral de próstata.
+R1	Support	Arg1:T10	Arg2:T15

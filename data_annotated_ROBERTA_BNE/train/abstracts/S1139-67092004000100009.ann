@@ -1,0 +1,4 @@
+T2	MajorClaim	La infección de colon por Clostridium difficile, que produce colitis pseudomembranosa, es una complicación frecuente en las terapias con antibióticos, especialmente en pacientes de la tercera edad.
+T3	Claim	Se ha sugerido que las bacterias probióticas no patógenas podrían prevenir el desarrollo de la infección por C. difficile.
+T9	Premise	Entre los pacientes que tuvieron diarrea, se encontró un 2,9% de muestras positivas para la toxina asociada a C. difficile en el grupo tratado con probióticos, en comparación con el 7,25% detectado en el grupo control tratado con placebo.
+T10	Premise	Cuando se analizaron muestras de todos los pacientes (no solamente los que tuvieron diarrea), un 46% de los pacientes tratados con probióticos dieron positivo para la toxina, en comparación con el 78% del grupo tratado con placebo.

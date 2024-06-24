@@ -1,0 +1,6 @@
+T1	Claim	 Las infecciones asociadas a catéteres (IAC) conllevan elevada morbimortalidad, con el aumento del uso de recursos hospitalarios.
+T11	Premise	La tasa previa fue 8,6/1000 días de uso y la posintervención, de 5,8/1000 días, RR 0,82 (IC 95%: 0,68-0,98), p= 0,015.
+T12	Premise	La tasa de uso de catéter venoso central se redujo de 54% a 49%, diferencia no significativa.
+T14	Claim	El programa logró un descenso significativo de las tasas de IAC.
+T16	Claim	La educación y la vigilancia continua son necesarias para mantener y mejorar los resultados alcanzados.
+R1	Support	Arg1:T11	Arg2:T14

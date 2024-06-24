@@ -1,0 +1,6 @@
+T6	Premise	Ella incluyó movimientos de la mano, expresión verbal espontánea de dolor, muecas y gemidos durante la inyección de propofol.
+T7	Premise	RESULTADOS: Lidocaína-fentanil (70% sin dolor) y lidocaína (68% sin dolor) fueron más eficaces en la reducción del dolor causado por la inyección de propofol que el paracetamol (54% sin dolor) y el placebo (36% sin dolor) (p < 0.05).
+T8	Premise	La diferencia en la reducción de la incidencia de dolor causada por la inyección de propofol entre la lidocaína y la lidocaína-fentanil, no fue estadísticamente significativa.
+T9	Premise	El paracetamol fue significativamente superior al placebo (p < 0,05).
+T11	Claim	La lidocaína y lidocaína-fentanil administrados como tratamiento previo, en la forma de retención venosa durante 60 segundos, antes de la administración del propofol redujeron significativamente el dolor causado por la inyección de propofol, mientras que el paracetamol IV (Perfalgan®) redujo discretamente ese mismo dolor.
+R1	Support	Arg1:T7	Arg2:T11

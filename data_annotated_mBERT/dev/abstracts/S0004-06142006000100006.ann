@@ -1,0 +1,4 @@
+T8	Premise	Por tanto, 2 de los 3 pacientes que sobrevivieron más de 6 meses alcanzaron una RP.
+T10	Premise	Se demostró un quimerismo completo en todos los pacientes.
+T11	Claim	Conclusión: El mini-alo TMO es factible en pacientes con carcinoma renal metastásico y proporciona respuestas objetivas, si bien su eficacia debería confirmarse en ensayos fase III.
+R1	Support	Arg1:T10	Arg2:T11

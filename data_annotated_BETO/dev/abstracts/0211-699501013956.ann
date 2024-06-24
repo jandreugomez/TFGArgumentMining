@@ -1,0 +1,9 @@
+T1	Claim	 Efectos del trandolapril en monoterapia y asociado con verapamil, sobre la presión arterial, albuminuria y control metabólico en pacientes hipertensos con diabetes tipo 2 y albuminuria.
+T2	Claim	La proteinuria es un predictor de morbi-mortalidad en pacientes hipertensos con diabetes tipo 2; los IECAs son fármacos de elección en estos pacientes; si la respuesta no es suficiente, la asociación de un antagonista del calcio no dihidropiridínico podría ser una alternativa eficaz.
+T14	Premise	Reducción media de la EUA con el tratamiento: 177,9 ± 24,3 mg/día (IC 95%, 129,9-225,8, p < 0,001).
+T16	Premise	La albuminuria se negativizó ( < 30 mg/día) en 47 pacientes.
+T17	Premise	125 (54%) pacientes controlaron la PA. La glucemia descendió a 153,2 ± 42,7 mg/dL (p < 0,001) y la HbAlc pasó a 6,5 ± 1,3% (p = 0,012).
+T18	Claim	En estos pacientes, el trandolapril, en monoterapia o asociado a verapamil, es una alternativa terapéutica que reduce significativamente la albuminuria, controla aceptablemente la PA y facilita su control metabólico.
+R1	Support	Arg1:T14	Arg2:T18
+R2	Support	Arg1:T16	Arg2:T18
+R3	Support	Arg1:T17	Arg2:T18

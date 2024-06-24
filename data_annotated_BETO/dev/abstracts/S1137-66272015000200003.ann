@@ -1,0 +1,9 @@
+T7	Premise	Resultados: Los pacientes con BAI presentaron mejor calidad de vida global que los pacientes con BAC (p=0,002).
+T8	Premise	De los 5 bloques en los que se divide el cuestionario, el grupo BAI presentó mejor puntuación que el BAC en "Aspectos psicológicos" (p=0,009) y "Apoyo social y pareja" (p=0,008).
+T9	Premise	El BAI mejoró la calidad de vida global de los pacientes a los 18 meses respecto al momento de la aleatorización (p=0,000), y la puntuación de "Vida Sexual" (p=0,000) y "Apoyo social y pareja" (p=0,002).
+T10	Premise	El BAC no mejoró ni la calidad de vida global ni la puntuación de los diferentes bloques a largo del estudio (p>0,05).
+T11	Claim	Conclusión: El BAI mejora la calidad de vida global de los pacientes a los 18 meses de la suspensión del tratamiento.
+R1	Support	Arg1:T7	Arg2:T11
+R2	Support	Arg1:T8	Arg2:T11
+R3	Support	Arg1:T9	Arg2:T11
+R4	Support	Arg1:T10	Arg2:T11

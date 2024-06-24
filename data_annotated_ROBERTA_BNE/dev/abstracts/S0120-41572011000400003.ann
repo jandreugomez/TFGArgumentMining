@@ -1,0 +1,6 @@
+T1	Claim	 Incidencia de enterocolitis necrosante en niños prematuros alimentados precozmente.
+T11	Premise	Se presentaron 14 casos de enterocolitis necrosante en el grupo de alimentación temprana (10,4 %) y nueve (8,7 %) en el de alimentación tardía (RR=1,22; IC95 % 0,49-3,20; p=0,652).
+T12	Premise	Cinco (3,7 %) niños fallecieron en el grupo de alimentación temprana (IC95 % 1,4-8,9) y ocho (7,7 %), en el de alimentación tardía (IC95 % 3,6-15,0), sin que estas diferencias fueran significativas (RR=0,46;IC95 % 0,12-1,60; p=0,182).
+T14	Claim	El iniciar en forma temprana la alimentación entérica en neonatos prematuros no aumenta el riesgo de enterocolitis necrosante ni el de mortalidad y sí representa grandes ventajas para estos pacientes.
+R1	Support	Arg1:T11	Arg2:T14
+R2	Support	Arg1:T12	Arg2:T14

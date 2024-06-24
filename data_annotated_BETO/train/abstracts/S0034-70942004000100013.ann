@@ -1,0 +1,6 @@
+T1	Claim	 Influencia de la clonidina por vía venosa en el costeo de anestesia con sevoflurano en cirugías de oído medio en régimen ambulatorial.
+T10	Premise	La recuperación anestésica parte II fue prolongada en el grupo C5 (p < 0,05).
+T11	Premise	El consumo de sevoflurano por minuto de cirugía fue 0.54 ± 0,14 en el grupo S y 0,33 ± 0,09 y 0,34 ± 0,13 en los grupos C3 y C5, respectivamente (p < 0,05).
+T12	Premise	En los grupos que recibieron clonidina, el costeo fue diminuido en aproximadamente 35%.
+T14	Claim	La dosis de 5 µg.kg-1, a pesar de disminuir el consumo de sevoflurano, prolonga la recuperación parte II, no adecuándose al régimen ambulatorial.
+R1	Support	Arg1:T10	Arg2:T14

@@ -1,0 +1,9 @@
+T2	MajorClaim	Objetivos: La ingesta de omega-3 se ha asociado con efectos antinflamatorios relacionados con la prevención de la enfermedad cardiovascular (ECV).
+T3	MajorClaim	Desarrollar productos cárnicos funcionales podría ser de gran interés para la población.
+T10	Premise	Tras consumir CF durante 12 semanas se observó una disminución significativa del PAI-1, fibrinógeno y 8-iso-PGF2α, mientras que el FRAP incrementó significativamente.
+T11	Claim	Sin embargo, con CC incrementó PAI-1 y disminuyó FRAP significativamente.
+T12	Premise	Además se observaron diferencias significativas entre los cambios producidos tras consumir uno u otro producto de los marcadores PAI-1, FRAP y 8-iso-PGF2α.
+T13	Premise	Al final de cada intervención no se observaron cambios en variables antropométricas ni efectos adversos.
+T14	Claim	Conclusiones: El consumo de CF con omega-3 y extracto de romero mejora el estado inflamatorio y oxidativo de personas con al menos 2 parámetros del perfil lipídico alterado.
+T15	Claim	La inclusión de estas CF en una dieta equilibrada podría ser una opción más para mantener un estilo de vida saludable.
+R1	Support	Arg1:T10	Arg2:T14

@@ -1,0 +1,10 @@
+T9	Premise	: 0,16) para la MF4 (p=0,17).
+T10	Premise	Por el contrario, se observaron diferencias significativas al valorar la AV media para lejos con corrección, siendo 0,86 (D.E.
+T14	Premise	: 0,83) para la MF4 (p=0,021).
+T15	Premise	El porcentaje de satisfacción de los pacientes fue similar en ambos tipos de LIOs, siendo respectivamente del 78% (811E) y del 73,4% (MF4).
+T16	Claim	Conclusiones: Nuestros resultados muestran una superioridad de las lentes difractivas bifocales sobre las lentes refractivas bifocales en la agudeza visual corregida para lejos y en la agudeza visual de cerca con la corrección de lejos.
+T17	Premise	Las complicaciones postoperatorias y el grado de satisfacción fueron similares para ambos modelos.
+R1	Support	Arg1:T9	Arg2:T16
+R2	Support	Arg1:T10	Arg2:T16
+R3	Support	Arg1:T14	Arg2:T16
+R4	Support	Arg1:T15	Arg2:T17

@@ -1,0 +1,4 @@
+T1	Claim	 Impacto de la maniobra de reclutamiento alveolar en el postoperatorio de cirugía bariátrica videolaparoscópica.
+T7	Premise	RESULTADOS: Se observó una caída significativa en los valores espirométricos (p < 0,001) y una mayor incidencia de complicaciones pulmonares en la radiografía torácica (p = 0,02) en el GC, como también una significativa mejoría de la escala de BORG disnea (p < 0,001) en el GE.
+T8	Claim	CONCLUSIONES: Podemos concluir que la MRA es una técnica segura y eficaz cuando se utiliza para la prevención de las complicaciones pulmonares en pacientes sometidos a la cirugía bariátrica, trayendo como resultado hallazgos espirométricos y radiológicos más favorables en el Grupo Experimental con relación al Grupo Control en el PO.
+R1	Support	Arg1:T7	Arg2:T8

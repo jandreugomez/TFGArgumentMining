@@ -1,0 +1,8 @@
+T3	Claim	Las terapias de mínima invasión usando agentes esclerosantes han tomado posicionamiento entre las técnicas de bajo costo y alta efectividad para dichas patologías.
+T7	Premise	En 4/9 (44,4%) de los 9 casos tratados con betametasona se requirió la terapia alternativa de esclerosis con polidocanol para la resolución del cuadro, que comprometía el estado fetal.
+T8	Claim	La involución de la lesión pulmonar y del cuadro hidrópico fue más rápida y progresiva con la escleroterapia percutánea en comparación con el efecto esteroideo materno.
+T9	Premise	Los resultados perinatales fueron asimismo más satisfactorios en el grupo con polidocanol (91,7%) que en el grupo con el esteroide (60%).
+T11	Claim	Se comprobó la eficacia de la escleroterapia percutánea con polidocanol para el tratamiento de la CCAM y de lesión híbrida, con resolución más rápida y eficaz de la patología en los casos donde existía resistencia a la terapia esteroidea previamente administrada.
+R1	Support	Arg1:T7	Arg2:T11
+R2	Support	Arg1:T8	Arg2:T11
+R3	Support	Arg1:T9	Arg2:T11

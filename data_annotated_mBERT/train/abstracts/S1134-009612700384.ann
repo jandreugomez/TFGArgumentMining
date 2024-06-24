@@ -1,0 +1,9 @@
+T3	MajorClaim	La influencia de la cirugía de revascularización miocárdica (CRM) sin circulación extracorpórea (CEC) en el sangrado postoperatorio es desconocida.
+T10	Premise	La cirugía sin CEC redujo el sangrado postoperatorio (Cr: −256,41; p = 0,039) y los concentrados de hematíes transfundidos (CR = −0,66 ; p = 0,027) en los 138 pacientes con unos niveles preoperatorios de creatinina superior a 1,2 mg/dl.
+T11	Premise	Mientras que en los 120 pacientes mayores de 75 años no influyó en ninguna de las dos variables, en los grupos tercero y cuarto sí redujo los concentrados de hematíes transfundidos (CR: −1,11; p < 0,001 y CR = −0,79; p = 0,017, respectivamente) sin disminuir el sangrado.
+T13	Claim	Mientras los pacientes con ir redujeron el sangrado postoperatorio y los concentrados de hematíes transfundidos, Los pacientes mayores de 75 años no se beneficiaron.
+T14	Claim	Los pacientes con menor SC y menor IMC redujeron los concentrados de hematíes transfundidos sin disminuir el sangrado postoperatorio, lo que posiblemente se deba a una menor hemodilución.
+R1	Support	Arg1:T10	Arg2:T14
+R2	Support	Arg1:T11	Arg2:T13
+R3	Support	Arg1:T11	Arg2:T14
+R4	Support	Arg1:T13	Arg2:T14

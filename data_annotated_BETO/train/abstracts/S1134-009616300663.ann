@@ -1,0 +1,6 @@
+T3	Claim	La cirugía valvular aórtica aislada mínimamente invasiva mediante miniesternotomía superior se está generalizando debido a ventajas respecto a la cirugía convencional.
+T9	Premise	La mediana de los tiempos de circulación extracorpórea e isquemia fueron 15 y 10 min más largos en el grupo miniesternotomía (89 [75-110] y 74 [64-90] vs. convencional 65 [55-73] y 55 [47-63] min, respectivamente, p < 0,001).
+T10	Premise	El grupo miniesternotomía presentó menores complicaciones mayores (12,5% vs. 30% convencional, p = 0,05, odds ratio 0,32; intervalo de confianza del 95% 0,09-0,93), menor sangrado en las primeras 24 h (304 ± 150 vs. 506 ± 300 ml, p < 0,001) y menores necesidades transfusionales (0,8 ± 0,2 vs. 1,6 ± 0,3 concentrados de hematíes/paciente, p = 0,04).
+T11	Premise	No existieron diferencias en tiempo de intubación, estancia hospitalaria, mortalidad ni supervivencia.
+T13	Claim	La sustitución valvular aórtica aislada por miniesternotomía presenta una reducción de la morbimortalidad, lo que recomendaría su utilización frente a la cirugía convencional siempre que sea factible.
+T14	Claim	Son precisos nuevos ensayos clínicos para confirmar estos datos.

@@ -1,0 +1,7 @@
+T8	Premise	El esquema de Ic/día, 2-4 c/día y > 4 c/día se dio en el 29%, 37% y 34% de los pacientes respectivamente.
+T9	Premise	Pese que la evaluación realizada por el cuestionario SMAQ y la escala EVA de forma independiente muestra diferencias estadísticamente significativas a favor del esquema Ic/día, el porcentaje de pacientes adherentes según la variable combinada (49%) no difiere entre los grupos en función de la carga posológica.
+T10	Premise	La satisfacción al TAR y fueron elevadas en los tres grupos, siendo los esquemas 1 c/día los relacionados con mayor satisfacción y menores efectos adversos del metabolismo de las grasas.
+T11	Premise	No se observaron diferencias en la satisfacción de los pacientes según la adherencia.
+T12	Claim	Conclusiones: La adherencia, la satisfacción al TAR y de los pacientes con TAR es alta.
+T13	Claim	La satisfacción, mayor en pacientes que toman 1 c/día, no difiere en función de la adherencia y no se observó correlación entre satisfacción con el TAR y calidad de vida.
+R1	Support	Arg1:T10	Arg2:T12

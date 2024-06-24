@@ -1,0 +1,5 @@
+T1	Claim	 Efectividad de una intervención nutricional en la disminución de la toxicidad gastrointestinal durante la teleterapia en mujeres con tumores ginecológicos.
+T8	Premise	El 85% de las pacientes tuvieron un apego excelente a la dieta.
+T9	Premise	No se encontraron factores asociados a la presencia toxicidad gastrointestinal grado 3.
+T11	Claim	La implementación de una dieta baja en oligosacáridos, disacáridos, monosacáridos y polioles fermentables durante el tratamiento con teleterapia pélvica es una medida de bajo costo y alto apego, que disminuye el deterioro de estado funcional en las pacientes con tumores ginecológicos la sintomatología al final del tratamiento en pacientes con cáncer cervicouterino.
+R1	Support	Arg1:T8	Arg2:T11

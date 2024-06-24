@@ -1,0 +1,4 @@
+T16	Premise	El 31% ingresaron durante el último año por insuficiencia cardiaca.
+T23	Premise	Tras optimizar el tratamiento no varió el porcentaje de pacientes ni la dosis media de fármacos analizados.
+T26	Claim	Un ajuste protocolizado del tratamiento no consigue aumentar la dosis ni el número de pacientes con fármacos eficaces para la insuficiencia cardiaca con función cardiaca deprimida.
+R1	Support	Arg1:T23	Arg2:T26

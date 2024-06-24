@@ -1,0 +1,10 @@
+T3	Claim	En la práctica clínica habitual la prescripción de análogos de vitamina D (AVD) en la enfermedad renal crónica (ERC) se asocia con frecuencia a un descenso de la función renal estimada cuyo origen no es bien conocido.
+T14	Premise	El 67% de los casos mejoró la función renal, mientras que el 72% de los controles empeoró (p<0,0001).
+T15	Premise	El cambio FG-MDRD en casos y controles fue +0,455±0,997 vs. −0,436±1,103ml/min/1,73 m2/mes (p<0,0001), respectivamente.
+T16	Premise	La excreción total de creatinina era ligeramente superior en los casos, pero la diferencia con respecto a los controles no fue significativa.
+T17	Premise	Por regresión logística y lineal multivariante, el calcio sérico total basal fue uno de los principales determinantes tanto de la recuperación de la función renal (odds ratio=3,49; p=0,001), como de la magnitud de esta recuperación (beta=0,276; p=0,001).
+T19	Claim	La suspensión de AVD en pacientes con ERC se asocia con una mejoría significativa de la función renal estimada.
+T20	Premise	La magnitud de estos cambios se relaciona principalmente con la calcemia basal.
+R1	Support	Arg1:T14	Arg2:T19
+R2	Support	Arg1:T16	Arg2:T19
+R3	Support	Arg1:T17	Arg2:T19

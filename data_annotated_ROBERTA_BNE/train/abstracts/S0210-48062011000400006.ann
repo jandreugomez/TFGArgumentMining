@@ -1,0 +1,13 @@
+T1	Claim	 ¿Debe emplearse de manera sistemática el cateterismo ureteral en los implantes renales?
+T6	Premise	Resultados: En el grupo con catéter las complicaciones globales aparecieron en el 22,2% frente al 43,3% del grupo sin catéter (p=0,04).
+T7	Premise	En función del reimplante ureteral aparecieron complicaciones en el 38,12% del reimplante tipo Paquin frente al 20,3% en Lich-Gregoir (p=0,09).
+T8	Premise	En el grupo con catéter se evidenció una (0,9%) fístula urinaria frente a 5 (6%) del grupo sin catéter (p=0,08), y 3 (2,7%) estenosis de la anastomosis ureterovesical en el grupo con catéter frente a 7 (8,4%) del grupo sin él (p=0,13).
+T9	Premise	El análisis multivariante demostró que la no utilización de catéter aumenta el riesgo de sufrir complicaciones relacionadas con el reimplante (OR 2,55; IC 95%: 1,37-4,75).
+T10	Premise	El riesgo de fístula aumentó significativamente al no colocar catéter (OR: 9,19; IC 95%: 1,01-84,7).
+T11	Premise	No hubo diferencias entre ambos grupos en cuanto a las infecciones del tracto urinario, produciéndose tres (2,7%) en el grupo con catéter y una (1,2%) en el grupo sin catéter (p=0,63).
+T12	Claim	Conclusiones: La colocación de catéter doble J reduce las complicaciones relacionadas con el reimplante ureteral sin aumentar la morbilidad asociada a su uso.
+R1	Support	Arg1:T6	Arg2:T12
+R2	Support	Arg1:T7	Arg2:T12
+R3	Support	Arg1:T8	Arg2:T12
+R4	Support	Arg1:T9	Arg2:T12
+R5	Support	Arg1:T10	Arg2:T12

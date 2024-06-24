@@ -1,0 +1,4 @@
+T8	Claim	Resultados: Según este estudio, el uso de un tubo de drenaje reduce con diferencia estadísticamente significativa el edema postoperatorio en comparación con las heridas suturadas sin drenaje en la exodoncia de terceros molares inferiores impactados.
+T9	Premise	Por el contrario, no existieron diferencias significativas con relación a la respuesta dolorosa, al comparar ambos lados.
+T10	Claim	Conclusiones: El uso de drenaje posterior a la extracción de terceros molares inferiores impactados reduce el edema, mejorando el bienestar del paciente en el postoperatorio.
+R1	Support	Arg1:T8	Arg2:T10

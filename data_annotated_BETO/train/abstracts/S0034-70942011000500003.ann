@@ -1,0 +1,6 @@
+T2	Claim	JUSTIFICATIVA Y OBJETIVOS: Las técnicas de bloqueos de nervios periféricos ha venido obteniendo popularidad en las últimas de los décadas, y convirtiéndose cada vez más en una opción anestésica para la cirugía de los miembros.
+T3	Claim	Este estudio propone una técnica de abordaje de los nervios tibial y fibular común en la fosa poplítea por punción única y utilizando el estimulador percutáneo de nervios, considerando la correlación con el estudio anatómico y ultrasonográfico.
+T10	Premise	La profundidad promedio de la aguja para el nervio tibial fue de 10,7 mm.
+T11	Claim	CONCLUSIONES: El abordaje de los nervios tibial y fibular común con punción única en la fosa poplítea utilizando el estimulador percutáneo de nervios, es una buena opción para la anestesia y la analgesia en cirugías del pie.
+R1	Support	Arg1:T3	Arg2:T11
+R2	Support	Arg1:T10	Arg2:T11

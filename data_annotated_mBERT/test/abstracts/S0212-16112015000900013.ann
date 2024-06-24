@@ -1,0 +1,5 @@
+T3	Claim	En estas dislipemias es posible que los triglicéridos sanguíneos también tengan un papel importante.
+T4	Claim	Los esteroles vegetales se han mostrado eficaces en el tratamiento de la hipercolesterolemia, pero no de la hipertrigliceridemia.
+T9	Premise	El efecto atribuible a la ingesta de la leche enriquecida con fitosteroles vegetales fue de una disminución de 5,88 mg/dl.
+T10	Claim	Conclusión: concluimos que la leche enriquecida con esteroles vegetales (2,24 gr de esteroles vegetales al día) podría constituir una estrategia adecuada para el tratamiento de la hipertrigliceridemia en pacientes pediátricos.
+R1	Support	Arg1:T9	Arg2:T10

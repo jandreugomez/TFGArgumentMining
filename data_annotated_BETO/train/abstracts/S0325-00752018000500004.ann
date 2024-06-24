@@ -1,0 +1,8 @@
+T1	Claim	 Características posoperatorias de la faringoplastia combinada con amigdalectomía en comparación con la amigdalectomía en niños con síndrome obstructivo de apnea del sueño.
+T11	Premise	Estas cohortes no mostraban diferencias demográficas significativas.
+T12	Premise	Por otro lado, se encontró que la pérdida de sangre fue significativamente menor en el grupo que recibió amigdalectomía y faringoplastia (p < 0,01), y el proceso de cicatrización fue notablemente más breve.
+T13	Claim	La función velofaríngea posoperatoria no resultó afectada.
+T15	Claim	En comparación con la amigdalectomía, la amigdalectomía junto con la faringoplastia redujeron la duración del proceso de cicatrización y la pérdida de sangre; no obstante, las complicaciones posoperatorias no aumentaron.
+T16	Claim	En nuestra opinión, la combinación de faringoplastia y amigdalectomía reúne un gran potencial en el tratamiento de los niños con apnea obstructiva del sueño.
+R1	Support	Arg1:T12	Arg2:T15
+R2	Support	Arg1:T12	Arg2:T16

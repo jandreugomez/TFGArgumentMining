@@ -1,0 +1,11 @@
+T6	Premise	Resultados: en el análisis por protocolo (PP), las tasas de erradicación fueron del 89,7 y 72% para los grupos de 7 y 14 días respectivamente (p = 0,159).
+T7	Premise	En el análisis de intención de tratamiento (IT), las tasas de erradicación fueron del 86,7 y 62,1% en los grupos de 7 y 14 días respectivamente (p = 0,06).
+T8	Premise	Ninguna cepa presentó resistencia a Am y 4 cepas fueron resistentes a Cla: 3 (11,1%) en el grupo de 14 días y 1 (4%) en el grupo de 7 días.
+T9	Premise	Las tasas de erradicación no fueron afectadas por la resistencia de la cepa o el genotipo de CYP2C19.
+T10	Claim	Conclusiones: las terapias de 7 y 14 días fueron eficaces para la erradicación de H. pylori.
+T11	Claim	Al parecer, la resistencia de la cepa y el genotipo de CYP2C19, no influenciaron las tasas de erradicación de H. pylori en la población estudiada.
+R1	Support	Arg1:T6	Arg2:T10
+R2	Support	Arg1:T7	Arg2:T10
+R3	Support	Arg1:T8	Arg2:T10
+R4	Support	Arg1:T8	Arg2:T11
+R5	Support	Arg1:T9	Arg2:T11

@@ -1,0 +1,6 @@
+T10	Premise	La proporción de sujetos con disminución de más de dos puntos en el PIS a las 2 horas de tratamiento Grupo 1: 43,7% IC 95% (28-60) vs Grupo 2: 48,4%; IC 95% (32-64) p 0,447.
+T11	Premise	La estadía media fue 24,8 ± 12,3 horas en el Grupo1 vs 24 ± 14,8 horas en el Grupo2; IC 95% (7,56-5,96) p 0,37.
+T12	Premise	No encontramos diferencias del score y puntaje del esfuerzo respiratorio en mediciones cada 2 horas.
+T14	Claim	Conclusiones:  La incorporación de la CNAF al tratamiento de pacientes con crisis asmática no presentó beneficios clínicos ni disminuyó el tiempo de estadía en el DEP.
+R1	Support	Arg1:T10	Arg2:T14
+R2	Support	Arg1:T11	Arg2:T14

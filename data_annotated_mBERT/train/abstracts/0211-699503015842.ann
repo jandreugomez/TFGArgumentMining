@@ -1,0 +1,10 @@
+T7	Premise	El 86,8% de los pacientes completaron las 24 semanas de estudio.El cambio del tratamiento a menor frecuencia de dosificación no produjo modificaciones clínicamente significativas en la concentración de Hb [los cambios desde la visita basal al período de evaluación consistieron en un descenso de 0,09 (IC 95%, ­0,2; ­0,0) g/dL, con aumento de 0,19 (IC 95% 0,0; 0,3) g/dL en la vía iv y descenso de 0,22 (IC 95%, ­0,3; ­0,1) g/dL en la vía sc].
+T8	Premise	Este mantenimiento de Hb se acompañó de una reducción media de la dosis de darbepoetin alfa de un 9,8% (IC 95%, ­12,9; ­6,6) [19,7% (IC 95%, -24,9;-14,2) (vía iv) y 4,7% (IC 95%, ­8,5; ­0,7) (vía sc)].
+T9	Claim	El tratamiento con darbepoetin alfa fue bien tolerado, no observándose acontecimientos adversos inesperados.
+T10	Claim	En conclusión, la sustitución de r-HuEPO por darbepoetin alfa en la terapia de la anemia secundaria a IRC en pacientes en diálisis fue eficaz, bien tolerada y disminuyó la frecuencia de administración de dosis en comparación con el tratamiento previo con r-HuEPO.
+T11	Claim	Darbepoetin alfa 1 vez por semana o 1 vez cada 2 semanas mantuvo los niveles de Hb basales a la vez que permitió una reducción de la dosis por ambas vías de administración, siendo mayor en los pacientes tratados por vía iv.
+R1	Support	Arg1:T7	Arg2:T10
+R2	Support	Arg1:T7	Arg2:T11
+R3	Support	Arg1:T8	Arg2:T10
+R4	Support	Arg1:T8	Arg2:T11
+R5	Support	Arg1:T9	Arg2:T10

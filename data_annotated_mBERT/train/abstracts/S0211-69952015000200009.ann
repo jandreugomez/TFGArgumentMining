@@ -1,0 +1,6 @@
+T5	Claim	En diversos modelos animales de FRA se ha demostrado niveles disminuidos de Klotho renal.
+T11	Claim	Resultados: No encontramos diferencias en los niveles de Klotho en orina entre los pacientes que desarrollaron FRA y aquellos que no.
+T12	Premise	Además, no había correlación significativa entre niveles de klotho en orina y presencia de FRA.
+T13	Claim	Conclusión: Klotho urinario medido por ELISA no parece ser un buen candidato para ser usado como biomarcador precoz de FRA.
+R1	Support	Arg1:T11	Arg2:T13
+R2	Support	Arg1:T12	Arg2:T13

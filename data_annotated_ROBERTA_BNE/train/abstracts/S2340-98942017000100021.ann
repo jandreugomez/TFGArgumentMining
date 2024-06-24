@@ -1,0 +1,5 @@
+T10	Premise	Los pacientes del grupo intervenido mejoraron la glicemia en 34%, donde 24 pacientes tenian el valor (< 130 mg/dL); la hemoglobina glicosilada mejoró 1,9%, donde 15 pacientes lograron los parámetros deseados (< 6,5%).
+T11	Premise	La calidad de vida del grupo inter-venido aumentó de (56,3 a 71,3 %) y fue medido con el cuestionario SF-36.
+T13	Claim	Conclusión:  Las intervenciones farmacéuticas mejoraron los parámetros clínicos de glicemia, hemoglobina glicosilada, optimizaron el uso de medicamentos, disminuyeron los problemas relacionados con medicamentos, mejoraron la calidad de vida de los pacientes.
+R1	Support	Arg1:T10	Arg2:T13
+R2	Support	Arg1:T11	Arg2:T13

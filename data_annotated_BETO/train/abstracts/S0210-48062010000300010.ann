@@ -1,0 +1,5 @@
+T8	Premise	Un 6,2% de los pacientes tuvo ITU, un 3,1% tuvo fiebre, un 1,2% presentó retención aguda de orina y el 15,4% necesitó enemas o laxantes.
+T9	Premise	Se recogió un caso de contaminación con heces del campo quirúrgico (0,6%).
+T10	Premise	No se encontraron diferencias estadísticamente significativas para las variables analizadas entre ambos grupos de estudio.
+T11	Claim	Conclusiones: En nuestra serie, la preparación intestinal mediante el empleo de enemas no ha demostrado utilidad para disminuir complicaciones durante el postoperatorio de cirugía endourológica.
+R1	Support	Arg1:T9	Arg2:T11

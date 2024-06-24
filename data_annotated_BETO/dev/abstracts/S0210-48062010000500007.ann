@@ -1,0 +1,10 @@
+T6	Premise	No hubo diferencias significativas en los grupos.
+T7	Premise	Resultados: Hubo buena respuesta en el 39 y el 41% de los pacientes del grupo CM y CVE, respectivamente.
+T8	Premise	Mejora por variable: tamaño de la placa en el 36 vs. el 29%, alivio del dolor en el 45 vs. el 57%, curvatura en el 32 vs. el 33% en los grupos CM y CVE, respectivamente.
+T9	Premise	Ninguna de estas diferencias fue estadísticamente significativa.
+T10	Premise	Conclusiones: La CVE no demostró diferencias estadísticamente significativas en la eficacia del alivio del dolor, curvatura y tamaño/consistencia de la placa vs. el grupo control.
+T11	Claim	Sin embargo, existe ligera evidencia de un efecto pronóstico positivo en el tratamiento conservador de la EP si hay antecedente de tratamiento previo fallido, que fue estadísticamente significativo en el grupo CVE, fomentando la teoría del tratamiento combinado.
+T12	Claim	Un estudio aleatorizado, doble ciego controlado con placebo debe realizarse para confirmar estos resultados.
+R1	Support	Arg1:T6	Arg2:T9
+R2	Support	Arg1:T8	Arg2:T10
+R3	Support	Arg1:T9	Arg2:T10

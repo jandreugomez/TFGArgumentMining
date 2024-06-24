@@ -1,0 +1,9 @@
+T11	Premise	El tiempo para el inicio del bloqueo sensitivo y motor fue significativamente menor en el grupo A (p = 0,00).
+T12	Premise	La duración del bloqueo sensorial y motor fue menor en el grupo B (p < 0,05).
+T13	Premise	La tasa de éxito para raquianestesia unilateral en el grupo B fue de un 94,45%.
+T15	Premise	La incidencia de complicaciones (náuseas, cefalea e hipotensión) fue menor en el grupo B (p = 0,02).
+T16	Claim	Conclusión:  la administración de raquianestesia unilateral con la técnica de dosis, volumen y flujo de inyección bajos, suministra un bloqueo sensorial y motor adecuado y ayuda a obtener parámetros hemodinámicos estables durante la cirugía ortopédica de los miembros inferiores.
+T17	Claim	La satisfacción de los pacientes fue mayor con esa técnica, en comparación con el método convencional.
+T18	Claim	Además de eso, esa técnica evita la parálisis innecesaria del lado no operado.
+R1	Support	Arg1:T11	Arg2:T16
+R2	Support	Arg1:T12	Arg2:T16

@@ -1,0 +1,5 @@
+T8	Premise	Resultados: al inicio del estudio no habían diferencias entre los grupos.
+T9	Premise	Al año existía una diferencia significativa entre el grupo de estudio y el de control, en CAO-D P=0,001, CAO-S P=0,000 (en los primeros molares permanentes).
+T10	Claim	Conclusión: la aplicación de Cervitec cada 3 meses, es efectiva previniendo la caries en los primeros molares permanentes de escolares con alta actividad de caries.
+R1	Support	Arg1:T8	Arg2:T10
+R2	Support	Arg1:T9	Arg2:T10

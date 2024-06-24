@@ -1,0 +1,7 @@
+T5	Claim	Hay evidencias, también, sobre el efecto protector que tendría la realización de un precorte temprano en los casos con canulación difícil.
+T11	Premise	No hubo diferencias en las características demográficas de los participantes ni en las indicaciones del estudio.
+T12	Premise	Se registraron dos pancreatitis leves en cada grupo.
+T13	Premise	El coste fue de 1.242,6$ por paciente en el grupo A y 1.606,5$ por paciente en el grupo B. El coste del grupo B fue un 29,3% mayor (p < 0,0001).
+T14	Claim	Conclusiones: el precorte temprano es más coste-eficaz que la prótesis pancreática en la prevención de pancreatitis post-CPRE.
+R1	Support	Arg1:T11	Arg2:T14
+R2	Support	Arg1:T13	Arg2:T14

@@ -1,0 +1,7 @@
+T1	Claim	 Espirometría incentivada con presión positiva espiratoria es beneficiosa después de revascularización de miocardio.
+T3	Claim	Estas complicaciones pueden aumentar el tiempo de internación hospitalaria, la necesidad de recursos financieros y también se asocian con la reducción de la calidad de vida y de la capacidad funcional a largo plazo.
+T8	Premise	RESULTADOS: Después del test de caminata de seis minutos (TC6), el score para disnea (1,6 ± 0,6 vs 0,6 ± 0,3, P < 0,05) y la sensación de esfuerzo (13,4 ± 1,2 vs 9,1 ± 0,7, P < 0,05) fueron mayores en el grupo control comparado con el grupo EI+EPAP.
+T9	Premise	En la evaluación de la calidad de vida, el dominio relacionado con las limitaciones en los aspectos físicos fue mejor en el grupo EI+EPAP (93,7 ± 4,1 vs 50 ± 17, P < 0,02).
+T10	Claim	CONCLUSIÓN: Pacientes que realizan EI+EPAP presentan menos disnea y menor sensación de esfuerzo después del TC6 y también mejor calidad de vida 18 meses después de la CRM.
+R1	Support	Arg1:T8	Arg2:T10
+R2	Support	Arg1:T9	Arg2:T10

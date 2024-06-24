@@ -1,0 +1,8 @@
+T1	Claim	 Eficacia terapéutica, seguridad y niveles plasmáticos del Artemeter-Lumefantrine en pacientes con malaria falciparum no complicada de la región del Pacifico Colombiano.
+T8	Premise	La tasa de curación clínica y parasitológica fue del 100% en 84 pacientes que tuvieron examen de gota gruesa al día 28.
+T9	Premise	Hubo cuatro (5%) fallas parasitológicas detectada por reacción en cadena de polimerasa.
+T10	Claim	Discusión:  La eficacia terapéutica fue similar a la reportada en estudios previos con un ligero aumento de falla terapéutica.
+T11	Claim	Los niveles plasmáticos de los antimalaricos fueron adecuados y no relacionados con la falla terapéutica.
+T12	Claim	Conclusión:  El tratamiento de malaria por P. falciparum no complicada con Artemeter-Lumefantrina fue efectiva y segura en la población estudiada.
+T13	Premise	Todos los pacientes alcanzaron niveles en plasma adecuados y no se encontró asociación de falla terapéutica con bajos niveles en sangre.
+R1	Support	Arg1:T8	Arg2:T12

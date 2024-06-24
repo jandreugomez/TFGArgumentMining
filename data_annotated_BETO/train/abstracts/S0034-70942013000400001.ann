@@ -1,0 +1,16 @@
+T6	Premise	RESULTADOS: El Lornoxicam adicionado a la lidocaína en ARIV aumentó el tiempo de recuperación del bloqueo sensorial, sin aumentar los efectos colaterales y el tiempo hasta la primera necesidad de analgésicos en el postoperatorio en comparación con la lidocaína sola (p < 0,001, p < 0,001, respectivamente) y el fentanilo adicionado a la lidocaína (p < 0,001, p < 0,001, respectivamente).
+T7	Premise	Además de eso, también descubrimos que el fentanilo redujo el dolor ocasionado por el torniquete (p < 0,01) en comparación con la lidocaína, pero mostró un efecto analgésico parecido con el del lornoxicam (p > 0,05), aunque las puntuaciones de la escala visual analógica (EVA) relacionadas con el efecto ocasionado por el torniquete, hayan sido menores en el grupo fentanilo.
+T8	Claim	El Lornoxicam adicionado a la lidocaína en ARIV no fue superior a la lidocaína sola para reducir el dolor ocasionado por el torniquete.
+T9	Claim	CONCLUSIÓN: Podemos decir que la adición del fentanilo a la lidocaína en ARIV parece ser superior a la lidocaína sola y al lornoxicam adicionado a la lidocaína para disminuir el dolor ocasionado por el torniquete, a pesar de aumentar los efectos secundarios.
+T10	Claim	Sin embargo, el lornoxicam no aumentó los efectos secundarios, proporcionando una analgesia en los períodos tanto intraoperatorio como postoperatorio.
+T11	Claim	Por tanto, el lornoxicam puede ser más adecuado para el uso clínico.
+R1	Support	Arg1:T6	Arg2:T8
+R2	Support	Arg1:T6	Arg2:T10
+R3	Support	Arg1:T7	Arg2:T8
+R4	Support	Arg1:T7	Arg2:T9
+R5	Support	Arg1:T7	Arg2:T10
+R6	Support	Arg1:T8	Arg2:T9
+R7	Support	Arg1:T8	Arg2:T10
+R8	Support	Arg1:T8	Arg2:T11
+R9	Support	Arg1:T9	Arg2:T10
+R10	Support	Arg1:T10	Arg2:T11

@@ -1,0 +1,7 @@
+T11	Premise	Entre los cumplidores, el 82,4% alcanzaron el objetivo final, en contraste con el 13,8% de los no cumplidores (p < 0,001).
+T12	Premise	Además, los cumplidores mostraron un mayor y significativo descenso de PTH (de 616 ± 288 a 202 ± 82), en ningún caso hubo un incremento de PTH, en contraste, el 21,5% de los incumplidores aumentaron sus niveles de PTH.
+T13	Premise	Los cumplidores mostraron menos efectos adversos que los no cumplidores (25% vs 55,6%, p < 0,006).
+T14	Claim	Estos resultados demuestran la ventaja de comenzar el tratamiento con calcitriol con una dosis proporcional a la severidad del hiperparatiroidismo secundario.
+R1	Support	Arg1:T11	Arg2:T14
+R2	Support	Arg1:T12	Arg2:T14
+R3	Support	Arg1:T13	Arg2:T14

@@ -1,0 +1,3 @@
+T10	Premise	Resultados:  El consumo total de remifentanilo, las puntuaciones de la escala visual analógica en los minutos 0, 20 y 60, el consumo total de morfina, el tiempo para la primera analgesia y el número de pacientes que necesitaron morfina intravenosa fueron menores en el grupo esmolol.
+T11	Claim	Conclusiones:  El esmolol en infusión intravenosa redujo el consumo de analgésicos tanto en el intraoperatorio como en el postoperatorio, redujo las puntuaciones de la escala visual analógica en el postoperatorio inmediato y extendió el tiempo para la primera analgesia; sin embargo, no influyó en la profundidad de la anestesia.
+R1	Support	Arg1:T10	Arg2:T11

@@ -1,0 +1,3 @@
+T11	Premise	Resultados:  los pacientes del grupo sufentanilo necesitaron menos soporte inotrópico con dopamina, comparado con el grupo control (9,5 vs. 58%, p = 0,001) y menos aumentos de dosis de remifentanilo (62 vs. 100%, p = 0,004).
+T13	Claim	Conclusiones:  los pacientes que recibieron sufentanilo intratecal tuvieron una estabilidad hemodinámica mayor, evidenciada por el soporte inotrópico reducido y menos ajustes en las dosis intravenosas de opiáceos.
+R1	Support	Arg1:T11	Arg2:T13

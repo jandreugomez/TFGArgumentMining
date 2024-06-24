@@ -1,0 +1,12 @@
+T3	Claim	Un 10% de los niños nacidos pequeños para la edad gestacional no presentan un crecimiento compensador y permanecen bajos.
+T4	Claim	El tratamiento con hormona de crecimiento, aprobado en los países desarrollados, ha demostrado su eficacia en estos niños.
+T10	Premise	Se observó un aumento significativo en la velocidad de crecimiento (media ± DE) de 5,4 ± 1,7 cm/año a 9,8 ± 1,5 cm/año y 7,6± 1,5 cm/año durante el primer y segundo años, respectivamente, (p= 0,00058).
+T11	Premise	Ello resultó en una mejoría significativa en el puntaje z de talla (media ± DE) de -2,79 ± 0,3 a -1,27 ± 0,5 en 2 años (p < 0,0001).
+T12	Premise	Se observó un incremento significativo en las concentraciones de IGF-I y su proteína transportadora BP3 a los 12 y 24 meses del tratamiento.
+T13	Premise	Las concentraciones de glucosa e insulina aumentaron significativamente durante el estudio (ANOVA, p = 0,0006 y p = 0,036, respectivamente).
+T14	Premise	Dos de los índices de sensibilidad a la insulina utilizados revelaron una leve alteración en la sensibilidad a la insulina.
+T16	Claim	El tratamiento durante 2 años con hormona del crecimiento produjo un aumento significativo de la talla de los pacientes nacidos pequeños para la edad gestacional y permitió alcanzar una talla dentro de los límites normales.
+T17	Premise	No se informaron episodios adversos mayores durante el tratamiento.
+R1	Support	Arg1:T3	Arg2:T4
+R2	Support	Arg1:T10	Arg2:T16
+R3	Support	Arg1:T11	Arg2:T16

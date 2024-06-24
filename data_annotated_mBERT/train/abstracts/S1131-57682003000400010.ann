@@ -1,0 +1,7 @@
+T2	Premise	Sin embargo, la indicación de la vacuna sigue manteniéndose en este grupo de edad.
+T6	Premise	Resultados: la tasa de incidencia media anual de neumonía fue de 13,29 en personas mayores de 65 años (16,6 en CV y 9,96 en CNV), siendo el riesgo relativo para la cohorte vacunada de 1,67(IC 95%: 0,95-2,92).
+T7	Premise	No observamos diferencias significativas en cuanto al índice de letalidad (CV 13,7% frente a 15,7% en CNV) y el grado de severidad en las neumonías de ambas cohortes.
+T8	Claim	Conclusiones: en nuestro ámbito no se ha podido demostrar un efecto protector de la VAN en CV respecto a CNV ante la infección y tampoco se ha evidenciado efecto sobre la disminución de la severidad en las neumonías acaecidas en CV.
+R1	Partial-Attack	Arg1:T2	Arg2:T8
+R2	Support	Arg1:T6	Arg2:T8
+R3	Support	Arg1:T7	Arg2:T8

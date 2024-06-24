@@ -1,0 +1,7 @@
+T8	Premise	Por tanto, 2 de los 3 pacientes que sobrevivieron más de 6 meses alcanzaron una RP.
+T9	Premise	Un paciente falleció al día +30 por enfermedad injerto contra huésped aguda hepática.
+T10	Premise	Se demostró un quimerismo completo en todos los pacientes.
+T11	Claim	Conclusión: El mini-alo TMO es factible en pacientes con carcinoma renal metastásico y proporciona respuestas objetivas, si bien su eficacia debería confirmarse en ensayos fase III.
+R1	Support	Arg1:T8	Arg2:T11
+R2	Support	Arg1:T9	Arg2:T11
+R3	Support	Arg1:T10	Arg2:T11

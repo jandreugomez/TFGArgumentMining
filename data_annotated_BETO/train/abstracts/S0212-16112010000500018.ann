@@ -1,0 +1,6 @@
+T2	Claim	Objetivos: La desnutrición se asocia con elevadas tasas de morbi-mortalidad postoperatoria.
+T10	Premise	Se consideraron significativos aquellos valores de p < 0.05.
+T12	Premise	Se encontraron diferencias estadísticamente significativas en la incidencia de complicaciones gastrointestinales, estancia hospitalaria (p:0,001) y mortalidad (p:0,004) entre los dos grupos de pacientes malnutridos.
+T13	Claim	Conclusiones: Se ha demostrado una mejor evolución tras la cirugía en el grupo de pacientes normonutridos y el de DS.
+T14	Premise	Se observaron en estos pacientes una menor ingresacidencia de complicaciones gastrointestinales, acortamiento de la estancia hospitalaria y disminución de la morbimortalidad con diferencias estadísticamente significativas respecto al grupo DNS.
+R1	Support	Arg1:T12	Arg2:T14

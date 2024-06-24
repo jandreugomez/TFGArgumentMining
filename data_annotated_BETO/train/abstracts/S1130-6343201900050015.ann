@@ -1,0 +1,8 @@
+T9	Premise	Además, se realizó un subanálisis de los pacientes con aislamiento microbiológico (concentraciones mínimas inhibitorias reales).
+T13	Premise	El 88% de los pacientes tratados con meropenem alcanzaron el objetivo farmacocinético/farmacodinámico, sin diferencias entre Enterobacteriaceae y Pseudomonas.
+T14	Premise	En el caso de piperacilina/tazobactam, el 61% y el 11% de los pacientes alcanzaron la diana, considerando Enterobacteriaceae y Pseudomonas como microorganismo sospechoso.
+T16	Premise	El 94% de ellos alcanzaron la diana, sin diferencias entre los dos antibióticos.
+T17	Claim	Conclusiones:  Ante la sospecha de infecciones por microorganismos con concentraciones mínimas inhibitorias elevadas (Pseudomonas aeruginosa o enterobacterias), se observa que dosis convencionales de meropenem en perfusión continua son suficientes para lograr la diana 100% fT≥ 4 x MIC.
+T18	Claim	Sin embargo, se requerirían dosis superiores de piperacilina/tazobactam.
+T19	Claim	En casos de aislamiento microbiológico, dosis estándar de ambos antibióticos fueron suficientes para lograr la diana.
+T20	Claim	La monitorización farmacocinética es altamente recomendable para la optimización terapéutica.

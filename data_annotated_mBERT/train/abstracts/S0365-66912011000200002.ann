@@ -1,0 +1,4 @@
+T5	Premise	Resultados: Combigan® redujo significativamente la PIO tras tres meses de tratamiento (p=0,001).
+T7	Premise	Los pacientes tratados con Combigan® mostraron un descenso estadísticamente significativo del índice de resistencia de la ACR (p=0,007).
+T8	Claim	Conclusiones: Los pacientes tratados durante 3. meses con Combigan® mostraron un descenso estadísticamente significativo del índice de resistenciade la ACR que podría explicarse por el descenso de PIO.
+R1	Support	Arg1:T7	Arg2:T8

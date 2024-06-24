@@ -1,0 +1,7 @@
+T4	Claim	Al respecto, clorhexidina es considerada el estándar de oro, pero tiene varios efectos colaterales.
+T10	Premise	Resultados: La disminución en el recuento de colonias bacterianas, después de la intervención, fue significativa en los cuatro grupos (p <0,001).
+T11	Premise	El aseo bucal con clorhexidina (p <0,001), Persica® (p: 0,008) y matrica (p: 0,01) tuvo un significativo efecto antibacteriano sobre las especies S. aureusy S. pneumoniae(p < 0,001).
+T12	Claim	Conclusión: El aseo bucal con solución en base a hierbas de Persica® y matrica tiene un efecto sobre S. pneumoniae y S. aureus de la cavidad oral en pacientes en régimen de ventilación mecánica.
+T13	Claim	No obstante, se requiere de mayores estudios para considerarlo una alternativa a clorhexidina para la prevención de neumonías en pacientes de UCI.
+R1	Support	Arg1:T10	Arg2:T12
+R2	Support	Arg1:T11	Arg2:T12

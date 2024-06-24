@@ -1,0 +1,4 @@
+T6	Premise	Resultados: Se encontraron diferencias significativas entre ambos grupos relativas al nivel de dolor durante y tras la cirugía y al nivel de stress del cirujano.
+T7	Premise	La necesidad de sedación y reconversión anestésica fue mayor en el grupo de anestesia tópica simple.
+T8	Claim	Conclusiones: La anestesia tópica presenta unos aceptables niveles de anestesia en la trabeculectomía, a pesar de ello, las diferencias de niveles de dolor entre la anestesia tópica simple y la de contacto son evidentes, tanto en el momento de la cirugía como tras la misma, siendo la anestesia de contacto una alternativa válida y aplicable en una amplio rango de pacientes sometidos a cirugía de glaucoma.
+R1	Support	Arg1:T6	Arg2:T8

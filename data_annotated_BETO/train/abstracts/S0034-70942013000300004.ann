@@ -1,0 +1,6 @@
+T2	Claim	JUSTIFICATIVA Y OBJETIVOS: La anestesia regional intravenosa (ARIV) para cirugías de miembros superiores con la tradicional dosis alta de lidocaína, puede conllevar a efectos colaterales que amenazan la vida.
+T6	Premise	RESULTADO: La diferencia entre los dos grupos con relación al tiempo promedio de inicio y completo bloqueo sensitivo y motor, fue estadísticamente significativo.
+T7	Premise	Sin embargo, hubo un completo bloqueo sensitivo y motor en ambos grupos 15 minutos después de la inyección de la solución anestésica.
+T8	Claim	CONCLUSIONES: Aunque la pequeña demora observada al inicio y durante la obtención completa de los bloqueos sensitivo y motor, teóricamente pueda atrasar el inicio de la operación entre 10 y 15 minutos, clínicamente ese tiempo se gastaría en la preparación del campo quirúrgico.
+T9	Claim	Por tanto, esa combinación puede ser usada con seguridad y eficacia en la anestesia regional intravenosa para las cirugías ortopédicas de miembros superiores con menor posibilidad de toxicidad anestésica local.
+R1	Support	Arg1:T2	Arg2:T9

@@ -1,0 +1,4 @@
+T4	Premise	La ingesta del aceite produjo caída en los valores promedio del CT, y AGNE con elevación del c-HDL en ambos grupos.
+T5	Premise	La dosis de 10 mL se asoció a mayores niveles de insulina en el grupo aleatorizado a recibir 10 ml.
+T6	Claim	El aceite de sacha inchi parece tener efectos benéficos sobre el perfil lipídico en pacientes con dislipidemia, requiriéndose la evaluación de su eficacia y seguridad en ensayos clínicos aleatorizados.
+R1	Support	Arg1:T4	Arg2:T6

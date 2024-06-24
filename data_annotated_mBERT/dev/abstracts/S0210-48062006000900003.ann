@@ -1,0 +1,7 @@
+T7	Premise	50 pacientes (31,8%) presentaron hematuria, 20 (12,7%) fiebre, 15 (9,5%) hemospermia, 7 (4,4%) dolor perineal, uno (1,2%) orquiepididimitis y otro (1,2%) retención urinaria.
+T9	Premise	Ingresaron por fiebre 15 (21,1%) pacientes del grupo A y 3 (3,5%) del grupo B (p=0,0006).
+T10	Premise	En el 67% de los hemocultivos se aisló E. Coli.
+T11	Claim	Conclusiones: La pauta profiláctica consistente en tobramicina más ciprofloxacino resultó ser más eficaz en la prevención de ingresos por fiebre post-biopsia que la tobramicina sola.
+T13	Claim	El microorganismo más frecuentemente fue E. Coli sensible, en nuestro hospital, a amoxicilina-clavulánico, tobramicina y cefalosporinas de tercera generación.
+R1	Support	Arg1:T7	Arg2:T11
+R2	Support	Arg1:T9	Arg2:T11

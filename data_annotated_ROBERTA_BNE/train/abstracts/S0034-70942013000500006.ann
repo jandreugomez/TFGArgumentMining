@@ -1,0 +1,7 @@
+T1	Claim	 La asociación de haloperidol, dexametasona y ondansetrón reduce la intensidad de náusea, dolor y consumo de morfina después de la gastrectomía vertical laparoscópica.
+T3	Claim	La asociación de haloperidol, dexametasona y ondansetrón puede reducir esos eventos no deseados.
+T7	Premise	RESULTADOS: La intensidad de náusea fue menor en el Grupo HDO comparado con el Grupo O (p = 0,001), la intensidad del dolor fue menor en el Grupo HDO comparado con el Grupo O (p = 0,046) y el consumo de morfina en el Grupo HDO fue menor que en el Grupo O (p = 0,037).
+T8	Premise	No hubo diferencia en el número de episodios de vómito entre los grupos (p = 0,052).
+T9	Claim	CONCLUSIONES: La asociación de haloperidol, dexametasona y ondansetrón generó una reducción en la intensidad de la náusea, del dolor y del consumo de morfina en el PO de pacientes obesos sometidos a la GVL.
+R1	Support	Arg1:T1	Arg2:T9
+R2	Support	Arg1:T7	Arg2:T9

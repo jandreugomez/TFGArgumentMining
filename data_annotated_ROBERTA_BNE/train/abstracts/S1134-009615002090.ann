@@ -1,0 +1,12 @@
+T1	Claim	 Estudio EPRICS con eritropoyetina: otro intento fallido para evitar el daño renal poscirugía cardiaca.
+T3	Claim	La eritropoyetina recombinante (rHuEPO) a dosis altas ha demostrado efectos pleiotrópicos que ofrecen protección tisular.
+T4	Claim	Se pretende confirmar estos efectos en un entorno clínico en pacientes de alto riesgo sometidos a cirugía de bypass coronario (CABG).
+T7	Premise	La técnica quirúrgica y resto de cuidados fueron similares en ambos grupos.
+T10	Premise	No se encontraron diferencias entre el grupo de intervención y control (131 ± 31% vs. 125 ± 24%; p = 0,31; IC 95% para la diferencia: –0,6 a +20%).
+T11	Premise	Tampoco se hallaron diferencias en otros marcadores de daño renal como NGAL, creatinina o urea plasmáticas o filtrado glomerular estimado; así como tampoco en mortalidad, necesidad de diálisis o incidencia de FRA estratificado según la escala RIFLE.
+T12	Claim	La intervención no se asoció con eventos adversos atribuibles al fármaco.
+T13	Claim	Conclusión: La intervención con una dosis única de eritropoyetina recombinante humana (rHuEPO 400 UI/kg) por vía IV no es eficaz para prevenir el daño renal tras cirugía de CABG en pacientes con daño renal prequirúrgico.
+R1	Support	Arg1:T7	Arg2:T13
+R2	Support	Arg1:T10	Arg2:T13
+R3	Support	Arg1:T11	Arg2:T13
+R4	Support	Arg1:T12	Arg2:T13

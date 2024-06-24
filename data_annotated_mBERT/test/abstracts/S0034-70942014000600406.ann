@@ -1,0 +1,7 @@
+T3	Claim	Varias técnicas que incluyen hipotensión inducida pueden minimizar el sangrado durante la cirugía endoscópica.
+T6	Premise	En el grupo M, el sulfato de magnesio fue administrado antes de la inducción en dosis de carga de 50 mg kg−1 por 10 min y se mantuvo con 15 mg kg−1 h−1; en el grupo D, la dexmedetomidina fue administrada con una dosis de 1 µg kg−1 durante 10 min antes de la inducción y se mantuvo con 0,6 µg kg−1 h−1.
+T9	Premise	Resultados:  El grupo D tuvo una reducción significativa de la frecuencia cardíaca y de la puntuación en la escala de evaluación del campo quirúrgico intraoperatorio.
+T11	Premise	No hubo diferencia significativa en otros parámetros.
+T12	Claim	Conclusión:  Debido a la reducción de la tasa de sangrado y de la frecuencia cardíaca en la cirugía endoscópica y a los impactos positivos sobre la duración de la cirugía, consideramos la dexmedetomidina como una buena alternativa para el magnesio.
+R1	Support	Arg1:T6	Arg2:T12
+R2	Support	Arg1:T9	Arg2:T12

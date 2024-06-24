@@ -1,0 +1,7 @@
+T8	Premise	En el grupo I se produjo un aumento significativo en la ingesta de fibra soluble (inulina).
+T9	Premise	Se detectó en los pacientes con las galletas enriquecidas en inulina una disminución significativa de los niveles de colesterol total (223,1 ± 45,3 mg/dl vs 208,8 ± 33,1 mg/dl; p < 0,05) y LDL colesterol (142,9 ± 39,2 mg/dl vs 131,4 ± 28,6 mg/dl; p < 0,05).
+T10	Premise	También se detectó una disminución de los niveles de insulina y resistencia a la insulina (HOMA), pero sin alcanzar la significación estadística.
+T11	Premise	No existieron diferencias estadísticamente significativas en las variables antropométricas.
+T12	Premise	El aumento de la ingesta de fibra soluble en los pacientes de grupo I no supuso ningún efecto secundario a nivel gastrointestinal.
+T13	Claim	Conclusión: El aumento en la ingesta de 3 gramos de inulina proveniente de una galleta enriquecida, reduce los niveles de colesterol LDL en pacientes obesos.
+R1	Support	Arg1:T9	Arg2:T13

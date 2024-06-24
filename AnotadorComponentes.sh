@@ -1,8 +1,10 @@
-export SOURCE_FILE='./data_translated/glaucoma'
-export CORPUS_DIR='./CorpusSinAnotaciones/dev/eudract/'
-export OUTPUT_PATH='data_annotated_mBERT/dev/eudract/'
-export MODEL_TYPE='bert-base-multilingual-uncased'
+export SOURCE_FILE='./data_translated/'
+export CORPUS_DIR='./CorpusSinAnotaciones/train/eudract/'
+export OUTPUT_PATH='data_annotated_ROBERTA_BNE/train/eudract/'
+
+#export MODEL_TYPE='bert-base-multilingual-uncased'
 #export MODEL_TYPE='dccuchile/bert-base-spanish-wwm-uncased'
+export MODEL_TYPE='PlanTL-GOB-ES/roberta-base-bne'
 
 #Añadir lo siguiente para hacer la inferencia
 # --do_test
@@ -13,8 +15,7 @@ python AnotadorComponentes.py \
 --corpus_dir=$CORPUS_DIR \
 --output_path=$OUTPUT_PATH \
 --model_type=$MODEL_TYPE \
---save_model \
 --use_saved_model \
---seed=15 \
 --learning_rate=2e-5 \
---do_test
+--do_train \
+--do_eval

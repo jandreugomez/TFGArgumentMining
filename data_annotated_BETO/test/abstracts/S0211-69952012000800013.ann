@@ -1,0 +1,8 @@
+T2	Claim	Aunque el bloqueo del sistema renina-angiotensina ha sido citado como el tratamiento inicial para la nefropatía diabética (ND), en un número significativo de pacientes el avance de la enfermedad renal no se ve frenado en su totalidad por estos agentes.
+T7	Premise	Al comienzo del estudio no se encontraron diferencias significativas en las características demográficas y clínicas de los pacientes, incluida la creatinina sérica, HbA1c, presión arterial y excreción urinaria de proteínas entre los dos grupos (p > 0,05).
+T8	Premise	En el grupo de PTX, la tasa media de excreción urinaria de proteína ha disminuido significativamente de 616,66 a 378,24 mg tras 3 meses (p = 0,000) y a 192,05 mg tras 6 meses (p = 0,000), mientras que en el grupo de control no se han observado cambios significativos.
+T9	Claim	El beneficioso efecto antiproteinúrico del PTX no estuvo asociado a la intensidad del cambio metabólico ni a la reducción de la presión arterial.
+T10	Premise	Además, al final del estudio, el aclaramiento medio de creatinina fue significativamente más elevado en el grupo de PTX (p = 0,04).
+T11	Claim	En conclusión, la PTX puede aportar en gran medida un efecto antiproteinúrico acumulativo y ralentizar el grado de filtración glomerular en pacientes con DM2 con bloqueo del sistema de angiotensina.
+R1	Support	Arg1:T8	Arg2:T11
+R2	Support	Arg1:T10	Arg2:T11

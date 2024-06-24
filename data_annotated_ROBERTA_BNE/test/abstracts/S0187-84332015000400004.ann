@@ -1,0 +1,7 @@
+T4	Premise	Resultados: Catorce (32.5%) de los 44 pacientes desarrollaron NAV, 8 (36.3%) en el grupo de pravastatina y 6 (28.7%) en el grupo placebo (p = 0.51).
+T5	Premise	La mortalidad global fue de 39% (17/44 pacientes).
+T6	Premise	Por grupo de tratamiento, ocurrió en 36.3% (8/22) de los pacientes que recibieron pravastatina y en el 42.8% (9/22) del grupo placebo (p = 0.53).
+T7	Claim	Conclusiones: No se observó beneficio de la administración profiláctica de pravastatina en la incidencia de NAV.
+T8	Claim	Consideramos necesario investigar un posible efecto benéfico de las estatinas en la supervivencia de pacientes con neumonía establecida.
+R1	Support	Arg1:T4	Arg2:T7
+R2	Support	Arg1:T6	Arg2:T7

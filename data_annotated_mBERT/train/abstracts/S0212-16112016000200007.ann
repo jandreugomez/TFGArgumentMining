@@ -1,0 +1,5 @@
+T7	Premise	Resultados: IgA sérica aumentó de forma estadísticamente significativa en el grupo de intervención (M1 15,84 µg/ml, M2 20,07 µg/ml, M3 23,65 µg/ml, M4 30,34 µg/ml, p 0,001) y en el grupo control (M1 12,48 µg/ml, M2 16,48 µg/ml, p 0,018; M3 19,41 µg/ml, M4 22,48 µg/ml, p 0,001).
+T8	Premise	Al mes de vida, los niveles de IgA sérica fueron significativamente mayores en el grupo de intervención que en el grupo control (p 0,026).
+T9	Claim	Conclusiones: este estudio sugiere que la administración de calostro orofaríngeo favorecería el desarrollo del sistema inmunológico de los recién nacidos prematuros y RNMBP a través del aumento de IgA al mes de vida.
+R1	Support	Arg1:T7	Arg2:T9
+R2	Support	Arg1:T8	Arg2:T9

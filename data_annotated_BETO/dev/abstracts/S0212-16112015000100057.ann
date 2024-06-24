@@ -1,0 +1,7 @@
+T2	Claim	Antecedentes: Numerosos estudios han demostrado una asociación inversa entre la concentración de colesterol asociado a lipoproteínas de alta densidad de colesterol (HDL-c) y el riesgo cardiovascular.
+T8	Premise	Resultados: Se observaron diferencias significativas entre la leche de esterol y el placebo únicamente en un solo marcador, en las lipoproteínas de baja densidad del colesterol (LDL-c).
+T10	Premise	Se observó alta dependencia en la regresión lineal (R2 = 0,715 y 0,816, respectivamente).
+T11	Premise	Conclusión: Una relación significativa entre el HDL-c y ApoA1 fue comprobada.
+T12	Claim	Teniendo en cuenta la importancia que los niveles de HDL-c parecen tener en la salud cardiovascular, la ApoA1 se presenta como un importante marcador clínico para mejorar la función del corazón, así como para reducir el riesgo cardiovascular.
+R1	Support	Arg1:T8	Arg2:T12
+R2	Support	Arg1:T11	Arg2:T12

@@ -1,0 +1,6 @@
+T3	Claim	La presencia de abscesos profundos de cuello es potencialmente grave, incluso puede llevar a la muerte en un tiempo muy corto.
+T5	MajorClaim	se ha utilizado en muchas áreas de la cirugía para la cicatrización de heridas complejas.
+T21	Premise	Tiempo de cicatrización 22 ± 6 días y 38 ± 15.5, respectivamente (p = 0.01).
+T22	Premise	La media de días de hospitalización fue de 12 para ambos grupos.
+T25	Claim	es útil en el tratamiento de los abscesos profundos de cuello, ya que disminuyó el tiempo de cicatrización como resultado de mayor tejido viable, lo que permitió el cierre con sutura de la herida en un periodo más corto.
+R1	Support	Arg1:T21	Arg2:T25

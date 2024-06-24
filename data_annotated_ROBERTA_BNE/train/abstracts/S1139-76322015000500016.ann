@@ -1,0 +1,9 @@
+T1	Claim	 No existen pruebas suficientes que recomienden la azitromicina para prevenir episodios de sibilancias recurrentes posbronquiolitis.
+T16	Premise	Resultados principales: la AZT, comparada con placebo, no produjo una disminución estadísticamente significativa de los niveles séricos de IL-8 al octavo día del inicio del ECA (niveles basales de IL-8 en el GI: 14,676 fg/ml y de 12,795 fg/ml en el GC en el momento de la aleatorización y niveles de IL-8 de 6,971 fg/ml en el GI y de 5,050 fg/ml en el GC; p=0,62).
+T17	Premise	En comparación con el placebo, la AZT produjo una disminución de los niveles nasofaríngeos de IL-8 en el día 15 de seguimiento (p=0,026), pero no al octavo día (p=0,11) ni al valorar todo el periodo de forma global (p=0,076).
+T18	Premise	La proporción de niños que presentaron ≥ 2 ESR hasta la semana 50 de seguimiento fue del 39% en el GI, frente al 50% en el GC (p=0,5).
+T19	Premise	La proporción de niños que presentaron ≥ 3 ESR hasta la semana 50 de seguimiento fue del 22% en el GI frente al 50% en el GC (p=0,07).
+T20	Premise	El tiempo transcurrido entre el segundo y el tercer episodio de ESR fue superior en el GI (p=0,048).
+T21	Claim	Conclusión: los autores concluyen que la AZT disminuye la concentración de los niveles nasofaríngeos de IL-8 durante la duración del estudio y produce un retraso en la aparición de un tercer episodio de ESR durante el periodo de seguimiento.
+R1	Support	Arg1:T16	Arg2:T21
+R2	Support	Arg1:T17	Arg2:T21

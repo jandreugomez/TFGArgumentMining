@@ -1,0 +1,4 @@
+T8	Premise	RESULTADOS: La latencia, el nivel máximo del bloqueo sensitivo, el grado y el tiempo para la regresión del bloqueo motor fueron similares en los dos grupos; la duración de la analgesia fue mayor en el Grupo I, con una diferencia significativa con relación al Grupo II.
+T9	Premise	Los efectos adversos se dieron a menudo de forma similar en los dos grupos.
+T11	Claim	CONCLUSIONES: La bupivacaína hiperbárica en dosis de 10 mg asociada al sufentanil en dosis de 5 µg, con un volumen de 4 mL, fue más eficaz que la misma asociación en un menor volumen (3 mL), proporcionando una mejor analgesia intra y postoperatoria, sin repercusiones materno-fetales.
+R1	Support	Arg1:T8	Arg2:T11

@@ -1,0 +1,6 @@
+T1	Claim	 Control de nausea y vómito postoperatorio en pacientes con colecistectomía laparoscópica.
+T5	Claim	Hay pacientes y cirugías que son más susceptibles de producir el síntoma.
+T11	Premise	La incidencia mayor de eventos de nausea y vómito, se presentó en el grupo de dexametasona.
+T13	Premise	Hubo mayor riesgo de nausea y vómito en el grupo de dexametasona (41.6% vs 33.3%).
+T14	Premise	Las mujeres fueron las más afectadas por nausea y vómito, especialmente las más jóvenes.
+T16	Claim	La combinación de dos medicamentos con diferente mecanismo de acción, ofrece mejores alternativas especialmente en aquellos pacientes con varios factores de riesgo, como puede ser la colecistectomía laparoscópica, mujeres jóvenes y anestesia general con fentanilos.

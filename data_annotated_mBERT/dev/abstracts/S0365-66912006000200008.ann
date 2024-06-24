@@ -1,0 +1,8 @@
+T7	Premise	Resultados: Se ha observado una disminución significativa (p<0,05) en la frecuencia de la sintomatología subjetiva asociada a una mejoría significativa (p<0,05) en la estabilidad de la interfase de la película lagrimal tras el tratamiento con CMC.
+T8	Premise	Hubo una tendencia a la mejoría del grado de humectación de la superficie corneal y de la integridad de la película lagrimal, con un porcentaje superior de mejorías en el grupo problema.
+T9	Premise	Se constató que un mayor porcentaje de pacientes en el grupo problema (83,3%) con relación al grupo control (34%), mejoraron por lo menos en una de las pruebas funcionales de evaluación (p<0,05).
+T10	Premise	Asimismo, se observó una tendencia a la disminución de la frecuencia de síntomas subjetivos concomitantes tras el tratamiento con CMC.
+T11	Premise	La citología de impresión (CI) no ha permitido establecer diferencias significativas con relación a la respuesta clínica al tratamiento.
+T12	Claim	Conclusiones: Se pudo constatar un efecto significativamente favorable de la CMC en la mejoría de los parámetros clínicos del SOS leve y moderado.
+R1	Support	Arg1:T8	Arg2:T12
+R2	Support	Arg1:T9	Arg2:T12

@@ -1,0 +1,6 @@
+T7	Premise	Resultados: No hubo diferencias significativas entre ambos grupos en relación al análisis basal, EQ-5D (SR:0,7299; SH:0,6769) y DASI (SR:21,41; SH:19,99) iniciales.
+T8	Premise	A los 6 meses la calidad de vida mejoró en ambos grupos (SR:0,8613; SH:0,8175; p = 0,439) aun sin diferencias estadísticamente significativas entre ellos.
+T10	Premise	El grupo de SR realizó menos visitas/transmisiones por paciente (1,57) que el grupo hospitalario (1,96), la reducción relativa fue del 31% (p = 0,015).
+T11	Claim	Conclusiones: El seguimiento remoto de personas portadoras de marcapasos se podría considerar como una opción equivalente al hospitalario en relación a la calidad de vida y reduce el número de visitas al hospital.
+R1	Support	Arg1:T8	Arg2:T11
+R2	Support	Arg1:T10	Arg2:T11

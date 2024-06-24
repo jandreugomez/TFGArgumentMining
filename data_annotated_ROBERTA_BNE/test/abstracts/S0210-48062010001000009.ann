@@ -1,0 +1,5 @@
+T1	Claim	 Efecto en el sangrado perioperatorio durante la resección transuretral de la próstata tras un mes de tratamiento con dutasteride.
+T10	Premise	Resultados: En el grupo 1, 33%(8) mejoró su sintomatología obstructiva urinaria baja y no evitaron la RTU-P. La media de la diferencia, entre los grupos 1 y 2, de la Hb en los valores antes y después de la RTU-P fue 0,11g/dl (IC 95% -0,55; 0,77, valor de la p 0,88).
+T11	Premise	No hubo diferencias estadísticamente significativas en las variables del modelo de regresión linear múltiple.
+T12	Claim	Conclusiones: El dutasteride no tuvo un impacto significativo en las variables estudiadas en este pequeño estudio no aleatorizado.
+R1	Support	Arg1:T11	Arg2:T12

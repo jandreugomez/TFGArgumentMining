@@ -1,0 +1,7 @@
+T7	Premise	La tasa de erradicación por intención a tratar en el grupo OCA-7 fue del 72% y del grupo RBCA-7 del 73%.
+T8	Premise	La tasa de erradicación por protocolo en el grupo OCA-7 fue del 78% y del grupo RBCA-7 del 77% (p=0,3).
+T9	Premise	Cinco pacientes del grupo OCA-7 y 9 pacientes del grupo RBCA-7 relataron efectos secundarios, 3 de estos últimos suspendieron el tratamiento por diarrea.
+T10	Claim	Conclusiones: Ranitidina citrato bismuto más dos antibióticos es tan eficaz y segura como el tratamiento clásico con omeprazol en la erradicación del Helicobacter pylori.
+R1	Support	Arg1:T7	Arg2:T10
+R2	Support	Arg1:T8	Arg2:T10
+R3	Support	Arg1:T9	Arg2:T10

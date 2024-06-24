@@ -1,0 +1,5 @@
+T14	Premise	La evaluación a las 4 horas del postoperatorio reportó valores en la escala visual análoga por debajo de 4 para ambos grupos, sin diferencia estadísticamente significativa (p=0,31).
+T15	Premise	Las náuseas fueron el efecto adverso más frecuente (16,6%) en el grupo I y 28,5% en el grupo II.
+T17	Claim	La analgesia epidural con tramadol y meperidina prolonga la analgesia en pacientes intervenidos de patologías de rodilla.
+R1	Support	Arg1:T14	Arg2:T17
+R2	Support	Arg1:T15	Arg2:T17

@@ -1,0 +1,8 @@
+T9	Premise	La puntuación del dominio función eréctil mostró una mejoría significativamente mayor para el grupo de sildenafilo.
+T10	Premise	La diferencia de cambio en la media de la puntuación total del SEAR tras el tratamiento fue de 16,9 (IC 95%: 8,9; 24,8) a favor de sildenafilo respecto al placebo (p=0,0001), con una mejoría en la puntuación significativamente superior en todos los dominios del SEAR a favor de sildenafilo.
+T11	Premise	Se observó una correlación significativa entre los cambios en el dominio de autoestima del SEAR y el dominio función eréctil del IIEF para ambos grupos de tratamiento.
+T12	Claim	Conclusiones: Se confirma una mejoría emocional en los pacientes tratados con sildenafilo en base a la mejora en la autoestima, autoconfianza y las relaciones.
+T13	Claim	Variaciones en el dominio función eréctil del IIEF muestran correlación con las del dominio autoestima del SEAR.
+R1	Support	Arg1:T9	Arg2:T12
+R2	Support	Arg1:T11	Arg2:T12
+R3	Support	Arg1:T11	Arg2:T13

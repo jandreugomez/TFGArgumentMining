@@ -1,0 +1,11 @@
+T4	Claim	Puede tratarse con aplicación de toxina botulínica en glándulas salivales o con técnicas quirúrgicas que disminuyen definitivamente la producción salival.
+T15	Premise	Los 5 mejoraron en severidad y frecuencia, con disminución promedio del 76.75 y del 87.5%, respectivamente.
+T16	Premise	El mejor resultado se observó a los 6 meses, con diferencia estadísticamente significativa entre el preoperatorio y el postoperatorio (p = 0.0039, IC 95%).
+T17	Premise	No se observaron complicaciones importantes, deterioro dental ni cambios importantes en la composición salival.
+T19	Claim	La resección de glándulas submandibulares es efectiva para controlar la sialorrea en pacientes pediátricos con parálisis cerebral, con reducción superior al 80%.
+T20	Claim	Tiene una tasa baja de complicaciones, a diferencia de otras técnicas.
+T21	Claim	Generó una disminución suficiente y evidenciable de la sialorrea en reposo, sin necesidad de trabajar con otras glándulas salivales mayores.
+R1	Support	Arg1:T15	Arg2:T19
+R2	Support	Arg1:T16	Arg2:T19
+R3	Support	Arg1:T17	Arg2:T19
+R4	Support	Arg1:T17	Arg2:T20

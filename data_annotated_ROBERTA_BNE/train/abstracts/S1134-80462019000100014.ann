@@ -1,0 +1,11 @@
+T1	Claim	 Dexmedetomidina versus lidocaína endovenosa en el control de dolor irruptivo y la funcionalidad en pacientes con canal lumbar estrecho.
+T3	Claim	La dexmedetomidina como analgésico actúa inhibiendo la liberación de sustancia P en la vía nociceptiva y bloquea los receptores de aspartato y glutamato.
+T4	Claim	Por otro lado, la lidocaína también previene y alivia el dolor mediante la interrupción de la neuroconducción, uniéndose a su receptor específico dentro de los canales de sodio.
+T10	Premise	Resultados:  No hubo diferencia estadísticamente significativa en la reducción de la intensidad del dolor a los 120 minutos entre los pacientes tratados con dexmedetomidina (EVA 1,29 ± 1,63) comparados con los tratados con lidocaína (EVA 1 ± 1,19, p = 0,594).
+T11	Premise	Se observó que al final de la perfusión de los fármacos, la dexmedetomidina produjo mayor sedación a diferencia de la lidocaína (p = 0,003).
+T12	Premise	Ambos tratamientos mejoran la funcionalidad en todos los pacientes sin haber diferencia estadísticamente significativa entre los tratamientos (p = 0,508) no se observaron efectos depresores sobre los signos vitales.
+T13	Claim	Conclusiones:  La dexmedetomidina y la lidocaína son igual de eficaces para el tratamiento del dolor irruptivo, con inicio de acción en los primeros 30 minutos de iniciada la perfusión hasta las siguientes 2 horas.
+T14	Premise	No se observaron eventos adversos medicamentosos a las dosis recomendadas.
+R1	Support	Arg1:T10	Arg2:T13
+R2	Support	Arg1:T11	Arg2:T13
+R3	Support	Arg1:T12	Arg2:T13

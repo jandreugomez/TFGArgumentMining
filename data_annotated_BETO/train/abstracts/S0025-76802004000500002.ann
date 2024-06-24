@@ -1,0 +1,5 @@
+T1	Claim	 Respuesta hemodinámica al estrés mental y físico en sujetos normotensos hiperreactivos: Efectos del Betabloqueo.
+T8	Premise	En los resultados, se observó una menor sensibilidad de RA y PEG vs SCWCT.
+T9	Premise	Las 15 personas que recibieron P continuaron hiperreactivas en tanto que 6 de las 15 personas tratadas con B dejaron de ser reactivas (p<0.017).
+T10	Claim	B mostró un efecto beneficioso sobre la hiperreactividad en un significativo número de personas en relación a P, lo cual podría ser útil para la prevención de una hipertensión futura.
+R1	Support	Arg1:T9	Arg2:T10

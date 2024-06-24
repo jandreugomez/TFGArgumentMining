@@ -1,0 +1,8 @@
+T10	Premise	El cambio de superficie del dializador no mostró diferencias significativas en la depuración de pequeñas o grandes moléculas, sin cambios en la pérdida de albúmina.
+T11	Premise	El aumento del Qb se acompañó de un aumento de depuración de pequeñas moléculas, sin mostrar diferencias en el porcentaje de reducción de β2-microglobulina, mioglobina, prolactina, α1-microglobulina y α1-glicoproteína ácida, a excepción de alguna comparación con Qb 450mL/min.
+T12	Premise	Tampoco se observaron diferencias en la pérdida de albúmina en el líquido de diálisis, inferior a 2,5 g en todas las situaciones.
+T14	Claim	El incremento de la superficie de 1,7 a 2,0 m2 en el dializador de MCO no ha significado una mayor eficacia depurativa.
+T15	Claim	En estos dializadores el aumento del Qb no parece ser tan determinante como en la hemodiafiltración, a excepción de la depuración de pequeñas moléculas.
+R1	Support	Arg1:T10	Arg2:T14
+R2	Support	Arg1:T10	Arg2:T15
+R3	Support	Arg1:T11	Arg2:T15

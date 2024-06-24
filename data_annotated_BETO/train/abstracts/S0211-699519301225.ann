@@ -1,0 +1,15 @@
+T10	Premise	En el grupo de espironolactona fue de –2,1±4,8ml/min/1,73 m2 y en el de furosemida –3,2±5,6ml/min/1,73 m2, p<0,01.
+T11	Premise	En los pacientes con espironolactona la PAS disminuyó 23±9mmHg vs. 16±3mmHg en el grupo de furosemida (p<0,01).
+T12	Premise	La PAD se redujo 10±8mmHg y 6±2mmHg, respectivamente (p<0,01).
+T13	Premise	El tratamiento con espironolactona redujo la albuminuria de una mediana de 210 (121-385) mg/g a 65 (45-120) mg/g al final del seguimiento, p<0,01.
+T14	Premise	En el grupo de furosemida la albuminuria no descendió.
+T15	Premise	La progresión más lenta en la enfermedad renal se asoció con una menor PAS (p=0,04), mayor FGe basal (p=0,01), menor albuminuria (p=0,01), no tener diabetes mellitus (p=0,01) y recibir tratamiento con espironolactona (p=0,02).
+T16	Premise	El tratamiento con espironolactona (OR 2,13; IC 1,89-2,29) y la menor albuminuria (OR 0,98; IC 0,97-0,99) mantienen su poder predictivo independiente en un modelo multivariante.
+T18	Claim	El tratamiento con espironolactona reduce más la presión arterial y la albuminuria en pacientes con HTA resistente comparado con la furosemida y esto se asocia con una progresión más lenta de la ERC a largo plazo.
+R1	Support	Arg1:T10	Arg2:T18
+R2	Support	Arg1:T11	Arg2:T18
+R3	Support	Arg1:T12	Arg2:T18
+R4	Support	Arg1:T13	Arg2:T18
+R5	Support	Arg1:T14	Arg2:T18
+R6	Support	Arg1:T15	Arg2:T18
+R7	Support	Arg1:T16	Arg2:T18

@@ -1,0 +1,7 @@
+T4	Premise	El área de incremento bajo la curva de glucosa (IAUC) fue menor para el suplemento 11.778,73 que para los productos de referencia (SG) 13.724,06; (PB) 13.153,56 α = p 0,005.
+T5	Premise	El IG = (62) y la CG = (16) resultaron intermedios y más bajos que el del pan blanco IG = (69) y la CG = (18), sin diferencias en la insulina postprandial.
+T6	Claim	Esto demuestra que este suplemento nutricional formulado con estevia y L-carnitina es capaz de prolongar la respuesta glicémica sin aumentar los requerimientos insulínicos en sujetos sanos.
+T7	Claim	Se requieren estudios específicos en diabéticos para validar si el impacto glicémico es menor que el producto patrón.
+T8	Claim	La presencia de otros nutrientes en la fórmula, influyentes en estos indicadores, no permite inferir que los resultados se deban únicamente al tipo de endulzante utilizado y a la L-carnitina.
+R1	Support	Arg1:T4	Arg2:T6
+R2	Support	Arg1:T5	Arg2:T6

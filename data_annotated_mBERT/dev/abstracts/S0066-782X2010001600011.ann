@@ -1,0 +1,8 @@
+T3	Claim	En pacientes con insuficiencia cardíaca (IC), la duración prolongada del QRS está asociada a un aumento en el riesgo de mortalidad y muerte súbita cardíaca.
+T4	Claim	Cambios estructurales en el ventrículo izquierdo pueden llevar a la contracción asíncrona, causando atraso de conducción y un QRS prolongado en el ECG de superficie.
+T9	Premise	La fracción de eyección del ventrículo izquierdo (FEVI) estaba disminuida en ambos grupos (23,15±8,3 vs. 24,56±7,5).
+T10	Premise	RESULTADOS: En el grupo levosimendana, la duración del QRS disminuyó del valor basal para 116,47±24,56 ms (p=0,006), en cuanto no hubo diferencia significativa en el grupo dobutamina (p=0,605).
+T11	Premise	Ambos medicamentos causaron un aumento en la FEVI, pero este fue significativo apenas en el grupo levosimendana (27,95±8,9 p=0,003 vs. 26,67±7,6, p=0,315).
+T12	Claim	CONCLUSIÓN: El estudio sugiere que la administración de levosimendana, pero no de dobutamina, acorta la duración del QRS en el ECG de superficie, posiblemente por causar una contracción colectiva en las fibras del músculo del ventrículo izquierdo.
+T13	Claim	La base molecular de ese efecto aun precisa ser aclarada.
+R1	Support	Arg1:T10	Arg2:T12

@@ -1,0 +1,5 @@
+T10	Premise	Resultados: La tasa retención total de los tratamientos 1, 2 y 3 fue respectivamente: 51,7%, 43,4% y 26,4%; no obstante estas diferencias no fueron significativas.
+T11	Premise	La incidencia de caries en los molares no sellados fue 31,8% y en los molares sellados con perdida completa del material 28,5%.
+T12	Premise	No se encontraron diferencias significativas en la progresión de las lesiones entre molares que reciben y los que no reciben tratamiento.
+T13	Claim	Conclusiones: En este estudio, no se encontraron evidencias de diferencias en la retención y en la progresión de las lesiones selladas y no selladas, entre el vidrio ionomérico convencional de alta densidad, el sellante a base de resina y un vidrio ionomérico modificado con resina.
+R1	Attack	Arg1:T10	Arg2:T11

@@ -1,0 +1,5 @@
+T18	Premise	Diferencias postintervención entre grupos en HbA1c, PA, IMC, colesterol y ESA.
+T19	Premise	En GI disminución de HbA1c: 0,2 ± 0,4% (IC del 95%, 0,1 a 0,3); PA sistólica: 8,5 ± 11,8 mmHg (IC del 95%, 5,1 a 11,9); IMC: 0,5 ± 1 (IC del 95%, 0,2 a 0,8); colesterol: 14 ± 28,2 mg/dl (IC del 95%, 5,9 a 22,2); LDL: 18,3 ± 28,2 mg/dl (IC del 95%, 10,2 a 26,3), RCV: 6,7 ± 7,7% (IC del 95%, 4,5 a 8,9), GF: 3,9 ± 10,2 € (IC del 95%, 0,9 a 6,8) y aumento del ESA: 4,7 ± 5,7 (IC del 95%, 3 a 6,3).
+T21	Claim	En diabéticos mayores de 65 años un programa de EF aeróbico supervisado de fácil ejecución mejora la HbA1c, la PA, la colesterolemia, el RCV, el GF y el ESA.
+R1	Support	Arg1:T18	Arg2:T21
+R2	Support	Arg1:T19	Arg2:T21

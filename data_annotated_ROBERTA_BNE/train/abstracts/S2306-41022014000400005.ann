@@ -1,0 +1,4 @@
+T4	Claim	La artroplastía de rodilla es una de las cirugías con mejores resultados funcionales en pacientes con esta patología, pero dentro de sus limitaciones está la posibilidad de un sangrado importante y, por consiguiente, la necesidad de hemotransfundir al paciente.
+T8	Premise	Ninguna complicación/infección con el uso de recuperador sanguíneo.
+T11	Claim	Conclusiones: El uso de recapturador sanguíneo en pacientes postoperados de artroplastía de rodilla disminuye de forma importante la necesidad de hemotransfusión alogénica.
+R1	Support	Arg1:T8	Arg2:T11

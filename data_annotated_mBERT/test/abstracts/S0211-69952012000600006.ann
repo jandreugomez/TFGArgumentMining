@@ -1,0 +1,6 @@
+T2	Claim	La estenosis arterial del injerto renal es una complicación que requiere, en ocasiones, un abordaje terapéutico con cirugía o angioplastia.
+T6	Claim	Se objetivó una mejoría progresiva de la función renal durante los 3 primeros meses que permaneció estable durante los dos primeros años.
+T7	Premise	Por otro lado, mejoraron las cifras de presión arterial en los dos primeros años, manteniendo el mismo tratamiento antihipertensivo.
+T8	Claim	En conclusión, la angioplastia con colocación de stent es un procedimiento efectivo y seguro en el tratamiento de la estenosis de la arteria del injerto renal.
+R1	Support	Arg1:T6	Arg2:T8
+R2	Support	Arg1:T7	Arg2:T8

@@ -1,0 +1,3 @@
+T6	Premise	Resultados:  La diferencia glicémica entre el pre y postoperatorio en pacientes del grupo de estudio fue de 42±32,09 mg/dL y 5,25 ±52,81 mg/dL en el grupo de intervención con una p=0,009; el porcentaje de linfocitos en el grupo control fue de 13,77±10,95% y de 7,18±5,21% en el grupo de intervención, con una p=0,015; estadísticamente significativos.
+T7	Claim	Conclusión:  Aplicar el Protocolo de Recuperación Mejorada es factible y disminuye el impacto glicémico y el porcentaje de linfocitos en relación al manejo convencional.
+R1	Support	Arg1:T6	Arg2:T7

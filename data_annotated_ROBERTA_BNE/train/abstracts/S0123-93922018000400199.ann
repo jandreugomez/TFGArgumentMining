@@ -1,0 +1,8 @@
+T8	Premise	La tasa de curación clínica y parasitológica fue del 100% en 84 pacientes que tuvieron examen de gota gruesa al día 28.
+T9	Premise	Hubo cuatro (5%) fallas parasitológicas detectada por reacción en cadena de polimerasa.
+T11	Premise	Los niveles plasmáticos de los antimalaricos fueron adecuados y no relacionados con la falla terapéutica.
+T12	Claim	Conclusión:  El tratamiento de malaria por P. falciparum no complicada con Artemeter-Lumefantrina fue efectiva y segura en la población estudiada.
+T13	Premise	Todos los pacientes alcanzaron niveles en plasma adecuados y no se encontró asociación de falla terapéutica con bajos niveles en sangre.
+R1	Support	Arg1:T8	Arg2:T12
+R2	Support	Arg1:T9	Arg2:T12
+R3	Support	Arg1:T11	Arg2:T12

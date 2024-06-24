@@ -1,0 +1,5 @@
+T6	Premise	Resultados: Tras un año de seguimiento, no se observaron diferencias en la pérdida de peso entre las dietas A y B en cada grupo, pero el grupo IS mantuvo la pérdida de peso mejor que el grupo IR [-5,7 (3,9) vs -0,6 (4,1), p = 0,04].
+T7	Premise	No se encontraron diferencias en ninguno en el Homeostasis Model Assessment (HOMA) u otros parámetros metabólicos de glucosa excepto en una insulina inferior a los 120 minutos con la dieta A [21,40 (8,30) vs 71,40 (17,11), p = 0,02].
+T8	Claim	Conclusiones: Las dietas hipocalóricas con diferentes proporciones de proteínas y carbohidratos produjeron cambios similares en el peso.
+T9	Claim	La resistencia a la insulina puede jugar un papel negativo en el mantenimiento de la pérdida de peso.
+R1	Support	Arg1:T6	Arg2:T8

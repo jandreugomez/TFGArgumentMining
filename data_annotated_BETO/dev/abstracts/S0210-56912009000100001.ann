@@ -1,0 +1,6 @@
+T8	Premise	En 91 (47,6%) se utilizó ENX y en 100 (52,4%), HNF.
+T14	Premise	La mortalidad hospitalaria fue del 1,1% en el grupo ENX y del 3,3% en el grupo HNF (p = 0,359).
+T15	Premise	Tampoco se encontraron diferencias significativas en el número de complicaciones hemorrágicas con ENX (4,4%) y con HNF (9%).
+T17	Premise	No se encontraron diferencias significativas en el tamaño del infarto medido con troponina I (63,1 con ENX y 54,8 con HNF) ni en la fracción de eyección del ventrículo izquierdo al alta hospitalaria (el 51% con ENX y el 49,4% con HNF).
+T19	Claim	La AP puede realizarse de forma segura con la administración intravenosa de ENX, pues no se ha encontrado diferencias significativas entre los dos tratamientos ni en mortalidad ni en complicaciones hemorrágicas.
+R1	Support	Arg1:T15	Arg2:T19

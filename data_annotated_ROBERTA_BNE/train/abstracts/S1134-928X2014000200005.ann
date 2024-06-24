@@ -1,0 +1,7 @@
+T4	Claim	La hipótesis por contrastar es que la incidencia de UPP en el grupo tratado con el preparado de aceite de oliva no es superior a la incidencia de UPP en el grupo tratado con AGHO, estableciendo un margen de no inferioridad del 7%.
+T14	Premise	La incidencia de UPP en el grupo del aceite de oliva fue del 7,1% (8 de 112 residentes) y del 6,8% (8 de 117 residentes) en el grupo de AGHO, con una diferencia de incidencias del 0,31% (intervalo de confianza [IC] al 90% = -6,19% a +5,47%) que está dentro del margen de no inferioridad establecido de ±7% y apoya la hipótesis inicial.
+T15	Premise	No se observó ningún efecto adverso en ninguno de los grupos.
+T17	Claim	De acuerdo con estas evidencias es posible afirmar que el producto de aceite de oliva virgen extra es, al menos, igual de eficaz que los AGHO y que, por tanto, es otra opción terapéutica para prevenir las UPP a disposición de los profesionales y los usuarios.
+R1	Support	Arg1:T4	Arg2:T17
+R2	Support	Arg1:T14	Arg2:T17
+R3	Support	Arg1:T15	Arg2:T17

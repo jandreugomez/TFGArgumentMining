@@ -1,0 +1,14 @@
+T1	Claim	 Efectividad, seguridad y tolerancia del balón intragástrico asociado a una dieta hipocalórica para la reducción de peso en pacientes obesos.
+T2	Claim	Introducción: la implantación de un balón intragástrico (BI) por vía endoscópica asociado a una dieta hipocalórica es una alternativa en el tratamiento de la obesidad.
+T8	Premise	Resultados: después de 6 meses de tratamiento la pérdida de peso media fue de 14,10 kg (0-46) y la reducción media del IMC fue de 5,23 kg/m2 (0-18).
+T9	Premise	A los 12 meses postretirada del balón el 48,4% de pacientes mantiene o sigue perdiendo peso.
+T10	Premise	Los síntomas precoces más frecuentes fueron náuseas (71,1%) y vómitos (57,9%), con buena respuesta a tratamiento sintomático.
+T11	Premise	Presentaron complicaciones 7 pacientes (18,4%): intolerancia digestiva en 4 pacientes, requiriendo retirada precoz del balón en 3 de ellos; esofagitis moderada en 2 pacientes; y perforación gástrica complicada con shock séptico y exitus en 1 paciente.
+T13	Claim	El balón intragástrico asociado a una dieta hipocalórica puede considerarse un tratamiento efectivo, seguro y bien tolerado para el tratamiento de pacientes con obesidad mórbida.
+T15	Premise	La pérdida de peso se mantiene en casi la mitad de los pacientes al año tras la retirada del balón.
+R1	Support	Arg1:T1	Arg2:T2
+R2	Support	Arg1:T1	Arg2:T13
+R3	Support	Arg1:T2	Arg2:T13
+R4	Support	Arg1:T8	Arg2:T13
+R5	Support	Arg1:T9	Arg2:T13
+R6	Support	Arg1:T11	Arg2:T13
