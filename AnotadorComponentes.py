@@ -159,25 +159,48 @@ def proccess_dataset(args, source_file):
     df_test_glau['tipo'] = df_test_glau['tipo'].map(label_to_id)
     df_test_mixed['tipo'] = df_test_mixed['tipo'].map(label_to_id)
 
-    train_texts_glau, val_texts_glau, train_labels_glau, val_labels_glau = train_test_split(df_test_glau['text'], df_test_glau['tipo'],
-                                                                        test_size=0.2,
+    #Creacion de conjunto de datos para glaucoma
+
+    train_texts_glau, temp_texts_glau, train_labels_glau, temp_labels_glau = train_test_split(df_test_glau['text'], df_test_glau['tipo'],
+                                                                        test_size=0.4,
                                                                         random_state=args.seed)
 
-    train_texts_mixed, val_texts_mixed, train_labels_mixed, val_labels_mixed = train_test_split(df_test_mixed['text'], df_test_mixed['tipo'],
-                                                                        test_size=0.2,
+    test_texts_glau, val_texts_glau, test_labels_glau, val_labels_glau = train_test_split(temp_texts_glau,
+                                                                                            temp_labels_glau,
+                                                                                            test_size=0.5,
+                                                                                            random_state=args.seed)
+
+    # Creacion de conjunto de datos para mixed
+
+    train_texts_mixed, temp_texts_mixed, train_labels_mixed, temp_labels_mixed = train_test_split(df_test_mixed['text'], df_test_mixed['tipo'],
+                                                                        test_size=0.4,
                                                                         random_state=args.seed)
 
-    train_texts_neo, val_texts_neo, train_labels_neo, val_labels_neo = train_test_split(df_total_neo['text'],
-                                                                                                df_total_neo['tipo'],
-                                                                                                test_size=0.2,
+    test_texts_mixed, val_texts_mixed, test_labels_mixed, val_labels_mixed = train_test_split(temp_texts_mixed,
+                                                                                                temp_labels_mixed,
+                                                                                                test_size=0.5,
                                                                                                 random_state=args.seed)
+
+    # Creacion de conjunto de datos para Neoplasm
+
+    train_texts_neo, temp_texts_neo, train_labels_neo, temp_labels_neo = train_test_split(df_total_neo['text'],
+                                                                                                df_total_neo['tipo'],
+                                                                                                test_size=0.4,
+                                                                                                random_state=args.seed)
+
+    test_texts_neo, val_texts_neo, test_labels_neo, val_labels_neo = train_test_split(temp_texts_neo,
+                                                                                        temp_labels_neo,
+                                                                                        test_size=0.5,
+                                                                                        random_state=args.seed)
 
     train_texts = pd.concat([train_texts_glau, train_texts_mixed, train_texts_neo])
     val_texts = pd.concat([val_texts_glau, val_texts_mixed, val_texts_neo])
     train_labels = pd.concat([train_labels_glau, train_labels_mixed, train_labels_neo])
     val_labels = pd.concat([val_labels_glau, val_labels_mixed, val_labels_neo])
+    test_texts = pd.concat([test_texts_glau, test_texts_mixed, test_texts_neo])
+    test_labels = pd.concat([test_labels_glau, test_labels_mixed, test_labels_neo])
 
-    return train_texts, val_texts, train_labels, val_labels
+    return train_texts, val_texts, test_texts, train_labels, val_labels, test_labels
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -274,14 +297,16 @@ if __name__ == '__main__':
         else:
             raise Exception('Tipo de modelo no valido debe ser dccuchile/bert-base-spanish-wwm-uncased o bert-base-multilingual-uncased o PlanTL-GOB-ES/roberta-base-bne')
 
-    train_texts, val_texts, train_labels, val_labels = proccess_dataset(args, args.source_file)
+    train_texts, val_texts, test_texts, train_labels, val_labels, test_labels = proccess_dataset(args, args.source_file)
 
 
     val_encodings = tokenizer(list(val_texts), truncation=True, padding=True, max_length=512)
     train_encodings = tokenizer(list(train_texts), truncation=True, padding=True, max_length=512)
+    test_encodings = tokenizer(list(test_texts), truncation=True, padding=True, max_length=512)
 
     val_dataset = AnotatorDataset(val_encodings, list(val_labels))
     train_dataset = AnotatorDataset(train_encodings, list(train_labels))
+    test_dataset = AnotatorDataset(test_encodings, list(test_labels))
 
     optimizer = AdamW(model.parameters(), lr=args.learning_rate)
     scheduler = get_linear_schedule_with_warmup(
@@ -297,7 +322,8 @@ if __name__ == '__main__':
         warmup_steps=100,
         weight_decay=0.01,
         logging_dir='./logs',
-        logging_steps=10
+        logging_steps=10,
+        evaluation_strategy='epoch'
     )
     if args.do_test:
         metricas = None
@@ -323,7 +349,7 @@ if __name__ == '__main__':
             tokenizer.save_pretrained('./tokenizer_anotator_' + save_name)
 
     if args.do_eval:
-        eval_results = trainer.evaluate()
+        eval_results = trainer.evaluate(test_dataset)
         if not os.path.exists('./eval_results/'):
             os.makedirs('./eval_results/')
         with open('eval_results/eval_results_' + save_name + '.txt', "w") as writer:

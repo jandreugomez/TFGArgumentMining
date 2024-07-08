@@ -157,32 +157,57 @@ def proccess_dataset(args, source_file):
     df_test_glau['tipo'] = df_test_glau['tipo'].map(rel_to_id)
     df_test_mixed['tipo'] = df_test_mixed['tipo'].map(rel_to_id)
 
-    train_texts1_glau, val_texts1_glau, train_texts2_glau, val_texts2_glau, train_labels_glau, val_labels_glau = train_test_split(df_test_glau['text1'],
+    # Creacion de conjunto de datos para glaucoma
+    train_texts1_glau, temp_texts1_glau, train_texts2_glau, temp_texts2_glau, train_labels_glau, temp_labels_glau = train_test_split(df_test_glau['text1'],
                                                                                             df_test_glau['text2']
                                                                                             , df_test_glau['tipo'],
-                                                                                            test_size=0.2,
+                                                                                            test_size=0.4,
                                                                                             random_state=args.seed)
+    # Creacion de conjunto de datos para mixed
+    test_texts1_glau, val_texts1_glau, test_texts2_glau, val_texts2_glau, test_labels_glau, val_labels_glau = train_test_split(
+        temp_texts1_glau,
+        temp_texts2_glau,
+        temp_labels_glau,
+        test_size=0.5,
+        random_state=args.seed)
 
-    train_texts1_mixed, val_texts1_mixed, train_texts2_mixed, val_texts2_mixed, train_labels_mixed, val_labels_mixed = train_test_split(df_test_mixed['text1'],
+    train_texts1_mixed, temp_texts1_mixed, train_texts2_mixed, temp_texts2_mixed, train_labels_mixed, temp_labels_mixed = train_test_split(df_test_mixed['text1'],
                                                                                                 df_test_mixed['text2'],
                                                                                                 df_test_mixed['tipo'],
-                                                                                                test_size=0.2,
+                                                                                                test_size=0.4,
                                                                                                 random_state=args.seed)
+    # Creacion de conjunto de datos para Neoplasm
+    test_texts1_mixed, val_texts1_mixed, test_texts2_mixed, val_texts2_mixed, test_labels_mixed, val_labels_mixed = train_test_split(
+        temp_texts1_mixed,
+        temp_texts2_mixed,
+        temp_labels_mixed,
+        test_size=0.5,
+        random_state=args.seed)
 
-    train_texts1_neo, val_texts1_neo, train_texts2_neo, val_texts2_neo, train_labels_neo, val_labels_neo = train_test_split(df_total_neo['text1'],
+    train_texts1_neo, temp_texts1_neo, train_texts2_neo, temp_texts2_neo, train_labels_neo, temp_labels_neo = train_test_split(df_total_neo['text1'],
                                                                                         df_total_neo['text2'],
                                                                                         df_total_neo['tipo'],
-                                                                                        test_size=0.2,
+                                                                                        test_size=0.4,
                                                                                         random_state=args.seed)
+
+    test_texts1_neo, val_texts1_neo, test_texts2_neo, val_texts2_neo, test_labels_neo, val_labels_neo = train_test_split(
+        temp_texts1_neo,
+        temp_texts2_neo,
+        temp_labels_neo,
+        test_size=0.5,
+        random_state=args.seed)
 
     train_texts1 = pd.concat([train_texts1_glau, train_texts1_mixed, train_texts1_neo])
     val_texts1 = pd.concat([val_texts1_glau, val_texts1_mixed, val_texts1_neo])
+    test_texts1 = pd.concat([test_texts1_glau, test_texts1_mixed, test_texts1_neo])
     train_texts2 = pd.concat([train_texts2_glau, train_texts2_mixed, train_texts2_neo])
     val_texts2 = pd.concat([val_texts2_glau, val_texts2_mixed, val_texts2_neo])
+    test_texts2 = pd.concat([test_texts2_glau, test_texts2_mixed, test_texts2_neo])
     train_labels = pd.concat([train_labels_glau, train_labels_mixed, train_labels_neo])
     val_labels = pd.concat([val_labels_glau, val_labels_mixed, val_labels_neo])
+    test_labels = pd.concat([test_labels_glau, test_labels_mixed, test_labels_neo])
 
-    return train_texts1, val_texts1, train_texts2, val_texts2, train_labels, val_labels
+    return train_texts1, val_texts1, test_texts1, train_texts2, val_texts2, test_texts2, train_labels, val_labels, test_labels
 
 
 if __name__ == '__main__':
@@ -282,13 +307,15 @@ if __name__ == '__main__':
             raise Exception(
                 'Tipo de modelo no valido debe ser dccuchile/bert-base-spanish-wwm-uncased o bert-base-multilingual-uncased o PlanTL-GOB-ES/roberta-base-bne')
 
-    train_texts1, val_texts1, train_texts2, val_texts2, train_labels, val_labels = proccess_dataset(args, args.source_file)
+    train_texts1, val_texts1, test_texts1, train_texts2, val_texts2, test_texts2, train_labels, val_labels, test_labels = proccess_dataset(args, args.source_file)
 
     val_encodings = tokenizer(list(val_texts1), list(val_texts2), truncation=True, padding=True, max_length=512)
     train_encodings = tokenizer(list(train_texts1), list(train_texts2), truncation=True, padding=True, max_length=512)
+    test_encodings = tokenizer(list(test_texts1), list(test_texts2), truncation=True, padding=True, max_length=512)
 
     val_dataset = AnotatorDataset(val_encodings, list(val_labels))
     train_dataset = AnotatorDataset(train_encodings, list(train_labels))
+    test_dataset = AnotatorDataset(test_encodings, list(test_labels))
 
     optimizer = AdamW(model.parameters(), lr=args.learning_rate)
     scheduler = get_linear_schedule_with_warmup(
@@ -305,6 +332,7 @@ if __name__ == '__main__':
         weight_decay=0.01,
         logging_dir='./logs_relation',
         logging_steps=10,
+        evaluation_strategy='epoch'
     )
 
     if args.do_test:
@@ -331,7 +359,7 @@ if __name__ == '__main__':
             tokenizer.save_pretrained('./tokenizer_relation_' + save_name)
 
     if args.do_eval:
-        eval_results = relation_trainer.evaluate()
+        eval_results = relation_trainer.evaluate(test_dataset)
         if not os.path.exists('./eval_results_rel/'):
             os.makedirs('./eval_results_rel/')
         with open('eval_results/eval_results_relations_' + save_name + '.txt', "w") as writer:
